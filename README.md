@@ -12,6 +12,12 @@
 
 ![Dashboard preview](./preview.png)
 
+<!-- AUTOGEN-STATS-START -->
+<!-- AUTOGEN-STATS-END -->
+
+<!-- AUTOGEN-REPOS-START -->
+<!-- AUTOGEN-REPOS-END -->
+
 ---
 
 ## What it does
