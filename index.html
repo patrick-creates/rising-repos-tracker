@@ -109,11 +109,17 @@ function rawUrl(owner, repo) {
   return `${BASE}/data/${owner}/${repo}/history.json`;
 }
 
-function calcVelocity(history) {
-  if (!history || history.length < 2) return 0;
-  const first = history[0], last = history[history.length - 1];
-  const days = Math.max(1, (new Date(last.date) - new Date(first.date)) / 86400000);
-  return ((last.stars - first.stars) / days).toFixed(1);
+function calcVelocity(history, repoMeta) {
+  if (history && history.length >= 2) {
+    const first = history[0], last = history[history.length - 1];
+    const days = Math.max(1, (new Date(last.date) - new Date(first.date)) / 86400000);
+    return ((last.stars - first.stars) / days).toFixed(1);
+  }
+  // fallback to stars_per_day_at_add from repos.json while history builds up
+  if (repoMeta && repoMeta.stars_per_day_at_add) {
+    return parseFloat(repoMeta.stars_per_day_at_add).toFixed(1);
+  }
+  return 0;
 }
 
 function fmt(n) {
@@ -192,7 +198,8 @@ async function main() {
   }
 
   // Step 2: load history for each repo in parallel
-  const results = await Promise.all(repos.map(async ({ owner, repo }) => {
+  const results = await Promise.all(repos.map(async (repoMeta) => {
+    const { owner, repo } = repoMeta;
     let history = null;
     try {
       const res = await fetch(rawUrl(owner, repo));
@@ -205,7 +212,7 @@ async function main() {
       stars:   latest?.stars       || 0,
       forks:   latest?.forks       || 0,
       issues:  latest?.open_issues || 0,
-      velocity: calcVelocity(history),
+      velocity: calcVelocity(history, repoMeta),
     };
   }));
 
