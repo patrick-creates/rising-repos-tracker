@@ -1,0 +1,32 @@
+name: Collect Repo Stats
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # every day at 6am UTC
+  workflow_dispatch:        # allows manual runs from the Actions tab
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Collect stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/collect.js
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "chore: update stats $(date -u +%Y-%m-%d)"
+          git push
