@@ -1,36 +1,29 @@
 const fs = require("fs");
 
 const token = process.env.GITHUB_TOKEN;
-const MIN_STARS = 500;
-const MIN_STARS_LAST_WEEK = 100;
-const MAX_AGE_DAYS = 180;
-const MAX_NEW_REPOS = 10;
+const MIN_STARS = 100;
+const MAX_AGE_DAYS = 365;
+const MAX_NEW_REPOS = 15;
+const MIN_GROWTH_PERCENT = 5; // at least 5% growth vs stars_at_add
 
-async function searchGitHub(query) {
-  const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=30`;
+async function ghFetch(url) {
   const res = await fetch(url, {
     headers: {
       Authorization: `Bearer ${token}`,
       Accept: "application/vnd.github+json",
     },
   });
-  if (!res.ok) throw new Error(`Search failed: ${res.status}`);
+  if (!res.ok) throw new Error(`${res.status} ${url}`);
   return res.json();
 }
 
-async function getStarActivity(owner, repo) {
-  // Get stargazers from last 7 days via events API
-  const url = `https://api.github.com/repos/${owner}/${repo}/stargazers?per_page=100`;
-  const res = await fetch(url, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-      Accept: "application/vnd.github.star+json", // includes starred_at
-    },
-  });
-  if (!res.ok) return 0;
-  const data = await res.json();
-  const oneWeekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
-  return data.filter((s) => new Date(s.starred_at) > oneWeekAgo).length;
+async function searchGitHub(query) {
+  const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=30`;
+  return ghFetch(url);
+}
+
+async function getRepoDetails(owner, repo) {
+  return ghFetch(`https://api.github.com/repos/${owner}/${repo}`);
 }
 
 async function main() {
@@ -42,10 +35,13 @@ async function main() {
     .split("T")[0];
 
   const queries = [
-    `stars:>${MIN_STARS} created:>${cutoffDate}`,
-    `stars:>${MIN_STARS} pushed:>${cutoffDate} topic:ai`,
-    `stars:>${MIN_STARS} pushed:>${cutoffDate} topic:llm`,
-    `stars:>${MIN_STARS} pushed:>${cutoffDate} topic:cli`,
+    `stars:>${MIN_STARS} created:>${cutoffDate} topic:ai`,
+    `stars:>${MIN_STARS} created:>${cutoffDate} topic:llm`,
+    `stars:>${MIN_STARS} created:>${cutoffDate} topic:cli`,
+    `stars:>${MIN_STARS} created:>${cutoffDate} topic:agent`,
+    `stars:>${MIN_STARS} created:>${cutoffDate} topic:mcp`,
+    `stars:>${MIN_STARS} pushed:>2026-01-01 topic:claude`,
+    `stars:>${MIN_STARS} pushed:>2026-01-01 topic:openai`,
   ];
 
   const candidates = new Map();
@@ -58,45 +54,47 @@ async function main() {
         candidates.set(key, repo);
       }
     }
-    // Respect rate limits
-    await new Promise((r) => setTimeout(r, 1000));
+    await new Promise((r) => setTimeout(r, 1500));
   }
 
   console.log(`Found ${candidates.size} candidates not yet tracked`);
 
+  // Sort by stars descending — highest momentum first
+  const sorted = [...candidates.values()].sort(
+    (a, b) => b.stargazers_count - a.stargazers_count
+  );
+
   const newRepos = [];
-  for (const [key, repo] of candidates) {
+  for (const repo of sorted) {
     if (newRepos.length >= MAX_NEW_REPOS) break;
 
-    const [owner, name] = key.split("/");
-    const weeklyStars = await getStarActivity(owner, name);
-    console.log(`  ${key}: +${weeklyStars} stars this week`);
+    const key = `${repo.owner.login}/${repo.name}`;
+    const createdDaysAgo = Math.floor(
+      (Date.now() - new Date(repo.created_at)) / (1000 * 60 * 60 * 24)
+    );
+    const starsPerDay = (repo.stargazers_count / createdDaysAgo).toFixed(1);
 
-    if (weeklyStars >= MIN_STARS_LAST_WEEK) {
-      newRepos.push({
-        owner,
-        repo: name,
-        added: new Date().toISOString().split("T")[0],
-        notes: repo.description || "",
-        stars_at_add: repo.stargazers_count,
-        weekly_stars_at_add: weeklyStars,
-      });
-    }
+    console.log(`  + ${key}: ⭐ ${repo.stargazers_count} (${starsPerDay}/day, ${createdDaysAgo} days old)`);
 
-    await new Promise((r) => setTimeout(r, 500));
+    newRepos.push({
+      owner: repo.owner.login,
+      repo: repo.name,
+      added: new Date().toISOString().split("T")[0],
+      notes: repo.description || "",
+      stars_at_add: repo.stargazers_count,
+      stars_per_day_at_add: parseFloat(starsPerDay),
+      created_at: repo.created_at.split("T")[0],
+    });
   }
 
   if (newRepos.length === 0) {
-    console.log("No new trending repos found today.");
+    console.log("No new repos found.");
     return;
   }
 
   const updated = [...existing, ...newRepos];
   fs.writeFileSync("repos.json", JSON.stringify(updated, null, 2));
-  console.log(`✓ Added ${newRepos.length} new repos to repos.json`);
-  for (const r of newRepos) {
-    console.log(`  + ${r.owner}/${r.repo} (⭐ ${r.stars_at_add}, +${r.weekly_stars_at_add}/week)`);
-  }
+  console.log(`\n✓ Added ${newRepos.length} repos to repos.json`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
