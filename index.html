@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rising Repos Tracker</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0d1117; color: #e6edf3; min-height: 100vh; padding: 2rem; }
+    h1 { font-size: 1.4rem; font-weight: 600; margin-bottom: 0.25rem; }
+    .subtitle { font-size: 0.85rem; color: #7d8590; margin-bottom: 2rem; }
+    .metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-bottom: 2rem; }
+    .metric { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 1rem; }
+    .metric-label { font-size: 11px; color: #7d8590; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    .metric-value { font-size: 1.6rem; font-weight: 600; }
+    .card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; margin-bottom: 1.5rem; overflow: hidden; }
+    .card-header { padding: 12px 16px; border-bottom: 1px solid #30363d; font-size: 13px; font-weight: 600; display: flex; justify-content: space-between; align-items: center; }
+    .chart-wrap { padding: 1rem; position: relative; height: 280px; }
+    .table-header { display: grid; grid-template-columns: 1fr 90px 80px 80px 90px; gap: 8px; padding: 8px 16px; font-size: 11px; color: #7d8590; text-transform: uppercase; letter-spacing: 0.05em; background: #0d1117; }
+    .repo-row { display: grid; grid-template-columns: 1fr 90px 80px 80px 90px; gap: 8px; align-items: center; padding: 10px 16px; border-top: 1px solid #21262d; font-size: 13px; transition: background 0.1s; }
+    .repo-row:hover { background: #1c2128; }
+    .repo-link { color: #e6edf3; text-decoration: none; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .repo-link:hover { color: #58a6ff; }
+    .num { text-align: right; font-variant-numeric: tabular-nums; }
+    .muted { color: #7d8590; }
+    select { background: #21262d; border: 1px solid #30363d; color: #e6edf3; padding: 4px 8px; border-radius: 6px; font-size: 12px; cursor: pointer; }
+    .legend { display: flex; flex-wrap: wrap; gap: 12px; padding: 0 1rem 1rem; }
+    .legend-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: #7d8590; }
+    .legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    a { color: #58a6ff; }
+    .vel-high { color: #3fb950; font-weight: 600; }
+    .vel-mid  { color: #d29922; }
+    .vel-low  { color: #7d8590; }
+    #status { font-size: 12px; color: #7d8590; margin-bottom: 1.5rem; }
+  </style>
+</head>
+<body>
+
+<h1>🚀 Rising Repos Tracker</h1>
+<p class="subtitle">Daily star, fork & issue snapshots — auto-updated via GitHub Actions</p>
+<p id="status">Loading repos.json…</p>
+
+<div class="metrics">
+  <div class="metric"><div class="metric-label">repos tracked</div><div class="metric-value" id="m-repos">—</div></div>
+  <div class="metric"><div class="metric-label">total stars</div><div class="metric-value" id="m-stars">—</div></div>
+  <div class="metric"><div class="metric-label">fastest growing</div><div class="metric-value" id="m-top" style="font-size:1rem;padding-top:6px">—</div></div>
+  <div class="metric"><div class="metric-label">tracking since</div><div class="metric-value" id="m-since" style="font-size:1rem;padding-top:6px">—</div></div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <span>⭐ Star growth over time</span>
+    <select id="chartFilter">
+      <option value="10">top 10 by stars</option>
+      <option value="5">top 5 by stars</option>
+      <option value="all">all repos</option>
+    </select>
+  </div>
+  <div class="chart-wrap"><canvas id="growthChart"></canvas></div>
+  <div class="legend" id="legend"></div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <span>📋 All repos</span>
+    <select id="sortSelect">
+      <option value="stars">sort: stars</option>
+      <option value="velocity">sort: stars/day</option>
+      <option value="name">sort: name</option>
+    </select>
+  </div>
+  <div class="table-header">
+    <span>repo</span>
+    <span style="text-align:right">stars</span>
+    <span style="text-align:right">forks</span>
+    <span style="text-align:right">issues</span>
+    <span style="text-align:right">stars/day</span>
+  </div>
+  <div id="repoTable"></div>
+</div>
+
+<p style="font-size:11px;color:#7d8590;text-align:center;margin-top:2rem">
+  Data from <a id="repoLink" href="#" target="_blank">rising-repos-tracker</a> · updates daily at 06:00 UTC
+</p>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const COLORS = ['#58a6ff','#3fb950','#f78166','#d2a8ff','#ffa657','#79c0ff','#56d364','#ff7b72','#bc8cff','#e3b341','#1f6feb','#238636','#da3633','#8957e5','#9e6a03','#0550ae'];
+
+// Detect which GitHub account/repo is serving this page
+function detectTracker() {
+  const { hostname, pathname } = window.location;
+  // GitHub Pages: username.github.io/reponame
+  if (hostname.endsWith('github.io')) {
+    const owner = hostname.replace('.github.io', '');
+    const repo  = pathname.split('/').filter(Boolean)[0] || 'rising-repos-tracker';
+    return { owner, repo };
+  }
+  // Fallback for local file:// or other hosts — read from script's own src hint
+  return { owner: 'patrick-creates', repo: 'rising-repos-tracker' };
+}
+
+const { owner: TRACKER_OWNER, repo: TRACKER_REPO } = detectTracker();
+const BASE = `https://raw.githubusercontent.com/${TRACKER_OWNER}/${TRACKER_REPO}/main`;
+
+document.getElementById('repoLink').href = `https://github.com/${TRACKER_OWNER}/${TRACKER_REPO}`;
+
+function rawUrl(owner, repo) {
+  return `${BASE}/data/${owner}/${repo}/history.json`;
+}
+
+function calcVelocity(history) {
+  if (!history || history.length < 2) return 0;
+  const first = history[0], last = history[history.length - 1];
+  const days = Math.max(1, (new Date(last.date) - new Date(first.date)) / 86400000);
+  return ((last.stars - first.stars) / days).toFixed(1);
+}
+
+function velClass(v) {
+  return v > 500 ? 'vel-high' : v > 50 ? 'vel-mid' : 'vel-low';
+}
+
+let chartInstance = null;
+let allData = [];
+
+function renderChart(data, filter) {
+  let subset = [...data].filter(r => r.history && r.history.length);
+  if (filter !== 'all') {
+    subset = [...subset].sort((a,b) => b.stars - a.stars).slice(0, parseInt(filter));
+  }
+  const datasets = subset.map((r, i) => ({
+    label: r.repo,
+    data: r.history.map(h => ({ x: h.date, y: h.stars })),
+    borderColor: COLORS[i % COLORS.length],
+    backgroundColor: 'transparent',
+    borderWidth: 1.5,
+    pointRadius: r.history.length === 1 ? 4 : 0,
+    tension: 0.3,
+  }));
+  document.getElementById('legend').innerHTML = subset.map((r, i) =>
+    `<div class="legend-item"><div class="legend-dot" style="background:${COLORS[i % COLORS.length]}"></div>${r.repo}</div>`
+  ).join('');
+  if (chartInstance) chartInstance.destroy();
+  chartInstance = new Chart(document.getElementById('growthChart'), {
+    type: 'line',
+    data: { datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { type: 'category', ticks: { color: '#7d8590', font: { size: 11 }, autoSkip: true, maxTicksLimit: 10 }, grid: { display: false } },
+        y: { ticks: { color: '#7d8590', font: { size: 11 }, callback: v => v >= 1000 ? (v/1000).toFixed(0)+'k' : v }, grid: { color: 'rgba(255,255,255,0.05)' } }
+      }
+    }
+  });
+}
+
+function renderTable(data, sortBy) {
+  const sorted = [...data].sort((a, b) => {
+    if (sortBy === 'velocity') return parseFloat(b.velocity) - parseFloat(a.velocity);
+    if (sortBy === 'name') return a.repo.localeCompare(b.repo);
+    return b.stars - a.stars;
+  });
+  document.getElementById('repoTable').innerHTML = sorted.map(r => {
+    const vel = parseFloat(r.velocity);
+    return `<div class="repo-row">
+      <a class="repo-link" href="https://github.com/${r.owner}/${r.repo}" target="_blank">${r.owner}/${r.repo}</a>
+      <span class="num">${r.stars.toLocaleString()}</span>
+      <span class="num muted">${r.forks.toLocaleString()}</span>
+      <span class="num muted">${r.issues}</span>
+      <span class="num ${velClass(vel)}">${vel > 0 ? '+'+r.velocity : '—'}</span>
+    </div>`;
+  }).join('');
+}
+
+async function main() {
+  // Step 1: load repos.json dynamically — no hardcoded list
+  let repos;
+  try {
+    const res = await fetch(`${BASE}/repos.json`);
+    if (!res.ok) throw new Error(`repos.json fetch failed: ${res.status}`);
+    repos = await res.json();
+    document.getElementById('status').textContent = `Loaded ${repos.length} repos, fetching history…`;
+  } catch (e) {
+    document.getElementById('status').textContent = `Error loading repos.json: ${e.message}`;
+    return;
+  }
+
+  // Step 2: load history for each repo in parallel
+  const results = await Promise.all(repos.map(async ({ owner, repo }) => {
+    let history = null;
+    try {
+      const res = await fetch(rawUrl(owner, repo));
+      if (res.ok) history = await res.json();
+    } catch {}
+    const latest = history && history.length ? history[history.length - 1] : null;
+    return {
+      owner, repo,
+      history: history || [],
+      stars:   latest?.stars       || 0,
+      forks:   latest?.forks       || 0,
+      issues:  latest?.open_issues || 0,
+      velocity: calcVelocity(history),
+    };
+  }));
+
+  allData = results;
+  document.getElementById('status').textContent = '';
+
+  // Metrics
+  document.getElementById('m-repos').textContent = results.length;
+  document.getElementById('m-stars').textContent = (results.reduce((s,r) => s + r.stars, 0) / 1000).toFixed(0) + 'k';
+  const top = [...results].sort((a,b) => parseFloat(b.velocity) - parseFloat(a.velocity))[0];
+  document.getElementById('m-top').textContent = top ? top.repo : '—';
+  const allDates = results.flatMap(r => r.history.map(h => h.date));
+  if (allDates.length) document.getElementById('m-since').textContent = allDates.sort()[0];
+
+  renderChart(results, '10');
+  renderTable(results, 'stars');
+
+  document.getElementById('sortSelect').addEventListener('change', e => renderTable(allData, e.target.value));
+  document.getElementById('chartFilter').addEventListener('change', e => renderChart(allData, e.target.value));
+}
+
+main();
+</script>
+</body>
+</html>
