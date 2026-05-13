@@ -63,7 +63,3 @@ The next daily collect run will pick it up automatically.
 ## License
 
 MIT
-
-Commit message: `docs: rewrite README with full project description`
-
-Done? That gives you a clean, informative README that works well as both a project page and a reference for anyone who forks it.
