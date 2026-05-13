@@ -3,13 +3,13 @@ name: Collect Repo Stats
 on:
   schedule:
     - cron: "0 6 * * *"   # every day at 6am UTC
-  workflow_dispatch:        # allows manual runs from the Actions tab
+  workflow_dispatch:        # also allow manual runs
 
 jobs:
   collect:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write       # needed to commit data back
 
     steps:
       - uses: actions/checkout@v4
@@ -23,10 +23,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/collect.js
 
+      - name: Update README
+        run: node scripts/update-readme.js
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
+          git add data/ README.md
           git diff --cached --quiet || git commit -m "chore: update stats $(date -u +%Y-%m-%d)"
           git push
