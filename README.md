@@ -10,6 +10,8 @@
 
 **[→ View Live Dashboard](https://patrick-creates.github.io/rising-repos-tracker/)**
 
+![Dashboard preview](./preview.png)
+
 ---
 
 ## What it does
