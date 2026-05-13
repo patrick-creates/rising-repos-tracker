@@ -1,0 +1,52 @@
+name: Screenshot Dashboard
+
+on:
+  workflow_run:
+    workflows: ["Collect Repo Stats"]
+    types: [completed]
+  workflow_dispatch:
+
+jobs:
+  screenshot:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Puppeteer
+        run: npm install puppeteer
+
+      - name: Take screenshot
+        run: |
+          node -e "
+          const puppeteer = require('puppeteer');
+          (async () => {
+            const browser = await puppeteer.launch({
+              args: ['--no-sandbox', '--disable-setuid-sandbox']
+            });
+            const page = await browser.newPage();
+            await page.setViewport({ width: 1280, height: 800 });
+            await page.goto('https://patrick-creates.github.io/rising-repos-tracker/', {
+              waitUntil: 'networkidle0',
+              timeout: 30000
+            });
+            await new Promise(r => setTimeout(r, 3000));
+            await page.screenshot({ path: 'preview.png', fullPage: false });
+            await browser.close();
+            console.log('Screenshot saved');
+          })();
+          "
+
+      - name: Commit screenshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add preview.png
+          git diff --cached --quiet || git commit -m "chore: update dashboard screenshot"
+          git push
