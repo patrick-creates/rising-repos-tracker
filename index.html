@@ -59,8 +59,20 @@
 <div class="metrics">
   <div class="metric"><div class="metric-label">repos tracked</div><div class="metric-value" id="m-repos">—</div></div>
   <div class="metric"><div class="metric-label">total stars</div><div class="metric-value" id="m-stars">—</div></div>
+  <div class="metric"><div class="metric-label">total forks</div><div class="metric-value" id="m-forks">—</div></div>
   <div class="metric"><div class="metric-label">fastest growing</div><div class="metric-value" id="m-top" style="font-size:1rem;padding-top:6px">—</div></div>
   <div class="metric"><div class="metric-label">tracking since</div><div class="metric-value" id="m-since" style="font-size:1rem;padding-top:6px">—</div></div>
+</div>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+  <div class="card" style="margin: 0;">
+    <div class="card-header">🔥 Top 5 by velocity</div>
+    <div id="topVelocity"></div>
+  </div>
+  <div class="card" style="margin: 0;">
+    <div class="card-header">🆕 Recently added</div>
+    <div id="recentlyAdded"></div>
+  </div>
 </div>
 
 <div class="card">
@@ -309,10 +321,32 @@ async function main() {
   // Metrics
   document.getElementById('m-repos').textContent = results.length;
   document.getElementById('m-stars').textContent = fmt(results.reduce((s,r) => s + r.stars, 0));
+  document.getElementById('m-forks').textContent = fmt(results.reduce((s,r) => s + r.forks, 0));
   const top = [...results].sort((a,b) => parseFloat(b.velocity) - parseFloat(a.velocity))[0];
   document.getElementById('m-top').textContent = top ? top.repo : '—';
   const allDates = results.flatMap(r => r.history.map(h => h.date));
   if (allDates.length) document.getElementById('m-since').textContent = allDates.sort()[0];
+
+  // Top 5 by velocity
+  const top5 = [...results].sort((a,b) => parseFloat(b.velocity) - parseFloat(a.velocity)).slice(0, 5);
+  document.getElementById('topVelocity').innerHTML = top5.map((r, i) => `
+    <div style="display:flex;align-items:center;gap:10px;padding:10px 16px;border-top:1px solid #21262d;font-size:13px">
+      <span style="color:#7d8590;width:14px;font-weight:600">${i+1}</span>
+      <a href="https://github.com/${r.owner}/${r.repo}" target="_blank" style="color:#e6edf3;text-decoration:none;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${r.repo}</a>
+      <span style="color:#3fb950;font-weight:600;font-variant-numeric:tabular-nums">+${parseFloat(r.velocity).toFixed(1)}/d</span>
+    </div>
+  `).join('');
+
+  // Recently added (sort by 'added' date from repos.json, top 5)
+  const recent = [...repos]
+    .sort((a, b) => (b.added || '').localeCompare(a.added || ''))
+    .slice(0, 5);
+  document.getElementById('recentlyAdded').innerHTML = recent.map(r => `
+    <div style="padding:10px 16px;border-top:1px solid #21262d;font-size:13px">
+      <a href="https://github.com/${r.owner}/${r.repo}" target="_blank" style="color:#e6edf3;text-decoration:none">${r.repo}</a>
+      <div style="color:#7d8590;font-size:11px;margin-top:2px">added ${r.added || '—'}</div>
+    </div>
+  `).join('');
 
   renderChart(results, '10');
   renderTable(results, 'stars');
