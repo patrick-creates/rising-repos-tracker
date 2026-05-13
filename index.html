@@ -47,6 +47,7 @@
     .repo-detail .no-summary { color: #7d8590; font-style: italic; }
     .chevron { display: inline-block; margin-right: 4px; transition: transform 0.15s; font-size: 9px; color: #7d8590; }
     .repo-row.open .chevron { transform: rotate(90deg); }
+    .repo-name-cell { display: flex; align-items: center; gap: 4px; overflow: hidden; }
   </style>
 </head>
 <body>
@@ -192,9 +193,10 @@ function renderTable(data, sortBy) {
     const id = `${r.owner}--${r.repo}`.replace(/[^a-zA-Z0-9-]/g, '_');
     return `<div>
       <div class="repo-row" data-id="${id}">
-        <a class="repo-link" href="https://github.com/${r.owner}/${r.repo}" target="_blank" onclick="event.stopPropagation()">
-          <span class="chevron">▶</span>${r.owner}/${r.repo}
-        </a>
+        <span class="repo-name-cell">
+          <span class="chevron">▶</span>
+          <a class="repo-link" href="https://github.com/${r.owner}/${r.repo}" target="_blank">${r.owner}/${r.repo}</a>
+        </span>
         <span class="num">${fmt(r.stars)}</span>
         <span class="num muted">${fmt(r.forks)}</span>
         <span class="num muted">${fmt(r.issues)}</span>
@@ -206,9 +208,13 @@ function renderTable(data, sortBy) {
     </div>`;
   }).join('');
 
-  // Wire up click handlers
+  // Wire up click handlers — but only the row background, not the link
   document.querySelectorAll('#repoTable .repo-row').forEach(row => {
-    row.addEventListener('click', () => toggleDetail(row));
+    row.addEventListener('click', (e) => {
+      // Don't toggle when clicking the link itself
+      if (e.target.closest('.repo-link')) return;
+      toggleDetail(row);
+    });
   });
 }
 
