@@ -1,0 +1,32 @@
+name: Discover Trending Repos
+
+on:
+  schedule:
+    - cron: "0 5 * * 1"   # every Monday at 5am UTC (before collect runs)
+  workflow_dispatch:        # allows manual runs
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Discover trending repos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/discover.js
+
+      - name: Commit updated repos.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add repos.json
+          git diff --cached --quiet || git commit -m "chore: add trending repos $(date -u +%Y-%m-%d)"
+          git push
