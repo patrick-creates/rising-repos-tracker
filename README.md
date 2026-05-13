@@ -13,9 +13,55 @@
 ![Dashboard preview](./preview.png)
 
 <!-- AUTOGEN-STATS-START -->
+## 📊 Current snapshot
+
+> Auto-updated daily — last refreshed 2026-05-13
+
+| Metric | Value |
+|---|---|
+| Repos tracked | **16** |
+| Total stars | **2,112,657** |
+| Total forks | **383,022** |
+| Fastest growing | **openclaw** (+2197.6/day) |
+
+### 🔥 Top 5 by velocity
+
+| # | Repo | Stars | Stars/day |
+|---|---|---:|---:|
+| 1 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 371,471 | +2197.6 |
+| 2 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 181,048 | +1572.9 |
+| 3 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 148,045 | +502.2 |
+| 4 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 77,893 | +477.0 |
+| 5 | [github/spec-kit](https://github.com/github/spec-kit) | 97,861 | +369.8 |
+
+### 🆕 Recently added
+
+- [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) — added 2026-05-13 — Autonomous AI dev loop for Claude Code with intelligent exit detection
+- [openclaw/openclaw](https://github.com/openclaw/openclaw) — added 2026-05-13 — Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
+- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) — added 2026-05-13 — AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 <!-- AUTOGEN-STATS-END -->
 
 <!-- AUTOGEN-REPOS-START -->
+## 📋 All tracked repos
+
+| Repo | Stars | Forks | Stars/day |
+|---|---:|---:|---:|
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 371,471 | 76,876 | +2197.6 |
+| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 184,281 | 46,239 | +159.8 |
+| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 181,048 | 27,916 | +1572.9 |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | 162,172 | 21,113 | +129.3 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 148,045 | 23,278 | +502.2 |
+| [langgenius/dify](https://github.com/langgenius/dify) | 141,225 | 22,188 | +125.3 |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 136,892 | 19,503 | +144.2 |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 136,635 | 22,595 | +104.8 |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | 123,008 | 8,307 | +225.6 |
+| [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 110,752 | 59,400 | +104.7 |
+| [github/spec-kit](https://github.com/github/spec-kit) | 97,861 | 8,525 | +369.8 |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 79,884 | 16,744 | +67.2 |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 77,893 | 8,001 | +477.0 |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 76,998 | 15,162 | +70.7 |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 75,380 | 6,482 | +296.6 |
+| [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | 9,112 | 693 | — |
 <!-- AUTOGEN-REPOS-END -->
 
 ---
