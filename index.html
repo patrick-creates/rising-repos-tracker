@@ -32,6 +32,21 @@
     .vel-mid  { color: #d29922; }
     .vel-low  { color: #7d8590; }
     #status { font-size: 12px; color: #7d8590; margin-bottom: 1.5rem; }
+    .repo-row { cursor: pointer; }
+    .repo-detail { background: #0d1117; padding: 1.25rem 1.5rem; border-top: 1px solid #21262d; font-size: 13px; line-height: 1.6; display: none; }
+    .repo-detail.open { display: block; }
+    .repo-detail .summary-text { color: #c9d1d9; margin-bottom: 1rem; }
+    .repo-detail .detail-label { font-size: 11px; color: #7d8590; text-transform: uppercase; letter-spacing: 0.05em; margin: 0 0 6px; }
+    .repo-detail .pill-row { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 1rem; }
+    .repo-detail .pill { background: #21262d; border: 1px solid #30363d; border-radius: 12px; padding: 3px 10px; font-size: 11px; color: #c9d1d9; }
+    .repo-detail .pill.tag { background: #1f6feb33; border-color: #1f6feb66; color: #58a6ff; }
+    .repo-detail ul { list-style: none; padding: 0; margin: 0 0 1rem; }
+    .repo-detail li { padding: 4px 0 4px 18px; position: relative; color: #c9d1d9; }
+    .repo-detail li::before { content: "→"; position: absolute; left: 0; color: #58a6ff; }
+    .repo-detail .loading { color: #7d8590; font-style: italic; }
+    .repo-detail .no-summary { color: #7d8590; font-style: italic; }
+    .chevron { display: inline-block; margin-right: 4px; transition: transform 0.15s; font-size: 9px; color: #7d8590; }
+    .repo-row.open .chevron { transform: rotate(90deg); }
   </style>
 </head>
 <body>
@@ -174,14 +189,80 @@ function renderTable(data, sortBy) {
   });
   document.getElementById('repoTable').innerHTML = sorted.map(r => {
     const vel = parseFloat(r.velocity);
-    return `<div class="repo-row">
-      <a class="repo-link" href="https://github.com/${r.owner}/${r.repo}" target="_blank">${r.owner}/${r.repo}</a>
-      <span class="num">${fmt(r.stars)}</span>
-      <span class="num muted">${fmt(r.forks)}</span>
-      <span class="num muted">${fmt(r.issues)}</span>
-      <span class="num ${velClass(vel)}">${vel > 0 ? '+'+r.velocity : '—'}</span>
+    const id = `${r.owner}--${r.repo}`.replace(/[^a-zA-Z0-9-]/g, '_');
+    return `<div>
+      <div class="repo-row" data-id="${id}">
+        <a class="repo-link" href="https://github.com/${r.owner}/${r.repo}" target="_blank" onclick="event.stopPropagation()">
+          <span class="chevron">▶</span>${r.owner}/${r.repo}
+        </a>
+        <span class="num">${fmt(r.stars)}</span>
+        <span class="num muted">${fmt(r.forks)}</span>
+        <span class="num muted">${fmt(r.issues)}</span>
+        <span class="num ${velClass(vel)}">${vel > 0 ? '+'+r.velocity : '—'}</span>
+      </div>
+      <div class="repo-detail" id="detail-${id}" data-owner="${r.owner}" data-repo="${r.repo}">
+        <span class="loading">Loading summary…</span>
+      </div>
     </div>`;
   }).join('');
+
+  // Wire up click handlers
+  document.querySelectorAll('#repoTable .repo-row').forEach(row => {
+    row.addEventListener('click', () => toggleDetail(row));
+  });
+}
+
+const summaryCache = {};
+
+async function toggleDetail(rowEl) {
+  const id = rowEl.dataset.id;
+  const detail = document.getElementById(`detail-${id}`);
+  const isOpen = detail.classList.contains('open');
+
+  if (isOpen) {
+    detail.classList.remove('open');
+    rowEl.classList.remove('open');
+    return;
+  }
+
+  detail.classList.add('open');
+  rowEl.classList.add('open');
+
+  const owner = detail.dataset.owner;
+  const repo = detail.dataset.repo;
+  const cacheKey = `${owner}/${repo}`;
+
+  if (summaryCache[cacheKey] !== undefined) {
+    renderDetail(detail, summaryCache[cacheKey]);
+    return;
+  }
+
+  try {
+    const res = await fetch(`${BASE}/data/${owner}/${repo}/summary.json`);
+    if (!res.ok) throw new Error('no summary');
+    const data = await res.json();
+    summaryCache[cacheKey] = data;
+    renderDetail(detail, data);
+  } catch {
+    summaryCache[cacheKey] = null;
+    renderDetail(detail, null);
+  }
+}
+
+function renderDetail(el, data) {
+  if (!data) {
+    el.innerHTML = '<span class="no-summary">No AI summary available yet for this repo.</span>';
+    return;
+  }
+  el.innerHTML = `
+    <p class="summary-text">${data.summary}</p>
+    <p class="detail-label">use cases</p>
+    <ul>${data.use_cases.map(u => `<li>${u}</li>`).join('')}</ul>
+    <p class="detail-label">similar tools</p>
+    <div class="pill-row">${data.similar_tools.map(t => `<span class="pill">${t}</span>`).join('')}</div>
+    <p class="detail-label">tags</p>
+    <div class="pill-row">${data.tags.map(t => `<span class="pill tag">#${t}</span>`).join('')}</div>
+  `;
 }
 
 async function main() {
