@@ -19,8 +19,25 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Cache Puppeteer browser
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/puppeteer
+          key: puppeteer-${{ runner.os }}-v23
+
+      - name: Cache node_modules
+        uses: actions/cache@v4
+        id: npm-cache
+        with:
+          path: node_modules
+          key: npm-${{ runner.os }}-puppeteer-v23
+
       - name: Install Puppeteer
-        run: npm install puppeteer
+        if: steps.npm-cache.outputs.cache-hit != 'true'
+        run: npm install puppeteer@23
+
+      - name: Wait for CDN to propagate
+        run: sleep 60
 
       - name: Take screenshot
         run: |
@@ -34,7 +51,7 @@ jobs:
             await page.setViewport({ width: 1280, height: 800 });
             await page.goto('https://patrick-creates.github.io/rising-repos-tracker/', {
               waitUntil: 'networkidle0',
-              timeout: 30000
+              timeout: 60000
             });
             await new Promise(r => setTimeout(r, 3000));
             await page.screenshot({ path: 'preview.png', fullPage: false });
