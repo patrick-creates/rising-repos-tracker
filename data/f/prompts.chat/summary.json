@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-13T12:46:08.110Z",
+  "model": "gpt-4o-mini",
+  "summary": "This repository offers the world's largest open-source prompt library for AI chat models, enabling users to enhance their interactions with various AI assistants. It serves as a comprehensive resource for prompt examples, contributing to improved AI communication and usability.",
+  "use_cases": [
+    "Creating engaging prompts for ChatGPT",
+    "Developing educational tools for teaching AI interaction",
+    "Building a custom prompt library for a specific application"
+  ],
+  "similar_tools": [
+    "PromptBase",
+    "AI Dungeon"
+  ],
+  "tags": [
+    "prompts",
+    "ai",
+    "library"
+  ]
+}

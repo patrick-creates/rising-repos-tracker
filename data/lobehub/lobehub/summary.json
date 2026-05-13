@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-13T12:46:41.888Z",
+  "model": "gpt-4o-mini",
+  "summary": "LobeHub is a collaborative platform designed for users to create, build, and work alongside AI agents, facilitating a co-evolving network between humans and agents. It aims to enhance productivity by providing a unified workspace where agents can be customized and utilized effectively for various tasks.",
+  "use_cases": [
+    "Building a personalized AI team for project management",
+    "Collaborating with multiple AI agents for content creation",
+    "Integrating various tools and plugins for enhanced productivity"
+  ],
+  "similar_tools": [
+    "Zapier",
+    "Notion"
+  ],
+  "tags": [
+    "collaboration",
+    "ai",
+    "productivity"
+  ]
+}

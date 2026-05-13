@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-13T12:45:58.519Z",
+  "model": "gpt-4o-mini",
+  "summary": "OpenClaw is a personal AI assistant that operates on your own devices, providing fast and localized responses through various messaging channels. It aims to enhance user productivity by integrating seamlessly with platforms like WhatsApp, Telegram, and Discord.",
+  "use_cases": [
+    "Send automated reminders via WhatsApp",
+    "Manage team communications on Slack",
+    "Control smart home devices through voice commands on Discord"
+  ],
+  "similar_tools": [
+    "Google Assistant",
+    "Amazon Alexa"
+  ],
+  "tags": [
+    "ai",
+    "assistant",
+    "productivity"
+  ]
+}

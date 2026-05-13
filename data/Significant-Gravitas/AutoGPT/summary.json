@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-13T12:46:01.780Z",
+  "model": "gpt-4o-mini",
+  "summary": "AutoGPT is a platform designed for creating, deploying, and managing AI agents that automate complex workflows. It aims to empower users to streamline their tasks and enhance productivity through AI-driven automation.",
+  "use_cases": [
+    "automating social media content generation",
+    "creating personalized email marketing campaigns",
+    "developing AI-driven customer support agents"
+  ],
+  "similar_tools": [
+    "Zapier",
+    "Integromat"
+  ],
+  "tags": [
+    "ai",
+    "automation",
+    "workflow"
+  ]
+}

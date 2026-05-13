@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-13T12:46:25.008Z",
+  "model": "gpt-4o-mini",
+  "summary": "MarkItDown is a Python utility designed to convert various file formats into Markdown, facilitating integration with large language models and text analysis pipelines. It aims to preserve document structure while ensuring compatibility with LLMs for efficient processing of textual data.",
+  "use_cases": [
+    "Converting academic papers from PDF to Markdown for easier text analysis",
+    "Extracting content from PowerPoint presentations to Markdown for documentation",
+    "Transcribing audio files into Markdown format for accessibility and analysis"
+  ],
+  "similar_tools": [
+    "textract",
+    "pandoc"
+  ],
+  "tags": [
+    "markdown",
+    "conversion",
+    "python"
+  ]
+}

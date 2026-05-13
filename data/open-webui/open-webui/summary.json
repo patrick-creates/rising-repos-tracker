@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-13T12:46:17.845Z",
+  "model": "gpt-4o-mini",
+  "summary": "Open WebUI is a self-hosted AI platform designed for offline operation, supporting various LLM runners and offering a rich set of features for enhanced user interaction. It aims to provide a customizable and secure environment for deploying AI applications and tools.",
+  "use_cases": [
+    "Creating a personalized chatbot for customer support",
+    "Developing a voice-activated virtual assistant for home automation",
+    "Building a collaborative platform for team brainstorming and idea generation"
+  ],
+  "similar_tools": [
+    "Rasa",
+    "Hugging Face Spaces"
+  ],
+  "tags": [
+    "ai",
+    "self-hosted",
+    "llm"
+  ]
+}

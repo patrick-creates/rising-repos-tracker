@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-13T12:46:14.359Z",
+  "model": "gpt-4o-mini",
+  "summary": "Dify is an open-source platform for developing applications using large language models (LLMs), providing an intuitive interface for building AI workflows and managing models. It aims to streamline the transition from prototype to production with features like RAG pipelines and agent capabilities.",
+  "use_cases": [
+    "Creating a customer support chatbot using LLMs",
+    "Building a document retrieval system for legal documents",
+    "Developing an AI-driven content generation tool for marketing"
+  ],
+  "similar_tools": [
+    "Haystack",
+    "Rasa"
+  ],
+  "tags": [
+    "ai",
+    "llm",
+    "open-source"
+  ]
+}

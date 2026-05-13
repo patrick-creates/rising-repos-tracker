@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-13T12:46:21.511Z",
+  "model": "gpt-4o-mini",
+  "summary": "LangChain is a framework designed for building applications powered by large language models (LLMs) by enabling developers to chain together various components and integrations. It aims to simplify AI application development while allowing for adaptability as technology evolves.",
+  "use_cases": [
+    "Creating a chatbot that integrates with external APIs for real-time data",
+    "Developing an AI-powered content generation tool that utilizes different LLMs",
+    "Building an agent that can automate complex workflows by orchestrating multiple tasks"
+  ],
+  "similar_tools": [
+    "Haystack",
+    "Rasa"
+  ],
+  "tags": [
+    "llm",
+    "agents",
+    "framework"
+  ]
+}

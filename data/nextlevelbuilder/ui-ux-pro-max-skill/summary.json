@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-05-13T12:46:38.706Z",
+  "model": "gpt-4o-mini",
+  "summary": "UI UX Pro Max is an AI-driven tool that generates tailored design systems for UI/UX projects, enhancing the design process across various platforms. It aims to streamline the creation of professional and aesthetically pleasing user interfaces by providing intelligent recommendations based on project requirements.",
+  "use_cases": [
+    "Creating a landing page for a wellness spa",
+    "Designing an e-commerce website for a fashion brand",
+    "Developing a mobile app interface for a fitness tracker"
+  ],
+  "similar_tools": [
+    "Figma",
+    "Adobe XD"
+  ],
+  "tags": [
+    "ui",
+    "ux",
+    "design",
+    "ai",
+    "generator"
+  ]
+}

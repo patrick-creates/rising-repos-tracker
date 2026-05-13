@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-13T12:46:28.731Z",
+  "model": "gpt-4o-mini",
+  "summary": "The 'Generative AI for Beginners' repository provides a comprehensive course with 21 lessons designed to teach users how to build Generative AI applications using Python and TypeScript. It aims to equip beginners with the necessary skills and resources to understand and implement Generative AI concepts effectively.",
+  "use_cases": [
+    "Developing chatbots using Generative AI",
+    "Creating content generation tools for marketing",
+    "Building AI-driven art and design applications"
+  ],
+  "similar_tools": [
+    "OpenAI Codex",
+    "Hugging Face Transformers"
+  ],
+  "tags": [
+    "generative ai",
+    "education",
+    "programming"
+  ]
+}
