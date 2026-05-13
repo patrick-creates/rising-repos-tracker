@@ -18,32 +18,48 @@ async function fetchRepo(owner, repo) {
 async function main() {
   const today = new Date().toISOString().split("T")[0];
 
+  const errors = [];
+
   for (const { owner, repo } of repos) {
-    const data = await fetchRepo(owner, repo);
+    try {
+      const data = await fetchRepo(owner, repo);
 
-    const snapshot = {
-      date: today,
-      stars: data.stargazers_count,
-      forks: data.forks_count,
-      watchers: data.subscribers_count,
-      open_issues: data.open_issues_count,
-      description: data.description,
-    };
+      const snapshot = {
+        date: today,
+        stars: data.stargazers_count,
+        forks: data.forks_count,
+        watchers: data.subscribers_count,
+        open_issues: data.open_issues_count,
+        description: data.description,
+      };
 
-    const dir = path.join("data", owner, repo);
-    fs.mkdirSync(dir, { recursive: true });
+      const dir = path.join("data", owner, repo);
+      fs.mkdirSync(dir, { recursive: true });
 
-    const filePath = path.join(dir, "history.json");
-    const history = fs.existsSync(filePath)
-      ? JSON.parse(fs.readFileSync(filePath, "utf8"))
-      : [];
+      const filePath = path.join(dir, "history.json");
+      const history = fs.existsSync(filePath)
+        ? JSON.parse(fs.readFileSync(filePath, "utf8"))
+        : [];
 
-    const filtered = history.filter((e) => e.date !== today);
-    filtered.push(snapshot);
+      const filtered = history.filter((e) => e.date !== today);
+      filtered.push(snapshot);
 
-    fs.writeFileSync(filePath, JSON.stringify(filtered, null, 2));
-    console.log(`✓ ${owner}/${repo}: ⭐ ${snapshot.stars}`);
+      fs.writeFileSync(filePath, JSON.stringify(filtered, null, 2));
+      console.log(`✓ ${owner}/${repo}: ⭐ ${snapshot.stars}`);
+
+      // Polite delay to respect rate limits
+      await new Promise((r) => setTimeout(r, 200));
+    } catch (e) {
+      console.error(`✗ ${owner}/${repo}: ${e.message}`);
+      errors.push({ repo: `${owner}/${repo}`, error: e.message });
+    }
   }
+
+  if (errors.length > 0) {
+    console.log(`\n⚠️  ${errors.length} repo(s) failed:`);
+    errors.forEach((e) => console.log(`   - ${e.repo}: ${e.error}`));
+  }
+  console.log(`\n✓ Successfully updated ${repos.length - errors.length}/${repos.length} repos`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
