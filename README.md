@@ -45,9 +45,32 @@ The full watch list is in [`repos.json`](./repos.json).
 | `collect.yml` | Daily 06:00 UTC | Fetches latest stats for all repos in `repos.json` |
 | `discover.yml` | Monday 05:00 UTC | Finds trending repos and appends them to `repos.json` |
 
-## Adding a repo manually
+## Fork & use it for yourself
 
-Edit [`repos.json`](./repos.json) and add an entry:
+This is my personal tracker — the watch list reflects what I find interesting. If you want to track different repos, the best path is to **fork this repo and run your own**.
+
+### Setup
+
+1. Fork this repo to your account
+2. Replace the contents of [`repos.json`](./repos.json) with the repos you want to track (or just leave one entry — `discover.yml` will auto-add more every Monday)
+3. Go to **Settings → Pages** and enable GitHub Pages from the `main` branch
+4. Go to **Actions** and run **Collect Repo Stats** once manually to seed your first data point
+5. Your dashboard will be live at `https://YOUR-USERNAME.github.io/rising-repos-tracker/`
+
+That's it — daily collection and weekly discovery run automatically on schedule. Zero ongoing maintenance.
+
+### Customizing what gets discovered
+
+Edit [`scripts/discover.js`](./scripts/discover.js) to change:
+
+- `MIN_STARS` — minimum star threshold for candidates
+- `MAX_AGE_DAYS` — how recent a repo must be
+- `MAX_NEW_REPOS` — how many to add per discovery run
+- The `queries` array — GitHub Search API queries that define what "trending" means to you
+
+### Adding a repo manually
+
+Just edit `repos.json` directly:
 
 ```json
 {
@@ -58,8 +81,7 @@ Edit [`repos.json`](./repos.json) and add an entry:
 }
 ```
 
-The next daily collect run will pick it up automatically.
-
+The next daily collect run picks it up automatically.
 ## Stack
 
 - **GitHub Actions** — scheduling and automation
