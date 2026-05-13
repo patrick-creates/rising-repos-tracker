@@ -116,6 +116,10 @@ function calcVelocity(history) {
   return ((last.stars - first.stars) / days).toFixed(1);
 }
 
+function fmt(n) {
+  return Number(n).toLocaleString('en-US');
+}
+
 function velClass(v) {
   return v > 500 ? 'vel-high' : v > 50 ? 'vel-mid' : 'vel-low';
 }
@@ -166,9 +170,9 @@ function renderTable(data, sortBy) {
     const vel = parseFloat(r.velocity);
     return `<div class="repo-row">
       <a class="repo-link" href="https://github.com/${r.owner}/${r.repo}" target="_blank">${r.owner}/${r.repo}</a>
-      <span class="num">${r.stars.toLocaleString()}</span>
-      <span class="num muted">${r.forks.toLocaleString()}</span>
-      <span class="num muted">${r.issues}</span>
+      <span class="num">${fmt(r.stars)}</span>
+      <span class="num muted">${fmt(r.forks)}</span>
+      <span class="num muted">${fmt(r.issues)}</span>
       <span class="num ${velClass(vel)}">${vel > 0 ? '+'+r.velocity : '—'}</span>
     </div>`;
   }).join('');
@@ -210,7 +214,7 @@ async function main() {
 
   // Metrics
   document.getElementById('m-repos').textContent = results.length;
-  document.getElementById('m-stars').textContent = (results.reduce((s,r) => s + r.stars, 0) / 1000).toFixed(0) + 'k';
+  document.getElementById('m-stars').textContent = fmt(results.reduce((s,r) => s + r.stars, 0));
   const top = [...results].sort((a,b) => parseFloat(b.velocity) - parseFloat(a.velocity))[0];
   document.getElementById('m-top').textContent = top ? top.repo : '—';
   const allDates = results.flatMap(r => r.history.map(h => h.date));
