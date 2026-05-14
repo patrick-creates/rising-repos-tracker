@@ -9,10 +9,10 @@
   },
   {
     "date": "2026-05-14",
-    "stars": 79961,
-    "forks": 16783,
+    "stars": 79970,
+    "forks": 16785,
     "watchers": 547,
-    "open_issues": 4933,
+    "open_issues": 4935,
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs"
   }
 ]

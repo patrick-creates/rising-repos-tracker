@@ -9,10 +9,10 @@
   },
   {
     "date": "2026-05-14",
-    "stars": 136988,
-    "forks": 19523,
+    "stars": 136994,
+    "forks": 19525,
     "watchers": 596,
-    "open_issues": 254,
+    "open_issues": 253,
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
   }
 ]
