@@ -17,10 +17,10 @@
   },
   {
     "date": "2026-05-15",
-    "stars": 141453,
-    "forks": 22213,
+    "stars": 141481,
+    "forks": 22219,
     "watchers": 798,
-    "open_issues": 774,
+    "open_issues": 778,
     "description": "Production-ready platform for agentic workflow development."
   }
 ]

@@ -22,19 +22,19 @@
 | Metric | Value |
 |---|---|
 | Repos tracked | **16** |
-| Total stars | **2,122,416** |
-| Total forks | **384,573** |
-| Fastest growing | **hermes-agent** (+1513.5/day) |
+| Total stars | **2,123,156** |
+| Total forks | **384,677** |
+| Fastest growing | **hermes-agent** (+1633.0/day) |
 
 ### 🔥 Top 5 by velocity
 
 | # | Repo | Stars | Stars/day |
 |---|---|---:|---:|
-| 1 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 151,072 | +1513.5 |
-| 2 | [github/spec-kit](https://github.com/github/spec-kit) | 99,821 | +980.0 |
-| 3 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 182,589 | +770.5 |
-| 4 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 78,761 | +434.0 |
-| 5 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 372,007 | +268.0 |
+| 1 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 151,311 | +1633.0 |
+| 2 | [github/spec-kit](https://github.com/github/spec-kit) | 99,920 | +1029.5 |
+| 3 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 182,711 | +831.5 |
+| 4 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 78,832 | +469.5 |
+| 5 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 372,052 | +290.5 |
 
 ### 🆕 Recently added
 
@@ -44,9 +44,49 @@
 <!-- AUTOGEN-STATS-END -->
 
 <!-- AUTOGEN-DIAGRAM-START -->
+## 🔄 How it works
+
+```mermaid
+graph LR
+    repos[("repos.json")]:::data
+    history[("data/&#123;owner&#125;/&#123;repo&#125;/<br/>history.json")]:::data
+    summary[("data/&#123;owner&#125;/&#123;repo&#125;/<br/>summary.json")]:::data
+    readme[("README.md")]:::data
+    preview[("preview.png")]:::data
+    dashboard["index.html<br/>(GitHub Pages)"]:::output
+    collect_yml["Collect Repo Stats<br/><i>Daily 05:17 UTC</i>"]:::workflow
+    discover_yml["Discover Trending Repos<br/><i>Monday 04:43 UTC</i>"]:::workflow
+    screenshot_yml["Screenshot Dashboard<br/><i>after collect repo stats</i>"]:::workflow
+    summarize_yml["Summarize Repos<br/><i>after discover trending repos</i>"]:::workflow
+    repos --> collect_yml
+    collect_yml --> history
+    collect_yml --> readme
+    repos --> discover_yml
+    discover_yml -.->|appends| repos
+    dashboard --> screenshot_yml
+    screenshot_yml --> preview
+    repos --> summarize_yml
+    summarize_yml --> summary
+    history --> dashboard
+    summary --> dashboard
+    preview --> readme
+    classDef workflow fill:#1f6feb,stroke:#58a6ff,color:#fff
+    classDef data fill:#21262d,stroke:#7d8590,color:#e6edf3
+    classDef output fill:#238636,stroke:#3fb950,color:#fff
+```
 <!-- AUTOGEN-DIAGRAM-END -->
 
 <!-- AUTOGEN-WORKFLOWS-START -->
+## ⚙️ Workflows
+
+| File | Schedule | Name |
+|---|---|---|
+| `collect.yml` | Daily 05:17 UTC | Collect Repo Stats |
+| `discover.yml` | Monday 04:43 UTC | Discover Trending Repos |
+| `screenshot.yml` | After Collect Repo Stats | Screenshot Dashboard |
+| `summarize.yml` | After Discover Trending Repos | Summarize Repos |
+
+> All workflows commit results directly back to the repo. Schedules are best-effort — GitHub Actions cron can drift by a few minutes.
 <!-- AUTOGEN-WORKFLOWS-END -->
 
 <!-- AUTOGEN-REPOS-START -->
@@ -54,21 +94,21 @@
 
 | Repo | Stars | Forks | Stars/day |
 |---|---:|---:|---:|
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 372,007 | 77,013 | +268.0 |
-| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 184,316 | 46,234 | +17.5 |
-| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 182,589 | 28,125 | +770.5 |
-| [f/prompts.chat](https://github.com/f/prompts.chat) | 162,259 | 21,125 | +43.5 |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 151,072 | 23,936 | +1513.5 |
-| [langgenius/dify](https://github.com/langgenius/dify) | 141,453 | 22,213 | +114.0 |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 137,140 | 19,554 | +124.0 |
-| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 136,785 | 22,622 | +75.0 |
-| [microsoft/markitdown](https://github.com/microsoft/markitdown) | 123,232 | 8,333 | +112.0 |
-| [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 110,825 | 59,432 | +36.5 |
-| [github/spec-kit](https://github.com/github/spec-kit) | 99,821 | 8,697 | +980.0 |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 80,064 | 16,821 | +90.0 |
-| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 78,761 | 8,084 | +434.0 |
-| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 77,103 | 15,180 | +52.5 |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 75,853 | 6,509 | +236.5 |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 372,052 | 77,024 | +290.5 |
+| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 184,321 | 46,230 | +20.0 |
+| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 182,711 | 28,147 | +831.5 |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | 162,272 | 21,125 | +50.0 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 151,311 | 23,984 | +1633.0 |
+| [langgenius/dify](https://github.com/langgenius/dify) | 141,481 | 22,219 | +128.0 |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 137,161 | 19,555 | +134.5 |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 136,797 | 22,623 | +81.0 |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | 123,258 | 8,332 | +125.0 |
+| [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 110,828 | 59,433 | +38.0 |
+| [github/spec-kit](https://github.com/github/spec-kit) | 99,920 | 8,706 | +1029.5 |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 80,078 | 16,822 | +97.0 |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 78,832 | 8,091 | +469.5 |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 77,115 | 15,181 | +58.5 |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 75,883 | 6,510 | +251.5 |
 | [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | 9,136 | 695 | +12.0 |
 <!-- AUTOGEN-REPOS-END -->
 
