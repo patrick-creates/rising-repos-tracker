@@ -43,6 +43,12 @@
 - [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) — added 2026-05-13 — AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 <!-- AUTOGEN-STATS-END -->
 
+<!-- AUTOGEN-DIAGRAM-START -->
+<!-- AUTOGEN-DIAGRAM-END -->
+
+<!-- AUTOGEN-WORKFLOWS-START -->
+<!-- AUTOGEN-WORKFLOWS-END -->
+
 <!-- AUTOGEN-REPOS-START -->
 ## 📋 All tracked repos
 
@@ -72,48 +78,14 @@
 
 - Collects daily snapshots of stars, forks, watchers and open issues for every tracked repo
 - Discovers new trending repos automatically every Monday using the GitHub Search API
+- Generates AI summaries (use cases, similar tools, tags) for each tracked repo via GitHub Models
 - Stores all history as plain JSON — no database, no backend
 - Renders a live dashboard via GitHub Pages — updates daily, zero maintenance
-
-## How it works
-
-```
-                         repos.json
-                              │
-              ┌───────────────┼───────────────┐
-              ↓               ↓               ↓
-       discover.yml      collect.yml     summarize.yml
-       (Mon 05:00)       (daily 06:00)   (after discover)
-              │               │               │
-       adds new          history.json     summary.json
-       trending repos    one entry/day    AI-generated
-                              │
-                              ↓
-                       update-readme.js
-                       regenerates README
-                              │
-                              ↓
-                       screenshot.yml
-                       captures dashboard
-                              │
-                              ↓
-              index.html (GitHub Pages)
-              reads everything at runtime
-```
 
 ## Tracked repos
 
 Data lives in [`data/`](./data) — one folder per repo, one `history.json` per entry.  
 The full watch list is in [`repos.json`](./repos.json).
-
-## Workflows
-
-| Workflow | Schedule | What it does |
-|---|---|---|
-| `collect.yml` | Daily 06:00 UTC | Fetches latest stats + regenerates README |
-| `discover.yml` | Monday 05:00 UTC | Finds trending repos and appends them to `repos.json` |
-| `summarize.yml` | After discover | Generates AI summaries (GitHub Models) for new repos |
-| `screenshot.yml` | After collect | Captures dashboard preview image |
 
 ## Fork & use it for yourself
 
@@ -152,12 +124,15 @@ Just edit `repos.json` directly:
 ```
 
 The next daily collect run picks it up automatically.
+
 ## Stack
 
 - **GitHub Actions** — scheduling and automation
 - **GitHub Pages** — dashboard hosting
 - **GitHub API** — data source
+- **GitHub Models** — free AI summaries (gpt-4o-mini)
 - **Chart.js** — star growth visualization
+- **Mermaid** — architecture diagram (rendered by GitHub)
 - No dependencies, no build step, no database
 
 ## License
