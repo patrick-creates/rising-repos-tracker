@@ -76,13 +76,27 @@
 ## How it works
 
 ```
-repos.json  ←  discover.yml adds new repos every Monday
-    ↓
-collect.yml runs daily at 06:00 UTC
-    ↓
-data/{owner}/{repo}/history.json  ←  one entry per day
-    ↓
-index.html reads data at runtime via raw.githubusercontent.com
+                         repos.json
+                              │
+              ┌───────────────┼───────────────┐
+              ↓               ↓               ↓
+       discover.yml      collect.yml     summarize.yml
+       (Mon 05:00)       (daily 06:00)   (after discover)
+              │               │               │
+       adds new          history.json     summary.json
+       trending repos    one entry/day    AI-generated
+                              │
+                              ↓
+                       update-readme.js
+                       regenerates README
+                              │
+                              ↓
+                       screenshot.yml
+                       captures dashboard
+                              │
+                              ↓
+              index.html (GitHub Pages)
+              reads everything at runtime
 ```
 
 ## Tracked repos
@@ -94,8 +108,10 @@ The full watch list is in [`repos.json`](./repos.json).
 
 | Workflow | Schedule | What it does |
 |---|---|---|
-| `collect.yml` | Daily 06:00 UTC | Fetches latest stats for all repos in `repos.json` |
+| `collect.yml` | Daily 06:00 UTC | Fetches latest stats + regenerates README |
 | `discover.yml` | Monday 05:00 UTC | Finds trending repos and appends them to `repos.json` |
+| `summarize.yml` | After discover | Generates AI summaries (GitHub Models) for new repos |
+| `screenshot.yml` | After collect | Captures dashboard preview image |
 
 ## Fork & use it for yourself
 
