@@ -20,7 +20,7 @@
     "stars": 80078,
     "forks": 16822,
     "watchers": 546,
-    "open_issues": 4935,
+    "open_issues": 4936,
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs"
   }
 ]
