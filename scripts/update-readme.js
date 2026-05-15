@@ -38,8 +38,8 @@ function cronToHuman(cron) {
 function generateMermaid(workflows) {
   const nodes = [
     `    repos[("repos.json")]:::data`,
-    `    history[("data/&#123;owner&#125;/&#123;repo&#125;/<br/>history.json")]:::data`,
-    `    summary[("data/&#123;owner&#125;/&#123;repo&#125;/<br/>summary.json")]:::data`,
+    `    history[("data/[owner]/[repo]/<br/>history.json")]:::data`,
+    `    summary[("data/[owner]/[repo]/<br/>summary.json")]:::data`,
     `    readme[("README.md")]:::data`,
     `    preview[("preview.png")]:::data`,
     `    dashboard["index.html<br/>(GitHub Pages)"]:::output`,
