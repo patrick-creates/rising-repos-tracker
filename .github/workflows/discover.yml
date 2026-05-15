@@ -2,7 +2,7 @@ name: Discover Trending Repos
 
 on:
   schedule:
-    - cron: "0 5 * * 1"   # every Monday at 5am UTC (before collect runs)
+    - cron: "43 4 * * 1"   # Monday 04:43 UTC — runs before collect, off-peak minute
   workflow_dispatch:        # allows manual runs
 
 jobs:
