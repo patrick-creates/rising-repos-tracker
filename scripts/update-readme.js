@@ -3,6 +3,88 @@ const path = require("path");
 
 const repos = JSON.parse(fs.readFileSync("repos.json", "utf8"));
 
+// ---- Workflow scanner ----
+function scanWorkflows() {
+  const dir = ".github/workflows";
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir)
+    .filter((f) => f.endsWith(".yml") || f.endsWith(".yaml"))
+    .map((file) => {
+      const content = fs.readFileSync(path.join(dir, file), "utf8");
+      const nameMatch = content.match(/^name:\s*(.+)$/m);
+      const cronMatch = content.match(/cron:\s*["']([^"']+)["']/);
+      const runAfterMatch = content.match(/workflows:\s*\[\s*["']([^"']+)["']/);
+      return {
+        file,
+        name: nameMatch ? nameMatch[1].trim() : file,
+        cron: cronMatch ? cronMatch[1] : null,
+        runsAfter: runAfterMatch ? runAfterMatch[1] : null,
+      };
+    });
+}
+
+function cronToHuman(cron) {
+  if (!cron) return "—";
+  const parts = cron.split(/\s+/);
+  if (parts.length !== 5) return cron;
+  const [min, hour, , , dow] = parts;
+  const time = `${hour.padStart(2, "0")}:${min.padStart(2, "0")} UTC`;
+  const days = { "1": "Monday", "2": "Tuesday", "3": "Wednesday", "4": "Thursday", "5": "Friday", "6": "Saturday", "0": "Sunday" };
+  if (dow === "*") return `Daily ${time}`;
+  if (days[dow]) return `${days[dow]} ${time}`;
+  return `${time} (cron: ${cron})`;
+}
+
+function generateMermaid(workflows) {
+  const nodes = [
+    `    repos[("repos.json")]:::data`,
+    `    history[("data/&#123;owner&#125;/&#123;repo&#125;/<br/>history.json")]:::data`,
+    `    summary[("data/&#123;owner&#125;/&#123;repo&#125;/<br/>summary.json")]:::data`,
+    `    readme[("README.md")]:::data`,
+    `    preview[("preview.png")]:::data`,
+    `    dashboard["index.html<br/>(GitHub Pages)"]:::output`,
+  ];
+
+  const edges = [];
+
+  for (const wf of workflows) {
+    const schedule = wf.cron
+      ? cronToHuman(wf.cron)
+      : (wf.runsAfter ? `after ${wf.runsAfter.toLowerCase()}` : "manual");
+    const safeId = wf.file.replace(/[^a-z0-9]/gi, "_");
+    nodes.push(`    ${safeId}["${wf.name}<br/><i>${schedule}</i>"]:::workflow`);
+
+    const name = wf.file.toLowerCase();
+    if (name.includes("discover")) {
+      edges.push(`    repos --> ${safeId}`);
+      edges.push(`    ${safeId} -.->|appends| repos`);
+    } else if (name.includes("collect")) {
+      edges.push(`    repos --> ${safeId}`);
+      edges.push(`    ${safeId} --> history`);
+      edges.push(`    ${safeId} --> readme`);
+    } else if (name.includes("summarize")) {
+      edges.push(`    repos --> ${safeId}`);
+      edges.push(`    ${safeId} --> summary`);
+    } else if (name.includes("screenshot")) {
+      edges.push(`    dashboard --> ${safeId}`);
+      edges.push(`    ${safeId} --> preview`);
+    }
+  }
+
+  edges.push(`    history --> dashboard`);
+  edges.push(`    summary --> dashboard`);
+  edges.push(`    preview --> readme`);
+
+  return "```mermaid\ngraph LR\n" +
+    nodes.join("\n") + "\n" +
+    edges.join("\n") + "\n" +
+    "    classDef workflow fill:#1f6feb,stroke:#58a6ff,color:#fff\n" +
+    "    classDef data fill:#21262d,stroke:#7d8590,color:#e6edf3\n" +
+    "    classDef output fill:#238636,stroke:#3fb950,color:#fff\n" +
+    "```";
+}
+
+// ---- Helpers ----
 function loadHistory(owner, repo) {
   const p = path.join("data", owner, repo, "history.json");
   if (!fs.existsSync(p)) return null;
@@ -39,7 +121,9 @@ function main() {
   const totalStars = enriched.reduce((s, r) => s + r.stars, 0);
   const totalForks = enriched.reduce((s, r) => s + r.forks, 0);
   const topByVelocity = [...enriched].sort((a, b) => b.velocity - a.velocity).slice(0, 5);
-  const recentlyAdded = [...enriched].sort((a, b) => (b.added || "").localeCompare(a.added || "")).slice(0, 3);
+  const recentlyAdded = [...enriched]
+    .sort((a, b) => (b.added || "").localeCompare(a.added || ""))
+    .slice(0, 3);
   const today = new Date().toISOString().split("T")[0];
 
   // ---- Stats block ----
@@ -70,6 +154,32 @@ ${recentlyAdded.map(r =>
 ).join("\n")}
 <!-- AUTOGEN-STATS-END -->`;
 
+  // ---- Workflows + Diagram ----
+  const workflows = scanWorkflows();
+
+  const diagramBlock = `<!-- AUTOGEN-DIAGRAM-START -->
+## 🔄 How it works
+
+${generateMermaid(workflows)}
+<!-- AUTOGEN-DIAGRAM-END -->`;
+
+  const workflowRows = workflows.map((w) => {
+    const schedule = w.cron
+      ? cronToHuman(w.cron)
+      : (w.runsAfter ? `After ${w.runsAfter}` : "Manual");
+    return `| \`${w.file}\` | ${schedule} | ${w.name} |`;
+  }).join("\n");
+
+  const workflowsBlock = `<!-- AUTOGEN-WORKFLOWS-START -->
+## ⚙️ Workflows
+
+| File | Schedule | Name |
+|---|---|---|
+${workflowRows}
+
+> All workflows commit results directly back to the repo. Schedules are best-effort — GitHub Actions cron can drift by a few minutes.
+<!-- AUTOGEN-WORKFLOWS-END -->`;
+
   // ---- Full repo list ----
   const sortedAll = [...enriched].sort((a, b) => b.stars - a.stars);
   const reposBlock = `<!-- AUTOGEN-REPOS-START -->
@@ -89,12 +199,20 @@ ${sortedAll.map(r =>
     statsBlock
   );
   readme = readme.replace(
+    /<!-- AUTOGEN-DIAGRAM-START -->[\s\S]*?<!-- AUTOGEN-DIAGRAM-END -->/,
+    diagramBlock
+  );
+  readme = readme.replace(
+    /<!-- AUTOGEN-WORKFLOWS-START -->[\s\S]*?<!-- AUTOGEN-WORKFLOWS-END -->/,
+    workflowsBlock
+  );
+  readme = readme.replace(
     /<!-- AUTOGEN-REPOS-START -->[\s\S]*?<!-- AUTOGEN-REPOS-END -->/,
     reposBlock
   );
 
   fs.writeFileSync("README.md", readme);
-  console.log(`✓ README updated with ${enriched.length} repos, ${fmt(totalStars)} total stars`);
+  console.log(`✓ README updated: ${enriched.length} repos, ${fmt(totalStars)} stars, ${workflows.length} workflows`);
 }
 
 main();
