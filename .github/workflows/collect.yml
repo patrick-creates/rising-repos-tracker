@@ -2,7 +2,7 @@ name: Collect Repo Stats
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # every day at 6am UTC
+    - cron: "17 5 * * *"   # daily at 05:17 UTC — off-peak slot for reliable timing
   workflow_dispatch:        # also allow manual runs
 
 jobs:
