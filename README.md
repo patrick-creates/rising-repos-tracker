@@ -17,24 +17,24 @@
 <!-- AUTOGEN-STATS-START -->
 ## 📊 Current snapshot
 
-> Auto-updated daily — last refreshed 2026-05-16
+> Auto-updated daily — last refreshed 2026-05-17
 
 | Metric | Value |
 |---|---|
 | Repos tracked | **16** |
-| Total stars | **2,126,984** |
-| Total forks | **385,431** |
-| Fastest growing | **hermes-agent** (+1459.7/day) |
+| Total stars | **2,131,702** |
+| Total forks | **386,387** |
+| Fastest growing | **hermes-agent** (+1440.0/day) |
 
 ### 🔥 Top 5 by velocity
 
 | # | Repo | Stars | Stars/day |
 |---|---|---:|---:|
-| 1 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 152,424 | +1459.7 |
-| 2 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 183,796 | +916.0 |
-| 3 | [github/spec-kit](https://github.com/github/spec-kit) | 100,375 | +838.0 |
-| 4 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 79,130 | +412.3 |
-| 5 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 372,257 | +262.0 |
+| 1 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 153,805 | +1440.0 |
+| 2 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 185,022 | +993.5 |
+| 3 | [github/spec-kit](https://github.com/github/spec-kit) | 101,130 | +817.3 |
+| 4 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 79,440 | +386.8 |
+| 5 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 372,503 | +258.0 |
 
 ### 🆕 Recently added
 
@@ -94,22 +94,22 @@ graph LR
 
 | Repo | Stars | Forks | Stars/day |
 |---|---:|---:|---:|
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 372,257 | 77,114 | +262.0 |
-| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 184,342 | 46,229 | +20.3 |
-| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 183,796 | 28,357 | +916.0 |
-| [f/prompts.chat](https://github.com/f/prompts.chat) | 162,319 | 21,134 | +49.0 |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 152,424 | 24,225 | +1459.7 |
-| [langgenius/dify](https://github.com/langgenius/dify) | 141,537 | 22,229 | +104.0 |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 137,264 | 19,582 | +124.0 |
-| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 136,844 | 22,634 | +69.7 |
-| [microsoft/markitdown](https://github.com/microsoft/markitdown) | 123,343 | 8,335 | +111.7 |
-| [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 110,854 | 59,451 | +34.0 |
-| [github/spec-kit](https://github.com/github/spec-kit) | 100,375 | 8,764 | +838.0 |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 80,160 | 16,843 | +92.0 |
-| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 79,130 | 8,125 | +412.3 |
-| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 77,144 | 15,187 | +48.7 |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 76,054 | 6,527 | +224.7 |
-| [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | 9,141 | 695 | +9.7 |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 372,503 | 77,197 | +258.0 |
+| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 185,022 | 28,604 | +993.5 |
+| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 184,364 | 46,230 | +20.8 |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | 162,389 | 21,142 | +54.3 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 153,805 | 24,552 | +1440.0 |
+| [langgenius/dify](https://github.com/langgenius/dify) | 141,626 | 22,244 | +100.3 |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 137,396 | 19,615 | +126.0 |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 136,914 | 22,648 | +69.8 |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | 123,430 | 8,344 | +105.5 |
+| [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 110,913 | 59,475 | +40.3 |
+| [github/spec-kit](https://github.com/github/spec-kit) | 101,130 | 8,861 | +817.3 |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 80,224 | 16,866 | +85.0 |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 79,440 | 8,173 | +386.8 |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 77,169 | 15,192 | +42.8 |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 76,231 | 6,547 | +212.8 |
+| [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | 9,146 | 697 | +8.5 |
 <!-- AUTOGEN-REPOS-END -->
 
 ---
