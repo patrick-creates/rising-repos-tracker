@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-05-18",
+    "stars": 49578,
+    "forks": 3020,
+    "watchers": 121,
+    "open_issues": 942,
+    "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies"
+  }
+]

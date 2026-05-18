@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-05-18",
+    "stars": 49826,
+    "forks": 5546,
+    "watchers": 372,
+    "open_issues": 1196,
+    "description": "Port of OpenAI's Whisper model in C/C++"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-05-18",
+    "stars": 47388,
+    "forks": 8139,
+    "watchers": 204,
+    "open_issues": 3122,
+    "description": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]"
+  }
+]
