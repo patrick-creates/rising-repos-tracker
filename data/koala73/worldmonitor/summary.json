@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:12:38.335Z",
+  "model": "gpt-4o-mini",
+  "summary": "World Monitor is a real-time global intelligence dashboard that aggregates news, monitors geopolitical events, and tracks infrastructure, providing users with a unified situational awareness interface. It utilizes AI to synthesize information from over 500 curated news feeds across various categories.",
+  "use_cases": [
+    "Monitoring global news and events for research",
+    "Tracking financial markets and economic indicators",
+    "Analyzing geopolitical risks for business decisions"
+  ],
+  "similar_tools": [
+    "Google News",
+    "Tableau"
+  ],
+  "tags": [
+    "dashboard",
+    "intelligence",
+    "geopolitics"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:12:03.904Z",
+  "model": "gpt-4o-mini",
+  "summary": "The Prompt Engineering Guide is a comprehensive resource for developing and optimizing prompts to effectively utilize large language models (LLMs) across various applications. It aims to enhance understanding of LLM capabilities and provide practical techniques for researchers and developers in the field of AI.",
+  "use_cases": [
+    "Creating effective prompts for question answering systems",
+    "Designing prompts for generating synthetic datasets",
+    "Optimizing prompts for code generation tasks"
+  ],
+  "similar_tools": [
+    "OpenAI Cookbook",
+    "Hugging Face Transformers"
+  ],
+  "tags": [
+    "prompt engineering",
+    "language models",
+    "AI"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:12:07.317Z",
+  "model": "gpt-4o-mini",
+  "summary": "CC Switch is an all-in-one manager designed to streamline the use of various AI coding tools like Claude Code, Codex, and Gemini CLI. It aims to enhance productivity for developers by providing a unified interface for accessing multiple AI services.",
+  "use_cases": [
+    "Managing multiple AI coding tools from a single dashboard",
+    "Switching between different AI models for coding tasks",
+    "Integrating AI services into software development workflows"
+  ],
+  "similar_tools": [
+    "Postman",
+    "Insomnia"
+  ],
+  "tags": [
+    "ai",
+    "coding",
+    "management"
+  ]
+}

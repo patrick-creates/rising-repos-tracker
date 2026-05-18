@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:12:26.698Z",
+  "model": "gpt-4o-mini",
+  "summary": "This repository provides guidance on building harnesses for AI agents, emphasizing the importance of model training and the environment in which agents operate. It aims to equip developers with the knowledge to create effective tools and interfaces that enable AI models to function in various domains.",
+  "use_cases": [
+    "Developing an AI coding assistant that integrates with IDEs",
+    "Creating a farm management system using AI for decision-making",
+    "Building a customer service agent that interacts with booking systems"
+  ],
+  "similar_tools": [
+    "OpenAI Codex",
+    "Google AutoML"
+  ],
+  "tags": [
+    "ai",
+    "agents",
+    "development"
+  ]
+}

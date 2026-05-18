@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:12:34.769Z",
+  "model": "gpt-4o-mini",
+  "summary": "Oh My OpenCode is a free and open-source tool designed to enhance coding productivity by utilizing background agents and specialized functionalities. It aims to revolutionize the development experience by automating tasks and providing advanced coding capabilities.",
+  "use_cases": [
+    "Automating code refactoring tasks",
+    "Running background agents for continuous integration",
+    "Utilizing specialized agents for frontend development"
+  ],
+  "similar_tools": [
+    "GitHub Copilot",
+    "Tabnine"
+  ],
+  "tags": [
+    "automation",
+    "productivity",
+    "open-source"
+  ]
+}

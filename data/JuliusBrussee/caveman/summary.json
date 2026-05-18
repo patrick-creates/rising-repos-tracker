@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:12:23.594Z",
+  "model": "gpt-4o-mini",
+  "summary": "The 'caveman' repository provides a skill/plugin for various AI agents that simplifies their output by significantly reducing token usage while maintaining technical accuracy. It aims to enhance communication efficiency in coding and technical discussions.",
+  "use_cases": [
+    "Reducing verbosity in AI-generated code explanations",
+    "Generating concise commit messages for version control",
+    "Summarizing pull request comments in a brief format"
+  ],
+  "similar_tools": [
+    "OpenAI Codex",
+    "GitHub Copilot"
+  ],
+  "tags": [
+    "ai",
+    "token reduction",
+    "communication"
+  ]
+}

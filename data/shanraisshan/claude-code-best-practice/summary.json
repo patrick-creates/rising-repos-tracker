@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:12:42.131Z",
+  "model": "gpt-4o-mini",
+  "summary": "The claude-code-best-practice repository provides best practices, implementations, and workflows for using Claude Code, a platform for developing AI agents and applications. It aims to enhance the efficiency and effectiveness of coding practices in AI development through structured guidelines and resources.",
+  "use_cases": [
+    "Developing AI agents with optimal coding practices",
+    "Implementing workflows for task automation",
+    "Creating and managing plugins for extended functionality"
+  ],
+  "similar_tools": [
+    "Rasa",
+    "Dialogflow"
+  ],
+  "tags": [
+    "ai",
+    "development",
+    "best practices"
+  ]
+}

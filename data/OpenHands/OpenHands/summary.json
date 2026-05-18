@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:12:10.319Z",
+  "model": "gpt-4o-mini",
+  "summary": "OpenHands is an AI-driven development platform that provides tools for creating and managing intelligent agents. It aims to streamline the development process by offering a software agent SDK, CLI, and cloud-based solutions for both individual developers and enterprises.",
+  "use_cases": [
+    "automating software testing with AI agents",
+    "collaborating on code development using integrated tools like Slack and Jira",
+    "deploying AI agents in a cloud environment for scalable applications"
+  ],
+  "similar_tools": [
+    "OpenAI Codex",
+    "Google Cloud AI"
+  ],
+  "tags": [
+    "ai",
+    "development",
+    "sdk"
+  ]
+}

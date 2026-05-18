@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:11:56.858Z",
+  "model": "gpt-4o-mini",
+  "summary": "Claude-Mem is a persistent memory compression system designed to enhance the continuity of knowledge in Claude Code by capturing tool usage observations and generating semantic summaries. It allows users to maintain context across sessions, improving productivity and project management.",
+  "use_cases": [
+    "Automatically retain project context between coding sessions",
+    "Search through project history using skill-based queries",
+    "Integrate with messaging platforms for real-time updates on memory"
+  ],
+  "similar_tools": [
+    "Notion",
+    "Evernote"
+  ],
+  "tags": [
+    "memory",
+    "productivity",
+    "coding"
+  ]
+}

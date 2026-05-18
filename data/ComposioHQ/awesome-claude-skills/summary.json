@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:12:30.768Z",
+  "model": "gpt-4o-mini",
+  "summary": "The Awesome Claude Skills repository provides a curated collection of over 1000 skills and plugins designed to enhance productivity across various applications and coding agents. It enables users to connect Claude to more than 500 apps, allowing for real actions like sending emails and creating issues.",
+  "use_cases": [
+    "Automating email responses using Claude",
+    "Generating changelogs from Git commits",
+    "Creating and managing project documentation in collaboration tools"
+  ],
+  "similar_tools": [
+    "Zapier",
+    "IFTTT"
+  ],
+  "tags": [
+    "automation",
+    "productivity",
+    "skills"
+  ]
+}

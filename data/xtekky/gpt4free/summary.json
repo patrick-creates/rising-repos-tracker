@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:12:16.914Z",
+  "model": "gpt-4o-mini",
+  "summary": "GPT4Free is a community-driven project that aggregates various accessible providers and interfaces to simplify working with modern language models and media-generation models. It aims to provide multi-provider support, local GUI, and OpenAI-compatible REST APIs for enhanced flexibility and usability.",
+  "use_cases": [
+    "Generating text responses using multiple LLM providers",
+    "Creating images or media content through integrated tools",
+    "Building custom applications with OpenAI-compatible APIs"
+  ],
+  "similar_tools": [
+    "Hugging Face Transformers",
+    "OpenAI API"
+  ],
+  "tags": [
+    "gpt",
+    "api",
+    "docker"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:12:44.901Z",
+  "model": "gpt-4o-mini",
+  "summary": "Flowise is a visual platform for building AI agents, allowing users to create and manage workflows seamlessly. It aims to simplify the integration of AI into applications through an intuitive interface and various deployment options.",
+  "use_cases": [
+    "Creating automated customer support agents",
+    "Building data processing workflows",
+    "Integrating AI models into existing applications"
+  ],
+  "similar_tools": [
+    "Zapier",
+    "n8n"
+  ],
+  "tags": [
+    "ai",
+    "workflow",
+    "visual"
+  ]
+}

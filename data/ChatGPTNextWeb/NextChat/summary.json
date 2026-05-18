@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:12:00.603Z",
+  "model": "gpt-4o-mini",
+  "summary": "NextChat is a lightweight and fast AI assistant that supports various AI models, including Claude, DeepSeek, GPT-4, and Gemini Pro. It provides a user-friendly interface for deploying AI applications across multiple platforms while prioritizing privacy and customization for enterprise needs.",
+  "use_cases": [
+    "Creating personalized AI chatbots for customer support",
+    "Integrating AI capabilities into existing applications for enhanced user interaction",
+    "Deploying a private AI assistant for internal company use with customized features"
+  ],
+  "similar_tools": [
+    "ChatGPT",
+    "Jasper"
+  ],
+  "tags": [
+    "ai",
+    "assistant",
+    "chatbot"
+  ]
+}

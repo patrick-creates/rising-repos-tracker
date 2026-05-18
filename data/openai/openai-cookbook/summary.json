@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:12:13.348Z",
+  "model": "gpt-4o-mini",
+  "summary": "The OpenAI Cookbook provides example code and guides for using the OpenAI API to accomplish common tasks. It serves as a resource for developers looking to integrate OpenAI's capabilities into their applications.",
+  "use_cases": [
+    "Building a chatbot using OpenAI's language models",
+    "Generating text summaries for articles",
+    "Creating content for social media posts"
+  ],
+  "similar_tools": [
+    "Hugging Face Transformers",
+    "Google Cloud Natural Language API"
+  ],
+  "tags": [
+    "openai",
+    "api",
+    "python"
+  ]
+}
