@@ -274,5 +274,140 @@
     "stars_at_add": 52397,
     "stars_per_day_at_add": 1218.5,
     "created_at": "2026-04-05"
+  },
+  {
+    "owner": "datawhalechina",
+    "repo": "hello-agents",
+    "added": "2026-05-18",
+    "notes": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+    "stars_at_add": 50648,
+    "stars_per_day_at_add": 201,
+    "created_at": "2025-09-07"
+  },
+  {
+    "owner": "ggml-org",
+    "repo": "whisper.cpp",
+    "added": "2026-05-18",
+    "notes": "Port of OpenAI's Whisper model in C/C++",
+    "stars_at_add": 49826,
+    "stars_per_day_at_add": 37.5,
+    "created_at": "2022-09-25"
+  },
+  {
+    "owner": "rtk-ai",
+    "repo": "rtk",
+    "added": "2026-05-18",
+    "notes": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+    "stars_at_add": 49562,
+    "stars_per_day_at_add": 431,
+    "created_at": "2026-01-22"
+  },
+  {
+    "owner": "Fission-AI",
+    "repo": "OpenSpec",
+    "added": "2026-05-18",
+    "notes": "Spec-driven development (SDD) for AI coding assistants.",
+    "stars_at_add": 48784,
+    "stars_per_day_at_add": 171.2,
+    "created_at": "2025-08-05"
+  },
+  {
+    "owner": "tw93",
+    "repo": "Pake",
+    "added": "2026-05-18",
+    "notes": "🤱🏻 Turn any webpage into a desktop app with one command.",
+    "stars_at_add": 48778,
+    "stars_per_day_at_add": 37.2,
+    "created_at": "2022-10-14"
+  },
+  {
+    "owner": "BerriAI",
+    "repo": "litellm",
+    "added": "2026-05-18",
+    "notes": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
+    "stars_at_add": 47386,
+    "stars_per_day_at_add": 46.2,
+    "created_at": "2023-07-27"
+  },
+  {
+    "owner": "santifer",
+    "repo": "career-ops",
+    "added": "2026-05-18",
+    "notes": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+    "stars_at_add": 45243,
+    "stars_per_day_at_add": 1052.2,
+    "created_at": "2026-04-04"
+  },
+  {
+    "owner": "Aider-AI",
+    "repo": "aider",
+    "added": "2026-05-18",
+    "notes": "aider is AI pair programming in your terminal",
+    "stars_at_add": 44961,
+    "stars_per_day_at_add": 40.7,
+    "created_at": "2023-05-09"
+  },
+  {
+    "owner": "zhayujie",
+    "repo": "CowAgent",
+    "added": "2026-05-18",
+    "notes": "CowAgent (chatgpt-on-wechat) 是基于大模型的超级AI助理，能主动思考和任务规划、访问操作系统和外部资源、创造和执行Skills、通过长期记忆和知识库不断成长，比OpenClaw更轻量和便捷。同时支持微信、飞书、钉钉、企微、QQ、公众号、网页等接入，可选择DeepSeek/OpenAI/Claude/Gemini/ MiniMax/Qwen/GLM/LinkAI，能处理文本、语音、图片和文件，可快速搭建个人AI助理和企业数字员工。",
+    "stars_at_add": 44556,
+    "stars_per_day_at_add": 32.3,
+    "created_at": "2022-08-07"
+  },
+  {
+    "owner": "nexu-io",
+    "repo": "open-design",
+    "added": "2026-05-18",
+    "notes": "🎨 Local-first, open-source alternative to Anthropic's Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI.",
+    "stars_at_add": 44157,
+    "stars_per_day_at_add": 2207.8,
+    "created_at": "2026-04-28"
+  },
+  {
+    "owner": "hesreallyhim",
+    "repo": "awesome-claude-code",
+    "added": "2026-05-18",
+    "notes": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
+    "stars_at_add": 44091,
+    "stars_per_day_at_add": 112.2,
+    "created_at": "2025-04-19"
+  },
+  {
+    "owner": "HKUDS",
+    "repo": "nanobot",
+    "added": "2026-05-18",
+    "notes": "\"🐈 nanobot: The Ultra-Lightweight Personal AI Agent\"",
+    "stars_at_add": 42680,
+    "stars_per_day_at_add": 402.6,
+    "created_at": "2026-02-01"
+  },
+  {
+    "owner": "asgeirtj",
+    "repo": "system_prompts_leaks",
+    "added": "2026-05-18",
+    "notes": "Extracted system prompts from ChatGPT (GPT-5.5 Thinking), Claude (Opus 4.7, Opus 4.6, Sonnet 4.6, Claude Code), Gemini (3.1 Pro, 3 Flash, Gemini CLI), Grok (4.3 beta), Perplexity, and more. Updated regularly.",
+    "stars_at_add": 40383,
+    "stars_per_day_at_add": 106.3,
+    "created_at": "2025-05-03"
+  },
+  {
+    "owner": "chatboxai",
+    "repo": "chatbox",
+    "added": "2026-05-18",
+    "notes": "Powerful AI Client",
+    "stars_at_add": 39997,
+    "stars_per_day_at_add": 34.2,
+    "created_at": "2023-03-06"
+  },
+  {
+    "owner": "ChromeDevTools",
+    "repo": "chrome-devtools-mcp",
+    "added": "2026-05-18",
+    "notes": "Chrome DevTools for coding agents",
+    "stars_at_add": 39882,
+    "stars_per_day_at_add": 160.8,
+    "created_at": "2025-09-11"
   }
 ]
