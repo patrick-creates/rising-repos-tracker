@@ -139,5 +139,140 @@
     "stars_at_add": 75337,
     "stars_per_day_at_add": 296.6,
     "created_at": "2025-08-31"
+  },
+  {
+    "owner": "ChatGPTNextWeb",
+    "repo": "NextChat",
+    "added": "2026-05-18",
+    "notes": "✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows",
+    "stars_at_add": 88037,
+    "stars_per_day_at_add": 75.6,
+    "created_at": "2023-03-10"
+  },
+  {
+    "owner": "dair-ai",
+    "repo": "Prompt-Engineering-Guide",
+    "added": "2026-05-18",
+    "notes": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
+    "stars_at_add": 74697,
+    "stars_per_day_at_add": 59.9,
+    "created_at": "2022-12-16"
+  },
+  {
+    "owner": "farion1231",
+    "repo": "cc-switch",
+    "added": "2026-05-18",
+    "notes": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+    "stars_at_add": 74004,
+    "stars_per_day_at_add": 258.8,
+    "created_at": "2025-08-04"
+  },
+  {
+    "owner": "OpenHands",
+    "repo": "OpenHands",
+    "added": "2026-05-18",
+    "notes": "🙌 OpenHands: AI-Driven Development",
+    "stars_at_add": 73927,
+    "stars_per_day_at_add": 92.9,
+    "created_at": "2024-03-13"
+  },
+  {
+    "owner": "openai",
+    "repo": "openai-cookbook",
+    "added": "2026-05-18",
+    "notes": "Examples and guides for using the OpenAI API",
+    "stars_at_add": 73608,
+    "stars_per_day_at_add": 48.1,
+    "created_at": "2022-03-11"
+  },
+  {
+    "owner": "xtekky",
+    "repo": "gpt4free",
+    "added": "2026-05-18",
+    "notes": "The official gpt4free repository | various collection of powerful language models | opus 4.6 gpt 5.3 kimi 2.5 deepseek v3.2 gemini 3",
+    "stars_at_add": 66239,
+    "stars_per_day_at_add": 57.9,
+    "created_at": "2023-03-29"
+  },
+  {
+    "owner": "unslothai",
+    "repo": "unsloth",
+    "added": "2026-05-18",
+    "notes": "Unsloth Studio is a web UI for training and running open models like Gemma 4, Qwen3.6, DeepSeek, gpt-oss locally.",
+    "stars_at_add": 64496,
+    "stars_per_day_at_add": 71.7,
+    "created_at": "2023-11-29"
+  },
+  {
+    "owner": "JuliusBrussee",
+    "repo": "caveman",
+    "added": "2026-05-18",
+    "notes": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+    "stars_at_add": 61491,
+    "stars_per_day_at_add": 1430,
+    "created_at": "2026-04-04"
+  },
+  {
+    "owner": "shareAI-lab",
+    "repo": "learn-claude-code",
+    "added": "2026-05-18",
+    "notes": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+    "stars_at_add": 61064,
+    "stars_per_day_at_add": 189.6,
+    "created_at": "2025-06-29"
+  },
+  {
+    "owner": "ComposioHQ",
+    "repo": "awesome-claude-skills",
+    "added": "2026-05-18",
+    "notes": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "stars_at_add": 60378,
+    "stars_per_day_at_add": 283.5,
+    "created_at": "2025-10-17"
+  },
+  {
+    "owner": "code-yeongyu",
+    "repo": "oh-my-openagent",
+    "added": "2026-05-18",
+    "notes": "omo; the best agent harness - previously oh-my-opencode",
+    "stars_at_add": 58321,
+    "stars_per_day_at_add": 351.3,
+    "created_at": "2025-12-03"
+  },
+  {
+    "owner": "koala73",
+    "repo": "worldmonitor",
+    "added": "2026-05-18",
+    "notes": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+    "stars_at_add": 54365,
+    "stars_per_day_at_add": 421.4,
+    "created_at": "2026-01-08"
+  },
+  {
+    "owner": "shanraisshan",
+    "repo": "claude-code-best-practice",
+    "added": "2026-05-18",
+    "notes": "from vibe coding to agentic engineering - practice makes claude perfect",
+    "stars_at_add": 53495,
+    "stars_per_day_at_add": 270.2,
+    "created_at": "2025-10-31"
+  },
+  {
+    "owner": "FlowiseAI",
+    "repo": "Flowise",
+    "added": "2026-05-18",
+    "notes": "Build AI Agents, Visually",
+    "stars_at_add": 52899,
+    "stars_per_day_at_add": 46.3,
+    "created_at": "2023-03-31"
+  },
+  {
+    "owner": "MemPalace",
+    "repo": "mempalace",
+    "added": "2026-05-18",
+    "notes": "The best-benchmarked open-source AI memory system. And it's free.",
+    "stars_at_add": 52397,
+    "stars_per_day_at_add": 1218.5,
+    "created_at": "2026-04-05"
   }
 ]
