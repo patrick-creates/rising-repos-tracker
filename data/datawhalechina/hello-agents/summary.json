@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:36:26.661Z",
+  "model": "gpt-4o-mini",
+  "summary": "Hello-Agents is a comprehensive tutorial project aimed at teaching the design and implementation of intelligent agent systems, blending theory with practical applications. It addresses the lack of systematic and practical resources in the field, guiding users from basic concepts to advanced implementations.",
+  "use_cases": [
+    "Building a personal AI travel assistant",
+    "Developing multi-agent applications for simulations",
+    "Creating a custom intelligent agent framework using OpenAI APIs"
+  ],
+  "similar_tools": [
+    "Rasa",
+    "Dialogflow"
+  ],
+  "tags": [
+    "ai",
+    "agents",
+    "tutorial"
+  ]
+}

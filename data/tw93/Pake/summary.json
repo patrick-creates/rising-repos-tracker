@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:36:42.251Z",
+  "model": "gpt-4o-mini",
+  "summary": "Pake is a tool that allows users to convert any webpage into a lightweight desktop application with minimal setup, supporting macOS, Windows, and Linux. It aims to provide a fast and easy way to package web applications, making them accessible as standalone apps.",
+  "use_cases": [
+    "Creating a desktop app for a personal blog",
+    "Packaging a web-based task manager as a desktop application",
+    "Turning an online music streaming service into a standalone app"
+  ],
+  "similar_tools": [
+    "Electron",
+    "NW.js"
+  ],
+  "tags": [
+    "desktop",
+    "webapp",
+    "packaging"
+  ]
+}

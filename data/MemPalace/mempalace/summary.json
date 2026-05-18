@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:36:23.196Z",
+  "model": "gpt-4o-mini",
+  "summary": "MemPalace is a local-first AI memory tool that stores conversation history as verbatim text and retrieves it using semantic search without relying on external APIs. It aims to enhance personal knowledge management by organizing information into structured categories for easy access and retrieval.",
+  "use_cases": [
+    "Storing and retrieving project-related conversations",
+    "Managing personal notes and ideas",
+    "Tracking discussions and decisions in collaborative projects"
+  ],
+  "similar_tools": [
+    "Notion",
+    "Roam Research"
+  ],
+  "tags": [
+    "ai",
+    "memory",
+    "knowledge management"
+  ]
+}

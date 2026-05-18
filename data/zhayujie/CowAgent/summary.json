@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:36:56.976Z",
+  "model": "gpt-4o-mini",
+  "summary": "CowAgent is a versatile AI assistant framework that enables users to perform complex tasks through various models and channels, supporting multi-modal interactions. It aims to provide a customizable and efficient solution for personal and enterprise-level AI applications.",
+  "use_cases": [
+    "automating customer support via WeChat",
+    "creating a personal knowledge base for research",
+    "integrating AI capabilities into business workflows"
+  ],
+  "similar_tools": [
+    "OpenAI GPT",
+    "Rasa"
+  ],
+  "tags": [
+    "ai",
+    "assistant",
+    "automation"
+  ]
+}

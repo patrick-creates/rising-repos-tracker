@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:36:49.276Z",
+  "model": "gpt-4o-mini",
+  "summary": "Career-Ops is an AI-powered job search system that automates the application tracking process, helping candidates evaluate job offers and generate tailored CVs. It aims to streamline the job search experience by providing a structured evaluation and personalized recommendations.",
+  "use_cases": [
+    "Evaluating multiple job offers simultaneously",
+    "Generating customized CVs for specific job applications",
+    "Tracking job applications in a centralized system"
+  ],
+  "similar_tools": [
+    "Jobscan",
+    "Hired"
+  ],
+  "tags": [
+    "job search",
+    "AI",
+    "resume"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:37:09.312Z",
+  "model": "gpt-4o-mini",
+  "summary": "This repository collects and shares extracted system prompts, messages, and developer instructions from various AI chatbots and coding assistants, including ChatGPT and Claude. It aims to provide insights into the underlying mechanisms of these AI models, facilitating research and development in the field of artificial intelligence.",
+  "use_cases": [
+    "Researchers analyzing AI behavior",
+    "Developers improving chatbot interactions",
+    "Educators teaching AI concepts"
+  ],
+  "similar_tools": [
+    "PromptBase",
+    "AI Dungeon"
+  ],
+  "tags": [
+    "ai",
+    "prompts",
+    "extraction"
+  ]
+}

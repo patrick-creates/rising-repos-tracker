@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:36:45.885Z",
+  "model": "gpt-4o-mini",
+  "summary": "LiteLLM is an open-source AI Gateway that provides a unified interface to interact with over 100 LLM providers using the OpenAI format, simplifying the integration process. It serves as both a Python SDK for direct library use and a deployable proxy server for centralized team access.",
+  "use_cases": [
+    "Integrating multiple LLMs into a single application",
+    "Switching between LLM providers without code changes",
+    "Managing API keys and usage tracking for different LLMs"
+  ],
+  "similar_tools": [
+    "LangChain",
+    "Hugging Face Transformers"
+  ],
+  "tags": [
+    "ai",
+    "llm",
+    "gateway"
+  ]
+}

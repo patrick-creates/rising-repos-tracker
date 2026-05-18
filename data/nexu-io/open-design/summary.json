@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:37:00.415Z",
+  "model": "gpt-4o-mini",
+  "summary": "Open Design is an open-source, agent-native design tool that serves as an alternative to proprietary software like Claude Design and Figma. It allows users to leverage existing coding agents on their local machines to create design artifacts without vendor lock-in.",
+  "use_cases": [
+    "Creating a magazine-style pitch deck for fundraising",
+    "Designing a brand identity using a checklist-driven workflow",
+    "Generating marketing materials with customizable templates"
+  ],
+  "similar_tools": [
+    "Figma",
+    "Adobe XD"
+  ],
+  "tags": [
+    "design",
+    "open-source",
+    "local-first"
+  ]
+}

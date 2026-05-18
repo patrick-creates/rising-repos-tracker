@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:36:37.234Z",
+  "model": "gpt-4o-mini",
+  "summary": "OpenSpec is a lightweight specification framework designed to enhance collaboration between AI coding assistants and developers by establishing clear project requirements before coding begins. It allows users to organize their development process fluidly, ensuring that each change is well-documented and aligned with project goals.",
+  "use_cases": [
+    "proposing new features for a software project",
+    "organizing project specifications and tasks",
+    "collaborating with AI coding assistants to implement changes"
+  ],
+  "similar_tools": [
+    "Spec Kit",
+    "Kiro"
+  ],
+  "tags": [
+    "specification",
+    "ai",
+    "development"
+  ]
+}

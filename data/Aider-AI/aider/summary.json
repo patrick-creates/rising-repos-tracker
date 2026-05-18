@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:36:52.616Z",
+  "model": "gpt-4o-mini",
+  "summary": "Aider is an AI-powered coding assistant that integrates with your terminal, enabling users to pair program with large language models (LLMs) to enhance coding efficiency and productivity. It supports various programming languages and offers features like code mapping, Git integration, and voice-to-code capabilities.",
+  "use_cases": [
+    "Generating code snippets based on user input",
+    "Automatically committing changes to a Git repository",
+    "Providing real-time code suggestions and improvements during development"
+  ],
+  "similar_tools": [
+    "GitHub Copilot",
+    "Tabnine"
+  ],
+  "tags": [
+    "ai",
+    "coding",
+    "productivity"
+  ]
+}

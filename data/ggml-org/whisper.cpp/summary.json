@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:36:30.222Z",
+  "model": "gpt-4o-mini",
+  "summary": "The whisper.cpp repository provides a high-performance implementation of OpenAI's Whisper automatic speech recognition model in C/C++, optimized for various architectures and platforms. It allows for efficient on-device transcription of audio files with minimal dependencies and runtime memory usage.",
+  "use_cases": [
+    "Transcribing audio files for accessibility purposes",
+    "Building offline voice assistant applications",
+    "Implementing real-time speech recognition in mobile apps"
+  ],
+  "similar_tools": [
+    "Mozilla DeepSpeech",
+    "Kaldi"
+  ],
+  "tags": [
+    "speech recognition",
+    "audio processing",
+    "machine learning"
+  ]
+}

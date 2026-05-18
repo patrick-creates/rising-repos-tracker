@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:37:06.397Z",
+  "model": "gpt-4o-mini",
+  "summary": "nanobot is an open-source AI agent designed for efficient and practical deployment, enabling users to create long-running personal agents with minimal setup. It supports various chat channels and features like memory and multi-step objectives to enhance user interaction.",
+  "use_cases": [
+    "personal assistant for task management",
+    "automated customer support agent",
+    "interactive chatbot for educational purposes"
+  ],
+  "similar_tools": [
+    "Rasa",
+    "Dialogflow"
+  ],
+  "tags": [
+    "ai",
+    "chatbot",
+    "automation"
+  ]
+}

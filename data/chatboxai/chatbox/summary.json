@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:37:12.690Z",
+  "model": "gpt-4o-mini",
+  "summary": "The Chatbox repository provides an open-source desktop client for interacting with various AI language models, including ChatGPT and Claude. It aims to enhance user experience with features like local data storage, a user-friendly interface, and support for multiple platforms.",
+  "use_cases": [
+    "A user wants to chat with AI for writing assistance on their desktop.",
+    "A team collaborates on AI-driven projects using shared resources.",
+    "A developer tests different AI models locally without complex setups."
+  ],
+  "similar_tools": [
+    "ChatGPT Desktop",
+    "Replika"
+  ],
+  "tags": [
+    "ai",
+    "desktop",
+    "open-source"
+  ]
+}

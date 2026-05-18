@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T08:36:34.131Z",
+  "model": "gpt-4o-mini",
+  "summary": "RTK is a high-performance CLI proxy designed to significantly reduce token consumption in language model interactions by filtering and compressing command outputs. It supports over 100 commands with minimal overhead, making it ideal for developers working with AI tools.",
+  "use_cases": [
+    "Optimizing command outputs for AI tools like Claude Code and Copilot",
+    "Reducing token usage during extensive Git operations",
+    "Enhancing the efficiency of test runner outputs for better readability"
+  ],
+  "similar_tools": [
+    "OpenAI API",
+    "Hugging Face Transformers"
+  ],
+  "tags": [
+    "cli",
+    "ai",
+    "optimization"
+  ]
+}
