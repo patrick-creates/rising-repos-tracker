@@ -2,6 +2,7 @@
 
 > Automatically tracks daily GitHub stats (stars, forks, issues, velocity) for rising open source repos.
 
+[![Maintained by Telosignal](https://img.shields.io/badge/Maintained%20by-Telosignal-green)](https://www.telosignal.com/)
 ![Last updated](https://img.shields.io/github/last-commit/patrick-creates/rising-repos-tracker?label=last+updated&color=238636)
 ![Repos tracked](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/patrick-creates/rising-repos-tracker/main/repos.json&query=%24.length&label=repos+tracked&color=1f6feb)
 ![Collect](https://img.shields.io/github/actions/workflow/status/patrick-creates/rising-repos-tracker/collect.yml?label=collect&logo=github-actions&logoColor=white)
@@ -11,6 +12,8 @@
 ![License](https://img.shields.io/github/license/patrick-creates/rising-repos-tracker)
 
 **[→ View Live Dashboard](https://patrick-creates.github.io/rising-repos-tracker/)**
+
+Built and maintained by [Telosignal](https://www.telosignal.com/).
 
 ![Dashboard preview](./preview.png)
 
