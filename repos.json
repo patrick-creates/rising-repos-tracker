@@ -409,5 +409,140 @@
     "stars_at_add": 39882,
     "stars_per_day_at_add": 160.8,
     "created_at": "2025-09-11"
+  },
+  {
+    "owner": "affaan-m",
+    "repo": "ECC",
+    "added": "2026-05-25",
+    "notes": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "stars_at_add": 191421,
+    "stars_per_day_at_add": 1507.3,
+    "created_at": "2026-01-18"
+  },
+  {
+    "owner": "ruvnet",
+    "repo": "RuView",
+    "added": "2026-05-25",
+    "notes": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+    "stars_at_add": 65607,
+    "stars_per_day_at_add": 186.4,
+    "created_at": "2025-06-07"
+  },
+  {
+    "owner": "ZhuLinsen",
+    "repo": "daily_stock_analysis",
+    "added": "2026-05-25",
+    "notes": "LLM驱动的 A/H/美股智能分析：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.",
+    "stars_at_add": 38787,
+    "stars_per_day_at_add": 287.3,
+    "created_at": "2026-01-10"
+  },
+  {
+    "owner": "sickn33",
+    "repo": "antigravity-awesome-skills",
+    "added": "2026-05-25",
+    "notes": "Installable GitHub library of 1,400+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes installer CLI, bundles, workflows, and official/community skill collections.",
+    "stars_at_add": 38611,
+    "stars_per_day_at_add": 297,
+    "created_at": "2026-01-14"
+  },
+  {
+    "owner": "chatanywhere",
+    "repo": "GPT_API_free",
+    "added": "2026-05-25",
+    "notes": "Free ChatGPT&DeepSeek API Key，免费ChatGPT&DeepSeek API。免费接入DeepSeek API和GPT4 API，支持 gpt | deepseek | claude | gemini | grok 等排名靠前的常用大模型。",
+    "stars_at_add": 38148,
+    "stars_per_day_at_add": 33.8,
+    "created_at": "2023-04-23"
+  },
+  {
+    "owner": "danny-avila",
+    "repo": "LibreChat",
+    "added": "2026-05-25",
+    "notes": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.",
+    "stars_at_add": 37440,
+    "stars_per_day_at_add": 31.3,
+    "created_at": "2023-02-12"
+  },
+  {
+    "owner": "google",
+    "repo": "langextract",
+    "added": "2026-05-25",
+    "notes": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+    "stars_at_add": 36541,
+    "stars_per_day_at_add": 114.2,
+    "created_at": "2025-07-08"
+  },
+  {
+    "owner": "wshobson",
+    "repo": "agents",
+    "added": "2026-05-25",
+    "notes": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI",
+    "stars_at_add": 35911,
+    "stars_per_day_at_add": 118.1,
+    "created_at": "2025-07-24"
+  },
+  {
+    "owner": "QuantumNous",
+    "repo": "new-api",
+    "added": "2026-05-25",
+    "notes": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
+    "stars_at_add": 35281,
+    "stars_per_day_at_add": 38.1,
+    "created_at": "2023-11-10"
+  },
+  {
+    "owner": "Yeachan-Heo",
+    "repo": "oh-my-claudecode",
+    "added": "2026-05-25",
+    "notes": "Teams-first Multi-agent orchestration for Claude Code",
+    "stars_at_add": 34785,
+    "stars_per_day_at_add": 255.8,
+    "created_at": "2026-01-09"
+  },
+  {
+    "owner": "router-for-me",
+    "repo": "CLIProxyAPI",
+    "added": "2026-05-25",
+    "notes": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
+    "stars_at_add": 34666,
+    "stars_per_day_at_add": 106,
+    "created_at": "2025-07-01"
+  },
+  {
+    "owner": "Hmbown",
+    "repo": "CodeWhale",
+    "added": "2026-05-25",
+    "notes": "Agentic coding terminal. DeepSeek-first, multi-provider, cache-maximal, whale-themed. Five-locale UI, CN-region endpoint, CNB mirror.",
+    "stars_at_add": 34465,
+    "stars_per_day_at_add": 275.7,
+    "created_at": "2026-01-19"
+  },
+  {
+    "owner": "songquanpeng",
+    "repo": "one-api",
+    "added": "2026-05-25",
+    "notes": "LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.",
+    "stars_at_add": 34193,
+    "stars_per_day_at_add": 30.3,
+    "created_at": "2023-04-22"
+  },
+  {
+    "owner": "PDFMathTranslate",
+    "repo": "PDFMathTranslate",
+    "added": "2026-05-25",
+    "notes": "[EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero",
+    "stars_at_add": 34004,
+    "stars_per_day_at_add": 54.3,
+    "created_at": "2024-09-06"
+  },
+  {
+    "owner": "github",
+    "repo": "awesome-copilot",
+    "added": "2026-05-25",
+    "notes": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+    "stars_at_add": 33761,
+    "stars_per_day_at_add": 97.3,
+    "created_at": "2025-06-11"
   }
 ]
