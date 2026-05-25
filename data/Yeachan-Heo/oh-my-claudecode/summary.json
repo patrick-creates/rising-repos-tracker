@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-25T08:49:41.761Z",
+  "model": "gpt-4o-mini",
+  "summary": "oh-my-claudecode is a multi-agent orchestration tool designed for Claude Code, enabling users to automate tasks without needing to learn the underlying code. It simplifies the development process by allowing users to interact with the system using natural language commands.",
+  "use_cases": [
+    "automating the creation of a REST API",
+    "conducting code reviews with AI assistance",
+    "managing team workflows in software development"
+  ],
+  "similar_tools": [
+    "GitHub Copilot",
+    "OpenAI Codex"
+  ],
+  "tags": [
+    "automation",
+    "orchestration",
+    "ai"
+  ]
+}

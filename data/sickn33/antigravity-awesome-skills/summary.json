@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-25T08:48:29.492Z",
+  "model": "gpt-4o-mini",
+  "summary": "Antigravity Awesome Skills is a GitHub library offering over 1,465 reusable skills for various AI coding assistants, designed to enhance productivity through structured operating instructions. It provides a searchable catalog of skills, bundles, and workflows to streamline the development process for users.",
+  "use_cases": [
+    "Planning a SaaS MVP using @brainstorming",
+    "Debugging code with specific skill sets",
+    "Conducting security reviews with tailored workflows"
+  ],
+  "similar_tools": [
+    "Prompt Engineering Toolkit",
+    "Skill Builder for AI"
+  ],
+  "tags": [
+    "skills",
+    "ai",
+    "productivity"
+  ]
+}

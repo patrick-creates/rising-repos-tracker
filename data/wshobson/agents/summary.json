@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-25T08:49:15.998Z",
+  "model": "gpt-4o-mini",
+  "summary": "The Agentic Plugin Marketplace provides a collection of production-ready plugins, agents, skills, and commands for building workflows compatible with various AI harnesses like Claude Code and OpenAI Codex. It aims to streamline the integration and usage of specialized tools across different development environments.",
+  "use_cases": [
+    "Automating Python development tasks with specific plugins",
+    "Coordinating multi-agent workflows for security assessments",
+    "Enhancing documentation generation through specialized skills"
+  ],
+  "similar_tools": [
+    "Zapier",
+    "IFTTT"
+  ],
+  "tags": [
+    "plugins",
+    "automation",
+    "ai"
+  ]
+}

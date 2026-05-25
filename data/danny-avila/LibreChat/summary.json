@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-25T08:49:01.685Z",
+  "model": "gpt-4o-mini",
+  "summary": "LibreChat is an open-source AI-powered chat platform that offers a customizable user interface and supports various AI models for enhanced conversational experiences. It aims to provide users with a versatile tool for building and deploying AI-driven chat applications with advanced features like multimodal interactions and secure access.",
+  "use_cases": [
+    "building a customer support chatbot",
+    "creating a personalized AI assistant for task management",
+    "developing a collaborative tool for team communication"
+  ],
+  "similar_tools": [
+    "ChatGPT",
+    "Microsoft Bot Framework"
+  ],
+  "tags": [
+    "chatbot",
+    "ai",
+    "open-source"
+  ]
+}

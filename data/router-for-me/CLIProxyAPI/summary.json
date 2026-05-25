@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-25T08:49:49.576Z",
+  "model": "gpt-4o-mini",
+  "summary": "CLI Proxy API is a proxy server that provides compatible API interfaces for various AI models, enabling users to access multiple accounts through a command-line interface. It simplifies the integration of AI capabilities for developers and teams by offering load balancing and support for various models like OpenAI, Claude, and Gemini.",
+  "use_cases": [
+    "Accessing multiple AI models from a single CLI interface",
+    "Managing API keys and usage statistics for different AI accounts",
+    "Integrating AI capabilities into development tools like Amp CLI"
+  ],
+  "similar_tools": [
+    "OpenAI API",
+    "Hugging Face Transformers"
+  ],
+  "tags": [
+    "api",
+    "proxy",
+    "cli"
+  ]
+}

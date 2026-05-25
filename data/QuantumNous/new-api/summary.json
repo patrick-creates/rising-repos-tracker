@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-25T08:49:27.839Z",
+  "model": "gpt-4o-mini",
+  "summary": "The New API is a next-generation AI asset management system and API gateway that facilitates organization-level authentication, multi-model management, and usage analytics. It aims to provide a lawful and efficient means for businesses to deploy and manage AI services while ensuring compliance with relevant regulations.",
+  "use_cases": [
+    "Managing multiple AI model APIs for a business",
+    "Tracking usage and costs of AI services within an organization",
+    "Deploying a private AI service with user authentication"
+  ],
+  "similar_tools": [
+    "Postman",
+    "RapidAPI"
+  ],
+  "tags": [
+    "api",
+    "ai",
+    "management"
+  ]
+}

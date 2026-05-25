@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-25T08:47:38.749Z",
+  "model": "gpt-4o-mini",
+  "summary": "ECC is a comprehensive operator system designed for agentic work, providing tools for skills, memory optimization, and continuous learning. It aims to enhance productivity and efficiency in AI-driven development environments by integrating various AI agent harnesses.",
+  "use_cases": [
+    "Automating project management tasks with AI agents",
+    "Optimizing code generation using AI tools",
+    "Enhancing security scanning processes in software development"
+  ],
+  "similar_tools": [
+    "GitHub Copilot",
+    "OpenAI Codex"
+  ],
+  "tags": [
+    "ai",
+    "automation",
+    "productivity"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-25T08:50:39.794Z",
+  "model": "gpt-4o-mini",
+  "summary": "Awesome GitHub Copilot is a community-driven repository that provides a collection of custom agents, instructions, skills, hooks, workflows, and plugins to enhance the GitHub Copilot experience. It aims to streamline the integration and usage of AI-powered coding tools for developers.",
+  "use_cases": [
+    "Automating coding standards in a project",
+    "Integrating custom AI agents with GitHub workflows",
+    "Creating reusable coding recipes for Copilot APIs"
+  ],
+  "similar_tools": [
+    "GitHub Actions",
+    "Jenkins"
+  ],
+  "tags": [
+    "github",
+    "copilot",
+    "automation"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-25T08:48:00.958Z",
+  "model": "gpt-4o-mini",
+  "summary": "RuView is a WiFi sensing platform that transforms ordinary WiFi signals into spatial intelligence, enabling the detection of people, monitoring of vital signs, and tracking of movements through walls without the need for cameras or wearables. It aims to provide contactless monitoring solutions for various environments using low-cost ESP32 sensors and advanced machine learning techniques.",
+  "use_cases": [
+    "monitoring elderly individuals for falls",
+    "detecting occupancy in smart homes",
+    "tracking movement patterns in retail spaces"
+  ],
+  "similar_tools": [
+    "CleverTap",
+    "Sensemetrics"
+  ],
+  "tags": [
+    "wifi",
+    "sensing",
+    "monitoring"
+  ]
+}

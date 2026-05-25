@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-25T08:48:44.398Z",
+  "model": "gpt-4o-mini",
+  "summary": "The GPT_API_free repository provides free access to various AI models, including GPT-5 and DeepSeek, allowing users to integrate advanced AI capabilities into their applications without the need for proxies. It aims to facilitate easy access to powerful AI tools while ensuring user privacy and offering a paid option for enhanced features.",
+  "use_cases": [
+    "building chatbots for customer support",
+    "developing educational tools for language learning",
+    "creating content generation applications for blogs and social media"
+  ],
+  "similar_tools": [
+    "OpenAI API",
+    "Hugging Face Transformers"
+  ],
+  "tags": [
+    "api",
+    "ai",
+    "gpt"
+  ]
+}

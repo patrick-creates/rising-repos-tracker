@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-25T08:47:30.240Z",
+  "model": "gpt-4o-mini",
+  "summary": "ChromeDevTools/chrome-devtools-mcp allows coding agents to control and inspect a live Chrome browser through a Model-Context-Protocol (MCP) server, facilitating automation and debugging. It provides access to Chrome DevTools features for performance analysis and reliable browser automation.",
+  "use_cases": [
+    "Automating web testing with Puppeteer",
+    "Debugging web applications by inspecting network requests",
+    "Gathering performance insights through trace recording"
+  ],
+  "similar_tools": [
+    "Puppeteer",
+    "Selenium"
+  ],
+  "tags": [
+    "automation",
+    "debugging",
+    "performance"
+  ]
+}

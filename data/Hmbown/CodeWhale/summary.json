@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-25T08:50:04.092Z",
+  "model": "gpt-4o-mini",
+  "summary": "CodeWhale is a terminal-based coding agent that leverages DeepSeek models to assist with coding tasks by reading, editing files, and executing commands. It aims to enhance productivity for developers by providing a powerful tool that integrates various coding functionalities in one interface.",
+  "use_cases": [
+    "automating code reviews",
+    "managing git repositories",
+    "performing complex file operations"
+  ],
+  "similar_tools": [
+    "GitHub Copilot",
+    "Tabnine"
+  ],
+  "tags": [
+    "coding",
+    "automation",
+    "terminal"
+  ]
+}

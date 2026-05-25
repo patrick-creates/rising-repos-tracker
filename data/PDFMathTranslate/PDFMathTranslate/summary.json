@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-25T08:50:27.928Z",
+  "model": "gpt-4o-mini",
+  "summary": "PDFMathTranslate is a tool designed for translating scientific PDF documents while preserving their original layouts, including formulas and charts. It supports multiple languages and offers various usage methods, including command-line, GUI, and Docker deployment.",
+  "use_cases": [
+    "Translating academic papers from English to Chinese",
+    "Converting technical manuals while maintaining formatting",
+    "Translating research reports for international collaboration"
+  ],
+  "similar_tools": [
+    "Google Translate",
+    "DeepL"
+  ],
+  "tags": [
+    "translation",
+    "pdf",
+    "science"
+  ]
+}

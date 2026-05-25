@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-25T08:49:08.817Z",
+  "model": "gpt-4o-mini",
+  "summary": "LangExtract is a Python library designed to extract structured information from unstructured text documents using large language models (LLMs). It enables precise data extraction with a focus on source grounding, making it suitable for various domains such as healthcare and literature analysis.",
+  "use_cases": [
+    "extracting clinical notes for patient information",
+    "analyzing literary texts for character relationships",
+    "structuring radiology reports for better data management"
+  ],
+  "similar_tools": [
+    "spaCy",
+    "NLTK"
+  ],
+  "tags": [
+    "text extraction",
+    "llm",
+    "python"
+  ]
+}

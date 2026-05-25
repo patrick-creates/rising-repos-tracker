@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-25T08:48:08.289Z",
+  "model": "gpt-4o-mini",
+  "summary": "The repository provides an intelligent stock analysis system that leverages AI models to analyze A-shares, Hong Kong stocks, and US stocks, delivering automated decision dashboards to various messaging platforms. It aims to assist users in making informed investment decisions through daily analysis and insights.",
+  "use_cases": [
+    "Automating daily stock analysis for investment decisions",
+    "Sending stock performance reports to team communication tools",
+    "Integrating multiple data sources for comprehensive market insights"
+  ],
+  "similar_tools": [
+    "TradingView",
+    "Yahoo Finance"
+  ],
+  "tags": [
+    "stock",
+    "analysis",
+    "AI"
+  ]
+}
