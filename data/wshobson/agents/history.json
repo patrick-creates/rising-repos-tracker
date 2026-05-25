@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-05-25",
+    "stars": 35936,
+    "forks": 3908,
+    "watchers": 313,
+    "open_issues": 7,
+    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI"
+  }
+]

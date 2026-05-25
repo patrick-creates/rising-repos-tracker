@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-05-25",
+    "stars": 36555,
+    "forks": 2519,
+    "watchers": 161,
+    "open_issues": 101,
+    "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-05-25",
+    "stars": 35357,
+    "forks": 7905,
+    "watchers": 106,
+    "open_issues": 683,
+    "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥"
+  }
+]
