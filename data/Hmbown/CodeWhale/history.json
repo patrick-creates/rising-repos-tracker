@@ -22,5 +22,13 @@
     "watchers": 143,
     "open_issues": 424,
     "description": "DeepSeek v4 coding agent in terminal"
+  },
+  {
+    "date": "2026-05-28",
+    "stars": 35479,
+    "forks": 3041,
+    "watchers": 144,
+    "open_issues": 451,
+    "description": "DeepSeek + MiMo coding agent in terminal"
   }
 ]
