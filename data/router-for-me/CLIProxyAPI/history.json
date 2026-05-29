@@ -30,5 +30,13 @@
     "watchers": 82,
     "open_issues": 371,
     "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API"
+  },
+  {
+    "date": "2026-05-29",
+    "stars": 35336,
+    "forks": 5854,
+    "watchers": 82,
+    "open_issues": 381,
+    "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API"
   }
 ]

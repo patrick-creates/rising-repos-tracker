@@ -20,24 +20,24 @@ Built and maintained by [Telosignal](https://www.telosignal.com/).
 <!-- AUTOGEN-STATS-START -->
 ## 📊 Current snapshot
 
-> Auto-updated daily — last refreshed 2026-05-28
+> Auto-updated daily — last refreshed 2026-05-29
 
 | Metric | Value |
 |---|---|
 | Repos tracked | **61** |
-| Total stars | **4,627,074** |
-| Total forks | **810,012** |
-| Fastest growing | **hermes-agent** (+1517.5/day) |
+| Total stars | **4,642,193** |
+| Total forks | **812,099** |
+| Fastest growing | **hermes-agent** (+1506.1/day) |
 
 ### 🔥 Top 5 by velocity
 
 | # | Repo | Stars | Stars/day |
 |---|---|---:|---:|
-| 1 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 170,807 | +1517.5 |
-| 2 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 196,516 | +1429.0 |
-| 3 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 196,516 | +1031.2 |
-| 4 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 54,365 | +1019.1 |
-| 5 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 83,265 | +922.1 |
+| 1 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 172,142 | +1506.1 |
+| 2 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 197,863 | +1408.5 |
+| 3 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 197,862 | +1050.9 |
+| 4 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 55,130 | +996.0 |
+| 5 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 84,236 | +926.5 |
 
 ### 🆕 Recently added
 
@@ -97,67 +97,67 @@ graph LR
 
 | Repo | Stars | Forks | Stars/day |
 |---|---:|---:|---:|
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 375,193 | 78,259 | +248.1 |
-| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 196,516 | 30,237 | +1031.2 |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 196,516 | 30,237 | +1429.0 |
-| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 184,596 | 46,208 | +21.0 |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 170,807 | 28,589 | +1517.5 |
-| [f/prompts.chat](https://github.com/f/prompts.chat) | 162,946 | 21,188 | +51.6 |
-| [langgenius/dify](https://github.com/langgenius/dify) | 142,961 | 22,483 | +115.7 |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 138,971 | 19,902 | +138.6 |
-| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 137,852 | 22,810 | +81.1 |
-| [microsoft/markitdown](https://github.com/microsoft/markitdown) | 126,451 | 8,640 | +229.5 |
-| [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 111,457 | 59,822 | +47.0 |
-| [github/spec-kit](https://github.com/github/spec-kit) | 106,619 | 9,430 | +583.9 |
-| [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) | 88,100 | 59,685 | +6.3 |
-| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 83,935 | 8,656 | +402.8 |
-| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 83,265 | 5,413 | +922.1 |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 81,228 | 17,340 | +89.6 |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 79,272 | 6,808 | +259.5 |
-| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 77,850 | 15,315 | +56.8 |
-| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 75,119 | 9,526 | +118.7 |
-| [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | 75,022 | 8,124 | +32.1 |
-| [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | 73,824 | 12,489 | +21.5 |
-| [ruvnet/RuView](https://github.com/ruvnet/RuView) | 66,869 | 8,870 | +325.3 |
-| [xtekky/gpt4free](https://github.com/xtekky/gpt4free) | 66,263 | 13,584 | +2.2 |
-| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 65,756 | 3,709 | +424.4 |
-| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 65,234 | 5,799 | +73.4 |
-| [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 63,180 | 10,326 | +210.3 |
-| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 62,211 | 6,816 | +182.3 |
-| [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) | 59,891 | 4,877 | +156.3 |
-| [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 55,484 | 3,396 | +590.6 |
-| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 55,243 | 5,555 | +174.5 |
-| [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | 55,015 | 8,849 | +64.7 |
-| [nexu-io/open-design](https://github.com/nexu-io/open-design) | 54,365 | 6,160 | +1019.1 |
-| [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 54,244 | 6,637 | +358.4 |
-| [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | 53,147 | 24,420 | +24.7 |
-| [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | 52,969 | 6,988 | +56.9 |
-| [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 51,285 | 3,595 | +249.7 |
-| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 50,201 | 5,579 | +37.5 |
-| [tw93/Pake](https://github.com/tw93/Pake) | 49,445 | 9,991 | +66.6 |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm) | 48,518 | 8,424 | +113.0 |
-| [santifer/career-ops](https://github.com/santifer/career-ops) | 47,542 | 9,897 | +229.6 |
-| [Aider-AI/aider](https://github.com/Aider-AI/aider) | 45,451 | 4,502 | +49.0 |
-| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 45,022 | 3,888 | +92.7 |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 44,914 | 10,149 | +35.9 |
-| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 43,295 | 7,641 | +61.5 |
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 42,074 | 2,687 | +219.0 |
-| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 40,854 | 6,778 | +46.9 |
-| [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | 40,164 | 4,079 | +16.8 |
-| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 39,218 | 37,873 | +126.3 |
-| [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | 38,970 | 6,337 | +97.3 |
-| [chatanywhere/GPT_API_free](https://github.com/chatanywhere/GPT_API_free) | 38,196 | 2,652 | +13.3 |
-| [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) | 37,597 | 7,736 | +42.7 |
-| [google/langextract](https://github.com/google/langextract) | 36,580 | 2,520 | +8.3 |
-| [wshobson/agents](https://github.com/wshobson/agents) | 36,066 | 3,912 | +43.3 |
-| [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | 35,850 | 8,075 | +164.3 |
-| [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) | 35,479 | 3,041 | +269.7 |
-| [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | 35,167 | 5,823 | +141.0 |
-| [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | 35,132 | 3,221 | +102.7 |
-| [songquanpeng/one-api](https://github.com/songquanpeng/one-api) | 34,338 | 6,545 | +42.7 |
-| [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) | 34,144 | 3,062 | +43.3 |
-| [github/awesome-copilot](https://github.com/github/awesome-copilot) | 33,980 | 4,156 | +58.0 |
-| [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | 9,221 | 702 | +7.3 |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 375,395 | 78,322 | +245.3 |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 197,863 | 30,416 | +1408.5 |
+| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 197,862 | 30,416 | +1050.9 |
+| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 184,629 | 46,205 | +21.8 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 172,142 | 28,906 | +1506.1 |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | 163,004 | 21,197 | +52.0 |
+| [langgenius/dify](https://github.com/langgenius/dify) | 143,062 | 22,509 | +114.8 |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 139,130 | 19,939 | +139.9 |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 137,943 | 22,840 | +81.8 |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | 128,319 | 8,798 | +331.9 |
+| [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 111,486 | 59,832 | +45.9 |
+| [github/spec-kit](https://github.com/github/spec-kit) | 106,918 | 9,462 | +566.1 |
+| [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) | 88,107 | 59,687 | +6.4 |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 84,468 | 8,715 | +410.9 |
+| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 84,236 | 5,486 | +926.5 |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 81,334 | 17,381 | +90.6 |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 79,492 | 6,830 | +257.0 |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 77,913 | 15,323 | +57.2 |
+| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 75,236 | 9,540 | +118.5 |
+| [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | 75,053 | 8,126 | +32.0 |
+| [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | 73,842 | 12,492 | +21.2 |
+| [ruvnet/RuView](https://github.com/ruvnet/RuView) | 67,703 | 8,984 | +452.5 |
+| [xtekky/gpt4free](https://github.com/xtekky/gpt4free) | 66,270 | 13,582 | +2.6 |
+| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 66,162 | 3,730 | +422.7 |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 65,294 | 5,812 | +72.2 |
+| [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 63,456 | 10,374 | +216.3 |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 62,368 | 6,830 | +180.0 |
+| [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) | 60,046 | 4,881 | +156.2 |
+| [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 55,969 | 3,428 | +581.0 |
+| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 55,416 | 5,569 | +174.4 |
+| [nexu-io/open-design](https://github.com/nexu-io/open-design) | 55,130 | 6,240 | +996.0 |
+| [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | 55,065 | 8,861 | +63.4 |
+| [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 54,533 | 6,669 | +352.1 |
+| [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | 53,187 | 24,430 | +26.1 |
+| [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | 53,021 | 6,997 | +56.5 |
+| [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 51,544 | 3,610 | +250.5 |
+| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 50,237 | 5,583 | +37.4 |
+| [tw93/Pake](https://github.com/tw93/Pake) | 49,487 | 10,004 | +64.4 |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | 48,648 | 8,453 | +114.5 |
+| [santifer/career-ops](https://github.com/santifer/career-ops) | 47,731 | 9,932 | +225.9 |
+| [Aider-AI/aider](https://github.com/Aider-AI/aider) | 45,492 | 4,508 | +48.3 |
+| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 45,121 | 3,905 | +93.3 |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 44,942 | 10,150 | +35.2 |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 43,351 | 7,650 | +61.0 |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 42,206 | 2,696 | +211.1 |
+| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 40,898 | 6,786 | +46.6 |
+| [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | 40,182 | 4,080 | +16.9 |
+| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 39,334 | 37,987 | +123.8 |
+| [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | 39,066 | 6,354 | +97.0 |
+| [chatanywhere/GPT_API_free](https://github.com/chatanywhere/GPT_API_free) | 38,212 | 2,652 | +14.0 |
+| [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) | 37,638 | 7,748 | +42.3 |
+| [google/langextract](https://github.com/google/langextract) | 36,582 | 2,521 | +6.8 |
+| [wshobson/agents](https://github.com/wshobson/agents) | 36,107 | 3,917 | +42.8 |
+| [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | 36,040 | 8,125 | +170.8 |
+| [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) | 35,838 | 3,064 | +292.0 |
+| [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | 35,336 | 5,854 | +148.0 |
+| [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | 35,259 | 3,231 | +108.8 |
+| [songquanpeng/one-api](https://github.com/songquanpeng/one-api) | 34,396 | 6,553 | +46.5 |
+| [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) | 34,188 | 3,062 | +43.5 |
+| [github/awesome-copilot](https://github.com/github/awesome-copilot) | 34,076 | 4,163 | +67.5 |
+| [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | 9,228 | 702 | +7.3 |
 <!-- AUTOGEN-REPOS-END -->
 
 ---
