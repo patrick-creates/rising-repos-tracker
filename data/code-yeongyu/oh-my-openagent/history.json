@@ -110,5 +110,13 @@
     "watchers": 214,
     "open_issues": 723,
     "description": "omo; the best agent harness - previously oh-my-opencode"
+  },
+  {
+    "date": "2026-06-01",
+    "stars": 60543,
+    "forks": 4921,
+    "watchers": 217,
+    "open_issues": 732,
+    "description": "omo; the one and only agent harness for complex codebases; the pickaxe for complex software engineering"
   }
 ]
