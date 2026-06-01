@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-01T10:06:22.160Z",
+  "model": "gpt-4o-mini",
+  "summary": "OpenClaude is an open-source CLI tool that integrates various cloud and local AI model providers, allowing users to streamline their coding workflows. It supports multiple APIs while maintaining a unified terminal interface for prompts, tools, and agents.",
+  "use_cases": [
+    "Integrating OpenAI and local models for coding tasks",
+    "Setting up and managing multiple AI provider profiles",
+    "Utilizing streaming responses for real-time coding assistance"
+  ],
+  "similar_tools": [
+    "GitHub Copilot",
+    "Tabnine"
+  ],
+  "tags": [
+    "cli",
+    "ai",
+    "coding"
+  ]
+}

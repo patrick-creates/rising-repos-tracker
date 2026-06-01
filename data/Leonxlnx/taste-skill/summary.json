@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-01T10:06:08.488Z",
+  "model": "gpt-4o-mini",
+  "summary": "Taste Skill is an anti-slop frontend framework designed to enhance AI-generated interfaces with improved layout, typography, and motion. It provides a collection of portable agent skills for generating and implementing design elements, making it easier to create visually appealing UIs.",
+  "use_cases": [
+    "Upgrading AI-generated web interfaces with better design",
+    "Generating reference images for branding and UI mockups",
+    "Auditing and redesigning existing projects for improved aesthetics"
+  ],
+  "similar_tools": [
+    "Figma",
+    "Adobe XD"
+  ],
+  "tags": [
+    "frontend",
+    "design",
+    "AI"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-01T10:06:15.682Z",
+  "model": "gpt-4o-mini",
+  "summary": "The Claude Code Plugins Directory is a curated collection of high-quality plugins designed for use with Claude Code, facilitating enhanced functionality and customization. It allows both internal and external developers to contribute plugins that meet specific quality and security standards.",
+  "use_cases": [
+    "Installing a plugin to add new features to Claude Code",
+    "Submitting a third-party plugin for community use",
+    "Exploring and discovering plugins through the marketplace"
+  ],
+  "similar_tools": [
+    "Zapier",
+    "IFTTT"
+  ],
+  "tags": [
+    "plugins",
+    "marketplace",
+    "development"
+  ]
+}

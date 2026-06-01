@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-01T10:06:35.575Z",
+  "model": "gpt-4o-mini",
+  "summary": "Vibe Kanban is a project management tool designed to enhance the productivity of software engineers by facilitating planning and review processes using coding agents. It allows teams to create kanban boards, manage workspaces, and streamline code reviews within a single interface.",
+  "use_cases": [
+    "Managing software development tasks using kanban boards",
+    "Running coding agents in isolated workspaces for development",
+    "Reviewing code changes and providing feedback directly in the UI"
+  ],
+  "similar_tools": [
+    "Trello",
+    "Jira"
+  ],
+  "tags": [
+    "kanban",
+    "project management",
+    "coding agents"
+  ]
+}

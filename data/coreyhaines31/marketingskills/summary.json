@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-01T10:06:05.399Z",
+  "model": "gpt-4o-mini",
+  "summary": "This repository provides a collection of AI agent skills tailored for marketing tasks, enabling technical marketers and founders to optimize conversion, copywriting, SEO, and analytics. It aims to enhance the capabilities of AI coding agents by offering specialized knowledge and workflows for various marketing functions.",
+  "use_cases": [
+    "Optimize website copy for better conversion rates",
+    "Conduct A/B testing for marketing campaigns",
+    "Analyze competitor strategies for improved positioning"
+  ],
+  "similar_tools": [
+    "HubSpot",
+    "Marketo"
+  ],
+  "tags": [
+    "marketing",
+    "ai",
+    "skills"
+  ]
+}

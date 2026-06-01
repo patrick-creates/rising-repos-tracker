@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-01T10:06:41.941Z",
+  "model": "gpt-4o-mini",
+  "summary": "Strix is an open-source AI-powered security tool designed to identify and remediate vulnerabilities in applications through automated penetration testing. It streamlines the security assessment process for developers and security teams, reducing the time and effort needed for manual testing.",
+  "use_cases": [
+    "automated security testing for web applications",
+    "integrating security scans into CI/CD pipelines",
+    "conducting rapid penetration tests for compliance"
+  ],
+  "similar_tools": [
+    "Burp Suite",
+    "OWASP ZAP"
+  ],
+  "tags": [
+    "security",
+    "vulnerability",
+    "automation"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-01T10:06:38.873Z",
+  "model": "gpt-4o-mini",
+  "summary": "This repository provides a comprehensive curriculum for learning AI engineering from scratch, featuring 473 lessons across 20 phases. It aims to bridge the gap between theoretical knowledge and practical application by enabling users to build AI systems end-to-end using multiple programming languages.",
+  "use_cases": [
+    "Students preparing for AI engineering careers",
+    "Developers looking to deepen their understanding of AI algorithms",
+    "Educators creating structured AI courses"
+  ],
+  "similar_tools": [
+    "fast.ai",
+    "Coursera AI courses"
+  ],
+  "tags": [
+    "ai",
+    "education",
+    "curriculum"
+  ]
+}

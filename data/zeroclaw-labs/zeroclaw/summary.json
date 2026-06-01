@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-01T10:06:02.212Z",
+  "model": "gpt-4o-mini",
+  "summary": "ZeroClaw is a personal AI assistant that runs locally, allowing users to control their data and interactions across multiple channels using various LLM providers. It emphasizes security and customization, enabling users to configure agents that can perform tasks through different interfaces and tools.",
+  "use_cases": [
+    "Integrating a personal AI assistant into a Discord server for automated responses",
+    "Using ZeroClaw to manage IoT devices through GPIO on a Raspberry Pi",
+    "Setting up a multi-channel support bot that interacts with users via email and Telegram"
+  ],
+  "similar_tools": [
+    "Rasa",
+    "Botpress"
+  ],
+  "tags": [
+    "ai",
+    "assistant",
+    "automation"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-01T10:06:32.052Z",
+  "model": "gpt-4o-mini",
+  "summary": "The 'gws' CLI tool provides a unified command-line interface for interacting with various Google Workspace APIs, enabling users to manage resources like Drive, Gmail, and Calendar effortlessly. It is designed for both human users and AI agents, offering dynamic command generation and structured JSON output.",
+  "use_cases": [
+    "List recent files in Google Drive",
+    "Send messages in Google Chat",
+    "Create and manage Google Sheets programmatically"
+  ],
+  "similar_tools": [
+    "gcloud",
+    "aws-cli"
+  ],
+  "tags": [
+    "google",
+    "workspace",
+    "cli"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-01T10:06:25.685Z",
+  "model": "gpt-4o-mini",
+  "summary": "AionUi is a free, open-source coworking platform that enables users to collaborate with AI agents for various tasks such as file management, coding, and automation. It simplifies the integration of multiple AI agents, allowing for seamless interaction and productivity enhancement without complex setup requirements.",
+  "use_cases": [
+    "Generating presentations using AI-powered PPT assistant",
+    "Automating spreadsheet creation and analysis with Excel assistant",
+    "Collaborating with multiple AI agents for software development tasks"
+  ],
+  "similar_tools": [
+    "Zapier",
+    "Notion"
+  ],
+  "tags": [
+    "ai",
+    "collaboration",
+    "automation"
+  ]
+}

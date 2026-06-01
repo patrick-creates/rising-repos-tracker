@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-01T10:05:53.947Z",
+  "model": "gpt-4o-mini",
+  "summary": "The kepano/obsidian-skills repository provides a collection of skills designed for use with the Obsidian note-taking application, adhering to the Agent Skills specification. It enables users to create and manage various types of content, such as markdown files and JSON canvases, enhancing their productivity within Obsidian.",
+  "use_cases": [
+    "Creating and editing Obsidian Flavored Markdown files for note-taking",
+    "Managing data in Obsidian Bases for structured information",
+    "Extracting clean markdown from web pages for easy integration into notes"
+  ],
+  "similar_tools": [
+    "Notion",
+    "Roam Research"
+  ],
+  "tags": [
+    "obsidian",
+    "skills",
+    "markdown"
+  ]
+}

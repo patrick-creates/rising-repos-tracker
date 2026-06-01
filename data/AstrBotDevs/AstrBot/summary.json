@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-01T10:05:58.566Z",
+  "model": "gpt-4o-mini",
+  "summary": "AstrBot is an open-source all-in-one chatbot platform that integrates with various instant messaging apps, providing a scalable conversational AI infrastructure. It enables users to build AI applications for personal, customer service, and enterprise use cases quickly and efficiently.",
+  "use_cases": [
+    "Creating a personal AI companion",
+    "Developing an intelligent customer support chatbot",
+    "Automating responses in team collaboration tools like Slack"
+  ],
+  "similar_tools": [
+    "Dialogflow",
+    "Microsoft Bot Framework"
+  ],
+  "tags": [
+    "chatbot",
+    "ai",
+    "open-source"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-01T10:06:18.612Z",
+  "model": "gpt-4o-mini",
+  "summary": "Void is an open-source alternative to Cursor that allows users to utilize AI agents on their codebase, visualize changes, and manage models locally without data retention. The project is currently paused to explore innovative coding ideas rather than focusing on feature parity.",
+  "use_cases": [
+    "Integrating AI agents to assist in code development",
+    "Visualizing code changes over time for better tracking",
+    "Building and maintaining a customized version of the IDE"
+  ],
+  "similar_tools": [
+    "Visual Studio Code",
+    "JetBrains IDEs"
+  ],
+  "tags": [
+    "open-source",
+    "ai",
+    "code-editor"
+  ]
+}

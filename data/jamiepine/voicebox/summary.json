@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-01T10:06:12.020Z",
+  "model": "gpt-4o-mini",
+  "summary": "Voicebox is an open-source AI voice studio that allows users to clone voices, generate speech, and dictate into any application while maintaining complete privacy. It serves as a local-first alternative to existing cloud-based voice synthesis tools, offering a comprehensive voice I/O solution on personal machines.",
+  "use_cases": [
+    "Creating custom voiceovers for videos",
+    "Generating speech for accessibility tools",
+    "Developing interactive voice agents for applications"
+  ],
+  "similar_tools": [
+    "ElevenLabs",
+    "WisprFlow"
+  ],
+  "tags": [
+    "voice",
+    "ai",
+    "synthesis"
+  ]
+}
