@@ -544,5 +544,140 @@
     "stars_at_add": 33761,
     "stars_per_day_at_add": 97.3,
     "created_at": "2025-06-11"
+  },
+  {
+    "owner": "kepano",
+    "repo": "obsidian-skills",
+    "added": "2026-06-01",
+    "notes": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+    "stars_at_add": 33880,
+    "stars_per_day_at_add": 227.4,
+    "created_at": "2026-01-02"
+  },
+  {
+    "owner": "AstrBotDevs",
+    "repo": "AstrBot",
+    "added": "2026-06-01",
+    "notes": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+    "stars_at_add": 33588,
+    "stars_per_day_at_add": 26.4,
+    "created_at": "2022-12-08"
+  },
+  {
+    "owner": "zeroclaw-labs",
+    "repo": "zeroclaw",
+    "added": "2026-06-01",
+    "notes": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
+    "stars_at_add": 31675,
+    "stars_per_day_at_add": 293.3,
+    "created_at": "2026-02-13"
+  },
+  {
+    "owner": "coreyhaines31",
+    "repo": "marketingskills",
+    "added": "2026-06-01",
+    "notes": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+    "stars_at_add": 31438,
+    "stars_per_day_at_add": 231.2,
+    "created_at": "2026-01-15"
+  },
+  {
+    "owner": "Leonxlnx",
+    "repo": "taste-skill",
+    "added": "2026-06-01",
+    "notes": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
+    "stars_at_add": 30397,
+    "stars_per_day_at_add": 301,
+    "created_at": "2026-02-19"
+  },
+  {
+    "owner": "jamiepine",
+    "repo": "voicebox",
+    "added": "2026-06-01",
+    "notes": "The open-source AI voice studio. Clone, dictate, create.",
+    "stars_at_add": 29021,
+    "stars_per_day_at_add": 230.3,
+    "created_at": "2026-01-25"
+  },
+  {
+    "owner": "anthropics",
+    "repo": "claude-plugins-official",
+    "added": "2026-06-01",
+    "notes": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "stars_at_add": 29009,
+    "stars_per_day_at_add": 151.1,
+    "created_at": "2025-11-20"
+  },
+  {
+    "owner": "voideditor",
+    "repo": "void",
+    "added": "2026-06-01",
+    "notes": "",
+    "stars_at_add": 28805,
+    "stars_per_day_at_add": 45.9,
+    "created_at": "2024-09-11"
+  },
+  {
+    "owner": "Gitlawb",
+    "repo": "openclaude",
+    "added": "2026-06-01",
+    "notes": "runs anywhere. uses anything",
+    "stars_at_add": 28134,
+    "stars_per_day_at_add": 461.2,
+    "created_at": "2026-04-01"
+  },
+  {
+    "owner": "iOfficeAI",
+    "repo": "AionUi",
+    "added": "2026-06-01",
+    "notes": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
+    "stars_at_add": 27347,
+    "stars_per_day_at_add": 92.1,
+    "created_at": "2025-08-07"
+  },
+  {
+    "owner": "AlexsJones",
+    "repo": "llmfit",
+    "added": "2026-06-01",
+    "notes": "Hundreds of models & providers. One command to find what runs on your hardware.",
+    "stars_at_add": 26999,
+    "stars_per_day_at_add": 257.1,
+    "created_at": "2026-02-15"
+  },
+  {
+    "owner": "googleworkspace",
+    "repo": "cli",
+    "added": "2026-06-01",
+    "notes": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+    "stars_at_add": 26718,
+    "stars_per_day_at_add": 296.9,
+    "created_at": "2026-03-02"
+  },
+  {
+    "owner": "BloopAI",
+    "repo": "vibe-kanban",
+    "added": "2026-06-01",
+    "notes": "Get 10X more out of Claude Code, Codex or any coding agent",
+    "stars_at_add": 26710,
+    "stars_per_day_at_add": 76.1,
+    "created_at": "2025-06-14"
+  },
+  {
+    "owner": "rohitg00",
+    "repo": "ai-engineering-from-scratch",
+    "added": "2026-06-01",
+    "notes": "Learn it. Build it. Ship it for others.",
+    "stars_at_add": 26338,
+    "stars_per_day_at_add": 355.9,
+    "created_at": "2026-03-18"
+  },
+  {
+    "owner": "usestrix",
+    "repo": "strix",
+    "added": "2026-06-01",
+    "notes": "Open-source AI hackers to find and fix your app’s vulnerabilities.",
+    "stars_at_add": 25710,
+    "stars_per_day_at_add": 86,
+    "created_at": "2025-08-05"
   }
 ]
