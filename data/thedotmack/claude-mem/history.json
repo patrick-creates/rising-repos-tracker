@@ -182,5 +182,13 @@
     "watchers": 279,
     "open_issues": 155,
     "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
+  },
+  {
+    "date": "2026-06-05",
+    "stars": 80752,
+    "forks": 6945,
+    "watchers": 280,
+    "open_issues": 124,
+    "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
   }
 ]
