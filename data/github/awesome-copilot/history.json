@@ -102,5 +102,13 @@
     "watchers": 333,
     "open_issues": 66,
     "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot."
+  },
+  {
+    "date": "2026-06-07",
+    "stars": 34571,
+    "forks": 4247,
+    "watchers": 335,
+    "open_issues": 69,
+    "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot."
   }
 ]
