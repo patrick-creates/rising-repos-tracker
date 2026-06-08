@@ -110,5 +110,13 @@
     "watchers": 129,
     "open_issues": 0,
     "description": "Teams-first Multi-agent orchestration for Claude Code"
+  },
+  {
+    "date": "2026-06-08",
+    "stars": 35990,
+    "forks": 3278,
+    "watchers": 129,
+    "open_issues": 2,
+    "description": "Teams-first Multi-agent orchestration for Claude Code"
   }
 ]

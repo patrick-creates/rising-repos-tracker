@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-06-08",
+    "stars": 24496,
+    "forks": 1090,
+    "watchers": 118,
+    "open_issues": 16,
+    "description": "🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK."
+  }
+]

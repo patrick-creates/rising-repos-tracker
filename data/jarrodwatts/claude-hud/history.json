@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-06-08",
+    "stars": 24690,
+    "forks": 1113,
+    "watchers": 35,
+    "open_issues": 19,
+    "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress"
+  }
+]
