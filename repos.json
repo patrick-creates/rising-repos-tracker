@@ -679,5 +679,140 @@
     "stars_at_add": 25710,
     "stars_per_day_at_add": 86,
     "created_at": "2025-08-05"
+  },
+  {
+    "owner": "mvanhorn",
+    "repo": "last30days-skill",
+    "added": "2026-06-08",
+    "notes": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "stars_at_add": 32536,
+    "stars_per_day_at_add": 241,
+    "created_at": "2026-01-23"
+  },
+  {
+    "owner": "heygen-com",
+    "repo": "hyperframes",
+    "added": "2026-06-08",
+    "notes": "Write HTML. Render video. Built for agents.",
+    "stars_at_add": 25542,
+    "stars_per_day_at_add": 283.8,
+    "created_at": "2026-03-10"
+  },
+  {
+    "owner": "zai-org",
+    "repo": "Open-AutoGLM",
+    "added": "2026-06-08",
+    "notes": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone",
+    "stars_at_add": 25460,
+    "stars_per_day_at_add": 140.7,
+    "created_at": "2025-12-08"
+  },
+  {
+    "owner": "volcengine",
+    "repo": "OpenViking",
+    "added": "2026-06-08",
+    "notes": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
+    "stars_at_add": 25303,
+    "stars_per_day_at_add": 164.3,
+    "created_at": "2026-01-05"
+  },
+  {
+    "owner": "jarrodwatts",
+    "repo": "claude-hud",
+    "added": "2026-06-08",
+    "notes": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+    "stars_at_add": 24682,
+    "stars_per_day_at_add": 157.2,
+    "created_at": "2026-01-02"
+  },
+  {
+    "owner": "toon-format",
+    "repo": "toon",
+    "added": "2026-06-08",
+    "notes": "🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK.",
+    "stars_at_add": 24496,
+    "stars_per_day_at_add": 107.4,
+    "created_at": "2025-10-22"
+  },
+  {
+    "owner": "langchain-ai",
+    "repo": "deepagents",
+    "added": "2026-06-08",
+    "notes": "The batteries-included agent harness.",
+    "stars_at_add": 24150,
+    "stars_per_day_at_add": 76.7,
+    "created_at": "2025-07-27"
+  },
+  {
+    "owner": "p-e-w",
+    "repo": "heretic",
+    "added": "2026-06-08",
+    "notes": "Fully automatic censorship removal for language models",
+    "stars_at_add": 23970,
+    "stars_per_day_at_add": 92.2,
+    "created_at": "2025-09-21"
+  },
+  {
+    "owner": "jackwener",
+    "repo": "OpenCLI",
+    "added": "2026-06-08",
+    "notes": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
+    "stars_at_add": 23794,
+    "stars_per_day_at_add": 279.9,
+    "created_at": "2026-03-14"
+  },
+  {
+    "owner": "Panniantong",
+    "repo": "Agent-Reach",
+    "added": "2026-06-08",
+    "notes": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "stars_at_add": 23456,
+    "stars_per_day_at_add": 225.5,
+    "created_at": "2026-02-24"
+  },
+  {
+    "owner": "winfunc",
+    "repo": "opcode",
+    "added": "2026-06-08",
+    "notes": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.",
+    "stars_at_add": 22004,
+    "stars_per_day_at_add": 62.3,
+    "created_at": "2025-06-19"
+  },
+  {
+    "owner": "rohitg00",
+    "repo": "agentmemory",
+    "added": "2026-06-08",
+    "notes": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+    "stars_at_add": 21817,
+    "stars_per_day_at_add": 211.8,
+    "created_at": "2026-02-25"
+  },
+  {
+    "owner": "coze-dev",
+    "repo": "coze-studio",
+    "added": "2026-06-08",
+    "notes": "An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.",
+    "stars_at_add": 20948,
+    "stars_per_day_at_add": 60.4,
+    "created_at": "2025-06-26"
+  },
+  {
+    "owner": "NirDiamant",
+    "repo": "agents-towards-production",
+    "added": "2026-06-08",
+    "notes": "End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment.",
+    "stars_at_add": 20634,
+    "stars_per_day_at_add": 58,
+    "created_at": "2025-06-16"
+  },
+  {
+    "owner": "esengine",
+    "repo": "DeepSeek-Reasonix",
+    "added": "2026-06-08",
+    "notes": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+    "stars_at_add": 19501,
+    "stars_per_day_at_add": 406.3,
+    "created_at": "2026-04-21"
   }
 ]
