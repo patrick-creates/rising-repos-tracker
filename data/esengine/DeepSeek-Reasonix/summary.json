@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-08T09:15:03.303Z",
+  "model": "gpt-4o-mini",
+  "summary": "DeepSeek-Reasonix is a coding assistant designed for terminal use, leveraging a unique prefix-cache mechanism to optimize token costs during long sessions. It aims to enhance developer productivity by providing AI-driven coding support while maintaining low operational costs.",
+  "use_cases": [
+    "automating code refactoring tasks",
+    "assisting with debugging by suggesting fixes",
+    "generating boilerplate code for new projects"
+  ],
+  "similar_tools": [
+    "GitHub Copilot",
+    "TabNine"
+  ],
+  "tags": [
+    "ai",
+    "coding",
+    "terminal"
+  ]
+}

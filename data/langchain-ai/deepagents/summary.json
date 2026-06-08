@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-08T09:14:33.177Z",
+  "model": "gpt-4o-mini",
+  "summary": "Deep Agents is an open-source agent harness designed for long-horizon, multi-step tasks, allowing users to create customizable AI agents that can manage context, delegate tasks, and interact with various tools. It aims to simplify the development and deployment of AI agents by providing a robust framework built on LangGraph.",
+  "use_cases": [
+    "automating research tasks",
+    "building interactive chatbots",
+    "developing AI-driven data analysis tools"
+  ],
+  "similar_tools": [
+    "LangChain",
+    "Rasa"
+  ],
+  "tags": [
+    "ai",
+    "agents",
+    "automation"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-08T09:14:51.181Z",
+  "model": "gpt-4o-mini",
+  "summary": "The agentmemory repository provides a persistent memory solution for AI coding agents, allowing them to retain context and information across sessions. This enhances the efficiency of interactions with various coding agents by eliminating the need for repetitive explanations.",
+  "use_cases": [
+    "A developer using Claude Code can retrieve past coding sessions without re-explaining context.",
+    "A team can integrate GitHub Copilot CLI with agentmemory to maintain project knowledge over time.",
+    "An AI assistant can utilize agentmemory to remember user preferences and past interactions for personalized responses."
+  ],
+  "similar_tools": [
+    "Memory AI",
+    "Replika"
+  ],
+  "tags": [
+    "memory",
+    "ai",
+    "coding"
+  ]
+}

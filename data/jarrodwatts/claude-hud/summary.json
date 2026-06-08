@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-08T09:14:27.005Z",
+  "model": "gpt-4o-mini",
+  "summary": "Claude HUD is a plugin for Claude Code that provides real-time insights into project context usage, tool activity, agent tracking, and todo progress, enhancing user awareness during coding sessions. It aims to improve productivity by keeping essential information readily visible below the input area.",
+  "use_cases": [
+    "Monitoring context usage while coding to avoid exceeding limits",
+    "Tracking the status of multiple agents running tasks",
+    "Keeping an eye on todo progress to manage tasks effectively"
+  ],
+  "similar_tools": [
+    "Visual Studio Code Status Bar",
+    "JetBrains IDEs Status Bar"
+  ],
+  "tags": [
+    "plugin",
+    "dashboard",
+    "productivity"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-08T09:14:47.586Z",
+  "model": "gpt-4o-mini",
+  "summary": "opcode is a desktop application designed to enhance interaction with Claude Code by providing a graphical user interface for managing projects, sessions, and custom AI agents. It aims to streamline AI-assisted development and usage analytics for developers working with Claude's capabilities.",
+  "use_cases": [
+    "Managing multiple AI coding sessions visually",
+    "Creating and executing custom AI agents for specific tasks",
+    "Tracking API usage and costs in real-time"
+  ],
+  "similar_tools": [
+    "Jupyter Notebook",
+    "Visual Studio Code"
+  ],
+  "tags": [
+    "ai",
+    "development",
+    "dashboard"
+  ]
+}

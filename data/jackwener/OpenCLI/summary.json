@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-08T09:14:40.554Z",
+  "model": "gpt-4o-mini",
+  "summary": "OpenCLI transforms websites into command-line interfaces, allowing users to automate browser tasks and interact with web content through their logged-in Chrome sessions. It serves as a versatile tool for both human users and AI agents to navigate, extract, and automate web interactions efficiently.",
+  "use_cases": [
+    "Automate form filling on a website",
+    "Scrape data from a social media platform",
+    "Create a custom command for a personal website"
+  ],
+  "similar_tools": [
+    "Puppeteer",
+    "Selenium"
+  ],
+  "tags": [
+    "automation",
+    "cli",
+    "browser"
+  ]
+}

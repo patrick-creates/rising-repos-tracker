@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-08T09:14:23.067Z",
+  "model": "gpt-4o-mini",
+  "summary": "OpenViking is an open-source context database designed for AI agents, addressing challenges in context management by providing a unified filesystem paradigm. It simplifies the development of AI agents by enhancing context retrieval and management capabilities.",
+  "use_cases": [
+    "Building AI chatbots with improved context awareness",
+    "Developing intelligent virtual assistants that manage user interactions",
+    "Creating AI-driven applications that require efficient memory management"
+  ],
+  "similar_tools": [
+    "Haystack",
+    "LangChain"
+  ],
+  "tags": [
+    "ai",
+    "database",
+    "context"
+  ]
+}

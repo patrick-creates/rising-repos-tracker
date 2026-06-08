@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-08T09:14:19.530Z",
+  "model": "gpt-4o-mini",
+  "summary": "Open-AutoGLM is a framework for creating intelligent mobile assistants that utilize multi-modal understanding to automate tasks on smartphones. It leverages ADB for device control and visual language models for screen perception, allowing users to interact with their devices using natural language commands.",
+  "use_cases": [
+    "automatically searching for restaurants on a food delivery app",
+    "controlling smartphone applications through voice commands",
+    "performing automated tasks based on user descriptions"
+  ],
+  "similar_tools": [
+    "Google Assistant",
+    "Siri"
+  ],
+  "tags": [
+    "automation",
+    "mobile",
+    "AI"
+  ]
+}

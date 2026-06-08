@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-08T09:14:37.014Z",
+  "model": "gpt-4o-mini",
+  "summary": "Heretic is a tool designed to automatically remove censorship from transformer-based language models, enabling users to obtain uncensored outputs without requiring deep technical knowledge. It utilizes advanced techniques to optimize model performance while minimizing the loss of original capabilities.",
+  "use_cases": [
+    "Decensoring language models for research purposes",
+    "Improving chatbot responses in sensitive topics",
+    "Creating custom AI models for specific applications without censorship"
+  ],
+  "similar_tools": [
+    "OpenAI's GPT-3",
+    "Hugging Face Transformers"
+  ],
+  "tags": [
+    "censorship",
+    "language models",
+    "ai"
+  ]
+}

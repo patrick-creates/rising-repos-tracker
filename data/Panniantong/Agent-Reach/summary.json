@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-08T09:14:44.130Z",
+  "model": "gpt-4o-mini",
+  "summary": "Agent Reach is a tool that enables AI agents to access and interact with various online platforms seamlessly, eliminating the need for complex configurations. It simplifies the process of gathering information from sources like Twitter, Reddit, and YouTube by providing a straightforward installation and update mechanism.",
+  "use_cases": [
+    "Extract subtitles from YouTube videos",
+    "Search for tweets about a specific product",
+    "Read and summarize Reddit posts on a topic"
+  ],
+  "similar_tools": [
+    "Zapier",
+    "IFTTT"
+  ],
+  "tags": [
+    "ai",
+    "automation",
+    "web"
+  ]
+}

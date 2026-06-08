@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-08T09:14:15.996Z",
+  "model": "gpt-4o-mini",
+  "summary": "HyperFrames is an open-source framework designed to convert HTML, CSS, and media into deterministic MP4 videos, making video creation accessible for developers and AI coding agents. It streamlines the video production process by allowing users to define videos using HTML and integrate animations and media seamlessly.",
+  "use_cases": [
+    "creating product launch videos",
+    "automating documentation into video explainers",
+    "generating data visualizations and animated charts"
+  ],
+  "similar_tools": [
+    "Adobe After Effects",
+    "Camtasia"
+  ],
+  "tags": [
+    "video",
+    "html",
+    "animation"
+  ]
+}

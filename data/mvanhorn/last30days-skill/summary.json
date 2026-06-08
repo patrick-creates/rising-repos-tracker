@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-08T09:14:12.613Z",
+  "model": "gpt-4o-mini",
+  "summary": "The last30days repository provides an AI agent-led search engine that aggregates and scores real-time data from various platforms like Reddit, X, YouTube, and GitHub based on user engagement. It exists to help users quickly access the most relevant and current information about people, events, or topics by synthesizing insights from multiple sources.",
+  "use_cases": [
+    "Researching a potential business partner's recent activities",
+    "Tracking the latest news and public sentiment about a celebrity",
+    "Comparing the features and popularity of competing software tools"
+  ],
+  "similar_tools": [
+    "Google Trends",
+    "BuzzSumo"
+  ],
+  "tags": [
+    "ai",
+    "search",
+    "analytics"
+  ]
+}

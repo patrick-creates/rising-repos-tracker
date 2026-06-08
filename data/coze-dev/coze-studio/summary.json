@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-08T09:14:54.433Z",
+  "model": "gpt-4o-mini",
+  "summary": "Coze Studio is an all-in-one AI agent development tool that simplifies the creation, debugging, and deployment of AI agents through a visual interface and low-code approaches. It aims to lower the barriers for developers by providing essential technologies and frameworks for building AI applications efficiently.",
+  "use_cases": [
+    "Developing a customer support AI agent",
+    "Creating a personalized AI assistant for task management",
+    "Building a workflow automation tool for business processes"
+  ],
+  "similar_tools": [
+    "Dialogflow",
+    "Microsoft Bot Framework"
+  ],
+  "tags": [
+    "ai",
+    "development",
+    "low-code"
+  ]
+}

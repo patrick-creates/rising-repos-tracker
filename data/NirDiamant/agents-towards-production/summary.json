@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-08T09:14:59.236Z",
+  "model": "gpt-4o-mini",
+  "summary": "Agents Towards Production is an open-source playbook designed to help developers build production-ready generative AI agents that can scale from prototypes to enterprise applications. It provides a comprehensive set of tutorials covering various aspects of AI agent development, including workflows, deployment, and security.",
+  "use_cases": [
+    "building a customer support chatbot",
+    "creating a real-time data analysis tool",
+    "developing a multi-agent system for automated trading"
+  ],
+  "similar_tools": [
+    "LangChain",
+    "Haystack"
+  ],
+  "tags": [
+    "ai",
+    "agents",
+    "production"
+  ]
+}
