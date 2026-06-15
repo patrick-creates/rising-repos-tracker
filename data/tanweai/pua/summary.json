@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T10:46:29.531Z",
+  "model": "gpt-4o-mini",
+  "summary": "The 'pua' repository is an AI Coding Agent skill plugin designed to enhance productivity by utilizing corporate rhetoric to prevent AI from giving up on problem-solving. It supports various AI coding tools and aims to enforce a proactive approach in debugging and coding tasks.",
+  "use_cases": [
+    "Debugging server registration issues by enforcing a systematic checklist",
+    "Improving AI responses in coding environments when facing repeated failures",
+    "Enhancing productivity in API integration tasks by preventing blame-shifting"
+  ],
+  "similar_tools": [
+    "GitHub Copilot",
+    "Tabnine"
+  ],
+  "tags": [
+    "ai",
+    "productivity",
+    "debugging"
+  ]
+}

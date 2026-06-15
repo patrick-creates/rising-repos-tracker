@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T10:46:47.083Z",
+  "model": "gpt-4o-mini",
+  "summary": "Agent Lightning is a framework designed to optimize AI agents with minimal code changes, enabling users to enhance performance through various algorithms like Reinforcement Learning. It supports multiple agent frameworks, making it versatile for different AI applications.",
+  "use_cases": [
+    "Optimizing a chatbot's response accuracy without altering its core code",
+    "Enhancing a multi-agent system for game AI to improve strategy and performance",
+    "Training an AI model to generate SQL queries with reinforcement learning techniques"
+  ],
+  "similar_tools": [
+    "LangChain",
+    "OpenAI Agent SDK"
+  ],
+  "tags": [
+    "ai",
+    "optimization",
+    "reinforcement learning"
+  ]
+}

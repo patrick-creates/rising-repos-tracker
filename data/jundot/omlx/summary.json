@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T10:46:56.816Z",
+  "model": "gpt-4o-mini",
+  "summary": "oMLX is a macOS application designed for optimized local inference of large language models (LLMs) with features like continuous batching and tiered KV caching. It aims to provide users with both convenience and control over their LLMs directly from the menu bar.",
+  "use_cases": [
+    "Developing AI-powered applications locally",
+    "Running multiple LLMs simultaneously for various tasks",
+    "Managing LLMs with real-time monitoring and configuration"
+  ],
+  "similar_tools": [
+    "Hugging Face Transformers",
+    "LangChain"
+  ],
+  "tags": [
+    "llm",
+    "macos",
+    "inference"
+  ]
+}

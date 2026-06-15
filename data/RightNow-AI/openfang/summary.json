@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T10:46:32.980Z",
+  "model": "gpt-4o-mini",
+  "summary": "OpenFang is an open-source Agent Operating System built in Rust that enables autonomous agents to perform tasks without user prompts. It provides a streamlined solution for automating various functions like lead generation, social media management, and research.",
+  "use_cases": [
+    "Automate daily lead generation and scoring",
+    "Schedule and manage social media posts autonomously",
+    "Conduct continuous monitoring and research on competitors"
+  ],
+  "similar_tools": [
+    "Zapier",
+    "IFTTT"
+  ],
+  "tags": [
+    "automation",
+    "agents",
+    "open-source"
+  ]
+}

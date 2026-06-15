@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T10:46:59.933Z",
+  "model": "gpt-4o-mini",
+  "summary": "WeKnora is an open-source knowledge framework that leverages LLMs for document understanding, semantic retrieval, and autonomous reasoning. It aims to transform scattered documents into a queryable and evolving knowledge asset for enterprises.",
+  "use_cases": [
+    "Automating Q&A for customer support using document databases",
+    "Creating a self-maintaining knowledge base for internal documentation",
+    "Integrating with messaging platforms for real-time information retrieval"
+  ],
+  "similar_tools": [
+    "Haystack",
+    "Rasa"
+  ],
+  "tags": [
+    "knowledge",
+    "document",
+    "llm"
+  ]
+}

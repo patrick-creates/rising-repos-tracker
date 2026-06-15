@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T10:46:43.591Z",
+  "model": "gpt-4o-mini",
+  "summary": "Context Mode is an MCP server designed to optimize the use of context in AI interactions by efficiently managing and indexing data, significantly reducing the amount of raw data stored in context windows. It aims to enhance session continuity and improve the way AI models generate code, making them more effective in programming tasks.",
+  "use_cases": [
+    "Reducing context size for large codebases",
+    "Tracking user decisions and edits in software development",
+    "Generating scripts for data analysis instead of processing raw data directly"
+  ],
+  "similar_tools": [
+    "OpenAI Codex",
+    "GitHub Copilot"
+  ],
+  "tags": [
+    "ai",
+    "programming",
+    "context"
+  ]
+}

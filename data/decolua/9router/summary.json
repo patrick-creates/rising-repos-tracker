@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T10:46:39.994Z",
+  "model": "gpt-4o-mini",
+  "summary": "9Router is a tool designed to optimize the use of AI coding tools by saving tokens and managing subscriptions across multiple providers. It enables developers to connect various AI models seamlessly while minimizing costs and preventing interruptions during coding sessions.",
+  "use_cases": [
+    "Developers using multiple AI coding tools can save costs by automatically switching between free and paid models.",
+    "Teams can track and maximize their subscription quotas to ensure they use all available resources.",
+    "Users can reduce token consumption by utilizing the RTK Token Saver feature during API requests."
+  ],
+  "similar_tools": [
+    "OpenAI API",
+    "Hugging Face Transformers"
+  ],
+  "tags": [
+    "ai",
+    "coding",
+    "token saver"
+  ]
+}

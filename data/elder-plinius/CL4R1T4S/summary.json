@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T10:46:12.921Z",
+  "model": "gpt-4o-mini",
+  "summary": "CL4R1T4S is a repository aimed at enhancing transparency and observability in AI systems by providing access to their hidden prompts and guidelines. It exists to empower users with knowledge about how AI models are shaped and the biases they may carry.",
+  "use_cases": [
+    "Analyzing the ethical implications of AI outputs",
+    "Researching AI model behaviors for academic purposes",
+    "Developing more transparent AI applications"
+  ],
+  "similar_tools": [
+    "OpenAI API",
+    "Hugging Face Transformers"
+  ],
+  "tags": [
+    "ai",
+    "transparency",
+    "observability"
+  ]
+}

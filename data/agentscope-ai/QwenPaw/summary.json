@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T10:46:36.358Z",
+  "model": "gpt-4o-mini",
+  "summary": "QwenPaw is a personal AI assistant designed for easy installation and deployment, allowing users to manage their data securely while providing various productivity and collaboration features. It enables users to create and customize agents for diverse tasks across multiple channels without third-party data hosting.",
+  "use_cases": [
+    "Automating daily email summaries and highlights",
+    "Creating a personal knowledge base for research",
+    "Collaborating with multiple agents for complex project management"
+  ],
+  "similar_tools": [
+    "Zapier",
+    "IFTTT"
+  ],
+  "tags": [
+    "ai",
+    "assistant",
+    "productivity"
+  ]
+}

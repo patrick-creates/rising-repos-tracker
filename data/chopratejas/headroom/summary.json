@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T10:46:18.497Z",
+  "model": "gpt-4o-mini",
+  "summary": "Headroom is a context compression layer for AI agents that reduces the number of tokens processed by LLMs, improving efficiency while maintaining accuracy. It allows seamless integration with various AI tools and agents, optimizing their performance by compressing inputs and outputs.",
+  "use_cases": [
+    "compressing logs for AI debugging",
+    "reducing token usage in code search",
+    "enhancing performance of AI-driven chatbots"
+  ],
+  "similar_tools": [
+    "OpenAI API",
+    "LangChain"
+  ],
+  "tags": [
+    "ai",
+    "compression",
+    "library"
+  ]
+}

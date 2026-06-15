@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T10:47:03.468Z",
+  "model": "gpt-4o-mini",
+  "summary": "The Edict repository implements a multi-agent collaboration framework inspired by ancient Chinese governance, enhancing AI task management with a structured review process. It aims to provide a more reliable and auditable approach to AI interactions compared to traditional frameworks.",
+  "use_cases": [
+    "Managing complex AI-driven projects with multiple agents",
+    "Implementing a structured review process for AI outputs",
+    "Creating a real-time dashboard for monitoring AI task execution"
+  ],
+  "similar_tools": [
+    "CrewAI",
+    "AutoGen"
+  ],
+  "tags": [
+    "ai",
+    "multi-agent",
+    "dashboard"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T10:46:21.803Z",
+  "model": "gpt-4o-mini",
+  "summary": "Page Agent is a client-side web enhancement tool that allows users to control web interfaces using natural language commands. It aims to simplify interactions with web applications by enabling text-based DOM manipulation without the need for browser extensions or server-side automation.",
+  "use_cases": [
+    "AI copilot for SaaS applications",
+    "smart form filling for ERP systems",
+    "enhancing web accessibility with voice commands"
+  ],
+  "similar_tools": [
+    "Selenium",
+    "Puppeteer"
+  ],
+  "tags": [
+    "web",
+    "automation",
+    "ai"
+  ]
+}

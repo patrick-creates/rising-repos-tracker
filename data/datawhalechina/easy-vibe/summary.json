@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T10:46:53.733Z",
+  "model": "gpt-4o-mini",
+  "summary": "Easy-Vibe is an interactive learning platform that teaches users how to build applications by simply describing their needs, leveraging AI capabilities. It provides a structured learning path for beginners to advanced developers through multilingual tutorials and visual aids.",
+  "use_cases": [
+    "Creating a personal expense tracker",
+    "Developing a booking system with WeChat integration",
+    "Building a blog with comment functionality"
+  ],
+  "similar_tools": [
+    "Codecademy",
+    "FreeCodeCamp"
+  ],
+  "tags": [
+    "learning",
+    "programming",
+    "ai"
+  ]
+}

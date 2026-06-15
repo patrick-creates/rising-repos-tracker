@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T10:46:25.580Z",
+  "model": "gpt-4o-mini",
+  "summary": "The code-review-graph repository provides a tool that enhances code review efficiency by creating a structural map of codebases, allowing AI assistants to focus only on relevant changes. It aims to reduce token usage during code reviews by leveraging incremental updates and blast-radius analysis.",
+  "use_cases": [
+    "Improving code review processes in large monorepos",
+    "Integrating with AI coding assistants for targeted reviews",
+    "Automatically updating code review context with file changes"
+  ],
+  "similar_tools": [
+    "CodeScene",
+    "SonarQube"
+  ],
+  "tags": [
+    "code review",
+    "ai",
+    "efficiency"
+  ]
+}

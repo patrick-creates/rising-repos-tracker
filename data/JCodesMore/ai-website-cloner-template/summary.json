@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T10:46:50.455Z",
+  "model": "gpt-4o-mini",
+  "summary": "The AI Website Cloner Template is a Next.js-based tool designed to reverse-engineer websites into modern codebases using AI coding agents. It streamlines the process of extracting design elements and reconstructing web pages, making it easier for developers to migrate or recreate sites.",
+  "use_cases": [
+    "Migrating a WordPress site to Next.js",
+    "Recovering lost source code from a live website",
+    "Learning web design by analyzing production sites"
+  ],
+  "similar_tools": [
+    "Webflow",
+    "Figma"
+  ],
+  "tags": [
+    "nextjs",
+    "ai",
+    "webscraping"
+  ]
+}
