@@ -814,5 +814,140 @@
     "stars_at_add": 19501,
     "stars_per_day_at_add": 406.3,
     "created_at": "2026-04-21"
+  },
+  {
+    "owner": "elder-plinius",
+    "repo": "CL4R1T4S",
+    "added": "2026-06-15",
+    "notes": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐",
+    "stars_at_add": 38843,
+    "stars_per_day_at_add": 83.2,
+    "created_at": "2025-03-04"
+  },
+  {
+    "owner": "chopratejas",
+    "repo": "headroom",
+    "added": "2026-06-15",
+    "notes": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+    "stars_at_add": 28136,
+    "stars_per_day_at_add": 178.1,
+    "created_at": "2026-01-07"
+  },
+  {
+    "owner": "alibaba",
+    "repo": "page-agent",
+    "added": "2026-06-15",
+    "notes": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+    "stars_at_add": 18557,
+    "stars_per_day_at_add": 70,
+    "created_at": "2025-09-23"
+  },
+  {
+    "owner": "tirth8205",
+    "repo": "code-review-graph",
+    "added": "2026-06-15",
+    "notes": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+    "stars_at_add": 18512,
+    "stars_per_day_at_add": 171.4,
+    "created_at": "2026-02-26"
+  },
+  {
+    "owner": "tanweai",
+    "repo": "pua",
+    "added": "2026-06-15",
+    "notes": "你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。  一个agent使用的高能动性的skill。  Your AI has been placed on a PIP. 30 days to show improvement.",
+    "stars_at_add": 18244,
+    "stars_per_day_at_add": 186.2,
+    "created_at": "2026-03-08"
+  },
+  {
+    "owner": "RightNow-AI",
+    "repo": "openfang",
+    "added": "2026-06-15",
+    "notes": "Open-source Agent Operating System",
+    "stars_at_add": 17826,
+    "stars_per_day_at_add": 162.1,
+    "created_at": "2026-02-24"
+  },
+  {
+    "owner": "agentscope-ai",
+    "repo": "QwenPaw",
+    "added": "2026-06-15",
+    "notes": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
+    "stars_at_add": 17771,
+    "stars_per_day_at_add": 160.1,
+    "created_at": "2026-02-24"
+  },
+  {
+    "owner": "decolua",
+    "repo": "9router",
+    "added": "2026-06-15",
+    "notes": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+    "stars_at_add": 17568,
+    "stars_per_day_at_add": 109.1,
+    "created_at": "2026-01-05"
+  },
+  {
+    "owner": "mksglu",
+    "repo": "context-mode",
+    "added": "2026-06-15",
+    "notes": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 15 platforms",
+    "stars_at_add": 17463,
+    "stars_per_day_at_add": 155.9,
+    "created_at": "2026-02-23"
+  },
+  {
+    "owner": "microsoft",
+    "repo": "agent-lightning",
+    "added": "2026-06-15",
+    "notes": "The absolute trainer to light up AI agents.",
+    "stars_at_add": 17310,
+    "stars_per_day_at_add": 47.8,
+    "created_at": "2025-06-18"
+  },
+  {
+    "owner": "JCodesMore",
+    "repo": "ai-website-cloner-template",
+    "added": "2026-06-15",
+    "notes": "Clone any website with one command using AI coding agents",
+    "stars_at_add": 16992,
+    "stars_per_day_at_add": 182.7,
+    "created_at": "2026-03-13"
+  },
+  {
+    "owner": "datawhalechina",
+    "repo": "easy-vibe",
+    "added": "2026-06-15",
+    "notes": "💻 vibe coding 2026 | Your first modern Coding course beginners to master step by step.",
+    "stars_at_add": 16941,
+    "stars_per_day_at_add": 100.8,
+    "created_at": "2025-12-28"
+  },
+  {
+    "owner": "jundot",
+    "repo": "omlx",
+    "added": "2026-06-15",
+    "notes": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+    "stars_at_add": 16629,
+    "stars_per_day_at_add": 137.4,
+    "created_at": "2026-02-13"
+  },
+  {
+    "owner": "Tencent",
+    "repo": "WeKnora",
+    "added": "2026-06-15",
+    "notes": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+    "stars_at_add": 16291,
+    "stars_per_day_at_add": 49.7,
+    "created_at": "2025-07-22"
+  },
+  {
+    "owner": "cft0808",
+    "repo": "edict",
+    "added": "2026-06-15",
+    "notes": "🏛️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time dashboard, model config, and full audit trails",
+    "stars_at_add": 16062,
+    "stars_per_day_at_add": 144.7,
+    "created_at": "2026-02-23"
   }
 ]
