@@ -262,5 +262,13 @@
     "watchers": 46,
     "open_issues": 8,
     "description": "Autonomous AI development loop for Claude Code with intelligent exit detection"
+  },
+  {
+    "date": "2026-06-15",
+    "stars": 9336,
+    "forks": 713,
+    "watchers": 46,
+    "open_issues": 24,
+    "description": "Autonomous AI development loop for Claude Code with intelligent exit detection"
   }
 ]

@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-06-15",
+    "stars": 18514,
+    "forks": 1983,
+    "watchers": 67,
+    "open_issues": 136,
+    "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows."
+  }
+]

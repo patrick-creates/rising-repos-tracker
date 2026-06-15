@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-06-15",
+    "stars": 16632,
+    "forks": 1411,
+    "watchers": 88,
+    "open_issues": 547,
+    "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar"
+  }
+]

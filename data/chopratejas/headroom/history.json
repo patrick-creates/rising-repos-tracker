@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-06-15",
+    "stars": 28163,
+    "forks": 1906,
+    "watchers": 95,
+    "open_issues": 267,
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server."
+  }
+]
