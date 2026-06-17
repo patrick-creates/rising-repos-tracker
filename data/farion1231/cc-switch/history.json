@@ -238,5 +238,13 @@
     "watchers": 175,
     "open_issues": 1495,
     "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io"
+  },
+  {
+    "date": "2026-06-17",
+    "stars": 103133,
+    "forks": 6824,
+    "watchers": 176,
+    "open_issues": 1502,
+    "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io"
   }
 ]
