@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-22T10:26:16.960Z",
+  "model": "gpt-4o-mini",
+  "summary": "Oh My Pi is a coding agent designed to enhance development workflows by integrating various tools and providing real-time assistance in coding tasks. It aims to improve code execution, debugging, and overall productivity through advanced features and a robust architecture.",
+  "use_cases": [
+    "Automating code refactoring across multiple files",
+    "Debugging complex applications with real-time feedback",
+    "Generating and executing code snippets in a persistent environment"
+  ],
+  "similar_tools": [
+    "GitHub Copilot",
+    "TabNine"
+  ],
+  "tags": [
+    "coding",
+    "automation",
+    "debugging"
+  ]
+}

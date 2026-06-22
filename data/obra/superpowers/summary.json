@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-22T10:25:30.230Z",
+  "model": "gpt-4o-mini",
+  "summary": "Superpowers is a software development methodology designed to enhance coding agents by providing them with a set of composable skills and structured workflows. It aims to streamline the coding process, ensuring efficient task management and adherence to best practices like test-driven development.",
+  "use_cases": [
+    "automating code reviews for a software project",
+    "creating detailed implementation plans from design specifications",
+    "managing isolated development environments for feature branches"
+  ],
+  "similar_tools": [
+    "GitHub Copilot",
+    "Tabnine"
+  ],
+  "tags": [
+    "automation",
+    "development",
+    "tdd"
+  ]
+}

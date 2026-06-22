@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-22T10:26:09.813Z",
+  "model": "gpt-4o-mini",
+  "summary": "Skill Seekers is a data preprocessing tool that transforms various documentation sources into structured knowledge assets for AI systems. It streamlines the process of preparing data for AI applications, significantly reducing the time and effort required for data preparation.",
+  "use_cases": [
+    "Creating AI skills for Claude or OpenAI from documentation",
+    "Packaging project documentation for use in LangChain or LlamaIndex",
+    "Scanning a project to generate configuration files for multiple frameworks"
+  ],
+  "similar_tools": [
+    "LangChain",
+    "Haystack"
+  ],
+  "tags": [
+    "ai",
+    "data",
+    "documentation"
+  ]
+}

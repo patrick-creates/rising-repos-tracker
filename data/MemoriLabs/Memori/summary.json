@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-22T10:25:55.631Z",
+  "model": "gpt-4o-mini",
+  "summary": "Memori is a memory management solution that integrates with existing software and infrastructure to enhance conversational agents by allowing them to recall past interactions. It aims to improve the quality of interactions by providing structured memory without requiring significant changes to existing systems.",
+  "use_cases": [
+    "Enhancing customer support chatbots with memory of past interactions",
+    "Improving personal assistant applications by remembering user preferences",
+    "Facilitating team collaboration tools that retain context over time"
+  ],
+  "similar_tools": [
+    "Zep",
+    "LangMem"
+  ],
+  "tags": [
+    "memory",
+    "integration",
+    "conversational"
+  ]
+}

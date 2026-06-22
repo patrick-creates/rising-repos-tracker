@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-22T10:25:52.063Z",
+  "model": "gpt-4o-mini",
+  "summary": "This repository provides a comprehensive library of 266 AI expert roles tailored for various industries, specifically designed for the Chinese market. It enables users to easily integrate these roles into AI programming tools, facilitating efficient collaboration and project delivery.",
+  "use_cases": [
+    "Creating a marketing strategy using AI experts for social media platforms",
+    "Developing a secure web application with the help of specialized AI engineers",
+    "Automating project management tasks by orchestrating multiple AI agents"
+  ],
+  "similar_tools": [
+    "OpenAI Codex",
+    "GitHub Copilot"
+  ],
+  "tags": [
+    "ai",
+    "agents",
+    "programming"
+  ]
+}

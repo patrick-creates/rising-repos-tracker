@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-22T10:25:48.441Z",
+  "model": "gpt-4o-mini",
+  "summary": "LifeOS is a Personal AI Infrastructure designed to help individuals articulate their goals and navigate towards their ideal state using AI. It combines a Life Dashboard, a Digital Assistant, and a structured approach to personal development.",
+  "use_cases": [
+    "Managing personal goals and tasks",
+    "Tracking health and wellness progress",
+    "Organizing financial planning and budgeting"
+  ],
+  "similar_tools": [
+    "Notion",
+    "Todoist"
+  ],
+  "tags": [
+    "ai",
+    "personal-development",
+    "dashboard"
+  ]
+}

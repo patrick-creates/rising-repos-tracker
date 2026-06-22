@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-22T10:26:02.751Z",
+  "model": "gpt-4o-mini",
+  "summary": "Hermes Web UI is a web application that provides a user-friendly interface for the Hermes Agent, allowing users to interact with it through a browser while maintaining all functionalities of the command line interface. It enhances productivity by retaining context across sessions and enabling self-hosted scheduling and messaging capabilities.",
+  "use_cases": [
+    "Accessing Hermes Agent from a web browser for easier interaction",
+    "Managing projects and sessions with persistent memory",
+    "Scheduling automated tasks while offline and receiving updates via messaging apps"
+  ],
+  "similar_tools": [
+    "OpenClaw",
+    "Claude Code"
+  ],
+  "tags": [
+    "webui",
+    "ai",
+    "self-hosted"
+  ]
+}

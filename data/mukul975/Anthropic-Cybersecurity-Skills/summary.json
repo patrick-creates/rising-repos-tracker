@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-22T10:25:45.062Z",
+  "model": "gpt-4o-mini",
+  "summary": "The Anthropic Cybersecurity Skills repository provides a comprehensive library of 754 structured cybersecurity skills across 26 domains, designed to enhance AI agents' capabilities in security analysis. It aims to bridge the knowledge gap for AI agents by mapping skills to multiple industry frameworks, enabling expert-level guidance in security investigations.",
+  "use_cases": [
+    "Integrating cybersecurity skills into AI-driven security tools for automated incident response",
+    "Training AI agents to perform threat hunting using structured skill mappings",
+    "Enhancing AI-assisted security assessments by providing framework-aligned skills"
+  ],
+  "similar_tools": [
+    "MITRE ATT&CK Navigator",
+    "CybSafe"
+  ],
+  "tags": [
+    "cybersecurity",
+    "ai",
+    "skills"
+  ]
+}

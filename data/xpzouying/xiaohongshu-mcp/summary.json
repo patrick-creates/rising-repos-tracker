@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-22T10:26:06.568Z",
+  "model": "gpt-4o-mini",
+  "summary": "The xiaohongshu-mcp repository provides a tool for accessing and interacting with data from the Xiaohongshu platform, enabling users to automate tasks such as posting content, searching, and managing user interactions. It aims to simplify the integration of Xiaohongshu's features into applications or personal projects, particularly for developers and non-technical users alike.",
+  "use_cases": [
+    "Automating content posting to Xiaohongshu",
+    "Searching for posts based on keywords",
+    "Managing user comments and interactions on posts"
+  ],
+  "similar_tools": [
+    "Hootsuite",
+    "Buffer"
+  ],
+  "tags": [
+    "xiaohongshu",
+    "automation",
+    "social media"
+  ]
+}

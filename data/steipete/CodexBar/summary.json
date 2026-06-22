@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-22T10:25:58.964Z",
+  "model": "gpt-4o-mini",
+  "summary": "CodexBar is a macOS menu bar application that helps users monitor AI coding provider limits and reset times, ensuring they can plan their tasks effectively. It prioritizes privacy by reusing existing provider sessions without storing passwords.",
+  "use_cases": [
+    "Track usage limits for multiple AI coding providers in real-time",
+    "Plan coding tasks around provider reset times",
+    "Monitor billing and credit balances for various AI services"
+  ],
+  "similar_tools": [
+    "StatusBuddy",
+    "API Tracker"
+  ],
+  "tags": [
+    "macos",
+    "ai",
+    "monitoring"
+  ]
+}

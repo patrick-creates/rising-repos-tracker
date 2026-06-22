@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-22T10:26:20.684Z",
+  "model": "gpt-4o-mini",
+  "summary": "memU is a workspace runtime designed for AI agents, enabling them to compile and manage various sources of information into structured layers for effective context, continuity, and control. It allows agents to memorize and retrieve relevant data efficiently, enhancing their performance and decision-making capabilities.",
+  "use_cases": [
+    "automating customer support by retrieving user preferences",
+    "managing project documentation and updates for team collaboration",
+    "enhancing personal productivity by summarizing meeting notes and action items"
+  ],
+  "similar_tools": [
+    "LangChain",
+    "Haystack"
+  ],
+  "tags": [
+    "ai",
+    "workspace",
+    "memory"
+  ]
+}

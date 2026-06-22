@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-22T10:26:13.390Z",
+  "model": "gpt-4o-mini",
+  "summary": "OpenMythos is an open-source implementation of the Claude Mythos model, utilizing a Recurrent-Depth Transformer architecture for advanced reasoning. It aims to explore compute-adaptive, depth-variable reasoning through a unique looped transformer design.",
+  "use_cases": [
+    "Building advanced AI chatbots",
+    "Developing models for complex reasoning tasks",
+    "Researching transformer architectures for improved performance"
+  ],
+  "similar_tools": [
+    "GPT-3",
+    "BERT"
+  ],
+  "tags": [
+    "transformer",
+    "ai",
+    "open-source"
+  ]
+}
