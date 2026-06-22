@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-06-22",
+    "stars": 15203,
+    "forks": 1250,
+    "watchers": 45,
+    "open_issues": 34,
+    "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login."
+  }
+]
