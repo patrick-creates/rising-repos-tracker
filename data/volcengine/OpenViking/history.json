@@ -118,5 +118,13 @@
     "watchers": 73,
     "open_issues": 273,
     "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving."
+  },
+  {
+    "date": "2026-06-23",
+    "stars": 25944,
+    "forks": 2010,
+    "watchers": 74,
+    "open_issues": 275,
+    "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving."
   }
 ]

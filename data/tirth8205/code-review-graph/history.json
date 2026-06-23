@@ -62,5 +62,13 @@
     "watchers": 68,
     "open_issues": 144,
     "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows."
+  },
+  {
+    "date": "2026-06-23",
+    "stars": 18814,
+    "forks": 2012,
+    "watchers": 68,
+    "open_issues": 144,
+    "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows."
   }
 ]
