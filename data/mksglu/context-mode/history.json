@@ -70,5 +70,13 @@
     "watchers": 87,
     "open_issues": 7,
     "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks."
+  },
+  {
+    "date": "2026-06-24",
+    "stars": 18030,
+    "forks": 1272,
+    "watchers": 88,
+    "open_issues": 12,
+    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks."
   }
 ]

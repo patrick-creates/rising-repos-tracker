@@ -294,5 +294,13 @@
     "watchers": 154,
     "open_issues": 1291,
     "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies"
+  },
+  {
+    "date": "2026-06-24",
+    "stars": 65581,
+    "forks": 4046,
+    "watchers": 156,
+    "open_issues": 1309,
+    "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies"
   }
 ]
