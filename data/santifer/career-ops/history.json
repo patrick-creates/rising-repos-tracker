@@ -302,5 +302,13 @@
     "watchers": 205,
     "open_issues": 154,
     "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-25",
+    "stars": 55606,
+    "forks": 10985,
+    "watchers": 205,
+    "open_issues": 146,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
   }
 ]
