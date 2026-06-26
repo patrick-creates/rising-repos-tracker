@@ -198,5 +198,13 @@
     "watchers": 95,
     "open_issues": 120,
     "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills."
+  },
+  {
+    "date": "2026-06-26",
+    "stars": 28747,
+    "forks": 1610,
+    "watchers": 95,
+    "open_issues": 123,
+    "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills."
   }
 ]
