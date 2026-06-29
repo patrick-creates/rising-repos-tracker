@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-06-29",
+    "stars": 20630,
+    "forks": 1474,
+    "watchers": 76,
+    "open_issues": 184,
+    "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies."
+  }
+]

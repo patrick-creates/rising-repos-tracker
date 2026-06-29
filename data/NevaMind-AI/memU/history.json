@@ -54,5 +54,13 @@
     "watchers": 66,
     "open_issues": 102,
     "description": "Workspace memory: Turn colab file system into agent memory and cut your token cost up to 95%"
+  },
+  {
+    "date": "2026-06-29",
+    "stars": 13948,
+    "forks": 1038,
+    "watchers": 66,
+    "open_issues": 102,
+    "description": "Personal memory for agents - fast memory retrieval, self-evolving skills, and lower cost."
   }
 ]

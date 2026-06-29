@@ -222,5 +222,13 @@
     "watchers": 208,
     "open_issues": 47,
     "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas."
+  },
+  {
+    "date": "2026-06-29",
+    "stars": 38805,
+    "forks": 2752,
+    "watchers": 209,
+    "open_issues": 47,
+    "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas."
   }
 ]
