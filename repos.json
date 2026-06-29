@@ -1084,5 +1084,140 @@
     "stars_at_add": 13900,
     "stars_per_day_at_add": 42.4,
     "created_at": "2025-07-29"
+  },
+  {
+    "owner": "calesthio",
+    "repo": "OpenMontage",
+    "added": "2026-06-29",
+    "notes": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+    "stars_at_add": 27782,
+    "stars_per_day_at_add": 305.3,
+    "created_at": "2026-03-29"
+  },
+  {
+    "owner": "DeusData",
+    "repo": "codebase-memory-mcp",
+    "added": "2026-06-29",
+    "notes": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+    "stars_at_add": 20560,
+    "stars_per_day_at_add": 165.8,
+    "created_at": "2026-02-24"
+  },
+  {
+    "owner": "pranshuparmar",
+    "repo": "witr",
+    "added": "2026-06-29",
+    "notes": "Why is this running?",
+    "stars_at_add": 18032,
+    "stars_per_day_at_add": 94.9,
+    "created_at": "2025-12-20"
+  },
+  {
+    "owner": "browser-use",
+    "repo": "browser-harness",
+    "added": "2026-06-29",
+    "notes": "Browser Harness | Self-healing harness that enables LLMs to complete any task.",
+    "stars_at_add": 15478,
+    "stars_per_day_at_add": 212,
+    "created_at": "2026-04-17"
+  },
+  {
+    "owner": "HKUDS",
+    "repo": "Vibe-Trading",
+    "added": "2026-06-29",
+    "notes": "\"Vibe-Trading: Your Personal Trading Agent\"",
+    "stars_at_add": 14711,
+    "stars_per_day_at_add": 167.2,
+    "created_at": "2026-04-01"
+  },
+  {
+    "owner": "wanshuiyin",
+    "repo": "Auto-claude-code-research-in-sleep",
+    "added": "2026-06-29",
+    "notes": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
+    "stars_at_add": 12773,
+    "stars_per_day_at_add": 115.1,
+    "created_at": "2026-03-10"
+  },
+  {
+    "owner": "superset-sh",
+    "repo": "superset",
+    "added": "2026-06-29",
+    "notes": "Code Editor for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine",
+    "stars_at_add": 12160,
+    "stars_per_day_at_add": 48.4,
+    "created_at": "2025-10-21"
+  },
+  {
+    "owner": "sirmalloc",
+    "repo": "ccstatusline",
+    "added": "2026-06-29",
+    "notes": "🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more.",
+    "stars_at_add": 11278,
+    "stars_per_day_at_add": 34.8,
+    "created_at": "2025-08-08"
+  },
+  {
+    "owner": "XiaomiMiMo",
+    "repo": "MiMo-Code",
+    "added": "2026-06-29",
+    "notes": "MiMo Code: Where Models and Agents Co-Evolve",
+    "stars_at_add": 11015,
+    "stars_per_day_at_add": 611.9,
+    "created_at": "2026-06-10"
+  },
+  {
+    "owner": "ValueCell-ai",
+    "repo": "valuecell",
+    "added": "2026-06-29",
+    "notes": "ValueCell is a community-driven, multi-agent platform for financial applications.",
+    "stars_at_add": 10872,
+    "stars_per_day_at_add": 36.1,
+    "created_at": "2025-09-01"
+  },
+  {
+    "owner": "aden-hive",
+    "repo": "hive",
+    "added": "2026-06-29",
+    "notes": "Multi-Agent Harness for Production AI",
+    "stars_at_add": 10612,
+    "stars_per_day_at_add": 63.2,
+    "created_at": "2026-01-12"
+  },
+  {
+    "owner": "MemTensor",
+    "repo": "MemOS",
+    "added": "2026-06-29",
+    "notes": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings",
+    "stars_at_add": 10027,
+    "stars_per_day_at_add": 28.1,
+    "created_at": "2025-07-06"
+  },
+  {
+    "owner": "0x4m4",
+    "repo": "hexstrike-ai",
+    "added": "2026-06-29",
+    "notes": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.",
+    "stars_at_add": 10007,
+    "stars_per_day_at_add": 28.3,
+    "created_at": "2025-07-10"
+  },
+  {
+    "owner": "Kuberwastaken",
+    "repo": "claurst",
+    "added": "2026-06-29",
+    "notes": "Agentic Coding for Builders who Ship",
+    "stars_at_add": 9866,
+    "stars_per_day_at_add": 110.9,
+    "created_at": "2026-03-31"
+  },
+  {
+    "owner": "EverMind-AI",
+    "repo": "EverOS",
+    "added": "2026-06-29",
+    "notes": "One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows.",
+    "stars_at_add": 9713,
+    "stars_per_day_at_add": 40,
+    "created_at": "2025-10-28"
   }
 ]
