@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-29T09:19:02.341Z",
+  "model": "gpt-4o-mini",
+  "summary": "MiMoCode is a terminal-native AI coding assistant designed to enhance coding productivity by reading, writing, and managing code with persistent memory and intelligent context management. It aims to facilitate a seamless development experience by co-evolving models and agents tailored to user needs.",
+  "use_cases": [
+    "automating code generation",
+    "managing project tasks and progress",
+    "conducting code reviews and debugging"
+  ],
+  "similar_tools": [
+    "GitHub Copilot",
+    "Tabnine"
+  ],
+  "tags": [
+    "ai",
+    "coding",
+    "assistant"
+  ]
+}

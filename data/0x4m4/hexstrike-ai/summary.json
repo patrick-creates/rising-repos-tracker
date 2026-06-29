@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-29T09:19:16.791Z",
+  "model": "gpt-4o-mini",
+  "summary": "HexStrike AI is an advanced AI-powered penetration testing framework designed to automate cybersecurity assessments using a multi-agent architecture. It integrates over 150 security tools and 12+ autonomous AI agents to enhance vulnerability intelligence and decision-making in security testing.",
+  "use_cases": [
+    "automating penetration tests for web applications",
+    "conducting vulnerability assessments in cloud environments",
+    "performing network reconnaissance and scanning for security audits"
+  ],
+  "similar_tools": [
+    "Metasploit",
+    "Burp Suite"
+  ],
+  "tags": [
+    "cybersecurity",
+    "penetration testing",
+    "automation"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-29T09:18:58.847Z",
+  "model": "gpt-4o-mini",
+  "summary": "ccstatusline is a customizable status line formatter for the Claude Code CLI, designed to display various metrics such as model info, git branch, and token usage directly in the terminal. It enhances user experience by providing real-time updates and metrics visualization for developers using Claude Code.",
+  "use_cases": [
+    "Monitor token usage while coding",
+    "Display current git branch and status in terminal",
+    "Show real-time model performance metrics during development"
+  ],
+  "similar_tools": [
+    "powerline",
+    "starship"
+  ],
+  "tags": [
+    "statusline",
+    "terminal",
+    "customization"
+  ]
+}

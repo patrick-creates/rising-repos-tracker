@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-29T09:18:55.235Z",
+  "model": "gpt-4o-mini",
+  "summary": "Superset is a tool designed to orchestrate multiple CLI-based coding agents in parallel, enabling developers to work more efficiently without context switching. It provides a streamlined environment for local development with features like agent monitoring and workspace isolation.",
+  "use_cases": [
+    "Running multiple coding agents simultaneously for different tasks",
+    "Isolating project environments using git worktrees",
+    "Quickly reviewing and editing changes from various agents"
+  ],
+  "similar_tools": [
+    "GitHub Copilot",
+    "TabNine"
+  ],
+  "tags": [
+    "cli",
+    "development",
+    "productivity"
+  ]
+}

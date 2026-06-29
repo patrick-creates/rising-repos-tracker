@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-29T09:19:25.383Z",
+  "model": "gpt-4o-mini",
+  "summary": "EverOS is a Python library that provides a local-first memory runtime for agents and makers, enabling the storage and retrieval of conversations and files in a readable Markdown format. It aims to create a portable memory layer across various applications and devices for enhanced productivity and organization.",
+  "use_cases": [
+    "Storing and retrieving user conversations for chatbots",
+    "Managing project documentation and notes in Markdown format",
+    "Creating a personal knowledge base that evolves over time"
+  ],
+  "similar_tools": [
+    "Mem",
+    "Notion"
+  ],
+  "tags": [
+    "memory",
+    "markdown",
+    "productivity"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-29T09:19:09.393Z",
+  "model": "gpt-4o-mini",
+  "summary": "Hive is a multi-agent execution harness designed to facilitate the deployment of AI agents in production environments, enabling complex business workflows with minimal setup. It provides features like state management, fault tolerance, and observability to ensure efficient and reliable agent operations.",
+  "use_cases": [
+    "automating customer support tasks",
+    "coordinating multiple agents for project management",
+    "performing data analysis and reporting"
+  ],
+  "similar_tools": [
+    "Ray",
+    "Airflow"
+  ],
+  "tags": [
+    "ai",
+    "automation",
+    "multi-agent"
+  ]
+}

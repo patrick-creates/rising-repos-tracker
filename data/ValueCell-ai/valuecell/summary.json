@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-29T09:19:06.001Z",
+  "model": "gpt-4o-mini",
+  "summary": "ValueCell is a community-driven platform that provides deep research and market analysis for financial applications, enabling users to make informed investment decisions. It features a multi-agent system that automates stock selection, trading strategies, and news retrieval while ensuring data security by storing sensitive information locally.",
+  "use_cases": [
+    "automated stock trading using AI strategies",
+    "real-time news tracking for investment insights",
+    "fundamental analysis of financial documents"
+  ],
+  "similar_tools": [
+    "MetaTrader",
+    "TradingView"
+  ],
+  "tags": [
+    "finance",
+    "trading",
+    "automation"
+  ]
+}

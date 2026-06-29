@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-29T09:18:48.160Z",
+  "model": "gpt-4o-mini",
+  "summary": "Vibe-Trading is a personal trading agent that empowers users with comprehensive trading capabilities through a single command interface. It aims to enhance trading strategies and decision-making by integrating various market data and advisory features.",
+  "use_cases": [
+    "automating stock trading based on predefined strategies",
+    "analyzing market trends and making informed investment decisions",
+    "testing trading strategies with historical data in a simulated environment"
+  ],
+  "similar_tools": [
+    "MetaTrader",
+    "TradingView"
+  ],
+  "tags": [
+    "trading",
+    "automation",
+    "analytics"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-29T09:18:44.599Z",
+  "model": "gpt-4o-mini",
+  "summary": "Browser Harness connects a language model directly to a web browser, enabling automated tasks with minimal setup and self-improvement capabilities. It aims to streamline browser interactions by allowing the agent to learn and adapt during execution.",
+  "use_cases": [
+    "automating file uploads to websites",
+    "scraping data from web pages",
+    "performing repetitive online tasks like form filling"
+  ],
+  "similar_tools": [
+    "Selenium",
+    "Puppeteer"
+  ],
+  "tags": [
+    "automation",
+    "browser",
+    "llm"
+  ]
+}

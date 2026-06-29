@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-29T09:18:51.812Z",
+  "model": "gpt-4o-mini",
+  "summary": "Auto-claude-code-research-in-sleep (ARIS) is a methodology designed for enhancing research workflows using AI agents, focusing on integrity and auditability in autoresearch outputs. It provides tools for multimodal content generation and auditing, ensuring reliable and verifiable results in AI-driven projects.",
+  "use_cases": [
+    "Generating research papers with integrity audits",
+    "Creating multimodal content like movies and diagrams",
+    "Preparing for AI job interviews with structured cheat sheets"
+  ],
+  "similar_tools": [
+    "OpenAI Codex",
+    "Hugging Face Transformers"
+  ],
+  "tags": [
+    "ai",
+    "research",
+    "workflow"
+  ]
+}

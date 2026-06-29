@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-29T09:18:37.830Z",
+  "model": "gpt-4o-mini",
+  "summary": "The codebase-memory-mcp repository provides a high-speed code intelligence engine that indexes codebases and enables efficient querying through a persistent knowledge graph. It is designed for AI coding agents, offering support for 158 programming languages with zero dependencies and a user-friendly installation process.",
+  "use_cases": [
+    "Indexing a large codebase like the Linux kernel for rapid analysis",
+    "Integrating with coding agents to enhance code exploration",
+    "Visualizing code relationships and architecture through a 3D graph interface"
+  ],
+  "similar_tools": [
+    "Sourcegraph",
+    "CodeQL"
+  ],
+  "tags": [
+    "code intelligence",
+    "indexing",
+    "knowledge graph"
+  ]
+}

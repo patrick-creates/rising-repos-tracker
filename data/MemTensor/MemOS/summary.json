@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-29T09:19:13.034Z",
+  "model": "gpt-4o-mini",
+  "summary": "MemOS is a Memory Operating System designed for LLMs and AI agents, enabling context-aware and personalized interactions through a unified memory management system. It supports multi-modal memory and efficient memory operations, making it ideal for applications requiring long-term memory capabilities.",
+  "use_cases": [
+    "Personalized AI chatbots that remember user preferences",
+    "Multi-agent systems sharing a common memory for collaborative tasks",
+    "Knowledge management systems that utilize documents and URLs for long-term memory"
+  ],
+  "similar_tools": [
+    "OpenAI Memory",
+    "Redis"
+  ],
+  "tags": [
+    "memory",
+    "ai",
+    "longterm"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-29T09:19:20.488Z",
+  "model": "gpt-4o-mini",
+  "summary": "Claurst is an open-source terminal coding agent built in Rust that serves as a multi-provider TUI pair programmer. It aims to enhance the coding experience by providing features like plugin support, chat forking, and memory consolidation without tracking or telemetry.",
+  "use_cases": [
+    "Collaborating on coding projects with team members via shared chat sessions",
+    "Using Claurst as a coding assistant to explain complex codebases",
+    "Integrating Claurst into an IDE for enhanced coding productivity"
+  ],
+  "similar_tools": [
+    "GitHub Copilot",
+    "TabNine"
+  ],
+  "tags": [
+    "rust",
+    "coding",
+    "agent"
+  ]
+}

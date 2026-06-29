@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-29T09:18:41.319Z",
+  "model": "gpt-4o-mini",
+  "summary": "The witr repository provides a tool that helps users understand the origins and reasons behind running processes on their systems. It simplifies the correlation of outputs from various system tools into a single, human-readable format or an interactive TUI dashboard.",
+  "use_cases": [
+    "Diagnosing why a specific service is running on a server",
+    "Troubleshooting unexpected processes consuming resources",
+    "Understanding the relationship between containers and their parent processes"
+  ],
+  "similar_tools": [
+    "htop",
+    "ps"
+  ],
+  "tags": [
+    "monitoring",
+    "diagnosis",
+    "process"
+  ]
+}

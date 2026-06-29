@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-29T09:18:34.016Z",
+  "model": "gpt-4o-mini",
+  "summary": "OpenMontage is an open-source video production system that allows users to create videos by simply describing their ideas in plain language. It automates the processes of research, scripting, asset generation, editing, and final composition, making video production accessible and efficient.",
+  "use_cases": [
+    "Create a documentary montage using real footage",
+    "Generate an animated explainer video about a technical topic",
+    "Transform a favorite YouTube video into a new production with a different theme"
+  ],
+  "similar_tools": [
+    "Adobe Premiere Pro",
+    "Final Cut Pro"
+  ],
+  "tags": [
+    "video",
+    "production",
+    "automation"
+  ]
+}
