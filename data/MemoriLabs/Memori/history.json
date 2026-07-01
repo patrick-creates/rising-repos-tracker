@@ -70,5 +70,13 @@
     "watchers": 65,
     "open_issues": 20,
     "description": "Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems."
+  },
+  {
+    "date": "2026-07-01",
+    "stars": 15508,
+    "forks": 2764,
+    "watchers": 65,
+    "open_issues": 21,
+    "description": "Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems."
   }
 ]
