@@ -358,5 +358,13 @@
     "watchers": 307,
     "open_issues": 576,
     "description": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic"
+  },
+  {
+    "date": "2026-07-02",
+    "stars": 47759,
+    "forks": 4181,
+    "watchers": 306,
+    "open_issues": 585,
+    "description": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic"
   }
 ]
