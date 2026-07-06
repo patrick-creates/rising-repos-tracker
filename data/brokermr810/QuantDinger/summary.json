@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-06T08:50:25.419Z",
+  "model": "gpt-4o-mini",
+  "summary": "QuantDinger is an open-source AI trading operating system that enables users to develop, backtest, and execute trading strategies in a self-hosted environment. It aims to provide a comprehensive solution for traders by integrating research, execution, and monitoring into one platform while ensuring user control over their data and keys.",
+  "use_cases": [
+    "Develop and backtest trading strategies using AI models",
+    "Execute trades across multiple brokers like IBKR and Alpaca",
+    "Monitor trading performance and compliance with audit logs"
+  ],
+  "similar_tools": [
+    "MetaTrader",
+    "TradingView"
+  ],
+  "tags": [
+    "trading",
+    "ai",
+    "backtesting"
+  ]
+}

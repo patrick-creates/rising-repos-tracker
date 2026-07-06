@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-06T08:50:51.487Z",
+  "model": "gpt-4o-mini",
+  "summary": "OfficeCLI is an innovative command-line tool that enables AI agents to create, read, and modify Office documents (Word, Excel, PowerPoint) seamlessly without requiring any Office installation. It simplifies document manipulation into single-line commands, making it accessible for both AI agents and developers.",
+  "use_cases": [
+    "Generate a PowerPoint presentation from scratch using AI commands",
+    "Create and edit an Excel budget tracker with real-time updates",
+    "Automate the generation of Word project proposals based on AI input"
+  ],
+  "similar_tools": [
+    "Apache POI",
+    "python-pptx"
+  ],
+  "tags": [
+    "office",
+    "ai",
+    "automation"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-06T08:50:12.104Z",
+  "model": "gpt-4o-mini",
+  "summary": "AI Berkshire is an investment research framework that leverages AI to enhance the depth and efficiency of value investing, drawing from the methodologies of renowned investors like Warren Buffett and Charlie Munger. It combines multiple AI agents to provide structured, high-quality investment analysis and decision-making support.",
+  "use_cases": [
+    "Conducting comprehensive investment research on a publicly listed company",
+    "Performing financial statement analysis using original reports",
+    "Managing and optimizing an investment portfolio with structured criteria"
+  ],
+  "similar_tools": [
+    "Morningstar",
+    "Seeking Alpha"
+  ],
+  "tags": [
+    "investment",
+    "ai",
+    "research"
+  ]
+}

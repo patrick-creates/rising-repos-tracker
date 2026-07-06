@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-06T08:50:08.463Z",
+  "model": "gpt-4o-mini",
+  "summary": "OmniRoute is a dashboard that connects users to over 237 AI providers, allowing seamless integration and management of various AI tools through a single endpoint. It aims to simplify the process of utilizing free AI resources while optimizing token usage and reducing costs.",
+  "use_cases": [
+    "Integrating multiple AI tools for software development",
+    "Managing API calls to various AI providers for data analysis",
+    "Automating AI-driven content generation across platforms"
+  ],
+  "similar_tools": [
+    "Zapier",
+    "Integromat"
+  ],
+  "tags": [
+    "ai",
+    "integration",
+    "dashboard"
+  ]
+}

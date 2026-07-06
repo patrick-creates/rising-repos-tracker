@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-06T08:50:29.368Z",
+  "model": "gpt-4o-mini",
+  "summary": "The Garden Skills repository offers a curated collection of production-ready agent skills for AI coding agents like Claude Code and Codex, enabling users to create polished web presentations and designs. It aims to enhance the capabilities of AI tools in generating high-quality, visually appealing content for various applications.",
+  "use_cases": [
+    "Creating engaging web video presentations from scripts",
+    "Designing interactive web pages and dashboards",
+    "Generating visually appealing articles from raw content"
+  ],
+  "similar_tools": [
+    "Canva",
+    "Figma"
+  ],
+  "tags": [
+    "ai",
+    "design",
+    "presentation"
+  ]
+}

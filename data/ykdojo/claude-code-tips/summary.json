@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-06T08:50:33.090Z",
+  "model": "gpt-4o-mini",
+  "summary": "The 'claude-code-tips' repository provides over 40 tips for effectively using Claude Code, enhancing developer workflows with practical advice and scripts. It aims to help users optimize their coding experience and productivity through various features and integrations.",
+  "use_cases": [
+    "Customizing the status line for better context awareness",
+    "Utilizing slash commands for efficient interaction with Claude Code",
+    "Managing multiple Claude accounts seamlessly"
+  ],
+  "similar_tools": [
+    "GitHub Copilot",
+    "OpenAI Codex"
+  ],
+  "tags": [
+    "coding",
+    "productivity",
+    "AI"
+  ]
+}

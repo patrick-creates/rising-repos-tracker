@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-06T08:50:36.199Z",
+  "model": "gpt-4o-mini",
+  "summary": "Hermes Studio is a comprehensive desktop application and web console designed for managing and interacting with Hermes Agents, providing functionalities like chat, automation, and model management. It aims to streamline workflows for users by centralizing various AI-related tasks and tools in one platform.",
+  "use_cases": [
+    "Automating responses across multiple messaging platforms",
+    "Managing AI model profiles and credentials",
+    "Tracking usage analytics and scheduled jobs for AI agents"
+  ],
+  "similar_tools": [
+    "Rasa",
+    "Dialogflow"
+  ],
+  "tags": [
+    "ai",
+    "automation",
+    "dashboard"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-06T08:50:54.982Z",
+  "model": "gpt-4o-mini",
+  "summary": "MiroThinker is a deep research agent designed for enhanced research and prediction tasks, achieving state-of-the-art performance on various benchmarks. It aims to provide users with advanced tools for long-chain reasoning and interactive research workflows.",
+  "use_cases": [
+    "Generating comprehensive research reports from uploaded documents",
+    "Conducting financial predictions using historical data",
+    "Performing multi-step analysis for complex research queries"
+  ],
+  "similar_tools": [
+    "OpenAI GPT-4",
+    "Google BERT"
+  ],
+  "tags": [
+    "research",
+    "ai",
+    "prediction"
+  ]
+}

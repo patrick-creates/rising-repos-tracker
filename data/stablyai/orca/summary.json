@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-06T08:49:59.200Z",
+  "model": "gpt-4o-mini",
+  "summary": "Orca is an AI orchestrator designed for developers to run multiple AI agents in parallel, enabling efficient comparison and collaboration on tasks. It provides a unified interface for managing workflows, monitoring agents, and integrating with tools like GitHub and Linear.",
+  "use_cases": [
+    "Running multiple AI models to compare outputs on the same prompt",
+    "Monitoring AI agents from a mobile device while on the go",
+    "Integrating AI workflows with GitHub pull requests and issues"
+  ],
+  "similar_tools": [
+    "GitHub Copilot",
+    "TabNine"
+  ],
+  "tags": [
+    "ai",
+    "workflow",
+    "development"
+  ]
+}

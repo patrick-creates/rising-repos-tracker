@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-06T08:50:03.882Z",
+  "model": "gpt-4o-mini",
+  "summary": "Herdr is a terminal multiplexer designed to manage multiple coding agents in a single terminal environment, providing real-time visibility into their states. It allows users to run agents anywhere, maintain persistent sessions, and interact with them seamlessly over SSH without the overhead of a graphical interface.",
+  "use_cases": [
+    "Monitoring the status of multiple coding agents during development",
+    "Managing remote coding sessions on a VPS",
+    "Integrating various AI coding assistants for collaborative coding tasks"
+  ],
+  "similar_tools": [
+    "tmux",
+    "screen"
+  ],
+  "tags": [
+    "terminal",
+    "multiplexer",
+    "agents"
+  ]
+}

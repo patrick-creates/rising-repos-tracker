@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-06T08:50:18.496Z",
+  "model": "gpt-4o-mini",
+  "summary": "Open Code Review is an AI-powered CLI tool designed to enhance code review processes by providing structured feedback on code changes. It originated from Alibaba Group's internal tool and aims to improve precision and efficiency in identifying code defects.",
+  "use_cases": [
+    "automating code reviews in CI/CD pipelines",
+    "auditing unfamiliar codebases for quality assurance",
+    "providing detailed feedback on pull requests to improve code quality"
+  ],
+  "similar_tools": [
+    "SonarQube",
+    "CodeClimate"
+  ],
+  "tags": [
+    "code review",
+    "ai",
+    "cli"
+  ]
+}

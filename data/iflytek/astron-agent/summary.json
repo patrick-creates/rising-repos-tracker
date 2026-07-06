@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-06T08:50:42.930Z",
+  "model": "gpt-4o-mini",
+  "summary": "Astron Agent is an enterprise-grade platform for developing intelligent agent applications, integrating AI workflow orchestration, model management, and RPA automation. It enables organizations to build scalable, production-ready applications with high availability and cross-system integration capabilities.",
+  "use_cases": [
+    "automating customer support workflows",
+    "integrating AI models for data analysis",
+    "streamlining internal business processes through RPA"
+  ],
+  "similar_tools": [
+    "UiPath",
+    "Automation Anywhere"
+  ],
+  "tags": [
+    "ai",
+    "rpa",
+    "workflow"
+  ]
+}

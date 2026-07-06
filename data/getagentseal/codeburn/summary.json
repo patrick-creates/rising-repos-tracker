@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-06T08:50:46.951Z",
+  "model": "gpt-4o-mini",
+  "summary": "CodeBurn is a local-first tool that tracks AI coding token usage and costs across multiple AI tools, providing detailed insights into spending by task, model, and project. It helps users identify wasteful spending and optimize their AI usage without sending data to external servers.",
+  "use_cases": [
+    "Tracking AI tool expenses for software development teams",
+    "Identifying cost-saving opportunities in AI model usage",
+    "Analyzing performance metrics of different AI models for specific tasks"
+  ],
+  "similar_tools": [
+    "OpenAI Usage Tracker",
+    "AI Cost Management Tool"
+  ],
+  "tags": [
+    "ai",
+    "cost",
+    "tracking"
+  ]
+}

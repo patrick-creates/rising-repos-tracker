@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-06T08:50:22.215Z",
+  "model": "gpt-4o-mini",
+  "summary": "This repository provides a project-based course on Harness Engineering, focusing on building reliable environments for AI coding agents. It aims to teach users how to create effective harnesses that improve the performance and reliability of AI models in software development tasks.",
+  "use_cases": [
+    "Scaffolding a production-grade harness for an AI project",
+    "Improving the reliability of AI-generated code through structured workflows",
+    "Creating a multi-turn AI agent that maintains context and task completion accuracy"
+  ],
+  "similar_tools": [
+    "OpenAI Codex",
+    "Anthropic's AI models"
+  ],
+  "tags": [
+    "ai",
+    "engineering",
+    "education"
+  ]
+}

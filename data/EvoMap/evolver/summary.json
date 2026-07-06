@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-06T08:50:39.607Z",
+  "model": "gpt-4o-mini",
+  "summary": "Evolver is a GEP-powered self-evolution engine for AI agents that transforms ad hoc prompt tweaks into reusable evolution assets. It aims to enhance the performance and adaptability of AI agents through a structured evolution process based on genes and capsules.",
+  "use_cases": [
+    "evolving AI agents for improved performance in coding tasks",
+    "auditing and reusing evolution strategies in AI projects",
+    "integrating with existing agent runtimes for enhanced functionality"
+  ],
+  "similar_tools": [
+    "OpenAI Codex",
+    "Hugging Face Transformers"
+  ],
+  "tags": [
+    "ai",
+    "evolution",
+    "self-improvement"
+  ]
+}
