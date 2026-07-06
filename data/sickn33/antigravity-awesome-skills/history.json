@@ -334,5 +334,13 @@
     "watchers": 306,
     "open_issues": 3,
     "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections."
+  },
+  {
+    "date": "2026-07-06",
+    "stars": 42424,
+    "forks": 6762,
+    "watchers": 306,
+    "open_issues": 1,
+    "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections."
   }
 ]

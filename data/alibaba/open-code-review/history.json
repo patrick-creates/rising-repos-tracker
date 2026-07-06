@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-07-06",
+    "stars": 9987,
+    "forks": 651,
+    "watchers": 33,
+    "open_issues": 49,
+    "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
+  }
+]
