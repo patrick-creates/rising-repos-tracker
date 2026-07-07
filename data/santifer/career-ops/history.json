@@ -398,5 +398,13 @@
     "watchers": 213,
     "open_issues": 155,
     "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-07-07",
+    "stars": 58920,
+    "forks": 11567,
+    "watchers": 213,
+    "open_issues": 150,
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
   }
 ]
