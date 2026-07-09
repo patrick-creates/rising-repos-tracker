@@ -358,5 +358,13 @@
     "watchers": 310,
     "open_issues": 4,
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI"
+  },
+  {
+    "date": "2026-07-09",
+    "stars": 37682,
+    "forks": 4040,
+    "watchers": 309,
+    "open_issues": 0,
+    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI"
   }
 ]
