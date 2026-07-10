@@ -422,5 +422,13 @@
     "watchers": 184,
     "open_issues": 97,
     "description": "Chrome DevTools for coding agents"
+  },
+  {
+    "date": "2026-07-10",
+    "stars": 46591,
+    "forks": 3177,
+    "watchers": 255,
+    "open_issues": 91,
+    "description": "Chrome DevTools for coding agents"
   }
 ]

@@ -142,5 +142,13 @@
     "watchers": 65,
     "open_issues": 99,
     "description": "Personal memory for agents - fast memory retrieval, self-evolving skills, and lower cost."
+  },
+  {
+    "date": "2026-07-10",
+    "stars": 14007,
+    "forks": 1039,
+    "watchers": 65,
+    "open_issues": 85,
+    "description": "Personal memory for agents - fast memory retrieval, self-evolving skills, and lower cost."
   }
 ]
