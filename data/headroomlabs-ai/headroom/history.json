@@ -150,5 +150,13 @@
     "watchers": 180,
     "open_issues": 493,
     "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server."
+  },
+  {
+    "date": "2026-07-11",
+    "stars": 58462,
+    "forks": 4314,
+    "watchers": 179,
+    "open_issues": 522,
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server."
   }
 ]
