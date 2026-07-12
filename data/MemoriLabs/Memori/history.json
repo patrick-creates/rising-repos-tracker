@@ -158,5 +158,13 @@
     "watchers": 64,
     "open_issues": 23,
     "description": "Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems. Built for enterprise, Memori works with the data infrastructure you already run, no rip-and-replace, and deploys across managed cloud, single-tenant cloud, VPC, and on-premises."
+  },
+  {
+    "date": "2026-07-12",
+    "stars": 15573,
+    "forks": 2807,
+    "watchers": 64,
+    "open_issues": 23,
+    "description": "Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems. Built for enterprise, Memori works with the data infrastructure you already run, no rip-and-replace, and deploys across managed cloud, single-tenant cloud, VPC, and on-premises."
   }
 ]
