@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-13T07:53:12.639Z",
+  "model": "gpt-4o-mini",
+  "summary": "PixelRAG is a tool that enables users to render documents as screenshots and retrieve information based on visual content rather than just text. It aims to enhance the retrieval-augmented generation process by preserving the visual structure of documents, making it easier to answer questions about complex layouts and graphics.",
+  "use_cases": [
+    "Searching for specific information in web pages with complex layouts",
+    "Retrieving data from infographics or charts in documents",
+    "Using visual search capabilities to find relevant documents based on images"
+  ],
+  "similar_tools": [
+    "DocuSearch",
+    "VisualSearch"
+  ],
+  "tags": [
+    "visual",
+    "retrieval",
+    "generation"
+  ]
+}

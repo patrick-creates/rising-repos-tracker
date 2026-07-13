@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-13T07:53:26.984Z",
+  "model": "gpt-4o-mini",
+  "summary": "Fara-7B is an efficient small language model designed for automating computer tasks through direct interaction with web interfaces. It aims to provide a compact solution for users seeking to streamline their online activities while maintaining privacy and reducing latency.",
+  "use_cases": [
+    "automating online shopping",
+    "filling out web forms",
+    "booking travel arrangements"
+  ],
+  "similar_tools": [
+    "UiPath",
+    "Automation Anywhere"
+  ],
+  "tags": [
+    "automation",
+    "web",
+    "ai"
+  ]
+}

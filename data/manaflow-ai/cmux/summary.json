@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-13T07:52:45.854Z",
+  "model": "gpt-4o-mini",
+  "summary": "cmux is a native macOS terminal application designed for managing multiple coding agents with features like vertical tabs and a notification system. It aims to enhance productivity by providing a customizable environment for developers to interact with AI coding tools efficiently.",
+  "use_cases": [
+    "Managing multiple AI coding sessions simultaneously",
+    "Receiving real-time notifications from coding agents",
+    "Using an integrated browser alongside terminal commands"
+  ],
+  "similar_tools": [
+    "iTerm2",
+    "Hyper"
+  ],
+  "tags": [
+    "macos",
+    "terminal",
+    "ai"
+  ]
+}

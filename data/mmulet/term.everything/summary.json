@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-13T07:53:02.309Z",
+  "model": "gpt-4o-mini",
+  "summary": "Term.Everything is a Linux CLI program that allows users to run GUI applications directly in their terminal, utilizing a custom Wayland compositor. It aims to provide a unique way to interact with graphical applications in a terminal environment, enhancing accessibility and versatility for users.",
+  "use_cases": [
+    "Run graphical applications over SSH",
+    "Display a full desktop environment in a terminal",
+    "Play video games within a terminal interface"
+  ],
+  "similar_tools": [
+    "tmux",
+    "screen"
+  ],
+  "tags": [
+    "terminal",
+    "gui",
+    "wayland"
+  ]
+}

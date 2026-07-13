@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-13T07:53:09.221Z",
+  "model": "gpt-4o-mini",
+  "summary": "Hunk is a review-first terminal diff viewer designed for agent-authored changesets, enabling interactive code reviews with inline AI annotations. It enhances the traditional diff experience by providing a multi-file review stream and responsive layouts.",
+  "use_cases": [
+    "Reviewing code changes in a collaborative environment",
+    "Integrating AI annotations for better code understanding",
+    "Comparing changes between different versions of files"
+  ],
+  "similar_tools": [
+    "git diff",
+    "delta"
+  ],
+  "tags": [
+    "diff",
+    "review",
+    "terminal"
+  ]
+}

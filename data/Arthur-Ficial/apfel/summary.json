@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-13T07:53:20.512Z",
+  "model": "gpt-4o-mini",
+  "summary": "The `apfel` repository provides a command-line tool and local server for accessing Apple's built-in LLM on Apple Silicon Macs, enabling on-device AI capabilities without the need for cloud services. It allows users to interact with the model through various commands and file inputs, making it a versatile tool for developers and users looking to leverage AI locally.",
+  "use_cases": [
+    "Summarizing documents or code files",
+    "Generating creative writing prompts",
+    "Executing shell commands based on natural language queries"
+  ],
+  "similar_tools": [
+    "OpenAI GPT-3",
+    "Hugging Face Transformers"
+  ],
+  "tags": [
+    "ai",
+    "macos",
+    "command-line"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-13T07:52:37.789Z",
+  "model": "gpt-4o-mini",
+  "summary": "MindsHub is a unified workspace that allows users to automate and manage AI-driven projects, enabling seamless integration of various models and data sources. It aims to simplify the process of building and deploying AI applications without requiring extensive engineering skills.",
+  "use_cases": [
+    "Automating report generation from data sources",
+    "Building internal dashboards for data analysis",
+    "Creating web applications that utilize AI models for real-time insights"
+  ],
+  "similar_tools": [
+    "Zapier",
+    "Airtable"
+  ],
+  "tags": [
+    "automation",
+    "ai",
+    "workspace"
+  ]
+}

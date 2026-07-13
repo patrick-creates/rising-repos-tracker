@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-13T07:52:41.440Z",
+  "model": "gpt-4o-mini",
+  "summary": "LibreCode is a free, open-source AI-powered code editor that runs natively on multiple operating systems, providing a local AI assistant for coding tasks. It aims to offer a fully-featured development environment without reliance on cloud services or telemetry.",
+  "use_cases": [
+    "Developing software with real-time AI assistance",
+    "Reverse engineering .NET assemblies or WebAssembly binaries",
+    "Managing project files and running terminal commands within the editor"
+  ],
+  "similar_tools": [
+    "Visual Studio Code",
+    "JetBrains IntelliJ IDEA"
+  ],
+  "tags": [
+    "code editor",
+    "ai",
+    "reverse engineering"
+  ]
+}

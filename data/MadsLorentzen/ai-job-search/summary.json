@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-13T07:52:49.962Z",
+  "model": "gpt-4o-mini",
+  "summary": "AI Job Search is an open-source framework that assists users in managing their job applications by leveraging AI to evaluate job postings, tailor CVs, and prepare for interviews. It was created by a geophysicist who successfully used it to secure employment after losing a job, aiming to help others navigate the job market effectively.",
+  "use_cases": [
+    "automating job application processes",
+    "tailoring CVs and cover letters for specific job postings",
+    "preparing for interviews with personalized mock sessions"
+  ],
+  "similar_tools": [
+    "Jobscan",
+    "Resumake"
+  ],
+  "tags": [
+    "jobsearch",
+    "ai",
+    "automation"
+  ]
+}

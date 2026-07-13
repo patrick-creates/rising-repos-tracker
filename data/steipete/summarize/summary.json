@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-13T07:53:16.625Z",
+  "model": "gpt-4o-mini",
+  "summary": "Summarize is a tool that provides fast summaries from URLs, files, and media through a Chrome Side Panel and CLI, enabling users to quickly digest content. It supports various media types and integrates with multiple coding CLI backends for enhanced functionality.",
+  "use_cases": [
+    "Summarizing articles from the web",
+    "Extracting slides and transcripts from YouTube videos",
+    "Transcribing audio podcasts into text"
+  ],
+  "similar_tools": [
+    "TLDR This",
+    "SummarizeBot"
+  ],
+  "tags": [
+    "summarization",
+    "media",
+    "cli"
+  ]
+}

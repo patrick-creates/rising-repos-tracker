@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-13T07:52:34.452Z",
+  "model": "gpt-4o-mini",
+  "summary": "Agentic Awesome Skills is a GitHub library providing over 1,948 reusable skills for various AI coding assistants, enabling users to perform tasks with structured instructions. It aims to streamline the installation and usage of skills for development, testing, and other workflows, enhancing productivity and context in AI-assisted coding.",
+  "use_cases": [
+    "Install a skill to automate code debugging",
+    "Use a plugin to enhance security review processes",
+    "Access a workflow for planning a software MVP"
+  ],
+  "similar_tools": [
+    "GitHub Copilot",
+    "OpenAI Codex"
+  ],
+  "tags": [
+    "skills",
+    "automation",
+    "ai"
+  ]
+}

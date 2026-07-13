@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-13T07:52:57.900Z",
+  "model": "gpt-4o-mini",
+  "summary": "jcode is a next-generation coding agent designed to enhance programming efficiency through multi-session workflows and high customizability. It aims to optimize performance and resource usage compared to existing coding tools.",
+  "use_cases": [
+    "Automating repetitive coding tasks",
+    "Enhancing productivity during pair programming sessions",
+    "Managing multiple coding projects simultaneously"
+  ],
+  "similar_tools": [
+    "GitHub Copilot",
+    "OpenAI Codex"
+  ],
+  "tags": [
+    "coding",
+    "automation",
+    "productivity"
+  ]
+}

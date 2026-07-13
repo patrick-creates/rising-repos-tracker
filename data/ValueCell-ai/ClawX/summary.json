@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-13T07:53:05.696Z",
+  "model": "gpt-4o-mini",
+  "summary": "ClawX is a desktop interface designed for OpenClaw AI agents, enabling users to interact with AI without needing command-line expertise. It simplifies the orchestration of AI tasks through an intuitive graphical interface, making powerful technology accessible to everyday users.",
+  "use_cases": [
+    "automating workflows with AI agents",
+    "managing multiple AI-powered channels",
+    "scheduling intelligent tasks without manual intervention"
+  ],
+  "similar_tools": [
+    "Zapier",
+    "IFTTT"
+  ],
+  "tags": [
+    "ai",
+    "desktop",
+    "automation"
+  ]
+}
