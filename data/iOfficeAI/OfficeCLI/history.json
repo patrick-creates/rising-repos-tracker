@@ -54,5 +54,13 @@
     "watchers": 38,
     "open_issues": 23,
     "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required."
+  },
+  {
+    "date": "2026-07-13",
+    "stars": 15706,
+    "forks": 1065,
+    "watchers": 41,
+    "open_issues": 25,
+    "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required."
   }
 ]

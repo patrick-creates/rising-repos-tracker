@@ -54,5 +54,13 @@
     "watchers": 28,
     "open_issues": 38,
     "description": "Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn"
+  },
+  {
+    "date": "2026-07-13",
+    "stars": 8636,
+    "forks": 675,
+    "watchers": 28,
+    "open_issues": 39,
+    "description": "Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn"
   }
 ]
