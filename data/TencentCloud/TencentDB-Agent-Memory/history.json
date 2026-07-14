@@ -6,5 +6,13 @@
     "watchers": 39,
     "open_issues": 279,
     "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies."
+  },
+  {
+    "date": "2026-07-14",
+    "stars": 8778,
+    "forks": 805,
+    "watchers": 38,
+    "open_issues": 278,
+    "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies."
   }
 ]
