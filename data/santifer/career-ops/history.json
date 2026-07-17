@@ -478,5 +478,13 @@
     "watchers": 297,
     "open_issues": 206,
     "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
+  },
+  {
+    "date": "2026-07-17",
+    "stars": 60317,
+    "forks": 11874,
+    "watchers": 247,
+    "open_issues": 188,
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
   }
 ]

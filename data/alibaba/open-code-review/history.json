@@ -86,5 +86,13 @@
     "watchers": 38,
     "open_issues": 44,
     "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
+  },
+  {
+    "date": "2026-07-17",
+    "stars": 10635,
+    "forks": 717,
+    "watchers": 39,
+    "open_issues": 41,
+    "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
   }
 ]
