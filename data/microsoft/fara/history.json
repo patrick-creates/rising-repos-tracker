@@ -38,5 +38,13 @@
     "watchers": 41,
     "open_issues": 30,
     "description": "Fara-7B: An Efficient Agentic Model for Computer Use"
+  },
+  {
+    "date": "2026-07-18",
+    "stars": 6015,
+    "forks": 583,
+    "watchers": 41,
+    "open_issues": 32,
+    "description": "Fara1.5 – A family of frontier computer use agent models"
   }
 ]
