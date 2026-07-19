@@ -382,5 +382,13 @@
     "watchers": 197,
     "open_issues": 817,
     "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+  },
+  {
+    "date": "2026-07-19",
+    "stars": 32311,
+    "forks": 3612,
+    "watchers": 199,
+    "open_issues": 820,
+    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
   }
 ]

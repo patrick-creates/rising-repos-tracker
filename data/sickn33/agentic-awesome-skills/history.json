@@ -46,5 +46,13 @@
     "watchers": 312,
     "open_issues": 4,
     "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections."
+  },
+  {
+    "date": "2026-07-19",
+    "stars": 43556,
+    "forks": 6465,
+    "watchers": 312,
+    "open_issues": 1,
+    "description": "AAS Core preview is the local, agent-first control plane for discovering, recommending, validating, and planning exact skill stacks, backed by 1,965+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench."
   }
 ]
