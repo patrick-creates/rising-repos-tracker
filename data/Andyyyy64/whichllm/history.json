@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-07-20",
+    "stars": 5867,
+    "forks": 315,
+    "watchers": 23,
+    "open_issues": 18,
+    "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly."
+  }
+]
