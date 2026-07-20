@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-20T07:44:57.990Z",
+  "model": "gpt-4o-mini",
+  "summary": "This repository serves as the open-source main repository for the book 'In-Depth Understanding of AI Agents: Design Principles and Engineering Practices', containing the full text and accompanying example code. It aims to provide a comprehensive learning path from basic concepts to advanced techniques in AI agent development.",
+  "use_cases": [
+    "Running experiments on AI agent frameworks",
+    "Learning about context engineering in AI agents",
+    "Implementing user memory systems for personalized AI interactions"
+  ],
+  "similar_tools": [
+    "OpenAI Gym",
+    "Rasa"
+  ],
+  "tags": [
+    "ai",
+    "agents",
+    "open-source"
+  ]
+}

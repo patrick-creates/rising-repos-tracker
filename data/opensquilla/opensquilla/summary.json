@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-20T07:45:01.676Z",
+  "model": "gpt-4o-mini",
+  "summary": "OpenSquilla is a token-efficient AI agent designed to optimize interactions across various platforms, including CLI, web UI, and chat channels. It aims to enhance capability and results while maintaining budget efficiency through a microkernel architecture and a local model router.",
+  "use_cases": [
+    "Integrating AI capabilities into a customer support chat system",
+    "Developing a command-line tool that utilizes multiple AI models for data processing",
+    "Creating a web application that leverages AI for personalized user experiences"
+  ],
+  "similar_tools": [
+    "Rasa",
+    "Dialogflow"
+  ],
+  "tags": [
+    "ai",
+    "microkernel",
+    "dashboard"
+  ]
+}

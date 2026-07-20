@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-20T07:44:49.459Z",
+  "model": "gpt-4o-mini",
+  "summary": "The Khazix Skills repository offers a collection of AI skills designed to enhance productivity by automating various tasks on macOS and Windows. These skills are structured command sets that can be easily integrated into compatible AI agents, making them practical for everyday use.",
+  "use_cases": [
+    "Scan and clean disk space on a computer",
+    "Retrieve daily AI news updates without an API key",
+    "Align project documentation and memory after completing tasks"
+  ],
+  "similar_tools": [
+    "CleanMyMac",
+    "Zapier"
+  ],
+  "tags": [
+    "ai",
+    "automation",
+    "productivity"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-07-20T07:45:05.767Z",
+  "model": "gpt-4o-mini",
+  "summary": "whichllm is a tool designed to help users find the best local large language model (LLM) that can run on their hardware by auto-detecting system specifications and ranking models from HuggingFace accordingly. It aims to provide evidence-based recommendations that consider both model performance and hardware compatibility.",
+  "use_cases": [
+    "Selecting the most efficient LLM for a specific GPU setup.",
+    "Simulating different hardware configurations before purchasing new GPUs.",
+    "Running LLMs in an isolated environment without manual installations."
+  ],
+  "similar_tools": [
+    "Hugging Face Transformers",
+    "LangChain"
+  ],
+  "tags": [
+    "llm",
+    "model",
+    "recommendation",
+    "performance"
+  ]
+}
