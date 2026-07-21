@@ -510,5 +510,13 @@
     "watchers": 303,
     "open_issues": 32,
     "description": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)"
+  },
+  {
+    "date": "2026-07-21",
+    "stars": 46068,
+    "forks": 10268,
+    "watchers": 303,
+    "open_issues": 32,
+    "description": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)"
   }
 ]

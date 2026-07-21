@@ -62,5 +62,13 @@
     "watchers": 15,
     "open_issues": 14,
     "description": "The free AI already on your Mac. CLI tool, OpenAI-compatible server, and interactive chat — all on-device via Apple Intelligence. No API keys, no cloud, no downloads."
+  },
+  {
+    "date": "2026-07-21",
+    "stars": 6170,
+    "forks": 233,
+    "watchers": 15,
+    "open_issues": 17,
+    "description": "The free AI already on your Mac. CLI tool, OpenAI-compatible server, and interactive chat — all on-device via Apple Intelligence. No API keys, no cloud, no downloads."
   }
 ]

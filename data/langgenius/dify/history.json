@@ -550,5 +550,13 @@
     "watchers": 816,
     "open_issues": 1084,
     "description": "Production-ready platform for agentic workflow development."
+  },
+  {
+    "date": "2026-07-21",
+    "stars": 149578,
+    "forks": 23577,
+    "watchers": 816,
+    "open_issues": 1079,
+    "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack."
   }
 ]

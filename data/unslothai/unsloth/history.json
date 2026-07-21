@@ -510,5 +510,13 @@
     "watchers": 367,
     "open_issues": 970,
     "description": "Unsloth Studio is a web UI for training and running open models like Gemma 4, Qwen3.6, DeepSeek, gpt-oss locally."
+  },
+  {
+    "date": "2026-07-21",
+    "stars": 68619,
+    "forks": 6163,
+    "watchers": 367,
+    "open_issues": 968,
+    "description": "Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models."
   }
 ]

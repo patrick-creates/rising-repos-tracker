@@ -174,5 +174,13 @@
     "watchers": 40,
     "open_issues": 2,
     "description": "Why is this running?"
+  },
+  {
+    "date": "2026-07-21",
+    "stars": 18264,
+    "forks": 571,
+    "watchers": 40,
+    "open_issues": 2,
+    "description": "witr - Why is this running? A fast, cross-platform CLI + TUI that traces any process, port, container, or open file back to what started it, and why."
   }
 ]

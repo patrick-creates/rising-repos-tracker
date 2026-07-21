@@ -118,5 +118,13 @@
     "watchers": 62,
     "open_issues": 4,
     "description": "40+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for everyday dev workflows."
+  },
+  {
+    "date": "2026-07-21",
+    "stars": 9369,
+    "forks": 743,
+    "watchers": 62,
+    "open_issues": 5,
+    "description": "40+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for everyday dev workflows."
   }
 ]

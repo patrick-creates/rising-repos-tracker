@@ -118,5 +118,13 @@
     "watchers": 64,
     "open_issues": 75,
     "description": "agent multiplexer that lives in your terminal."
+  },
+  {
+    "date": "2026-07-21",
+    "stars": 18882,
+    "forks": 1225,
+    "watchers": 66,
+    "open_issues": 81,
+    "description": "agent multiplexer that lives in your terminal."
   }
 ]
