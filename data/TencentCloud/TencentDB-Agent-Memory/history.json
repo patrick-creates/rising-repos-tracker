@@ -78,5 +78,13 @@
     "watchers": 40,
     "open_issues": 320,
     "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies."
+  },
+  {
+    "date": "2026-07-23",
+    "stars": 9231,
+    "forks": 868,
+    "watchers": 40,
+    "open_issues": 334,
+    "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks."
   }
 ]

@@ -190,5 +190,13 @@
     "watchers": 40,
     "open_issues": 2,
     "description": "witr - Why is this running? A fast, cross-platform CLI + TUI that traces any process, port, container, or open file back to what started it, and why."
+  },
+  {
+    "date": "2026-07-23",
+    "stars": 18292,
+    "forks": 573,
+    "watchers": 40,
+    "open_issues": 2,
+    "description": "witr - Why is this running? A fast, cross-platform CLI + TUI that traces any process, port, container, or open file back to what started it, and why."
   }
 ]
