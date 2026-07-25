@@ -318,5 +318,13 @@
     "watchers": 93,
     "open_issues": 472,
     "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki."
+  },
+  {
+    "date": "2026-07-25",
+    "stars": 18879,
+    "forks": 2643,
+    "watchers": 93,
+    "open_issues": 488,
+    "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki."
   }
 ]

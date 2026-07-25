@@ -374,5 +374,13 @@
     "watchers": 128,
     "open_issues": 171,
     "description": "The batteries-included agent harness."
+  },
+  {
+    "date": "2026-07-25",
+    "stars": 26785,
+    "forks": 3750,
+    "watchers": 128,
+    "open_issues": 179,
+    "description": "The batteries-included agent harness."
   }
 ]
