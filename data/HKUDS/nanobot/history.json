@@ -558,5 +558,13 @@
     "watchers": 205,
     "open_issues": 845,
     "description": "Lightweight, open-source AI agent for your tools, chats, and workflows."
+  },
+  {
+    "date": "2026-07-27",
+    "stars": 46283,
+    "forks": 8195,
+    "watchers": 205,
+    "open_issues": 800,
+    "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps"
   }
 ]

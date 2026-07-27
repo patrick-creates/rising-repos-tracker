@@ -222,5 +222,13 @@
     "watchers": 44,
     "open_issues": 84,
     "description": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings"
+  },
+  {
+    "date": "2026-07-27",
+    "stars": 10398,
+    "forks": 950,
+    "watchers": 44,
+    "open_issues": 80,
+    "description": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings"
   }
 ]
