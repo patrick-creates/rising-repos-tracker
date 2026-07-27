@@ -1534,5 +1534,41 @@
     "stars_at_add": 5865,
     "stars_per_day_at_add": 42.8,
     "created_at": "2026-03-04"
+  },
+  {
+    "owner": "Graphify-Labs",
+    "repo": "graphify",
+    "added": "2026-07-27",
+    "notes": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+    "stars_at_add": 96675,
+    "stars_per_day_at_add": 848,
+    "created_at": "2026-04-03"
+  },
+  {
+    "owner": "Imbad0202",
+    "repo": "academic-research-skills",
+    "added": "2026-07-27",
+    "notes": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+    "stars_at_add": 39681,
+    "stars_per_day_at_add": 262.8,
+    "created_at": "2026-02-26"
+  },
+  {
+    "owner": "Anionex",
+    "repo": "banana-slides",
+    "added": "2026-07-27",
+    "notes": "一个基于nano banana pro🍌的原生AI PPT生成应用，迈向＂Vibe PPT＂; 支持上传任意模板图片，上传任意素材&智能解析，一句话/大纲/页面描述自动生成PPT，口头修改指定区域、一键导出可编辑ppt - An AI-native slides generator based on nano banana pro🍌",
+    "stars_at_add": 15333,
+    "stars_per_day_at_add": 64.2,
+    "created_at": "2025-11-29"
+  },
+  {
+    "owner": "t8y2",
+    "repo": "dbx",
+    "added": "2026-07-27",
+    "notes": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+    "stars_at_add": 11832,
+    "stars_per_day_at_add": 132.9,
+    "created_at": "2026-04-29"
   }
 ]
