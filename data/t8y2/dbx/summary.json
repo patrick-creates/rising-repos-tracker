@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-27T08:06:18.230Z",
+  "model": "gpt-4o-mini",
+  "summary": "The t8y2/dbx repository provides a lightweight open-source database manager built with Rust, featuring over 70 databases in a compact 20 MB package. It supports various platforms including desktop, Docker, and CLI, and includes a built-in AI assistant for enhanced user experience.",
+  "use_cases": [
+    "Managing multiple database types in a single application",
+    "Quickly setting up a local database environment for development",
+    "Utilizing AI assistance for database queries and management"
+  ],
+  "similar_tools": [
+    "DBeaver",
+    "HeidiSQL"
+  ],
+  "tags": [
+    "database",
+    "management",
+    "open-source"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-27T08:06:03.825Z",
+  "model": "gpt-4o-mini",
+  "summary": "Graphify is a tool that builds knowledge graphs from various file types, helping users uncover relationships and insights within their data. It is designed to enhance understanding and navigation of complex information by providing a structured visual representation.",
+  "use_cases": [
+    "Analyzing a research paper collection to identify key concepts and their interconnections",
+    "Organizing codebases by visualizing dependencies and relationships between functions",
+    "Creating a personal knowledge base by extracting insights from notes and documents"
+  ],
+  "similar_tools": [
+    "Obsidian",
+    "Roam Research"
+  ],
+  "tags": [
+    "knowledge graph",
+    "data visualization",
+    "insight extraction"
+  ]
+}

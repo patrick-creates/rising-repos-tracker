@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-27T08:06:13.893Z",
+  "model": "gpt-4o-mini",
+  "summary": "Banana Slides is an AI-native application designed to generate editable PowerPoint presentations from various inputs like ideas and documents, enabling users to create professional slides quickly and easily. It aims to reduce the complexity of traditional presentation design while enhancing creativity and customization options.",
+  "use_cases": [
+    "A student quickly generating a presentation for a class project",
+    "A business professional creating a visually appealing pitch deck",
+    "An educator transforming lecture notes into an engaging visual presentation"
+  ],
+  "similar_tools": [
+    "Canva",
+    "Google Slides"
+  ],
+  "tags": [
+    "presentation",
+    "ai",
+    "ppt"
+  ]
+}

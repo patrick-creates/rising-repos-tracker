@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-27T08:06:09.531Z",
+  "model": "gpt-4o-mini",
+  "summary": "This repository provides a suite of tools designed to assist researchers in the academic writing process, from planning to publication, while emphasizing human oversight to avoid common pitfalls of AI-generated content. It aims to enhance the quality of academic writing by managing references, formatting citations, and ensuring logical consistency.",
+  "use_cases": [
+    "Organizing research paper structure using Socratic dialogue",
+    "Verifying data and references for academic papers",
+    "Improving writing quality through style calibration and checks"
+  ],
+  "similar_tools": [
+    "Zotero",
+    "Mendeley"
+  ],
+  "tags": [
+    "academic",
+    "research",
+    "writing"
+  ]
+}
