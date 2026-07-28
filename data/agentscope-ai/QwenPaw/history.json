@@ -342,5 +342,13 @@
     "watchers": 101,
     "open_issues": 903,
     "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities."
+  },
+  {
+    "date": "2026-07-28",
+    "stars": 29346,
+    "forks": 2877,
+    "watchers": 101,
+    "open_issues": 909,
+    "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities."
   }
 ]

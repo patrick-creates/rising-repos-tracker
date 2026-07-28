@@ -286,5 +286,13 @@
     "watchers": 206,
     "open_issues": 77,
     "description": "The AI harness that moves you from current state to ideal state. An intent engineering platform: it conveys what you ultimately want to your AI on every task. [CODING, BUILDING, CREATING, BUSINESS, LIFE, WORK, ...]"
+  },
+  {
+    "date": "2026-07-28",
+    "stars": 17035,
+    "forks": 2305,
+    "watchers": 205,
+    "open_issues": 97,
+    "description": "⛰️A General Hill-climbing AI harness that helps you move from Current State to Ideal State in both Life and Work—from Coding to Creativity."
   }
 ]

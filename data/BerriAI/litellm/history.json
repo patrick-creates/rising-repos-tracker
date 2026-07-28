@@ -566,5 +566,13 @@
     "watchers": 218,
     "open_issues": 4277,
     "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]"
+  },
+  {
+    "date": "2026-07-28",
+    "stars": 54885,
+    "forks": 10136,
+    "watchers": 218,
+    "open_issues": 4344,
+    "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]"
   }
 ]

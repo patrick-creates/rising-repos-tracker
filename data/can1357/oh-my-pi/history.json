@@ -286,5 +286,13 @@
     "watchers": 60,
     "open_issues": 726,
     "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more"
+  },
+  {
+    "date": "2026-07-28",
+    "stars": 20330,
+    "forks": 1900,
+    "watchers": 61,
+    "open_issues": 783,
+    "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more"
   }
 ]
