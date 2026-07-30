@@ -582,5 +582,13 @@
     "watchers": 366,
     "open_issues": 969,
     "description": "Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models."
+  },
+  {
+    "date": "2026-07-30",
+    "stars": 69164,
+    "forks": 6233,
+    "watchers": 365,
+    "open_issues": 975,
+    "description": "Unsloth is a local UI for training and running Kimi K3, Gemma 4, Qwen3.6, DeepSeek, GLM and other models."
   }
 ]
