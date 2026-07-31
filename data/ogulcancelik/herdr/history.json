@@ -198,5 +198,13 @@
     "watchers": 81,
     "open_issues": 130,
     "description": "agent multiplexer that lives in your terminal."
+  },
+  {
+    "date": "2026-07-31",
+    "stars": 22860,
+    "forks": 1555,
+    "watchers": 80,
+    "open_issues": 128,
+    "description": "the runtime your coding agents live on"
   }
 ]
