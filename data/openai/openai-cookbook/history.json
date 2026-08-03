@@ -614,5 +614,13 @@
     "watchers": 999,
     "open_issues": 242,
     "description": "Examples and guides for using the OpenAI API"
+  },
+  {
+    "date": "2026-08-03",
+    "stars": 75073,
+    "forks": 12694,
+    "watchers": 1002,
+    "open_issues": 240,
+    "description": "Examples and guides for using the OpenAI API"
   }
 ]

@@ -334,5 +334,13 @@
     "watchers": 69,
     "open_issues": 50,
     "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection"
+  },
+  {
+    "date": "2026-08-03",
+    "stars": 14679,
+    "forks": 1488,
+    "watchers": 69,
+    "open_issues": 48,
+    "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection"
   }
 ]
