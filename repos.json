@@ -1570,5 +1570,41 @@
     "stars_at_add": 11832,
     "stars_per_day_at_add": 132.9,
     "created_at": "2026-04-29"
+  },
+  {
+    "owner": "herdrdev",
+    "repo": "herdr",
+    "added": "2026-08-03",
+    "notes": "the runtime your coding agents live on",
+    "stars_at_add": 23780,
+    "stars_per_day_at_add": 185.8,
+    "created_at": "2026-03-27"
+  },
+  {
+    "owner": "composio-community",
+    "repo": "awesome-codex-skills",
+    "added": "2026-08-03",
+    "notes": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+    "stars_at_add": 15565,
+    "stars_per_day_at_add": 77.1,
+    "created_at": "2026-01-12"
+  },
+  {
+    "owner": "NanmiCoder",
+    "repo": "cc-haha",
+    "added": "2026-08-03",
+    "notes": "Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code diffs, skill marketplace, multi-model, Computer Use, task-aware desktop pets, with WeChat, Feishu, DingTalk, Telegram, WhatsApp and H5 access.",
+    "stars_at_add": 13876,
+    "stars_per_day_at_add": 111.9,
+    "created_at": "2026-03-31"
+  },
+  {
+    "owner": "openai",
+    "repo": "codex-security",
+    "added": "2026-08-03",
+    "notes": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+    "stars_at_add": 8274,
+    "stars_per_day_at_add": 413.7,
+    "created_at": "2026-07-13"
   }
 ]
