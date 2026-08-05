@@ -406,5 +406,13 @@
     "watchers": 60,
     "open_issues": 6,
     "description": "💻  The first course for AI-native builders."
+  },
+  {
+    "date": "2026-08-05",
+    "stars": 18753,
+    "forks": 1778,
+    "watchers": 60,
+    "open_issues": 5,
+    "description": "💻  The first course for AI-native product builders."
   }
 ]
