@@ -638,5 +638,13 @@
     "watchers": 225,
     "open_issues": 2185,
     "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io"
+  },
+  {
+    "date": "2026-08-06",
+    "stars": 124931,
+    "forks": 8483,
+    "watchers": 226,
+    "open_issues": 2046,
+    "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io"
   }
 ]
