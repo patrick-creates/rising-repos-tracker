@@ -478,5 +478,13 @@
     "watchers": 234,
     "open_issues": 197,
     "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
+  },
+  {
+    "date": "2026-08-07",
+    "stars": 67835,
+    "forks": 5686,
+    "watchers": 235,
+    "open_issues": 49,
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
   }
 ]
