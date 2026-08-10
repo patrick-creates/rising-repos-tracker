@@ -670,5 +670,13 @@
     "watchers": 365,
     "open_issues": 1031,
     "description": "The local UI to run and train text and diffusion models, including Kimi K3, Gemma 4, Qwen3.6, DeepSeek-V4, FLUX and more."
+  },
+  {
+    "date": "2026-08-10",
+    "stars": 69775,
+    "forks": 6300,
+    "watchers": 365,
+    "open_issues": 1027,
+    "description": "The local UI to run and train text and diffusion models, including Kimi K3, Gemma 4, Qwen3.6, DeepSeek-V4, FLUX and more."
   }
 ]
