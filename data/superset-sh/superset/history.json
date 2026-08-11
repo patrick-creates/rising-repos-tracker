@@ -342,5 +342,13 @@
     "watchers": 30,
     "open_issues": 523,
     "description": "Code Editor for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine"
+  },
+  {
+    "date": "2026-08-11",
+    "stars": 12858,
+    "forks": 1179,
+    "watchers": 30,
+    "open_issues": 538,
+    "description": "Superset is agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription."
   }
 ]
