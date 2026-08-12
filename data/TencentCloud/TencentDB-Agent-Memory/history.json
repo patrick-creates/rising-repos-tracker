@@ -238,5 +238,13 @@
     "watchers": 64,
     "open_issues": 625,
     "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks."
+  },
+  {
+    "date": "2026-08-12",
+    "stars": 20096,
+    "forks": 1812,
+    "watchers": 69,
+    "open_issues": 545,
+    "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks."
   }
 ]
