@@ -366,5 +366,13 @@
     "watchers": 30,
     "open_issues": 554,
     "description": "Superset is agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription."
+  },
+  {
+    "date": "2026-08-14",
+    "stars": 12896,
+    "forks": 1190,
+    "watchers": 31,
+    "open_issues": 550,
+    "description": "Run 100+ coding agents in parallel. Claude Code, Codex, or any CLI agent, each in its own isolated workspace. Bring your own subscriptions."
   }
 ]
