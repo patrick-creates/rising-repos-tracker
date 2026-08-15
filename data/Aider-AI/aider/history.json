@@ -710,5 +710,13 @@
     "watchers": 255,
     "open_issues": 1798,
     "description": "aider is AI pair programming in your terminal"
+  },
+  {
+    "date": "2026-08-15",
+    "stars": 48225,
+    "forks": 4842,
+    "watchers": 256,
+    "open_issues": 1798,
+    "description": "aider is AI pair programming in your terminal"
   }
 ]
