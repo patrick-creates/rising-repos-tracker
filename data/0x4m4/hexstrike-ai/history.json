@@ -382,5 +382,13 @@
     "watchers": 174,
     "open_issues": 102,
     "description": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities."
+  },
+  {
+    "date": "2026-08-16",
+    "stars": 11046,
+    "forks": 2315,
+    "watchers": 174,
+    "open_issues": 103,
+    "description": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities."
   }
 ]

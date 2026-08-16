@@ -326,5 +326,13 @@
     "watchers": 100,
     "open_issues": 3881,
     "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS."
+  },
+  {
+    "date": "2026-08-16",
+    "stars": 46212,
+    "forks": 3235,
+    "watchers": 101,
+    "open_issues": 3933,
+    "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS."
   }
 ]
