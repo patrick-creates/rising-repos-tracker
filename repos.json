@@ -1642,5 +1642,14 @@
     "stars_at_add": 6118,
     "stars_per_day_at_add": 58.3,
     "created_at": "2026-04-26"
+  },
+  {
+    "owner": "holaboss-ai",
+    "repo": "holaOS",
+    "added": "2026-08-17",
+    "notes": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
+    "stars_at_add": 8369,
+    "stars_per_day_at_add": 56.9,
+    "created_at": "2026-03-22"
   }
 ]
