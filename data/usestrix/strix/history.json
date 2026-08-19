@@ -630,5 +630,13 @@
     "watchers": 249,
     "open_issues": 302,
     "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities."
+  },
+  {
+    "date": "2026-08-19",
+    "stars": 55216,
+    "forks": 5904,
+    "watchers": 252,
+    "open_issues": 307,
+    "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities."
   }
 ]
