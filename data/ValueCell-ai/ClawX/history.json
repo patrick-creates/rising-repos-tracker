@@ -302,5 +302,13 @@
     "watchers": 48,
     "open_issues": 46,
     "description": "ClawX is a desktop app that provides a graphical interface for OpenClaw AI agents. It turns CLI-based AI orchestration into a desktop experience without using the terminal. China website is https://clawx.com.cn."
+  },
+  {
+    "date": "2026-08-20",
+    "stars": 7597,
+    "forks": 1143,
+    "watchers": 48,
+    "open_issues": 46,
+    "description": "ClawX is a desktop app that provides a graphical interface for OpenClaw AI agents. It turns CLI-based AI orchestration into a desktop experience without using the terminal. China website is https://clawx.com.cn."
   }
 ]

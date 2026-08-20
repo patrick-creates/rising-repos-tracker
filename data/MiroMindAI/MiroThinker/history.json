@@ -358,5 +358,13 @@
     "watchers": 91,
     "open_issues": 3,
     "description": "MiroThinker is a deep research agent optimized for complex research and prediction tasks. Our latest models, MiroThinker-1.7, achieves 74.0 and 75.3 on the BrowseComp and BrowseComp Zh, respectively."
+  },
+  {
+    "date": "2026-08-20",
+    "stars": 8358,
+    "forks": 641,
+    "watchers": 91,
+    "open_issues": 2,
+    "description": "MiroThinker is a deep research agent optimized for complex research and prediction tasks. Our latest models, MiroThinker-1.7, achieves 74.0 and 75.3 on the BrowseComp and BrowseComp Zh, respectively."
   }
 ]
