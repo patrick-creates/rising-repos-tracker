@@ -758,5 +758,13 @@
     "watchers": 375,
     "open_issues": 1359,
     "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more."
+  },
+  {
+    "date": "2026-08-21",
+    "stars": 74137,
+    "forks": 6701,
+    "watchers": 374,
+    "open_issues": 1382,
+    "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more."
   }
 ]
