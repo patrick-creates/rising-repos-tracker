@@ -598,5 +598,13 @@
     "watchers": 120,
     "open_issues": 249,
     "description": "Write HTML. Render video. Built for agents."
+  },
+  {
+    "date": "2026-08-22",
+    "stars": 42004,
+    "forks": 4025,
+    "watchers": 121,
+    "open_issues": 217,
+    "description": "Write HTML. Render video. Built for agents."
   }
 ]

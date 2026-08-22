@@ -654,5 +654,13 @@
     "watchers": 100,
     "open_issues": 78,
     "description": "Hundreds of models & providers. One command to find what runs on your hardware."
+  },
+  {
+    "date": "2026-08-22",
+    "stars": 33472,
+    "forks": 2083,
+    "watchers": 100,
+    "open_issues": 82,
+    "description": "Hundreds of models & providers. One command to find what runs on your hardware."
   }
 ]
