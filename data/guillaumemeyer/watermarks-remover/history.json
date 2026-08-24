@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-08-24",
+    "stars": 17552,
+    "forks": 2024,
+    "watchers": 83,
+    "open_issues": 17,
+    "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD"
+  }
+]
