@@ -1651,5 +1651,23 @@
     "stars_at_add": 8369,
     "stars_per_day_at_add": 56.9,
     "created_at": "2026-03-22"
+  },
+  {
+    "owner": "virgiliojr94",
+    "repo": "book-to-skill",
+    "added": "2026-08-24",
+    "notes": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+    "stars_at_add": 24809,
+    "stars_per_day_at_add": 215.7,
+    "created_at": "2026-05-01"
+  },
+  {
+    "owner": "guillaumemeyer",
+    "repo": "watermarks-remover",
+    "added": "2026-08-24",
+    "notes": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+    "stars_at_add": 17539,
+    "stars_per_day_at_add": 1461.6,
+    "created_at": "2026-08-11"
   }
 ]
