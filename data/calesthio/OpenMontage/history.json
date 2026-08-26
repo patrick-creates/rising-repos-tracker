@@ -462,5 +462,13 @@
     "watchers": 284,
     "open_issues": 234,
     "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio."
+  },
+  {
+    "date": "2026-08-26",
+    "stars": 50330,
+    "forks": 6353,
+    "watchers": 285,
+    "open_issues": 239,
+    "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio."
   }
 ]

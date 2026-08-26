@@ -518,5 +518,13 @@
     "watchers": 50,
     "open_issues": 137,
     "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login."
+  },
+  {
+    "date": "2026-08-26",
+    "stars": 20584,
+    "forks": 1777,
+    "watchers": 51,
+    "open_issues": 130,
+    "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login."
   }
 ]
