@@ -694,5 +694,13 @@
     "watchers": 256,
     "open_issues": 58,
     "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop "
+  },
+  {
+    "date": "2026-08-27",
+    "stars": 81398,
+    "forks": 5576,
+    "watchers": 259,
+    "open_issues": 58,
+    "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop "
   }
 ]
