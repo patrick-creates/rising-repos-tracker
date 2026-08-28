@@ -30,5 +30,13 @@
     "watchers": 87,
     "open_issues": 30,
     "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD"
+  },
+  {
+    "date": "2026-08-28",
+    "stars": 19000,
+    "forks": 2207,
+    "watchers": 87,
+    "open_issues": 17,
+    "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD"
   }
 ]
