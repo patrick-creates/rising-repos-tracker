@@ -38,5 +38,13 @@
     "watchers": 87,
     "open_issues": 17,
     "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD"
+  },
+  {
+    "date": "2026-08-29",
+    "stars": 19155,
+    "forks": 2228,
+    "watchers": 88,
+    "open_issues": 20,
+    "description": "A privacy-first app that strips AI watermarks from content you own."
   }
 ]
