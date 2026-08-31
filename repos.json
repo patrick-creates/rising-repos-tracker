@@ -1669,5 +1669,14 @@
     "stars_at_add": 17539,
     "stars_per_day_at_add": 1461.6,
     "created_at": "2026-08-11"
+  },
+  {
+    "owner": "WenyuChiou",
+    "repo": "awesome-agentic-ai-zh",
+    "added": "2026-08-31",
+    "notes": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。",
+    "stars_at_add": 6549,
+    "stars_per_day_at_add": 55.5,
+    "created_at": "2026-05-04"
   }
 ]
