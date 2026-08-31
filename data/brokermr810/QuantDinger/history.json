@@ -446,5 +446,13 @@
     "watchers": 71,
     "open_issues": 60,
     "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading"
+  },
+  {
+    "date": "2026-08-31",
+    "stars": 11259,
+    "forks": 2351,
+    "watchers": 73,
+    "open_issues": 62,
+    "description": "Open-source AI Trading OS and commercial-ready multi-tenant SaaS platform — research markets, build Python strategies, backtest, paper/live trade, and monitor crypto, stocks, and forex, with built-in user management, billing, payments, and settlement to launch and operate your own trading service."
   }
 ]
