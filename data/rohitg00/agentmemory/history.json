@@ -678,5 +678,13 @@
     "watchers": 80,
     "open_issues": 541,
     "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks"
+  },
+  {
+    "date": "2026-09-01",
+    "stars": 27885,
+    "forks": 2405,
+    "watchers": 82,
+    "open_issues": 550,
+    "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks"
   }
 ]
