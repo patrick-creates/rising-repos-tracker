@@ -686,5 +686,13 @@
     "watchers": 39,
     "open_issues": 5,
     "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress"
+  },
+  {
+    "date": "2026-09-02",
+    "stars": 27781,
+    "forks": 1286,
+    "watchers": 40,
+    "open_issues": 8,
+    "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress"
   }
 ]
