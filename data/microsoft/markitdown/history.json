@@ -902,5 +902,13 @@
     "watchers": 579,
     "open_issues": 849,
     "description": "Python tool for converting files and office documents to Markdown."
+  },
+  {
+    "date": "2026-09-03",
+    "stars": 177896,
+    "forks": 13100,
+    "watchers": 576,
+    "open_issues": 811,
+    "description": "Python tool for converting files and office documents to Markdown."
   }
 ]
