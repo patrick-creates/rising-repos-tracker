@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-09-07",
+    "stars": 6898,
+    "forks": 576,
+    "watchers": 18,
+    "open_issues": 10,
+    "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more"
+  }
+]
