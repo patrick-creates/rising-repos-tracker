@@ -174,5 +174,13 @@
     "watchers": 205,
     "open_issues": 6,
     "description": "Open-source agentic workspace enterprises can make their own. Connect the systems you already run — 100+ integrations, MCP, chat tools, apps, browser, local files — with shared memory. Any agent (Claude Code, Codex), any model, or BYOK. Set up in clicks, not months. Local-first: your data never leaves your machines."
+  },
+  {
+    "date": "2026-09-08",
+    "stars": 11180,
+    "forks": 721,
+    "watchers": 205,
+    "open_issues": 8,
+    "description": "Open-source agentic workspace enterprises can make their own. Connect the systems you already run — 100+ integrations, MCP, chat tools, apps, browser, local files — with shared memory. Any agent (Claude Code, Codex), any model, or BYOK. Set up in clicks, not months. Local-first: your data never leaves your machines."
   }
 ]
