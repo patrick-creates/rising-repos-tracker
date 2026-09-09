@@ -950,5 +950,13 @@
     "watchers": 658,
     "open_issues": 280,
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+  },
+  {
+    "date": "2026-09-09",
+    "stars": 151418,
+    "forks": 22137,
+    "watchers": 661,
+    "open_issues": 277,
+    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
   }
 ]
