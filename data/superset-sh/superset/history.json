@@ -582,5 +582,13 @@
     "watchers": 36,
     "open_issues": 646,
     "description": "Superset is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription."
+  },
+  {
+    "date": "2026-09-10",
+    "stars": 14025,
+    "forks": 1257,
+    "watchers": 36,
+    "open_issues": 650,
+    "description": "Superset is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription."
   }
 ]

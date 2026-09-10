@@ -246,5 +246,13 @@
     "watchers": 122,
     "open_issues": 46,
     "description": "Create and share 3D architectural projects."
+  },
+  {
+    "date": "2026-09-10",
+    "stars": 23192,
+    "forks": 2911,
+    "watchers": 121,
+    "open_issues": 53,
+    "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents."
   }
 ]
