@@ -710,5 +710,13 @@
     "watchers": 113,
     "open_issues": 1325,
     "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar"
+  },
+  {
+    "date": "2026-09-12",
+    "stars": 21647,
+    "forks": 1859,
+    "watchers": 114,
+    "open_issues": 1332,
+    "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar"
   }
 ]

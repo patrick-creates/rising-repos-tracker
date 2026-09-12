@@ -38,5 +38,13 @@
     "watchers": 200,
     "open_issues": 313,
     "description": "OpenHuman is an open source personal AI for Mac, Windows and Linux — local-first memory, agent orchestration, and deep research."
+  },
+  {
+    "date": "2026-09-12",
+    "stars": 39684,
+    "forks": 3914,
+    "watchers": 200,
+    "open_issues": 205,
+    "description": "OpenHuman is an open source agent harness with local-first memory, agent orchestration, and workflows"
   }
 ]
