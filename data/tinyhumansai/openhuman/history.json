@@ -46,5 +46,13 @@
     "watchers": 200,
     "open_issues": 205,
     "description": "OpenHuman is an open source agent harness with local-first memory, agent orchestration, and workflows"
+  },
+  {
+    "date": "2026-09-13",
+    "stars": 39726,
+    "forks": 3918,
+    "watchers": 200,
+    "open_issues": 184,
+    "description": "OpenHuman is an open source agent harness with local-first memory, agent orchestration, and workflows"
   }
 ]
