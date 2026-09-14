@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-09-14",
+    "stars": 17140,
+    "forks": 1466,
+    "watchers": 68,
+    "open_issues": 135,
+    "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them."
+  }
+]
