@@ -958,5 +958,13 @@
     "watchers": 242,
     "open_issues": 137,
     "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman"
+  },
+  {
+    "date": "2026-09-15",
+    "stars": 105669,
+    "forks": 6117,
+    "watchers": 241,
+    "open_issues": 110,
+    "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman."
   }
 ]
