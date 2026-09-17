@@ -638,5 +638,13 @@
     "watchers": 48,
     "open_issues": 17,
     "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI. "
+  },
+  {
+    "date": "2026-09-17",
+    "stars": 22370,
+    "forks": 780,
+    "watchers": 49,
+    "open_issues": 17,
+    "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI. "
   }
 ]

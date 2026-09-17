@@ -918,5 +918,13 @@
     "watchers": 317,
     "open_issues": 8,
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi"
+  },
+  {
+    "date": "2026-09-17",
+    "stars": 39749,
+    "forks": 4235,
+    "watchers": 317,
+    "open_issues": 9,
+    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi"
   }
 ]
