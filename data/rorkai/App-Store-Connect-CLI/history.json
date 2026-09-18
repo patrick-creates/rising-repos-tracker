@@ -86,5 +86,13 @@
     "watchers": 19,
     "open_issues": 69,
     "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more"
+  },
+  {
+    "date": "2026-09-18",
+    "stars": 7272,
+    "forks": 612,
+    "watchers": 19,
+    "open_issues": 90,
+    "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more"
   }
 ]

@@ -366,5 +366,13 @@
     "watchers": 34,
     "open_issues": 218,
     "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security"
+  },
+  {
+    "date": "2026-09-18",
+    "stars": 10765,
+    "forks": 797,
+    "watchers": 34,
+    "open_issues": 215,
+    "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security"
   }
 ]

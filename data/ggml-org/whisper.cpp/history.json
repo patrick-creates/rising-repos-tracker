@@ -982,5 +982,13 @@
     "watchers": 413,
     "open_issues": 351,
     "description": "Port of OpenAI's Whisper model in C/C++"
+  },
+  {
+    "date": "2026-09-18",
+    "stars": 53743,
+    "forks": 6172,
+    "watchers": 412,
+    "open_issues": 346,
+    "description": "Port of OpenAI's Whisper model in C/C++"
   }
 ]

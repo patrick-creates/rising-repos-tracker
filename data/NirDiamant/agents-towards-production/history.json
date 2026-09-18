@@ -814,5 +814,13 @@
     "watchers": 235,
     "open_issues": 4,
     "description": "End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment."
+  },
+  {
+    "date": "2026-09-18",
+    "stars": 21474,
+    "forks": 2849,
+    "watchers": 235,
+    "open_issues": 5,
+    "description": "End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment."
   }
 ]
