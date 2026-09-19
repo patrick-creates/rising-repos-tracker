@@ -822,5 +822,13 @@
     "watchers": 103,
     "open_issues": 1949,
     "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running."
+  },
+  {
+    "date": "2026-09-19",
+    "stars": 35619,
+    "forks": 2404,
+    "watchers": 103,
+    "open_issues": 1967,
+    "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running."
   }
 ]
