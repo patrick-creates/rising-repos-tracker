@@ -606,5 +606,13 @@
     "watchers": 76,
     "open_issues": 41,
     "description": "Open-source AI Trading OS and commercial-ready multi-tenant SaaS platform — research markets, build Python strategies, backtest, paper/live trade, and monitor crypto, stocks, and forex, with built-in user management, billing, payments, and settlement to launch and operate your own trading service."
+  },
+  {
+    "date": "2026-09-20",
+    "stars": 11786,
+    "forks": 2438,
+    "watchers": 76,
+    "open_issues": 41,
+    "description": "Open-source AI Trading OS, agent trading, and vibe trading, with Jev System One integration. Research, build Python strategies, backtest, and paper/live trade across crypto, stocks, and forex. Launch your own multi-tenant trading SaaS with built-in user management, billing, payments, and settlement."
   }
 ]
