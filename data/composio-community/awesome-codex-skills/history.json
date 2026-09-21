@@ -390,5 +390,13 @@
     "watchers": 50,
     "open_issues": 223,
     "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API."
+  },
+  {
+    "date": "2026-09-21",
+    "stars": 16575,
+    "forks": 1629,
+    "watchers": 50,
+    "open_issues": 224,
+    "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API."
   }
 ]
