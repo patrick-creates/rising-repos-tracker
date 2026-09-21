@@ -1786,5 +1786,23 @@
     "stars_at_add": 6207,
     "stars_per_day_at_add": 200.2,
     "created_at": "2026-08-13"
+  },
+  {
+    "owner": "genspark-ai",
+    "repo": "genoffice",
+    "added": "2026-09-21",
+    "notes": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.",
+    "stars_at_add": 7390,
+    "stars_per_day_at_add": 142.1,
+    "created_at": "2026-07-31"
+  },
+  {
+    "owner": "tech-leads-club",
+    "repo": "agent-skills",
+    "added": "2026-09-21",
+    "notes": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+    "stars_at_add": 6571,
+    "stars_per_day_at_add": 26.9,
+    "created_at": "2026-01-19"
   }
 ]
