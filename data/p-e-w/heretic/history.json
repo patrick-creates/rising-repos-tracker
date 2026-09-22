@@ -846,5 +846,13 @@
     "watchers": 154,
     "open_issues": 85,
     "description": "Fully automatic censorship removal for language models"
+  },
+  {
+    "date": "2026-09-22",
+    "stars": 32139,
+    "forks": 3611,
+    "watchers": 155,
+    "open_issues": 85,
+    "description": "Fully automatic censorship removal for language models"
   }
 ]
