@@ -750,5 +750,13 @@
     "watchers": 93,
     "open_issues": 3049,
     "description": "⌥ Coding agent with the IDE wired in"
+  },
+  {
+    "date": "2026-09-24",
+    "stars": 33105,
+    "forks": 3514,
+    "watchers": 94,
+    "open_issues": 3142,
+    "description": "⌥ Coding agent with the IDE wired in. Built by Stencil Labs."
   }
 ]
