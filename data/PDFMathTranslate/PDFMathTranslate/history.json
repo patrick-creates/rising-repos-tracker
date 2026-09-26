@@ -990,5 +990,13 @@
     "watchers": 129,
     "open_issues": 165,
     "description": "[EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero"
+  },
+  {
+    "date": "2026-09-26",
+    "stars": 37197,
+    "forks": 3340,
+    "watchers": 129,
+    "open_issues": 165,
+    "description": "[EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero"
   }
 ]
