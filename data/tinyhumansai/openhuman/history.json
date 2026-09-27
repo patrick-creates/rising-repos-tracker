@@ -158,5 +158,13 @@
     "watchers": 202,
     "open_issues": 274,
     "description": "OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust"
+  },
+  {
+    "date": "2026-09-27",
+    "stars": 40140,
+    "forks": 3959,
+    "watchers": 202,
+    "open_issues": 272,
+    "description": "OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust"
   }
 ]
