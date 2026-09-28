@@ -1804,5 +1804,86 @@
     "stars_at_add": 6571,
     "stars_per_day_at_add": 26.9,
     "created_at": "2026-01-19"
+  },
+  {
+    "owner": "blader",
+    "repo": "humanizer",
+    "added": "2026-09-28",
+    "notes": "Agent skill that removes signs of AI-generated writing from text",
+    "stars_at_add": 52509,
+    "stars_per_day_at_add": 207.5,
+    "created_at": "2026-01-18"
+  },
+  {
+    "owner": "LibreChat-AI",
+    "repo": "LibreChat",
+    "added": "2026-09-28",
+    "notes": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+    "stars_at_add": 45022,
+    "stars_per_day_at_add": 34,
+    "created_at": "2023-02-12"
+  },
+  {
+    "owner": "hypit-ai",
+    "repo": "hypit",
+    "added": "2026-09-28",
+    "notes": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
+    "stars_at_add": 17091,
+    "stars_per_day_at_add": 284.9,
+    "created_at": "2026-07-29"
+  },
+  {
+    "owner": "tradecatlabs",
+    "repo": "vibe-coding-cn",
+    "added": "2026-09-28",
+    "notes": "Vibe Coding 从入门到精通教程｜AI 结对编程工作流｜Prompt、Skill、Workflow、上下文管理、codex实战指南",
+    "stars_at_add": 16776,
+    "stars_per_day_at_add": 54.3,
+    "created_at": "2025-11-23"
+  },
+  {
+    "owner": "EKKOLearnAI",
+    "repo": "ekko-studio",
+    "added": "2026-09-28",
+    "notes": "Ekko Studio is a local-first AI workspace for multi-agent chat, coding, and visual workflows, available on desktop and the web.",
+    "stars_at_add": 11224,
+    "stars_per_day_at_add": 66,
+    "created_at": "2026-04-11"
+  },
+  {
+    "owner": "Companion-Inc",
+    "repo": "feynman",
+    "added": "2026-09-28",
+    "notes": "The open source AI research agent.",
+    "stars_at_add": 9813,
+    "stars_per_day_at_add": 51.1,
+    "created_at": "2026-03-19"
+  },
+  {
+    "owner": "Nasiko-Labs",
+    "repo": "nasiko",
+    "added": "2026-09-28",
+    "notes": "Developer Control Plane for your AI Agents",
+    "stars_at_add": 9008,
+    "stars_per_day_at_add": 39.5,
+    "created_at": "2026-02-12"
+  },
+  {
+    "owner": "open-slide",
+    "repo": "open-slide",
+    "added": "2026-09-28",
+    "notes": "A slide framework built for agents.",
+    "stars_at_add": 8272,
+    "stars_per_day_at_add": 53.4,
+    "created_at": "2026-04-26"
+  },
+  {
+    "owner": "Tencent",
+    "repo": "BrowserSkill",
+    "added": "2026-09-28",
+    "notes": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+    "stars_at_add": 7659,
+    "stars_per_day_at_add": 78.2,
+    "created_at": "2026-06-22"
   }
 ]
