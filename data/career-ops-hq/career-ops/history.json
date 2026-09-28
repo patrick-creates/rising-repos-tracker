@@ -166,5 +166,13 @@
     "watchers": 262,
     "open_issues": 457,
     "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-09-28",
+    "stars": 72963,
+    "forks": 13722,
+    "watchers": 262,
+    "open_issues": 500,
+    "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
   }
 ]

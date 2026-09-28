@@ -726,5 +726,13 @@
     "watchers": 56,
     "open_issues": 396,
     "description": "Browser Harness | Self-healing harness that enables LLMs to complete any task."
+  },
+  {
+    "date": "2026-09-28",
+    "stars": 18171,
+    "forks": 1768,
+    "watchers": 56,
+    "open_issues": 400,
+    "description": "Browser Harness | Self-healing harness that enables LLMs to complete any task."
   }
 ]
