@@ -686,5 +686,13 @@
     "watchers": 113,
     "open_issues": 378,
     "description": "the runtime your coding agents live on"
+  },
+  {
+    "date": "2026-09-30",
+    "stars": 41578,
+    "forks": 3203,
+    "watchers": 111,
+    "open_issues": 389,
+    "description": "the runtime your coding agents live on"
   }
 ]
