@@ -414,5 +414,13 @@
     "watchers": 128,
     "open_issues": 38,
     "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents."
+  },
+  {
+    "date": "2026-10-01",
+    "stars": 24473,
+    "forks": 3033,
+    "watchers": 129,
+    "open_issues": 38,
+    "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents."
   }
 ]

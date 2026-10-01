@@ -638,5 +638,13 @@
     "watchers": 105,
     "open_issues": 637,
     "description": "The most RAM efficient harness"
+  },
+  {
+    "date": "2026-10-01",
+    "stars": 20251,
+    "forks": 2348,
+    "watchers": 103,
+    "open_issues": 652,
+    "description": "High performance coding agent harness written in rust"
   }
 ]

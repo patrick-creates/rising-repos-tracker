@@ -1030,5 +1030,13 @@
     "watchers": 166,
     "open_issues": 192,
     "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-10-01",
+    "stars": 41045,
+    "forks": 3564,
+    "watchers": 166,
+    "open_issues": 179,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
   }
 ]
