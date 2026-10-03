@@ -206,5 +206,13 @@
     "watchers": 261,
     "open_issues": 475,
     "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more)."
+  },
+  {
+    "date": "2026-10-03",
+    "stars": 73356,
+    "forks": 13784,
+    "watchers": 261,
+    "open_issues": 457,
+    "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more)."
   }
 ]

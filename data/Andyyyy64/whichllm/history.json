@@ -598,5 +598,13 @@
     "watchers": 25,
     "open_issues": 14,
     "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly."
+  },
+  {
+    "date": "2026-10-03",
+    "stars": 6716,
+    "forks": 371,
+    "watchers": 25,
+    "open_issues": 14,
+    "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly."
   }
 ]
