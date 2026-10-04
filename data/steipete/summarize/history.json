@@ -662,5 +662,13 @@
     "watchers": 17,
     "open_issues": 1,
     "description": "Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension."
+  },
+  {
+    "date": "2026-10-04",
+    "stars": 6677,
+    "forks": 449,
+    "watchers": 17,
+    "open_issues": 0,
+    "description": "Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension."
   }
 ]
