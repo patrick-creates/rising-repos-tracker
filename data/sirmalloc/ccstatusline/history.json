@@ -782,5 +782,13 @@
     "watchers": 30,
     "open_issues": 151,
     "description": "🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more."
+  },
+  {
+    "date": "2026-10-05",
+    "stars": 13185,
+    "forks": 588,
+    "watchers": 29,
+    "open_issues": 166,
+    "description": "🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more."
   }
 ]

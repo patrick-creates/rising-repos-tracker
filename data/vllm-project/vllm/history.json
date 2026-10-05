@@ -1158,5 +1158,13 @@
     "watchers": 598,
     "open_issues": 8426,
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+  },
+  {
+    "date": "2026-10-05",
+    "stars": 93205,
+    "forks": 23010,
+    "watchers": 598,
+    "open_issues": 8469,
+    "description": "A high-throughput and memory-efficient inference and serving engine for LLMs"
   }
 ]
