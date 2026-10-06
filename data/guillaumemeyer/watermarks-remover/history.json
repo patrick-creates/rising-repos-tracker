@@ -342,5 +342,13 @@
     "watchers": 111,
     "open_issues": 16,
     "description": "A privacy-first app that strips AI watermarks from content you own."
+  },
+  {
+    "date": "2026-10-06",
+    "stars": 23433,
+    "forks": 2691,
+    "watchers": 111,
+    "open_issues": 21,
+    "description": "A privacy-first app that strips AI watermarks from content you own."
   }
 ]

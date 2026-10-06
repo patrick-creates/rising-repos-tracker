@@ -1126,5 +1126,13 @@
     "watchers": 287,
     "open_issues": 189,
     "description": "Spec-driven development (SDD) for AI coding assistants."
+  },
+  {
+    "date": "2026-10-06",
+    "stars": 71133,
+    "forks": 4874,
+    "watchers": 286,
+    "open_issues": 173,
+    "description": "Spec-driven development (SDD) for AI coding assistants."
   }
 ]
