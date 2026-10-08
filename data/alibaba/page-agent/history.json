@@ -918,5 +918,13 @@
     "watchers": 118,
     "open_issues": 105,
     "description": "JavaScript in-page GUI agent. Control web interfaces with natural language."
+  },
+  {
+    "date": "2026-10-08",
+    "stars": 29359,
+    "forks": 2639,
+    "watchers": 119,
+    "open_issues": 105,
+    "description": "JavaScript in-page GUI agent. Control web interfaces with natural language."
   }
 ]
