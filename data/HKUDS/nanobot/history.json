@@ -1150,5 +1150,13 @@
     "watchers": 218,
     "open_issues": 833,
     "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps"
+  },
+  {
+    "date": "2026-10-09",
+    "stars": 48896,
+    "forks": 8620,
+    "watchers": 218,
+    "open_issues": 809,
+    "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps"
   }
 ]
