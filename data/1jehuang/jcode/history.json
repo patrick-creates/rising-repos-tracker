@@ -710,5 +710,13 @@
     "watchers": 104,
     "open_issues": 707,
     "description": "High performance coding agent harness written in rust"
+  },
+  {
+    "date": "2026-10-10",
+    "stars": 20377,
+    "forks": 2373,
+    "watchers": 104,
+    "open_issues": 713,
+    "description": "High performance coding agent harness written in rust"
   }
 ]
