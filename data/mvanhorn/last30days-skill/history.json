@@ -998,5 +998,13 @@
     "watchers": 216,
     "open_issues": 33,
     "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+  },
+  {
+    "date": "2026-10-11",
+    "stars": 63941,
+    "forks": 5571,
+    "watchers": 218,
+    "open_issues": 35,
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
   }
 ]

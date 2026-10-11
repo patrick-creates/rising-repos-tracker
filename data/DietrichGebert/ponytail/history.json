@@ -886,5 +886,13 @@
     "watchers": 365,
     "open_issues": 45,
     "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+  },
+  {
+    "date": "2026-10-11",
+    "stars": 160761,
+    "forks": 8646,
+    "watchers": 366,
+    "open_issues": 49,
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
   }
 ]
