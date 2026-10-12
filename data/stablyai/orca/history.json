@@ -782,5 +782,13 @@
     "watchers": 149,
     "open_issues": 8059,
     "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime."
+  },
+  {
+    "date": "2026-10-12",
+    "stars": 90318,
+    "forks": 5774,
+    "watchers": 147,
+    "open_issues": 8201,
+    "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime."
   }
 ]
