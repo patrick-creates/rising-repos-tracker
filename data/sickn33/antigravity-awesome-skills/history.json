@@ -1126,5 +1126,13 @@
     "watchers": 327,
     "open_issues": 7,
     "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,400+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench."
+  },
+  {
+    "date": "2026-10-13",
+    "stars": 47535,
+    "forks": 6930,
+    "watchers": 325,
+    "open_issues": 3,
+    "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,400+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench."
   }
 ]
