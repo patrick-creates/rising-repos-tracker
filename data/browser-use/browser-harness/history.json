@@ -862,5 +862,13 @@
     "watchers": 55,
     "open_issues": 404,
     "description": "Browser Harness | Self-healing harness that enables LLMs to complete any task."
+  },
+  {
+    "date": "2026-10-15",
+    "stars": 18437,
+    "forks": 1820,
+    "watchers": 55,
+    "open_issues": 407,
+    "description": "Let Claude Code, Codex or Cursor use your real Chrome, logged in as you. One prompt to set up. Open source, MIT."
   }
 ]

@@ -1198,5 +1198,13 @@
     "watchers": 322,
     "open_issues": 72,
     "description": "Open-source personal AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, multi-channel. Lightweight, extensible, one-line install."
+  },
+  {
+    "date": "2026-10-15",
+    "stars": 47409,
+    "forks": 10397,
+    "watchers": 322,
+    "open_issues": 82,
+    "description": "Open-source personal AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, multi-channel. Lightweight, extensible, one-line install."
   }
 ]
