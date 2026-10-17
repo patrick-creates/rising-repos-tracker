@@ -1158,5 +1158,13 @@
     "watchers": 167,
     "open_issues": 1379,
     "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management."
+  },
+  {
+    "date": "2026-10-17",
+    "stars": 50105,
+    "forks": 12071,
+    "watchers": 167,
+    "open_issues": 1377,
+    "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management."
   }
 ]

@@ -1214,5 +1214,13 @@
     "watchers": 277,
     "open_issues": 3,
     "description": "🤱🏻 Turn any website into a tiny, fast desktop app."
+  },
+  {
+    "date": "2026-10-17",
+    "stars": 62143,
+    "forks": 12785,
+    "watchers": 277,
+    "open_issues": 1,
+    "description": "Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux."
   }
 ]

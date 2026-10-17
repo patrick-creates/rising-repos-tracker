@@ -878,5 +878,13 @@
     "watchers": 181,
     "open_issues": 633,
     "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 162 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies."
+  },
+  {
+    "date": "2026-10-17",
+    "stars": 46738,
+    "forks": 3850,
+    "watchers": 180,
+    "open_issues": 645,
+    "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 162 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies."
   }
 ]

@@ -262,5 +262,13 @@
     "watchers": 79,
     "open_issues": 141,
     "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them."
+  },
+  {
+    "date": "2026-10-17",
+    "stars": 20398,
+    "forks": 1792,
+    "watchers": 79,
+    "open_issues": 140,
+    "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them."
   }
 ]
