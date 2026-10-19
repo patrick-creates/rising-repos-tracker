@@ -1062,5 +1062,13 @@
     "watchers": 99,
     "open_issues": 380,
     "description": "A reliable coding agent for complex software engineering tasks."
+  },
+  {
+    "date": "2026-10-19",
+    "stars": 35863,
+    "forks": 2461,
+    "watchers": 100,
+    "open_issues": 398,
+    "description": "A reliable coding agent for complex software engineering tasks."
   }
 ]

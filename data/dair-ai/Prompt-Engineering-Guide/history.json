@@ -1230,5 +1230,13 @@
     "watchers": 755,
     "open_issues": 289,
     "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents."
+  },
+  {
+    "date": "2026-10-19",
+    "stars": 79328,
+    "forks": 8709,
+    "watchers": 754,
+    "open_issues": 288,
+    "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents."
   }
 ]
