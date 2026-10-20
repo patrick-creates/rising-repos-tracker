@@ -1070,5 +1070,13 @@
     "watchers": 116,
     "open_issues": 2,
     "description": "🎒 Token-Oriented Object Notation (TOON) – compact, human-readable serialization of JSON data for LLM prompts. TypeScript SDK, CLI, benchmarks."
+  },
+  {
+    "date": "2026-10-20",
+    "stars": 25528,
+    "forks": 1280,
+    "watchers": 116,
+    "open_issues": 2,
+    "description": "🎒 Token-Oriented Object Notation (TOON) – compact, human-readable serialization of JSON data for LLM prompts. TypeScript SDK, CLI, benchmarks."
   }
 ]

@@ -1070,5 +1070,13 @@
     "watchers": 113,
     "open_issues": 1002,
     "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills."
+  },
+  {
+    "date": "2026-10-20",
+    "stars": 40414,
+    "forks": 3247,
+    "watchers": 113,
+    "open_issues": 997,
+    "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills."
   }
 ]

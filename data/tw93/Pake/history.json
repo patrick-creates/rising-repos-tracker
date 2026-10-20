@@ -1238,5 +1238,13 @@
     "watchers": 277,
     "open_issues": 1,
     "description": "Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux."
+  },
+  {
+    "date": "2026-10-20",
+    "stars": 62211,
+    "forks": 12794,
+    "watchers": 276,
+    "open_issues": 2,
+    "description": "Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux."
   }
 ]

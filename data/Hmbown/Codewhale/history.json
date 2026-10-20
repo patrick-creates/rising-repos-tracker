@@ -342,5 +342,13 @@
     "watchers": 165,
     "open_issues": 201,
     "description": "Open-source Rust agent engine and terminal client for Codewhale, with provider choice, tools, approvals and receipts."
+  },
+  {
+    "date": "2026-10-20",
+    "stars": 41103,
+    "forks": 3570,
+    "watchers": 165,
+    "open_issues": 205,
+    "description": "Open-source Rust agent engine and terminal client for Codewhale, with provider choice, tools, approvals and receipts."
   }
 ]
