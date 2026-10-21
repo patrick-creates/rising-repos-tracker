@@ -798,5 +798,13 @@
     "watchers": 16,
     "open_issues": 161,
     "description": "Review-first terminal diff viewer for agentic coders"
+  },
+  {
+    "date": "2026-10-21",
+    "stars": 9649,
+    "forks": 322,
+    "watchers": 16,
+    "open_issues": 165,
+    "description": "Review-first terminal diff viewer for agentic coders"
   }
 ]
