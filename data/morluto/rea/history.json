@@ -78,5 +78,13 @@
     "watchers": 1253,
     "open_issues": 1558,
     "description": "Reverse engineer anything with agents, from app behavior down to native binaries."
+  },
+  {
+    "date": "2026-10-22",
+    "stars": 361591,
+    "forks": 90745,
+    "watchers": 1284,
+    "open_issues": 1648,
+    "description": "Reverse engineer anything with agents, from app behavior down to native binaries."
   }
 ]

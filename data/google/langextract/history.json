@@ -1198,5 +1198,13 @@
     "watchers": 173,
     "open_issues": 108,
     "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization."
+  },
+  {
+    "date": "2026-10-22",
+    "stars": 38996,
+    "forks": 2722,
+    "watchers": 173,
+    "open_issues": 111,
+    "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization."
   }
 ]
