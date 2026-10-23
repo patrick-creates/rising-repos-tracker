@@ -1262,5 +1262,13 @@
     "watchers": 386,
     "open_issues": 329,
     "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more."
+  },
+  {
+    "date": "2026-10-23",
+    "stars": 78460,
+    "forks": 7269,
+    "watchers": 386,
+    "open_issues": 405,
+    "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more."
   }
 ]

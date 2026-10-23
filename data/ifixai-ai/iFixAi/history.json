@@ -590,5 +590,13 @@
     "watchers": 420,
     "open_issues": 9,
     "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds."
+  },
+  {
+    "date": "2026-10-23",
+    "stars": 33441,
+    "forks": 1708,
+    "watchers": 410,
+    "open_issues": 3,
+    "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds."
   }
 ]
