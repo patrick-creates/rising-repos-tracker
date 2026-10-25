@@ -286,19 +286,23 @@ async function toggleDetail(rowEl) {
   }
 }
 
+// Summaries are LLM output from third-party READMEs: never insert them as HTML
+const esc = (v) => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const list = (v) => (Array.isArray(v) ? v : []);
+
 function renderDetail(el, data) {
   if (!data) {
     el.innerHTML = '<span class="no-summary">No AI summary available yet for this repo.</span>';
     return;
   }
   el.innerHTML = `
-    <p class="summary-text">${data.summary}</p>
+    <p class="summary-text">${esc(data.summary)}</p>
     <p class="detail-label">use cases</p>
-    <ul>${data.use_cases.map(u => `<li>${u}</li>`).join('')}</ul>
+    <ul>${list(data.use_cases).map(u => `<li>${esc(u)}</li>`).join('')}</ul>
     <p class="detail-label">similar tools</p>
-    <div class="pill-row">${data.similar_tools.map(t => `<span class="pill">${t}</span>`).join('')}</div>
+    <div class="pill-row">${list(data.similar_tools).map(t => `<span class="pill">${esc(t)}</span>`).join('')}</div>
     <p class="detail-label">tags</p>
-    <div class="pill-row">${data.tags.map(t => `<span class="pill tag">#${t}</span>`).join('')}</div>
+    <div class="pill-row">${list(data.tags).map(t => `<span class="pill tag">#${esc(t)}</span>`).join('')}</div>
   `;
 }
 
