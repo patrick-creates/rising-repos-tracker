@@ -28,7 +28,8 @@ async function getRepoDetails(owner, repo) {
 
 async function main() {
   const existing = JSON.parse(fs.readFileSync("repos.json", "utf8"));
-  const existingKeys = new Set(existing.map((r) => `${r.owner}/${r.repo}`));
+  // lower-case: GitHub names are case-insensitive (Hmbown/CodeWhale == Hmbown/Codewhale)
+  const existingKeys = new Set(existing.map((r) => `${r.owner}/${r.repo}`.toLowerCase()));
 
   const cutoffDate = new Date(Date.now() - MAX_AGE_DAYS * 24 * 60 * 60 * 1000)
     .toISOString()
@@ -50,7 +51,7 @@ async function main() {
     const result = await searchGitHub(query);
     for (const repo of result.items || []) {
       const key = `${repo.owner.login}/${repo.name}`;
-      if (!existingKeys.has(key)) {
+      if (!existingKeys.has(key.toLowerCase())) {
         candidates.set(key, repo);
       }
     }
