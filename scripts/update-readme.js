@@ -215,4 +215,6 @@ ${sortedAll.map(r =>
   console.log(`✓ README updated: ${enriched.length} repos, ${fmt(totalStars)} stars, ${workflows.length} workflows`);
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = { calcVelocity };

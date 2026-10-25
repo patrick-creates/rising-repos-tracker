@@ -132,4 +132,6 @@ async function main() {
   console.log(`\n✓ Successfully updated ${repos.length - errors.length}/${repos.length} repos`);
 }
 
-main().catch((e) => { console.error(e); process.exit(1); });
+if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });
+
+module.exports = { mergeData };
