@@ -41,6 +41,7 @@ function generateMermaid(workflows) {
     `    history[("data/[owner]/[repo]/<br/>history.json")]:::data`,
     `    summary[("data/[owner]/[repo]/<br/>summary.json")]:::data`,
     `    readme[("README.md")]:::data`,
+    `    reports[("reports/<br/>YYYY-Www.md")]:::data`,
     `    preview[("preview.png")]:::data`,
     `    dashboard["index.html<br/>(GitHub Pages)"]:::output`,
   ];
@@ -62,6 +63,7 @@ function generateMermaid(workflows) {
       edges.push(`    repos --> ${safeId}`);
       edges.push(`    ${safeId} --> history`);
       edges.push(`    ${safeId} --> readme`);
+      edges.push(`    ${safeId} -->|Mondays| reports`);
     } else if (name.includes("summarize")) {
       edges.push(`    repos --> ${safeId}`);
       edges.push(`    ${safeId} --> summary`);

@@ -4,7 +4,7 @@
 
 **GitHub shows a repo's star count, not how fast it is growing — this keeps a daily history so you can see which repos are actually taking off.** Runs entirely on GitHub Actions + Pages: no server, no database.
 
-**Quick start:** 1. Fork this repo · 2. Put the repos you care about in [`repos.json`](./repos.json) · 3. Enable GitHub Pages and run **Collect Repo Stats** once. Details in [Fork & use it for yourself](#fork--use-it-for-yourself).
+**Quick start:** 1. Fork this repo · 2. Delete my `data/` and `reports/`, put the repos you care about in [`repos.json`](./repos.json) · 3. Enable GitHub Pages and run **Collect Repo Stats** once. Details in [Fork & use it for yourself](#fork--use-it-for-yourself).
 
 ⭐ If the dashboard is useful to you, a star helps others find it.
 
@@ -61,6 +61,7 @@ graph LR
     history[("data/[owner]/[repo]/<br/>history.json")]:::data
     summary[("data/[owner]/[repo]/<br/>summary.json")]:::data
     readme[("README.md")]:::data
+    reports[("reports/<br/>YYYY-Www.md")]:::data
     preview[("preview.png")]:::data
     dashboard["index.html<br/>(GitHub Pages)"]:::output
     collect_yml["Collect Repo Stats<br/><i>Daily 05:17 UTC</i>"]:::workflow
@@ -70,6 +71,7 @@ graph LR
     repos --> collect_yml
     collect_yml --> history
     collect_yml --> readme
+    collect_yml -->|Mondays| reports
     repos --> discover_yml
     discover_yml -.->|appends| repos
     dashboard --> screenshot_yml
@@ -349,7 +351,7 @@ That's it — daily collection, weekly discovery and the Monday report run autom
 
 ### AI summaries (optional)
 
-After each discovery run, `summarize.yml` writes a short summary per repo with [GitHub Models](https://docs.github.com/en/github-models) (`gpt-4o-mini`), using the workflow's own `GITHUB_TOKEN` — no API key needed. GitHub Models has a free tier with rate limits; if it's not available on your account, the job fails and the dashboard shows "No AI summary available" instead. Everything else keeps working.
+After each discovery run, `summarize.yml` writes a short summary per repo with [GitHub Models](https://docs.github.com/en/github-models) (`gpt-4o-mini`), using the workflow's own `GITHUB_TOKEN` — no API key needed. GitHub Models has a free tier with rate limits; if a call fails, the job logs the error for that repo and moves on, and the dashboard shows "No AI summary available" for it. Everything else keeps working.
 
 To switch it off, add a repository variable `SUMMARIES` with the value `off` under **Settings → Secrets and variables → Actions → Variables**.
 
@@ -371,11 +373,12 @@ Just edit `repos.json` directly:
   "owner": "OWNER",
   "repo": "REPO",
   "added": "YYYY-MM-DD",
-  "notes": "why you're tracking this"
+  "notes": "why you're tracking this",
+  "created_at": "YYYY-MM-DD"
 }
 ```
 
-The next daily collect run picks it up automatically.
+`created_at` (the repo's creation date) is optional; without it the repo only shows under "all ages" in the dashboard's age filter. The next daily collect run picks it up automatically.
 
 ## Stack
 
@@ -385,7 +388,7 @@ The next daily collect run picks it up automatically.
 - **GitHub Models** — free AI summaries (gpt-4o-mini)
 - **Chart.js** — star growth visualization
 - **Mermaid** — architecture diagram (rendered by GitHub)
-- No dependencies, no build step, no database
+- Collecting, reports and README use Node built-ins only; the screenshot workflow installs Puppeteer. No build step, no database
 
 ## License
 
