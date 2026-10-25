@@ -2,6 +2,13 @@
 
 All notable changes to the tracker code and docs are documented here. Daily data commits by `github-actions[bot]` are not listed. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [Unreleased]
+
+### Added
+- `scripts/weekly-report.js`: weekly report per ISO week in `reports/YYYY-Www.md` (top 10 by stars gained, top 10 by growth rate for repos with 500+ stars, newly tracked repos) plus an index in `reports/README.md`. Runs as a step of the daily collect workflow and writes each week once, on the first run after Monday's snapshot. `--week YYYY-Www` and `--force` for manual runs.
+- `scripts/weekly-report.test.js`: tests for ISO weeks, snapshot gaps and ranking (`node --test scripts/weekly-report.test.js`).
+- First report: `reports/2026-W42.md`.
+
 ## [1.0.0] – 2026-10-25
 
 First tagged release.

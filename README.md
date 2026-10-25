@@ -17,7 +17,7 @@
 ![Screenshot](https://img.shields.io/github/actions/workflow/status/patrick-creates/rising-repos-tracker/screenshot.yml?label=screenshot&logo=github-actions&logoColor=white)
 ![License](https://img.shields.io/github/license/patrick-creates/rising-repos-tracker)
 
-**[→ View Live Dashboard](https://patrick-creates.github.io/rising-repos-tracker/)**
+**[→ View Live Dashboard](https://patrick-creates.github.io/rising-repos-tracker/)** · **[→ Weekly reports](./reports/README.md)**
 
 Built and maintained by [Telosignal](https://www.telosignal.com/).
 
@@ -318,6 +318,7 @@ graph LR
 - Collects daily snapshots of stars, forks, watchers and open issues for every tracked repo
 - Discovers new trending repos automatically every Monday using the GitHub Search API
 - Generates AI summaries (use cases, similar tools, tags) for each tracked repo via GitHub Models
+- Writes a weekly report every Monday to [`reports/`](./reports/README.md): top 10 by stars gained, top 10 by growth rate, newly tracked repos
 - Stores all history as plain JSON — no database, no backend
 - Renders a live dashboard via GitHub Pages — updates daily, zero maintenance
 
