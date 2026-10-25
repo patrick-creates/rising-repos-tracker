@@ -334,12 +334,22 @@ This is my personal tracker — the watch list reflects what I find interesting.
 ### Setup
 
 1. Fork this repo to your account
-2. Replace the contents of [`repos.json`](./repos.json) with the repos you want to track (or just leave one entry — `discover.yml` will auto-add more every Monday)
+2. Clear my data and set your own watch list. The fork brings my full history (one folder per repo in `data/`, plus `reports/`), which would mix into your charts:
+   ```bash
+   git rm -r -q data reports
+   ```
+   Then replace the contents of [`repos.json`](./repos.json) with the repos you want to track (or leave one entry — `discover.yml` auto-adds more every Monday) and commit.
 3. Go to **Settings → Pages** and enable GitHub Pages from the `main` branch
 4. Go to **Actions**, enable workflows (GitHub disables them on forks by default) and run **Collect Repo Stats** once manually to seed your first data point
 5. Your dashboard will be live at `https://YOUR-USERNAME.github.io/rising-repos-tracker/`
 
-That's it — daily collection and weekly discovery run automatically on schedule. Zero ongoing maintenance.
+That's it — daily collection, weekly discovery and the Monday report run automatically on schedule. Zero ongoing maintenance.
+
+### AI summaries (optional)
+
+After each discovery run, `summarize.yml` writes a short summary per repo with [GitHub Models](https://docs.github.com/en/github-models) (`gpt-4o-mini`), using the workflow's own `GITHUB_TOKEN` — no API key needed. GitHub Models has a free tier with rate limits; if it's not available on your account, the job fails and the dashboard shows "No AI summary available" instead. Everything else keeps working.
+
+To switch it off, add a repository variable `SUMMARIES` with the value `off` under **Settings → Secrets and variables → Actions → Variables**.
 
 ### Customizing what gets discovered
 

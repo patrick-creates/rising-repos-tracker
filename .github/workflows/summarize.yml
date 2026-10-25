@@ -8,6 +8,7 @@ on:
 
 jobs:
   summarize:
+    if: vars.SUMMARIES != 'off'   # set repo variable SUMMARIES=off to skip GitHub Models
     runs-on: ubuntu-latest
     permissions:
       contents: write
