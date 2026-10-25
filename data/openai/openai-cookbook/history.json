@@ -1281,10 +1281,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 76802,
-    "forks": 12975,
+    "stars": 76812,
+    "forks": 12979,
     "watchers": 1013,
-    "open_issues": 339,
+    "open_issues": 340,
     "description": "Examples and guides for using the OpenAI API"
   }
 ]

@@ -1113,10 +1113,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 102089,
-    "forks": 9034,
-    "watchers": 333,
-    "open_issues": 232,
+    "stars": 102421,
+    "forks": 9068,
+    "watchers": 335,
+    "open_issues": 234,
     "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
   }
 ]

@@ -1,5 +1,1013 @@
 [
   {
+    "date": "2026-06-01",
+    "stars": 28135,
+    "forks": 8659,
+    "watchers": 217,
+    "open_issues": 209,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-02",
+    "stars": 28192,
+    "forks": 8663,
+    "watchers": 218,
+    "open_issues": 204,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-03",
+    "stars": 28254,
+    "forks": 8670,
+    "watchers": 217,
+    "open_issues": 201,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-04",
+    "stars": 28306,
+    "forks": 8676,
+    "watchers": 217,
+    "open_issues": 199,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-05",
+    "stars": 28355,
+    "forks": 8687,
+    "watchers": 217,
+    "open_issues": 212,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-06",
+    "stars": 28402,
+    "forks": 8694,
+    "watchers": 218,
+    "open_issues": 211,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-07",
+    "stars": 28431,
+    "forks": 8706,
+    "watchers": 219,
+    "open_issues": 208,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-08",
+    "stars": 28479,
+    "forks": 8715,
+    "watchers": 219,
+    "open_issues": 205,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-09",
+    "stars": 28495,
+    "forks": 8719,
+    "watchers": 219,
+    "open_issues": 195,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-10",
+    "stars": 28540,
+    "forks": 8721,
+    "watchers": 220,
+    "open_issues": 176,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-11",
+    "stars": 28581,
+    "forks": 8724,
+    "watchers": 222,
+    "open_issues": 174,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-12",
+    "stars": 28621,
+    "forks": 8726,
+    "watchers": 224,
+    "open_issues": 173,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-13",
+    "stars": 28654,
+    "forks": 8729,
+    "watchers": 224,
+    "open_issues": 169,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-14",
+    "stars": 28682,
+    "forks": 8731,
+    "watchers": 224,
+    "open_issues": 167,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-15",
+    "stars": 28888,
+    "forks": 8750,
+    "watchers": 224,
+    "open_issues": 172,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-16",
+    "stars": 28975,
+    "forks": 8760,
+    "watchers": 222,
+    "open_issues": 149,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-17",
+    "stars": 29030,
+    "forks": 8765,
+    "watchers": 222,
+    "open_issues": 124,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-18",
+    "stars": 29075,
+    "forks": 8773,
+    "watchers": 222,
+    "open_issues": 126,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-19",
+    "stars": 29175,
+    "forks": 8783,
+    "watchers": 221,
+    "open_issues": 133,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-20",
+    "stars": 29198,
+    "forks": 8788,
+    "watchers": 221,
+    "open_issues": 138,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-21",
+    "stars": 29226,
+    "forks": 8794,
+    "watchers": 221,
+    "open_issues": 142,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-22",
+    "stars": 29255,
+    "forks": 8800,
+    "watchers": 220,
+    "open_issues": 132,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-23",
+    "stars": 29287,
+    "forks": 8802,
+    "watchers": 217,
+    "open_issues": 120,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-24",
+    "stars": 29316,
+    "forks": 8808,
+    "watchers": 217,
+    "open_issues": 119,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-25",
+    "stars": 29344,
+    "forks": 8813,
+    "watchers": 217,
+    "open_issues": 109,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-26",
+    "stars": 29381,
+    "forks": 8824,
+    "watchers": 216,
+    "open_issues": 105,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-27",
+    "stars": 29440,
+    "forks": 8827,
+    "watchers": 216,
+    "open_issues": 93,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-28",
+    "stars": 29475,
+    "forks": 8830,
+    "watchers": 216,
+    "open_issues": 95,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-29",
+    "stars": 29513,
+    "forks": 8837,
+    "watchers": 215,
+    "open_issues": 98,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-06-30",
+    "stars": 29537,
+    "forks": 8836,
+    "watchers": 215,
+    "open_issues": 96,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-01",
+    "stars": 29624,
+    "forks": 8842,
+    "watchers": 214,
+    "open_issues": 97,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-02",
+    "stars": 29670,
+    "forks": 8845,
+    "watchers": 216,
+    "open_issues": 95,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-03",
+    "stars": 29712,
+    "forks": 8851,
+    "watchers": 216,
+    "open_issues": 99,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-04",
+    "stars": 29753,
+    "forks": 8856,
+    "watchers": 215,
+    "open_issues": 98,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-05",
+    "stars": 29772,
+    "forks": 8858,
+    "watchers": 215,
+    "open_issues": 82,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-06",
+    "stars": 29797,
+    "forks": 8859,
+    "watchers": 215,
+    "open_issues": 80,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-07",
+    "stars": 29832,
+    "forks": 8860,
+    "watchers": 215,
+    "open_issues": 59,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-08",
+    "stars": 29868,
+    "forks": 8858,
+    "watchers": 214,
+    "open_issues": 57,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-09",
+    "stars": 29899,
+    "forks": 8862,
+    "watchers": 212,
+    "open_issues": 48,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-10",
+    "stars": 29919,
+    "forks": 8870,
+    "watchers": 211,
+    "open_issues": 43,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-11",
+    "stars": 29932,
+    "forks": 8871,
+    "watchers": 211,
+    "open_issues": 53,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-12",
+    "stars": 29950,
+    "forks": 8874,
+    "watchers": 211,
+    "open_issues": 53,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-13",
+    "stars": 29963,
+    "forks": 8868,
+    "watchers": 211,
+    "open_issues": 57,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-14",
+    "stars": 29977,
+    "forks": 8863,
+    "watchers": 211,
+    "open_issues": 58,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-15",
+    "stars": 30001,
+    "forks": 8863,
+    "watchers": 212,
+    "open_issues": 58,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-16",
+    "stars": 30042,
+    "forks": 8866,
+    "watchers": 213,
+    "open_issues": 53,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-17",
+    "stars": 30076,
+    "forks": 8864,
+    "watchers": 214,
+    "open_issues": 57,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-18",
+    "stars": 30104,
+    "forks": 8868,
+    "watchers": 214,
+    "open_issues": 75,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-19",
+    "stars": 30135,
+    "forks": 8872,
+    "watchers": 214,
+    "open_issues": 66,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-20",
+    "stars": 30174,
+    "forks": 8880,
+    "watchers": 215,
+    "open_issues": 64,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-21",
+    "stars": 30220,
+    "forks": 8880,
+    "watchers": 215,
+    "open_issues": 63,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-22",
+    "stars": 30240,
+    "forks": 8881,
+    "watchers": 215,
+    "open_issues": 63,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-23",
+    "stars": 30278,
+    "forks": 8886,
+    "watchers": 215,
+    "open_issues": 54,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-24",
+    "stars": 30308,
+    "forks": 8891,
+    "watchers": 214,
+    "open_issues": 55,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-25",
+    "stars": 30332,
+    "forks": 8891,
+    "watchers": 214,
+    "open_issues": 58,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-26",
+    "stars": 30355,
+    "forks": 8891,
+    "watchers": 215,
+    "open_issues": 58,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-27",
+    "stars": 30363,
+    "forks": 8892,
+    "watchers": 215,
+    "open_issues": 55,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-28",
+    "stars": 30395,
+    "forks": 8897,
+    "watchers": 215,
+    "open_issues": 55,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-29",
+    "stars": 30421,
+    "forks": 8905,
+    "watchers": 215,
+    "open_issues": 54,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-30",
+    "stars": 30432,
+    "forks": 8909,
+    "watchers": 215,
+    "open_issues": 53,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-07-31",
+    "stars": 30443,
+    "forks": 8911,
+    "watchers": 215,
+    "open_issues": 50,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-01",
+    "stars": 30463,
+    "forks": 8907,
+    "watchers": 216,
+    "open_issues": 59,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-02",
+    "stars": 30475,
+    "forks": 8904,
+    "watchers": 216,
+    "open_issues": 66,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-03",
+    "stars": 30486,
+    "forks": 8902,
+    "watchers": 216,
+    "open_issues": 65,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-04",
+    "stars": 30505,
+    "forks": 8900,
+    "watchers": 216,
+    "open_issues": 66,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-05",
+    "stars": 30520,
+    "forks": 8898,
+    "watchers": 216,
+    "open_issues": 68,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-06",
+    "stars": 30534,
+    "forks": 8900,
+    "watchers": 216,
+    "open_issues": 69,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-07",
+    "stars": 30548,
+    "forks": 8900,
+    "watchers": 215,
+    "open_issues": 58,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-08",
+    "stars": 30564,
+    "forks": 8900,
+    "watchers": 215,
+    "open_issues": 60,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-09",
+    "stars": 30581,
+    "forks": 8906,
+    "watchers": 215,
+    "open_issues": 61,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-10",
+    "stars": 30597,
+    "forks": 8907,
+    "watchers": 215,
+    "open_issues": 59,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-11",
+    "stars": 30617,
+    "forks": 8907,
+    "watchers": 215,
+    "open_issues": 64,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-12",
+    "stars": 30629,
+    "forks": 8905,
+    "watchers": 215,
+    "open_issues": 60,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-13",
+    "stars": 30637,
+    "forks": 8912,
+    "watchers": 215,
+    "open_issues": 62,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-14",
+    "stars": 30650,
+    "forks": 8911,
+    "watchers": 215,
+    "open_issues": 62,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-15",
+    "stars": 30653,
+    "forks": 8909,
+    "watchers": 215,
+    "open_issues": 63,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-16",
+    "stars": 30664,
+    "forks": 8907,
+    "watchers": 216,
+    "open_issues": 67,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-17",
+    "stars": 30703,
+    "forks": 8912,
+    "watchers": 216,
+    "open_issues": 66,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-18",
+    "stars": 30740,
+    "forks": 8920,
+    "watchers": 216,
+    "open_issues": 66,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-19",
+    "stars": 30763,
+    "forks": 8918,
+    "watchers": 216,
+    "open_issues": 64,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-20",
+    "stars": 30772,
+    "forks": 8919,
+    "watchers": 217,
+    "open_issues": 60,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-21",
+    "stars": 30778,
+    "forks": 8918,
+    "watchers": 217,
+    "open_issues": 60,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-22",
+    "stars": 30791,
+    "forks": 8917,
+    "watchers": 217,
+    "open_issues": 63,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-23",
+    "stars": 30804,
+    "forks": 8921,
+    "watchers": 217,
+    "open_issues": 65,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-24",
+    "stars": 30811,
+    "forks": 8920,
+    "watchers": 218,
+    "open_issues": 58,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-25",
+    "stars": 30819,
+    "forks": 8919,
+    "watchers": 217,
+    "open_issues": 64,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-26",
+    "stars": 30833,
+    "forks": 8919,
+    "watchers": 217,
+    "open_issues": 62,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-27",
+    "stars": 30852,
+    "forks": 8921,
+    "watchers": 216,
+    "open_issues": 64,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-28",
+    "stars": 30864,
+    "forks": 8924,
+    "watchers": 215,
+    "open_issues": 67,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-29",
+    "stars": 30874,
+    "forks": 8924,
+    "watchers": 215,
+    "open_issues": 67,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-30",
+    "stars": 30890,
+    "forks": 8924,
+    "watchers": 216,
+    "open_issues": 69,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-08-31",
+    "stars": 30915,
+    "forks": 8920,
+    "watchers": 217,
+    "open_issues": 67,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-01",
+    "stars": 30939,
+    "forks": 8924,
+    "watchers": 219,
+    "open_issues": 71,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-02",
+    "stars": 31679,
+    "forks": 8978,
+    "watchers": 224,
+    "open_issues": 73,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-03",
+    "stars": 32156,
+    "forks": 9008,
+    "watchers": 224,
+    "open_issues": 75,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-04",
+    "stars": 32472,
+    "forks": 9029,
+    "watchers": 226,
+    "open_issues": 75,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-05",
+    "stars": 32633,
+    "forks": 9055,
+    "watchers": 226,
+    "open_issues": 84,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-06",
+    "stars": 32752,
+    "forks": 9066,
+    "watchers": 227,
+    "open_issues": 80,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-07",
+    "stars": 32880,
+    "forks": 9062,
+    "watchers": 227,
+    "open_issues": 78,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-08",
+    "stars": 32987,
+    "forks": 9067,
+    "watchers": 228,
+    "open_issues": 77,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-09",
+    "stars": 33027,
+    "forks": 9067,
+    "watchers": 229,
+    "open_issues": 79,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-10",
+    "stars": 33083,
+    "forks": 9072,
+    "watchers": 230,
+    "open_issues": 80,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-11",
+    "stars": 33137,
+    "forks": 9080,
+    "watchers": 230,
+    "open_issues": 80,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-12",
+    "stars": 33184,
+    "forks": 9080,
+    "watchers": 230,
+    "open_issues": 75,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-13",
+    "stars": 33217,
+    "forks": 9081,
+    "watchers": 230,
+    "open_issues": 76,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-14",
+    "stars": 33263,
+    "forks": 9081,
+    "watchers": 230,
+    "open_issues": 77,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-15",
+    "stars": 33285,
+    "forks": 9086,
+    "watchers": 230,
+    "open_issues": 78,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-16",
+    "stars": 33332,
+    "forks": 9088,
+    "watchers": 230,
+    "open_issues": 77,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-17",
+    "stars": 33374,
+    "forks": 9085,
+    "watchers": 230,
+    "open_issues": 79,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-18",
+    "stars": 33401,
+    "forks": 9089,
+    "watchers": 229,
+    "open_issues": 79,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-19",
+    "stars": 33423,
+    "forks": 9094,
+    "watchers": 229,
+    "open_issues": 80,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-20",
+    "stars": 33443,
+    "forks": 9099,
+    "watchers": 229,
+    "open_issues": 83,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-21",
+    "stars": 33464,
+    "forks": 9097,
+    "watchers": 229,
+    "open_issues": 68,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-22",
+    "stars": 33478,
+    "forks": 9100,
+    "watchers": 229,
+    "open_issues": 62,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-23",
+    "stars": 33495,
+    "forks": 9102,
+    "watchers": 228,
+    "open_issues": 62,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-24",
+    "stars": 33513,
+    "forks": 9100,
+    "watchers": 228,
+    "open_issues": 63,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-25",
+    "stars": 33523,
+    "forks": 9103,
+    "watchers": 228,
+    "open_issues": 64,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-26",
+    "stars": 33533,
+    "forks": 9104,
+    "watchers": 228,
+    "open_issues": 64,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-27",
+    "stars": 33547,
+    "forks": 9108,
+    "watchers": 228,
+    "open_issues": 64,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-28",
+    "stars": 33558,
+    "forks": 9106,
+    "watchers": 228,
+    "open_issues": 64,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-29",
+    "stars": 33568,
+    "forks": 9102,
+    "watchers": 228,
+    "open_issues": 67,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-09-30",
+    "stars": 33572,
+    "forks": 9104,
+    "watchers": 229,
+    "open_issues": 67,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-10-01",
+    "stars": 33601,
+    "forks": 9108,
+    "watchers": 227,
+    "open_issues": 70,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-10-02",
+    "stars": 33615,
+    "forks": 9112,
+    "watchers": 226,
+    "open_issues": 70,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-10-03",
+    "stars": 33631,
+    "forks": 9102,
+    "watchers": 226,
+    "open_issues": 70,
+    "description": "runs anywhere. uses anything"
+  },
+  {
+    "date": "2026-10-04",
+    "stars": 33642,
+    "forks": 9101,
+    "watchers": 227,
+    "open_issues": 70,
+    "description": "runs anywhere. uses anything"
+  },
+  {
     "date": "2026-10-05",
     "stars": 33645,
     "forks": 9105,
@@ -161,10 +1169,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 34142,
-    "forks": 9130,
+    "stars": 34150,
+    "forks": 9131,
     "watchers": 223,
-    "open_issues": 73,
+    "open_issues": 67,
     "description": "runs anywhere. uses anything"
   }
 ]

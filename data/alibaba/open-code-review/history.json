@@ -889,8 +889,8 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 48228,
-    "forks": 3532,
+    "stars": 48261,
+    "forks": 3531,
     "watchers": 139,
     "open_issues": 351,
     "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."

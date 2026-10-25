@@ -1001,10 +1001,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 36515,
-    "forks": 4076,
+    "stars": 36577,
+    "forks": 4084,
     "watchers": 94,
-    "open_issues": 4271,
+    "open_issues": 4326,
     "description": "⌥ Coding agent with the IDE wired in. Built by Stencil Labs."
   }
 ]

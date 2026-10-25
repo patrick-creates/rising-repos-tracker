@@ -1169,10 +1169,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 38350,
-    "forks": 2472,
+    "stars": 38371,
+    "forks": 2474,
     "watchers": 114,
-    "open_issues": 64,
+    "open_issues": 66,
     "description": "Hundreds of models & providers. One command to find what runs on your hardware."
   }
 ]

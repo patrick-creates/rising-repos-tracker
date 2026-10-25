@@ -1169,10 +1169,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 44431,
-    "forks": 4659,
+    "stars": 44525,
+    "forks": 4661,
     "watchers": 249,
-    "open_issues": 1213,
+    "open_issues": 1211,
     "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
   }
 ]

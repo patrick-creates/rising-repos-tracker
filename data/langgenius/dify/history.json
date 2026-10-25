@@ -1321,10 +1321,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 159474,
-    "forks": 25206,
+    "stars": 159516,
+    "forks": 25212,
     "watchers": 838,
-    "open_issues": 1180,
+    "open_issues": 1188,
     "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack."
   }
 ]

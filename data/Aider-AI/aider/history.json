@@ -1281,10 +1281,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 49743,
-    "forks": 5104,
-    "watchers": 266,
-    "open_issues": 1940,
+    "stars": 49748,
+    "forks": 5107,
+    "watchers": 267,
+    "open_issues": 1943,
     "description": "aider is AI pair programming in your terminal"
   }
 ]

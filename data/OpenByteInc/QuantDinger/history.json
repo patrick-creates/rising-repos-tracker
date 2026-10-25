@@ -1,5 +1,117 @@
 [
   {
+    "date": "2026-07-06",
+    "stars": 9283,
+    "forks": 1951,
+    "watchers": 59,
+    "open_issues": 24,
+    "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading"
+  },
+  {
+    "date": "2026-07-07",
+    "stars": 9314,
+    "forks": 1960,
+    "watchers": 60,
+    "open_issues": 25,
+    "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading"
+  },
+  {
+    "date": "2026-07-08",
+    "stars": 9355,
+    "forks": 1969,
+    "watchers": 60,
+    "open_issues": 28,
+    "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading"
+  },
+  {
+    "date": "2026-07-09",
+    "stars": 9390,
+    "forks": 1976,
+    "watchers": 60,
+    "open_issues": 30,
+    "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading"
+  },
+  {
+    "date": "2026-07-10",
+    "stars": 9415,
+    "forks": 1980,
+    "watchers": 60,
+    "open_issues": 30,
+    "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading"
+  },
+  {
+    "date": "2026-07-11",
+    "stars": 9445,
+    "forks": 1985,
+    "watchers": 61,
+    "open_issues": 31,
+    "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading"
+  },
+  {
+    "date": "2026-07-12",
+    "stars": 9497,
+    "forks": 1992,
+    "watchers": 62,
+    "open_issues": 31,
+    "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading"
+  },
+  {
+    "date": "2026-07-13",
+    "stars": 9555,
+    "forks": 2006,
+    "watchers": 62,
+    "open_issues": 32,
+    "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading"
+  },
+  {
+    "date": "2026-07-14",
+    "stars": 9586,
+    "forks": 2015,
+    "watchers": 62,
+    "open_issues": 32,
+    "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading"
+  },
+  {
+    "date": "2026-07-15",
+    "stars": 9617,
+    "forks": 2023,
+    "watchers": 63,
+    "open_issues": 34,
+    "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading"
+  },
+  {
+    "date": "2026-07-16",
+    "stars": 9665,
+    "forks": 2032,
+    "watchers": 63,
+    "open_issues": 34,
+    "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading"
+  },
+  {
+    "date": "2026-07-17",
+    "stars": 9700,
+    "forks": 2036,
+    "watchers": 63,
+    "open_issues": 34,
+    "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading"
+  },
+  {
+    "date": "2026-07-18",
+    "stars": 9729,
+    "forks": 2048,
+    "watchers": 63,
+    "open_issues": 39,
+    "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading"
+  },
+  {
+    "date": "2026-07-19",
+    "stars": 9751,
+    "forks": 2051,
+    "watchers": 63,
+    "open_issues": 36,
+    "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading"
+  },
+  {
     "date": "2026-07-20",
     "stars": 9802,
     "forks": 2061,
@@ -777,10 +889,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 13101,
-    "forks": 2662,
-    "watchers": 84,
-    "open_issues": 30,
+    "stars": 13121,
+    "forks": 2667,
+    "watchers": 83,
+    "open_issues": 31,
     "description": "Open-source AI Trading OS, agent trading, and vibe trading, with Jev System One integration. Research, build Python strategies, backtest, and paper/live trade across crypto, stocks, and forex. Launch your own multi-tenant trading SaaS with built-in user management, billing, payments, and settlement."
   }
 ]

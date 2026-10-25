@@ -1281,10 +1281,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 79502,
-    "forks": 8719,
-    "watchers": 751,
-    "open_issues": 290,
+    "stars": 79520,
+    "forks": 8721,
+    "watchers": 750,
+    "open_issues": 291,
     "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents."
   }
 ]

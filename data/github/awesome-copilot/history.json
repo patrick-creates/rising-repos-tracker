@@ -1225,10 +1225,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 40384,
-    "forks": 5213,
+    "stars": 40396,
+    "forks": 5217,
     "watchers": 344,
-    "open_issues": 104,
+    "open_issues": 112,
     "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot."
   }
 ]

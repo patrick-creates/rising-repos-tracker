@@ -1281,10 +1281,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 62303,
-    "forks": 12827,
+    "stars": 62309,
+    "forks": 12832,
     "watchers": 271,
-    "open_issues": 2,
+    "open_issues": 3,
     "description": "Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux."
   }
 ]

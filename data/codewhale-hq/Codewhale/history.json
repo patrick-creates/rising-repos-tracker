@@ -1,5 +1,1069 @@
 [
   {
+    "date": "2026-05-25",
+    "stars": 34670,
+    "forks": 2962,
+    "watchers": 142,
+    "open_issues": 445,
+    "description": "Agentic coding terminal. DeepSeek-first, multi-provider, cache-maximal, whale-themed. Five-locale UI + CN-region endpoints + CNB mirror."
+  },
+  {
+    "date": "2026-05-26",
+    "stars": 34871,
+    "forks": 2979,
+    "watchers": 143,
+    "open_issues": 451,
+    "description": "Agentic coding terminal. DeepSeek-first, multi-provider, cache-maximal, whale-themed. Five-locale UI + CN-region endpoints + CNB mirror."
+  },
+  {
+    "date": "2026-05-27",
+    "stars": 35199,
+    "forks": 3008,
+    "watchers": 143,
+    "open_issues": 424,
+    "description": "DeepSeek v4 coding agent in terminal"
+  },
+  {
+    "date": "2026-05-28",
+    "stars": 35479,
+    "forks": 3041,
+    "watchers": 144,
+    "open_issues": 451,
+    "description": "DeepSeek + MiMo coding agent in terminal"
+  },
+  {
+    "date": "2026-05-29",
+    "stars": 35838,
+    "forks": 3064,
+    "watchers": 146,
+    "open_issues": 483,
+    "description": "DeepSeek + MiMo coding agent in terminal"
+  },
+  {
+    "date": "2026-05-30",
+    "stars": 36023,
+    "forks": 3083,
+    "watchers": 147,
+    "open_issues": 507,
+    "description": "DeepSeek + MiMo coding agent in terminal"
+  },
+  {
+    "date": "2026-05-31",
+    "stars": 36155,
+    "forks": 3099,
+    "watchers": 146,
+    "open_issues": 389,
+    "description": "DeepSeek + MiMo coding agent in terminal"
+  },
+  {
+    "date": "2026-06-01",
+    "stars": 36350,
+    "forks": 3130,
+    "watchers": 146,
+    "open_issues": 378,
+    "description": "DeepSeek + MiMo coding agent in terminal"
+  },
+  {
+    "date": "2026-06-02",
+    "stars": 36585,
+    "forks": 3147,
+    "watchers": 149,
+    "open_issues": 447,
+    "description": "DeepSeek + MiMo coding agent in terminal"
+  },
+  {
+    "date": "2026-06-03",
+    "stars": 36815,
+    "forks": 3167,
+    "watchers": 149,
+    "open_issues": 428,
+    "description": "DeepSeek + MiMo coding agent in terminal"
+  },
+  {
+    "date": "2026-06-04",
+    "stars": 36981,
+    "forks": 3178,
+    "watchers": 148,
+    "open_issues": 509,
+    "description": "DeepSeek + MiMo coding agent in terminal"
+  },
+  {
+    "date": "2026-06-05",
+    "stars": 37139,
+    "forks": 3195,
+    "watchers": 148,
+    "open_issues": 471,
+    "description": "DeepSeek + MiMo coding agent in terminal"
+  },
+  {
+    "date": "2026-06-06",
+    "stars": 37260,
+    "forks": 3201,
+    "watchers": 148,
+    "open_issues": 455,
+    "description": "DeepSeek + MiMo coding agent in terminal"
+  },
+  {
+    "date": "2026-06-07",
+    "stars": 37372,
+    "forks": 3215,
+    "watchers": 148,
+    "open_issues": 463,
+    "description": "DeepSeek + MiMo coding agent in terminal"
+  },
+  {
+    "date": "2026-06-08",
+    "stars": 37517,
+    "forks": 3227,
+    "watchers": 147,
+    "open_issues": 391,
+    "description": "DeepSeek + MiMo coding agent in terminal"
+  },
+  {
+    "date": "2026-06-09",
+    "stars": 37645,
+    "forks": 3244,
+    "watchers": 147,
+    "open_issues": 420,
+    "description": "DeepSeek + MiMo coding agent in terminal"
+  },
+  {
+    "date": "2026-06-10",
+    "stars": 37790,
+    "forks": 3250,
+    "watchers": 147,
+    "open_issues": 392,
+    "description": "DeepSeek + MiMo coding agent in terminal"
+  },
+  {
+    "date": "2026-06-11",
+    "stars": 37983,
+    "forks": 3268,
+    "watchers": 148,
+    "open_issues": 411,
+    "description": "DeepSeek + MiMo coding agent in terminal"
+  },
+  {
+    "date": "2026-06-12",
+    "stars": 38101,
+    "forks": 3276,
+    "watchers": 148,
+    "open_issues": 502,
+    "description": "DeepSeek + MiMo coding agent in terminal"
+  },
+  {
+    "date": "2026-06-13",
+    "stars": 38190,
+    "forks": 3283,
+    "watchers": 150,
+    "open_issues": 423,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-06-14",
+    "stars": 38275,
+    "forks": 3290,
+    "watchers": 151,
+    "open_issues": 422,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-06-15",
+    "stars": 38368,
+    "forks": 3298,
+    "watchers": 151,
+    "open_issues": 330,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-06-16",
+    "stars": 38457,
+    "forks": 3308,
+    "watchers": 151,
+    "open_issues": 295,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-06-17",
+    "stars": 38548,
+    "forks": 3315,
+    "watchers": 151,
+    "open_issues": 301,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-06-18",
+    "stars": 38619,
+    "forks": 3320,
+    "watchers": 152,
+    "open_issues": 283,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-06-19",
+    "stars": 38682,
+    "forks": 3327,
+    "watchers": 152,
+    "open_issues": 306,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-06-20",
+    "stars": 38717,
+    "forks": 3330,
+    "watchers": 153,
+    "open_issues": 315,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-06-21",
+    "stars": 38767,
+    "forks": 3338,
+    "watchers": 153,
+    "open_issues": 309,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-06-22",
+    "stars": 38829,
+    "forks": 3346,
+    "watchers": 154,
+    "open_issues": 331,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-06-23",
+    "stars": 38879,
+    "forks": 3352,
+    "watchers": 154,
+    "open_issues": 278,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-06-24",
+    "stars": 38926,
+    "forks": 3356,
+    "watchers": 154,
+    "open_issues": 277,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-06-25",
+    "stars": 38989,
+    "forks": 3356,
+    "watchers": 154,
+    "open_issues": 241,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-06-26",
+    "stars": 39037,
+    "forks": 3363,
+    "watchers": 153,
+    "open_issues": 224,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-06-27",
+    "stars": 39073,
+    "forks": 3369,
+    "watchers": 153,
+    "open_issues": 214,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-06-28",
+    "stars": 39103,
+    "forks": 3373,
+    "watchers": 152,
+    "open_issues": 209,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-06-29",
+    "stars": 39170,
+    "forks": 3379,
+    "watchers": 153,
+    "open_issues": 234,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-06-30",
+    "stars": 39213,
+    "forks": 3386,
+    "watchers": 154,
+    "open_issues": 237,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-01",
+    "stars": 39241,
+    "forks": 3399,
+    "watchers": 154,
+    "open_issues": 256,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-02",
+    "stars": 39284,
+    "forks": 3395,
+    "watchers": 154,
+    "open_issues": 248,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-03",
+    "stars": 39355,
+    "forks": 3395,
+    "watchers": 154,
+    "open_issues": 291,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-04",
+    "stars": 39411,
+    "forks": 3402,
+    "watchers": 155,
+    "open_issues": 316,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-05",
+    "stars": 39444,
+    "forks": 3399,
+    "watchers": 155,
+    "open_issues": 309,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-06",
+    "stars": 39492,
+    "forks": 3401,
+    "watchers": 155,
+    "open_issues": 319,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-07",
+    "stars": 39538,
+    "forks": 3407,
+    "watchers": 155,
+    "open_issues": 332,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-08",
+    "stars": 39573,
+    "forks": 3412,
+    "watchers": 155,
+    "open_issues": 369,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-09",
+    "stars": 39619,
+    "forks": 3414,
+    "watchers": 155,
+    "open_issues": 310,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-10",
+    "stars": 39655,
+    "forks": 3414,
+    "watchers": 155,
+    "open_issues": 291,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-11",
+    "stars": 39684,
+    "forks": 3418,
+    "watchers": 155,
+    "open_issues": 299,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-12",
+    "stars": 39703,
+    "forks": 3421,
+    "watchers": 155,
+    "open_issues": 306,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-13",
+    "stars": 39732,
+    "forks": 3425,
+    "watchers": 155,
+    "open_issues": 302,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-14",
+    "stars": 39758,
+    "forks": 3424,
+    "watchers": 155,
+    "open_issues": 297,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-15",
+    "stars": 39807,
+    "forks": 3426,
+    "watchers": 155,
+    "open_issues": 290,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-16",
+    "stars": 39838,
+    "forks": 3428,
+    "watchers": 156,
+    "open_issues": 296,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-17",
+    "stars": 39873,
+    "forks": 3432,
+    "watchers": 156,
+    "open_issues": 298,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-18",
+    "stars": 39909,
+    "forks": 3442,
+    "watchers": 155,
+    "open_issues": 298,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-19",
+    "stars": 39923,
+    "forks": 3444,
+    "watchers": 155,
+    "open_issues": 302,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-20",
+    "stars": 39949,
+    "forks": 3445,
+    "watchers": 156,
+    "open_issues": 308,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-21",
+    "stars": 39977,
+    "forks": 3443,
+    "watchers": 157,
+    "open_issues": 326,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-22",
+    "stars": 40012,
+    "forks": 3446,
+    "watchers": 159,
+    "open_issues": 316,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-23",
+    "stars": 40028,
+    "forks": 3446,
+    "watchers": 159,
+    "open_issues": 326,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-24",
+    "stars": 40061,
+    "forks": 3448,
+    "watchers": 158,
+    "open_issues": 350,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-25",
+    "stars": 40090,
+    "forks": 3452,
+    "watchers": 157,
+    "open_issues": 344,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-26",
+    "stars": 40119,
+    "forks": 3462,
+    "watchers": 157,
+    "open_issues": 321,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-27",
+    "stars": 40148,
+    "forks": 3466,
+    "watchers": 157,
+    "open_issues": 290,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-28",
+    "stars": 40183,
+    "forks": 3469,
+    "watchers": 157,
+    "open_issues": 290,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-29",
+    "stars": 40212,
+    "forks": 3471,
+    "watchers": 157,
+    "open_issues": 291,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-30",
+    "stars": 40228,
+    "forks": 3474,
+    "watchers": 157,
+    "open_issues": 290,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-07-31",
+    "stars": 40256,
+    "forks": 3481,
+    "watchers": 157,
+    "open_issues": 300,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-01",
+    "stars": 40299,
+    "forks": 3484,
+    "watchers": 156,
+    "open_issues": 310,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-02",
+    "stars": 40330,
+    "forks": 3485,
+    "watchers": 157,
+    "open_issues": 326,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-03",
+    "stars": 40393,
+    "forks": 3490,
+    "watchers": 157,
+    "open_issues": 291,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-04",
+    "stars": 40426,
+    "forks": 3494,
+    "watchers": 156,
+    "open_issues": 221,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-05",
+    "stars": 40466,
+    "forks": 3497,
+    "watchers": 156,
+    "open_issues": 230,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-06",
+    "stars": 40510,
+    "forks": 3504,
+    "watchers": 156,
+    "open_issues": 216,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-07",
+    "stars": 40524,
+    "forks": 3507,
+    "watchers": 156,
+    "open_issues": 215,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-08",
+    "stars": 40545,
+    "forks": 3510,
+    "watchers": 156,
+    "open_issues": 213,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-09",
+    "stars": 40576,
+    "forks": 3509,
+    "watchers": 157,
+    "open_issues": 193,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-10",
+    "stars": 40620,
+    "forks": 3510,
+    "watchers": 157,
+    "open_issues": 179,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-11",
+    "stars": 40660,
+    "forks": 3515,
+    "watchers": 157,
+    "open_issues": 178,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-12",
+    "stars": 40683,
+    "forks": 3519,
+    "watchers": 157,
+    "open_issues": 185,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-13",
+    "stars": 40718,
+    "forks": 3523,
+    "watchers": 157,
+    "open_issues": 171,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-14",
+    "stars": 40773,
+    "forks": 3522,
+    "watchers": 157,
+    "open_issues": 155,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-15",
+    "stars": 40787,
+    "forks": 3522,
+    "watchers": 159,
+    "open_issues": 159,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-16",
+    "stars": 40809,
+    "forks": 3529,
+    "watchers": 159,
+    "open_issues": 175,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-17",
+    "stars": 40823,
+    "forks": 3532,
+    "watchers": 160,
+    "open_issues": 161,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-18",
+    "stars": 40830,
+    "forks": 3531,
+    "watchers": 160,
+    "open_issues": 148,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-19",
+    "stars": 40828,
+    "forks": 3533,
+    "watchers": 160,
+    "open_issues": 139,
+    "description": "Open-source, community-driven agent harness"
+  },
+  {
+    "date": "2026-08-20",
+    "stars": 40826,
+    "forks": 3533,
+    "watchers": 160,
+    "open_issues": 126,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-08-21",
+    "stars": 40830,
+    "forks": 3534,
+    "watchers": 160,
+    "open_issues": 131,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-08-22",
+    "stars": 40835,
+    "forks": 3537,
+    "watchers": 160,
+    "open_issues": 143,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-08-23",
+    "stars": 40842,
+    "forks": 3538,
+    "watchers": 160,
+    "open_issues": 154,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-08-24",
+    "stars": 40830,
+    "forks": 3536,
+    "watchers": 160,
+    "open_issues": 140,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-08-25",
+    "stars": 40842,
+    "forks": 3534,
+    "watchers": 160,
+    "open_issues": 143,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-08-26",
+    "stars": 40859,
+    "forks": 3534,
+    "watchers": 160,
+    "open_issues": 115,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-08-27",
+    "stars": 40865,
+    "forks": 3539,
+    "watchers": 160,
+    "open_issues": 127,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-08-28",
+    "stars": 40862,
+    "forks": 3542,
+    "watchers": 160,
+    "open_issues": 128,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-08-29",
+    "stars": 40864,
+    "forks": 3540,
+    "watchers": 160,
+    "open_issues": 130,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-08-30",
+    "stars": 40860,
+    "forks": 3536,
+    "watchers": 161,
+    "open_issues": 128,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-08-31",
+    "stars": 40876,
+    "forks": 3536,
+    "watchers": 161,
+    "open_issues": 137,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-01",
+    "stars": 40889,
+    "forks": 3539,
+    "watchers": 163,
+    "open_issues": 111,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-02",
+    "stars": 40888,
+    "forks": 3538,
+    "watchers": 165,
+    "open_issues": 77,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-03",
+    "stars": 40907,
+    "forks": 3540,
+    "watchers": 165,
+    "open_issues": 94,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-04",
+    "stars": 40912,
+    "forks": 3545,
+    "watchers": 165,
+    "open_issues": 99,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-05",
+    "stars": 40917,
+    "forks": 3545,
+    "watchers": 165,
+    "open_issues": 105,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-06",
+    "stars": 40914,
+    "forks": 3545,
+    "watchers": 167,
+    "open_issues": 118,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-07",
+    "stars": 40916,
+    "forks": 3546,
+    "watchers": 167,
+    "open_issues": 109,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-08",
+    "stars": 40932,
+    "forks": 3552,
+    "watchers": 167,
+    "open_issues": 108,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-09",
+    "stars": 40936,
+    "forks": 3555,
+    "watchers": 167,
+    "open_issues": 113,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-10",
+    "stars": 40930,
+    "forks": 3554,
+    "watchers": 167,
+    "open_issues": 129,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-11",
+    "stars": 40945,
+    "forks": 3557,
+    "watchers": 167,
+    "open_issues": 135,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-12",
+    "stars": 40952,
+    "forks": 3559,
+    "watchers": 166,
+    "open_issues": 101,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-13",
+    "stars": 40963,
+    "forks": 3561,
+    "watchers": 166,
+    "open_issues": 101,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-14",
+    "stars": 40970,
+    "forks": 3563,
+    "watchers": 166,
+    "open_issues": 98,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-15",
+    "stars": 40978,
+    "forks": 3561,
+    "watchers": 166,
+    "open_issues": 127,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-16",
+    "stars": 40982,
+    "forks": 3561,
+    "watchers": 166,
+    "open_issues": 146,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-17",
+    "stars": 40991,
+    "forks": 3563,
+    "watchers": 167,
+    "open_issues": 140,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-18",
+    "stars": 41000,
+    "forks": 3562,
+    "watchers": 167,
+    "open_issues": 139,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-19",
+    "stars": 40998,
+    "forks": 3563,
+    "watchers": 167,
+    "open_issues": 132,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-20",
+    "stars": 41004,
+    "forks": 3562,
+    "watchers": 167,
+    "open_issues": 124,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-21",
+    "stars": 41018,
+    "forks": 3562,
+    "watchers": 167,
+    "open_issues": 124,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-22",
+    "stars": 41028,
+    "forks": 3564,
+    "watchers": 167,
+    "open_issues": 115,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-23",
+    "stars": 41028,
+    "forks": 3565,
+    "watchers": 167,
+    "open_issues": 118,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-24",
+    "stars": 41033,
+    "forks": 3563,
+    "watchers": 167,
+    "open_issues": 205,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-25",
+    "stars": 41035,
+    "forks": 3562,
+    "watchers": 167,
+    "open_issues": 179,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-26",
+    "stars": 41032,
+    "forks": 3564,
+    "watchers": 167,
+    "open_issues": 192,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-27",
+    "stars": 41034,
+    "forks": 3564,
+    "watchers": 166,
+    "open_issues": 222,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-28",
+    "stars": 41038,
+    "forks": 3565,
+    "watchers": 166,
+    "open_issues": 179,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-29",
+    "stars": 41040,
+    "forks": 3566,
+    "watchers": 166,
+    "open_issues": 201,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-09-30",
+    "stars": 41042,
+    "forks": 3565,
+    "watchers": 166,
+    "open_issues": 192,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-10-01",
+    "stars": 41045,
+    "forks": 3564,
+    "watchers": 166,
+    "open_issues": 179,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-10-02",
+    "stars": 41042,
+    "forks": 3565,
+    "watchers": 166,
+    "open_issues": 188,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-10-03",
+    "stars": 41037,
+    "forks": 3565,
+    "watchers": 166,
+    "open_issues": 197,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
+    "date": "2026-10-04",
+    "stars": 41038,
+    "forks": 3566,
+    "watchers": 166,
+    "open_issues": 197,
+    "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
+  },
+  {
     "date": "2026-10-05",
     "stars": 41048,
     "forks": 3567,
@@ -162,9 +1226,9 @@
   {
     "date": "2026-10-25",
     "stars": 41118,
-    "forks": 3566,
+    "forks": 3565,
     "watchers": 158,
-    "open_issues": 60,
+    "open_issues": 63,
     "description": "Open-source agent for the terminal written in Rust. Use any provider or model. Issues & PRs always welcome"
   }
 ]

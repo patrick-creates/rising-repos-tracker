@@ -721,10 +721,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 134665,
-    "forks": 12854,
+    "stars": 135063,
+    "forks": 12893,
     "watchers": 406,
-    "open_issues": 1625,
+    "open_issues": 1635,
     "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store."
   }
 ]

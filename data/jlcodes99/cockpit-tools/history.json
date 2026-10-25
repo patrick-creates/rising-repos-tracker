@@ -609,10 +609,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 19318,
-    "forks": 1723,
+    "stars": 19337,
+    "forks": 1725,
     "watchers": 44,
-    "open_issues": 914,
+    "open_issues": 919,
     "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta"
   }
 ]

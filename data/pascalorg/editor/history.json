@@ -609,10 +609,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 25090,
+    "stars": 25102,
     "forks": 3126,
     "watchers": 131,
-    "open_issues": 59,
+    "open_issues": 56,
     "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents."
   }
 ]

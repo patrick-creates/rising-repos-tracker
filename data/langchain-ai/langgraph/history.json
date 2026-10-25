@@ -1001,10 +1001,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 43861,
-    "forks": 7535,
+    "stars": 43882,
+    "forks": 7539,
     "watchers": 189,
-    "open_issues": 517,
+    "open_issues": 513,
     "description": "Build resilient agents."
   }
 ]

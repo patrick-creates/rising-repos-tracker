@@ -385,10 +385,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 8034,
-    "forks": 690,
+    "stars": 8035,
+    "forks": 691,
     "watchers": 18,
-    "open_issues": 40,
+    "open_issues": 31,
     "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more"
   }
 ]

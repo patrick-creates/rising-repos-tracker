@@ -1049,10 +1049,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 23041,
+    "stars": 23044,
     "forks": 2060,
     "watchers": 114,
-    "open_issues": 598,
+    "open_issues": 609,
     "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar"
   }
 ]

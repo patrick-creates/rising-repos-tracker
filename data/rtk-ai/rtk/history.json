@@ -1281,10 +1281,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 84503,
-    "forks": 5372,
+    "stars": 84533,
+    "forks": 5373,
     "watchers": 215,
-    "open_issues": 1621,
+    "open_issues": 1624,
     "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies"
   }
 ]

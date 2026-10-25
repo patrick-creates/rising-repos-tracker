@@ -1281,10 +1281,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 49339,
-    "forks": 8675,
+    "stars": 49344,
+    "forks": 8676,
     "watchers": 205,
-    "open_issues": 863,
+    "open_issues": 867,
     "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps"
   }
 ]

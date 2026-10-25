@@ -1057,10 +1057,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 36112,
-    "forks": 3208,
+    "stars": 36176,
+    "forks": 3209,
     "watchers": 110,
-    "open_issues": 1139,
+    "open_issues": 1141,
     "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities."
   }
 ]

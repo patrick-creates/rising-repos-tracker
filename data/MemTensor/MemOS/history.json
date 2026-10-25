@@ -945,10 +945,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 12084,
-    "forks": 1091,
+    "stars": 12092,
+    "forks": 1092,
     "watchers": 51,
-    "open_issues": 166,
+    "open_issues": 167,
     "description": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support."
   }
 ]

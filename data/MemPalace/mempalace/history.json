@@ -1281,10 +1281,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 59729,
-    "forks": 7576,
+    "stars": 59736,
+    "forks": 7579,
     "watchers": 316,
-    "open_issues": 850,
+    "open_issues": 853,
     "description": "The best-benchmarked open-source AI memory system. And it's free."
   }
 ]

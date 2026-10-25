@@ -1,5 +1,901 @@
 [
   {
+    "date": "2026-05-18",
+    "stars": 45246,
+    "forks": 9505,
+    "watchers": 191,
+    "open_issues": 142,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-05-19",
+    "stars": 45789,
+    "forks": 9593,
+    "watchers": 195,
+    "open_issues": 145,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-05-20",
+    "stars": 46225,
+    "forks": 9677,
+    "watchers": 198,
+    "open_issues": 141,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-05-21",
+    "stars": 46442,
+    "forks": 9708,
+    "watchers": 198,
+    "open_issues": 150,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-05-22",
+    "stars": 46601,
+    "forks": 9743,
+    "watchers": 200,
+    "open_issues": 155,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-05-23",
+    "stars": 46757,
+    "forks": 9771,
+    "watchers": 201,
+    "open_issues": 110,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-05-24",
+    "stars": 46940,
+    "forks": 9797,
+    "watchers": 204,
+    "open_issues": 114,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-05-25",
+    "stars": 47211,
+    "forks": 9844,
+    "watchers": 205,
+    "open_issues": 113,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-05-26",
+    "stars": 47261,
+    "forks": 9852,
+    "watchers": 205,
+    "open_issues": 115,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-05-27",
+    "stars": 47406,
+    "forks": 9873,
+    "watchers": 207,
+    "open_issues": 117,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-05-28",
+    "stars": 47542,
+    "forks": 9897,
+    "watchers": 207,
+    "open_issues": 121,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-05-29",
+    "stars": 47731,
+    "forks": 9932,
+    "watchers": 209,
+    "open_issues": 122,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-05-30",
+    "stars": 47866,
+    "forks": 9947,
+    "watchers": 208,
+    "open_issues": 125,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-05-31",
+    "stars": 47977,
+    "forks": 9974,
+    "watchers": 209,
+    "open_issues": 127,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-01",
+    "stars": 48120,
+    "forks": 10003,
+    "watchers": 207,
+    "open_issues": 128,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-02",
+    "stars": 48268,
+    "forks": 10028,
+    "watchers": 206,
+    "open_issues": 134,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-03",
+    "stars": 48452,
+    "forks": 10056,
+    "watchers": 205,
+    "open_issues": 126,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-04",
+    "stars": 48592,
+    "forks": 10091,
+    "watchers": 205,
+    "open_issues": 130,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-05",
+    "stars": 48772,
+    "forks": 10128,
+    "watchers": 206,
+    "open_issues": 134,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-06",
+    "stars": 48936,
+    "forks": 10156,
+    "watchers": 206,
+    "open_issues": 142,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-07",
+    "stars": 49598,
+    "forks": 10234,
+    "watchers": 207,
+    "open_issues": 151,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-08",
+    "stars": 49941,
+    "forks": 10283,
+    "watchers": 207,
+    "open_issues": 166,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-09",
+    "stars": 50919,
+    "forks": 10361,
+    "watchers": 207,
+    "open_issues": 192,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-10",
+    "stars": 52166,
+    "forks": 10472,
+    "watchers": 207,
+    "open_issues": 167,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-11",
+    "stars": 52584,
+    "forks": 10551,
+    "watchers": 209,
+    "open_issues": 107,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-12",
+    "stars": 52959,
+    "forks": 10595,
+    "watchers": 208,
+    "open_issues": 117,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-13",
+    "stars": 53359,
+    "forks": 10645,
+    "watchers": 207,
+    "open_issues": 126,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-14",
+    "stars": 53602,
+    "forks": 10671,
+    "watchers": 208,
+    "open_issues": 148,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-15",
+    "stars": 53830,
+    "forks": 10710,
+    "watchers": 208,
+    "open_issues": 179,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-16",
+    "stars": 54059,
+    "forks": 10738,
+    "watchers": 207,
+    "open_issues": 164,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-17",
+    "stars": 54315,
+    "forks": 10776,
+    "watchers": 207,
+    "open_issues": 176,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-18",
+    "stars": 54500,
+    "forks": 10810,
+    "watchers": 207,
+    "open_issues": 179,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-19",
+    "stars": 54659,
+    "forks": 10839,
+    "watchers": 207,
+    "open_issues": 131,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-20",
+    "stars": 54804,
+    "forks": 10865,
+    "watchers": 208,
+    "open_issues": 148,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-21",
+    "stars": 54964,
+    "forks": 10883,
+    "watchers": 208,
+    "open_issues": 168,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-22",
+    "stars": 55137,
+    "forks": 10913,
+    "watchers": 207,
+    "open_issues": 177,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-23",
+    "stars": 55287,
+    "forks": 10936,
+    "watchers": 207,
+    "open_issues": 185,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-24",
+    "stars": 55464,
+    "forks": 10956,
+    "watchers": 205,
+    "open_issues": 154,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-25",
+    "stars": 55606,
+    "forks": 10985,
+    "watchers": 205,
+    "open_issues": 146,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-26",
+    "stars": 55809,
+    "forks": 11013,
+    "watchers": 205,
+    "open_issues": 147,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-27",
+    "stars": 56002,
+    "forks": 11050,
+    "watchers": 206,
+    "open_issues": 131,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-28",
+    "stars": 56228,
+    "forks": 11098,
+    "watchers": 208,
+    "open_issues": 138,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-29",
+    "stars": 56495,
+    "forks": 11160,
+    "watchers": 209,
+    "open_issues": 136,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-06-30",
+    "stars": 56723,
+    "forks": 11210,
+    "watchers": 208,
+    "open_issues": 110,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-07-01",
+    "stars": 56933,
+    "forks": 11264,
+    "watchers": 210,
+    "open_issues": 118,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-07-02",
+    "stars": 57243,
+    "forks": 11320,
+    "watchers": 214,
+    "open_issues": 119,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-07-03",
+    "stars": 58194,
+    "forks": 11421,
+    "watchers": 216,
+    "open_issues": 121,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-07-04",
+    "stars": 58447,
+    "forks": 11465,
+    "watchers": 215,
+    "open_issues": 135,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-07-05",
+    "stars": 58595,
+    "forks": 11494,
+    "watchers": 213,
+    "open_issues": 125,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-07-06",
+    "stars": 58743,
+    "forks": 11525,
+    "watchers": 213,
+    "open_issues": 155,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+  },
+  {
+    "date": "2026-07-07",
+    "stars": 58920,
+    "forks": 11567,
+    "watchers": 213,
+    "open_issues": 150,
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
+  },
+  {
+    "date": "2026-07-08",
+    "stars": 59092,
+    "forks": 11615,
+    "watchers": 216,
+    "open_issues": 144,
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
+  },
+  {
+    "date": "2026-07-09",
+    "stars": 59248,
+    "forks": 11646,
+    "watchers": 216,
+    "open_issues": 147,
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
+  },
+  {
+    "date": "2026-07-10",
+    "stars": 59485,
+    "forks": 11807,
+    "watchers": 285,
+    "open_issues": 153,
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
+  },
+  {
+    "date": "2026-07-11",
+    "stars": 59586,
+    "forks": 11831,
+    "watchers": 289,
+    "open_issues": 137,
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
+  },
+  {
+    "date": "2026-07-12",
+    "stars": 59680,
+    "forks": 11850,
+    "watchers": 290,
+    "open_issues": 151,
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
+  },
+  {
+    "date": "2026-07-13",
+    "stars": 59789,
+    "forks": 11877,
+    "watchers": 290,
+    "open_issues": 148,
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
+  },
+  {
+    "date": "2026-07-14",
+    "stars": 59962,
+    "forks": 11892,
+    "watchers": 289,
+    "open_issues": 163,
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
+  },
+  {
+    "date": "2026-07-15",
+    "stars": 60168,
+    "forks": 11926,
+    "watchers": 295,
+    "open_issues": 176,
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
+  },
+  {
+    "date": "2026-07-16",
+    "stars": 60282,
+    "forks": 11956,
+    "watchers": 297,
+    "open_issues": 206,
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
+  },
+  {
+    "date": "2026-07-17",
+    "stars": 60317,
+    "forks": 11874,
+    "watchers": 247,
+    "open_issues": 188,
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
+  },
+  {
+    "date": "2026-07-18",
+    "stars": 60433,
+    "forks": 11891,
+    "watchers": 247,
+    "open_issues": 219,
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
+  },
+  {
+    "date": "2026-07-19",
+    "stars": 60544,
+    "forks": 11915,
+    "watchers": 248,
+    "open_issues": 240,
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
+  },
+  {
+    "date": "2026-07-20",
+    "stars": 60647,
+    "forks": 11945,
+    "watchers": 248,
+    "open_issues": 248,
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
+  },
+  {
+    "date": "2026-07-21",
+    "stars": 60790,
+    "forks": 11980,
+    "watchers": 250,
+    "open_issues": 207,
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
+  },
+  {
+    "date": "2026-07-22",
+    "stars": 60938,
+    "forks": 12002,
+    "watchers": 250,
+    "open_issues": 222,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-07-23",
+    "stars": 61150,
+    "forks": 12043,
+    "watchers": 250,
+    "open_issues": 240,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-07-24",
+    "stars": 61287,
+    "forks": 12069,
+    "watchers": 251,
+    "open_issues": 257,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-07-25",
+    "stars": 61419,
+    "forks": 12093,
+    "watchers": 251,
+    "open_issues": 267,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-07-26",
+    "stars": 61580,
+    "forks": 12133,
+    "watchers": 253,
+    "open_issues": 272,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-07-27",
+    "stars": 61753,
+    "forks": 12162,
+    "watchers": 253,
+    "open_issues": 273,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-07-28",
+    "stars": 61913,
+    "forks": 12183,
+    "watchers": 254,
+    "open_issues": 223,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-07-29",
+    "stars": 62079,
+    "forks": 12208,
+    "watchers": 254,
+    "open_issues": 226,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-07-30",
+    "stars": 62213,
+    "forks": 12237,
+    "watchers": 255,
+    "open_issues": 219,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-07-31",
+    "stars": 62352,
+    "forks": 12268,
+    "watchers": 253,
+    "open_issues": 180,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-01",
+    "stars": 62422,
+    "forks": 12293,
+    "watchers": 253,
+    "open_issues": 220,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-02",
+    "stars": 62494,
+    "forks": 12311,
+    "watchers": 254,
+    "open_issues": 228,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-03",
+    "stars": 62585,
+    "forks": 12335,
+    "watchers": 254,
+    "open_issues": 228,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-04",
+    "stars": 62701,
+    "forks": 12358,
+    "watchers": 254,
+    "open_issues": 207,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-05",
+    "stars": 62831,
+    "forks": 12382,
+    "watchers": 252,
+    "open_issues": 210,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-06",
+    "stars": 62983,
+    "forks": 12421,
+    "watchers": 254,
+    "open_issues": 241,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-07",
+    "stars": 63101,
+    "forks": 12443,
+    "watchers": 256,
+    "open_issues": 255,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-08",
+    "stars": 63185,
+    "forks": 12459,
+    "watchers": 254,
+    "open_issues": 247,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-09",
+    "stars": 63252,
+    "forks": 12481,
+    "watchers": 255,
+    "open_issues": 263,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-10",
+    "stars": 63332,
+    "forks": 12492,
+    "watchers": 253,
+    "open_issues": 282,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-11",
+    "stars": 63452,
+    "forks": 12505,
+    "watchers": 254,
+    "open_issues": 288,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-12",
+    "stars": 63561,
+    "forks": 12532,
+    "watchers": 252,
+    "open_issues": 312,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-13",
+    "stars": 63669,
+    "forks": 12555,
+    "watchers": 252,
+    "open_issues": 293,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-14",
+    "stars": 63767,
+    "forks": 12575,
+    "watchers": 252,
+    "open_issues": 313,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-15",
+    "stars": 63868,
+    "forks": 12589,
+    "watchers": 252,
+    "open_issues": 305,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-16",
+    "stars": 63971,
+    "forks": 12603,
+    "watchers": 253,
+    "open_issues": 342,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-17",
+    "stars": 64117,
+    "forks": 12628,
+    "watchers": 251,
+    "open_issues": 358,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-18",
+    "stars": 64940,
+    "forks": 12665,
+    "watchers": 254,
+    "open_issues": 336,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-19",
+    "stars": 65378,
+    "forks": 12703,
+    "watchers": 254,
+    "open_issues": 338,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-20",
+    "stars": 65965,
+    "forks": 12760,
+    "watchers": 255,
+    "open_issues": 352,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-21",
+    "stars": 66886,
+    "forks": 12834,
+    "watchers": 257,
+    "open_issues": 312,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-22",
+    "stars": 67547,
+    "forks": 12877,
+    "watchers": 259,
+    "open_issues": 276,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-23",
+    "stars": 67818,
+    "forks": 12903,
+    "watchers": 259,
+    "open_issues": 273,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-24",
+    "stars": 68004,
+    "forks": 12930,
+    "watchers": 260,
+    "open_issues": 318,
+    "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-25",
+    "stars": 68186,
+    "forks": 12942,
+    "watchers": 260,
+    "open_issues": 328,
+    "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-26",
+    "stars": 68476,
+    "forks": 12979,
+    "watchers": 258,
+    "open_issues": 333,
+    "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-27",
+    "stars": 68805,
+    "forks": 13022,
+    "watchers": 258,
+    "open_issues": 296,
+    "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-28",
+    "stars": 69059,
+    "forks": 13049,
+    "watchers": 260,
+    "open_issues": 300,
+    "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-29",
+    "stars": 69156,
+    "forks": 13068,
+    "watchers": 260,
+    "open_issues": 313,
+    "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-30",
+    "stars": 69362,
+    "forks": 13108,
+    "watchers": 262,
+    "open_issues": 342,
+    "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-08-31",
+    "stars": 69534,
+    "forks": 13146,
+    "watchers": 261,
+    "open_issues": 369,
+    "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-09-01",
+    "stars": 69679,
+    "forks": 13175,
+    "watchers": 264,
+    "open_issues": 383,
+    "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-09-02",
+    "stars": 69833,
+    "forks": 13203,
+    "watchers": 265,
+    "open_issues": 385,
+    "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-09-03",
+    "stars": 69977,
+    "forks": 13242,
+    "watchers": 265,
+    "open_issues": 359,
+    "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-09-04",
+    "stars": 70099,
+    "forks": 13268,
+    "watchers": 265,
+    "open_issues": 398,
+    "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-09-05",
+    "stars": 70172,
+    "forks": 13290,
+    "watchers": 264,
+    "open_issues": 372,
+    "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
+    "date": "2026-09-06",
+    "stars": 70281,
+    "forks": 13309,
+    "watchers": 265,
+    "open_issues": 389,
+    "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  {
     "date": "2026-09-07",
     "stars": 70382,
     "forks": 13316,
@@ -385,10 +1281,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 77110,
-    "forks": 14260,
+    "stars": 77249,
+    "forks": 14288,
     "watchers": 252,
-    "open_issues": 367,
+    "open_issues": 424,
     "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more)."
   }
 ]

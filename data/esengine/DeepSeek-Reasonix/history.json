@@ -1113,10 +1113,10 @@
   },
   {
     "date": "2026-10-25",
-    "stars": 35959,
+    "stars": 35960,
     "forks": 2479,
     "watchers": 95,
-    "open_issues": 492,
+    "open_issues": 512,
     "description": "A reliable coding agent for complex software engineering tasks."
   }
 ]
