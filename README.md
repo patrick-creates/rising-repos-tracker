@@ -2,6 +2,12 @@
 
 > Automatically tracks daily GitHub stats (stars, forks, issues, velocity) for rising open source repos.
 
+**GitHub shows a repo's star count, not how fast it is growing — this keeps a daily history so you can see which repos are actually taking off.** Runs entirely on GitHub Actions + Pages: no server, no database.
+
+**Quick start:** 1. Fork this repo · 2. Put the repos you care about in [`repos.json`](./repos.json) · 3. Enable GitHub Pages and run **Collect Repo Stats** once. Details in [Fork & use it for yourself](#fork--use-it-for-yourself).
+
+⭐ If the dashboard is useful to you, a star helps others find it.
+
 [![Maintained by Telosignal](https://img.shields.io/badge/Maintained%20by-Telosignal-green)](https://www.telosignal.com/)
 ![Last updated](https://img.shields.io/github/last-commit/patrick-creates/rising-repos-tracker?label=last+updated&color=238636)
 ![Repos tracked](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/patrick-creates/rising-repos-tracker/main/repos.json&query=%24.length&label=repos+tracked&color=1f6feb)
@@ -343,7 +349,7 @@ This is my personal tracker — the watch list reflects what I find interesting.
 1. Fork this repo to your account
 2. Replace the contents of [`repos.json`](./repos.json) with the repos you want to track (or just leave one entry — `discover.yml` will auto-add more every Monday)
 3. Go to **Settings → Pages** and enable GitHub Pages from the `main` branch
-4. Go to **Actions** and run **Collect Repo Stats** once manually to seed your first data point
+4. Go to **Actions**, enable workflows (GitHub disables them on forks by default) and run **Collect Repo Stats** once manually to seed your first data point
 5. Your dashboard will be live at `https://YOUR-USERNAME.github.io/rising-repos-tracker/`
 
 That's it — daily collection and weekly discovery run automatically on schedule. Zero ongoing maintenance.
