@@ -59,3 +59,13 @@ test("unusual growth is flagged and explained", () => {
   assert.match(md, /\[a\/spike\]\([^)]*\) ⚠️/);
   assert.match(md, /⚠️ Unusual growth/);
 });
+
+test("third-party descriptions cannot break the Markdown table", () => {
+  const repos = [{ owner: "a", repo: "x", notes: "pipes | and \\| backslashes" }];
+  const h = { "a/x": [{ date: "2026-10-19", stars: 1000 }, { date: "2026-10-26", stars: 1100 }] };
+  const row = renderReport("2026-W43", weekStats(repos, h, isoWeek("2026-10-19"))).split("\n").find((l) => l.startsWith("| 1 | [a/x]"));
+  assert.ok(row.endsWith(String.raw`pipes \| and \\\| backslashes |`), row);
+  // drop escaped backslashes and escaped pipes; the remaining pipes delimit exactly six cells
+  const cells = row.replace(/\\\\/g, "").replace(/\\\|/g, "").split("|").length - 2;
+  assert.strictEqual(cells, 6);
+});

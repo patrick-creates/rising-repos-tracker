@@ -93,7 +93,8 @@ function weekStats(repos, histories, week) {
 const fmt = (n) => Math.round(n).toLocaleString("en-US");
 const link = (name) => `[${name}](https://github.com/${name})`;
 const mark = (r) => (r.flagged ? " ⚠️" : "");
-const short = (s) => (s.length > 80 ? s.slice(0, 77) + "…" : s).replace(/\|/g, "\\|");
+// Repo descriptions are third-party text: escape backslashes first, then the table pipe
+const short = (s) => (s.length > 80 ? s.slice(0, 77) + "…" : s).replace(/\\/g, "\\\\").replace(/\|/g, "\\|");
 
 function renderReport(label, s) {
   const lines = [
