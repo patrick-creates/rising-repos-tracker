@@ -5,6 +5,8 @@ const DAY = 86400000;
 const TOP_N = 10;
 const MIN_STARS_FOR_PCT = 500; // below this, a few stars make huge percentages
 const MAX_GAP_DAYS = 2;        // snapshot may be this many days before the target date
+const FLAG_WEEK_PCT = 50;      // growth above this in one week gets a warning mark
+const FLAG_DAY_PCT = 25;       // ... as does a single day above this
 
 // ---- Dates (all UTC, "YYYY-MM-DD") ----
 const toDate = (s) => new Date(s + "T00:00:00Z");
@@ -39,6 +41,17 @@ function snapshotAt(history, date) {
   return (toDate(date) - toDate(best.date)) / DAY <= MAX_GAP_DAYS ? best : null;
 }
 
+// Largest day-over-day growth in percent between two dates; ignores tiny repos
+function maxDayPct(history, from, to) {
+  const days = history.filter((e) => e.date >= from && e.date <= to);
+  let max = 0;
+  for (let i = 1; i < days.length; i++) {
+    const prev = days[i - 1].stars;
+    if (prev >= MIN_STARS_FOR_PCT) max = Math.max(max, ((days[i].stars - prev) / prev) * 100);
+  }
+  return max;
+}
+
 // ---- Report data ----
 function weekStats(repos, histories, week) {
   const start = week.monday;
@@ -51,13 +64,15 @@ function weekStats(repos, histories, week) {
     if (!a || !b || b.date <= a.date) continue;
     const days = (toDate(b.date) - toDate(a.date)) / DAY;
     const gain = b.stars - a.stars;
+    const pct = a.stars >= MIN_STARS_FOR_PCT ? (gain / a.stars) * 100 : null;
     rows.push({
       name: `${meta.owner}/${meta.repo}`,
       notes: meta.notes || "",
       stars: b.stars,
       gain,
       perDay: gain / days,
-      pct: a.stars >= MIN_STARS_FOR_PCT ? (gain / a.stars) * 100 : null,
+      pct,
+      flagged: (pct !== null && pct > FLAG_WEEK_PCT) || maxDayPct(h, a.date, b.date) > FLAG_DAY_PCT,
     });
   }
   const added = repos
@@ -77,6 +92,7 @@ function weekStats(repos, histories, week) {
 // ---- Markdown ----
 const fmt = (n) => Math.round(n).toLocaleString("en-US");
 const link = (name) => `[${name}](https://github.com/${name})`;
+const mark = (r) => (r.flagged ? " ⚠️" : "");
 const short = (s) => (s.length > 80 ? s.slice(0, 77) + "…" : s).replace(/\|/g, "\\|");
 
 function renderReport(label, s) {
@@ -91,7 +107,7 @@ function renderReport(label, s) {
     "",
     "| # | Repo | Stars gained | Per day | Total | What it is |",
     "|---|---|---:|---:|---:|---|",
-    ...s.byGain.map((r, i) => `| ${i + 1} | ${link(r.name)} | +${fmt(r.gain)} | +${fmt(r.perDay)} | ${fmt(r.stars)} | ${short(r.notes)} |`),
+    ...s.byGain.map((r, i) => `| ${i + 1} | ${link(r.name)}${mark(r)} | +${fmt(r.gain)} | +${fmt(r.perDay)} | ${fmt(r.stars)} | ${short(r.notes)} |`),
     "",
     `## Top ${TOP_N} by growth rate`,
     "",
@@ -99,8 +115,11 @@ function renderReport(label, s) {
     "",
     "| # | Repo | Growth | Stars gained | Total |",
     "|---|---|---:|---:|---:|",
-    ...s.byPct.map((r, i) => `| ${i + 1} | ${link(r.name)} | +${r.pct.toFixed(1)}% | +${fmt(r.gain)} | ${fmt(r.stars)} |`),
+    ...s.byPct.map((r, i) => `| ${i + 1} | ${link(r.name)}${mark(r)} | +${r.pct.toFixed(1)}% | +${fmt(r.gain)} | ${fmt(r.stars)} |`),
     "",
+    ...([...s.byGain, ...s.byPct].some((r) => r.flagged)
+      ? [`⚠️ Unusual growth: more than ${FLAG_WEEK_PCT}% in the week or more than ${FLAG_DAY_PCT}% on a single day. Numbers come straight from the GitHub API; bulk starring, a viral launch or a rename can cause this. Check the repo before quoting the number.`, ""]
+      : []),
     "## Newly tracked this week",
     "",
     ...(s.added.length
@@ -175,4 +194,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { isoWeek, weekLabel, lastCompleteWeek, snapshotAt, weekStats, renderReport, addDays };
+module.exports = { isoWeek, weekLabel, lastCompleteWeek, snapshotAt, maxDayPct, weekStats, renderReport, addDays };

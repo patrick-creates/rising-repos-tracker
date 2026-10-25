@@ -1,7 +1,7 @@
 // Run: node --test scripts/weekly-report.test.js
 const test = require("node:test");
 const assert = require("node:assert");
-const { isoWeek, weekLabel, lastCompleteWeek, snapshotAt, weekStats } = require("./weekly-report");
+const { isoWeek, weekLabel, lastCompleteWeek, snapshotAt, maxDayPct, weekStats, renderReport } = require("./weekly-report");
 
 test("ISO week numbers, including year boundaries", () => {
   assert.strictEqual(weekLabel(isoWeek("2026-10-25")), "2026-W43"); // Sunday
@@ -43,4 +43,19 @@ test("week stats: gain, ranking, growth threshold, new repos", () => {
   assert.deepStrictEqual(s.byPct.map((r) => r.name), ["a/big"]); // small is below 500 stars
   assert.ok(Math.abs(s.byPct[0].pct - 7) < 1e-9);
   assert.deepStrictEqual(s.added.map((r) => r.name), ["b/small", "c/partial"]);
+});
+
+test("unusual growth is flagged and explained", () => {
+  const h = [
+    { date: "2026-10-19", stars: 1000 }, { date: "2026-10-20", stars: 1300 }, // +30% in a day
+    { date: "2026-10-26", stars: 1350 },
+  ];
+  assert.strictEqual(Math.round(maxDayPct(h, "2026-10-19", "2026-10-26")), 30);
+  const steady = [{ date: "2026-10-19", stars: 1000 }, { date: "2026-10-26", stars: 1100 }];
+  const repos = [{ owner: "a", repo: "spike" }, { owner: "b", repo: "steady" }];
+  const s = weekStats(repos, { "a/spike": h, "b/steady": steady }, isoWeek("2026-10-19"));
+  assert.deepStrictEqual(s.byGain.map((r) => [r.name, r.flagged]), [["a/spike", true], ["b/steady", false]]);
+  const md = renderReport("2026-W43", s);
+  assert.match(md, /\[a\/spike\]\([^)]*\) ⚠️/);
+  assert.match(md, /⚠️ Unusual growth/);
 });

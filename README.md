@@ -318,9 +318,11 @@ graph LR
 - Collects daily snapshots of stars, forks, watchers and open issues for every tracked repo
 - Discovers new trending repos automatically every Monday using the GitHub Search API
 - Generates AI summaries (use cases, similar tools, tags) for each tracked repo via GitHub Models
-- Writes a weekly report every Monday to [`reports/`](./reports/README.md): top 10 by stars gained, top 10 by growth rate, newly tracked repos
+- Writes a weekly report every Monday to [`reports/`](./reports/README.md): top 10 by stars gained, top 10 by growth rate, newly tracked repos; unusual jumps (over 50% in a week or 25% in a day) are marked ⚠️
 - Stores all history as plain JSON — no database, no backend
 - Renders a live dashboard via GitHub Pages — updates daily, zero maintenance
+
+Star counts come from the GitHub API as they are. A viral launch, bulk starring or a repo rename can all show up as a jump; check the repo before quoting a number.
 
 ## Tracked repos
 
