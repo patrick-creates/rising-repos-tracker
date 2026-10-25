@@ -942,5 +942,13 @@
     "watchers": 168,
     "open_issues": 643,
     "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection."
+  },
+  {
+    "date": "2026-10-25",
+    "stars": 47438,
+    "forks": 3898,
+    "watchers": 163,
+    "open_issues": 649,
+    "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection."
   }
 ]

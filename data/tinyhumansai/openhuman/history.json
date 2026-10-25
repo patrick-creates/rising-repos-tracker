@@ -382,5 +382,13 @@
     "watchers": 198,
     "open_issues": 314,
     "description": "The fastest, cheapest, most efficient open-source agent harness. Run more than 500 agents on a $10 VPS."
+  },
+  {
+    "date": "2026-10-25",
+    "stars": 42322,
+    "forks": 4181,
+    "watchers": 193,
+    "open_issues": 322,
+    "description": "The fastest, cheapest, most efficient open-source agent harness. Run more than 500 agents on a $10 VPS."
   }
 ]
