@@ -91,11 +91,18 @@
 <div class="card">
   <div class="card-header">
     <span>📋 All repos</span>
+    <span style="display:flex;gap:8px">
+    <select id="ageFilter">
+      <option value="all">all ages</option>
+      <option value="90">created ≤ 90 days ago</option>
+      <option value="180">created ≤ 180 days ago</option>
+    </select>
     <select id="sortSelect">
       <option value="stars">sort: stars</option>
       <option value="velocity">sort: stars/day</option>
       <option value="name">sort: name</option>
     </select>
+    </span>
   </div>
   <div class="table-header">
     <span>repo</span>
@@ -194,7 +201,19 @@ function renderChart(data, filter) {
   });
 }
 
+// Repos without created_at (added by hand) only show under "all ages"
+function byAge(data, maxDays) {
+  if (maxDays === 'all') return data;
+  const cutoff = Date.now() - parseInt(maxDays) * 86400000;
+  return data.filter(r => r.created_at && new Date(r.created_at) >= cutoff);
+}
+
 function renderTable(data, sortBy) {
+  data = byAge(data, document.getElementById('ageFilter').value);
+  if (!data.length) {
+    document.getElementById('repoTable').innerHTML = '<div class="repo-row"><span class="muted">No tracked repo is that young.</span></div>';
+    return;
+  }
   const sorted = [...data].sort((a, b) => {
     if (sortBy === 'velocity') return parseFloat(b.velocity) - parseFloat(a.velocity);
     if (sortBy === 'name') return a.repo.localeCompare(b.repo);
@@ -307,6 +326,7 @@ async function main() {
     const latest = history && history.length ? history[history.length - 1] : null;
     return {
       owner, repo,
+      created_at: repoMeta.created_at,
       history: history || [],
       stars:   latest?.stars       || 0,
       forks:   latest?.forks       || 0,
@@ -352,6 +372,7 @@ async function main() {
   renderTable(results, 'stars');
 
   document.getElementById('sortSelect').addEventListener('change', e => renderTable(allData, e.target.value));
+  document.getElementById('ageFilter').addEventListener('change', () => renderTable(allData, document.getElementById('sortSelect').value));
   document.getElementById('chartFilter').addEventListener('change', e => renderChart(allData, e.target.value));
 }
 
