@@ -1238,5 +1238,13 @@
     "watchers": 181,
     "open_issues": 12,
     "description": "免费大模型API，支持免费调用GPT、DeepSeek等主流模型，免费额度10000点，每日刷新！另付费价格最低官方1-2折！"
+  },
+  {
+    "date": "2026-10-27",
+    "stars": 44930,
+    "forks": 2752,
+    "watchers": 182,
+    "open_issues": 11,
+    "description": "免费大模型API，支持免费调用GPT、DeepSeek等主流模型，免费额度10000点，每日刷新！另付费价格最低官方1-2折！"
   }
 ]
