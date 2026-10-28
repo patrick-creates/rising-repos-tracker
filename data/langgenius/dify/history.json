@@ -1342,5 +1342,13 @@
     "watchers": 839,
     "open_issues": 1196,
     "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack."
+  },
+  {
+    "date": "2026-10-28",
+    "stars": 159800,
+    "forks": 25246,
+    "watchers": 841,
+    "open_issues": 1253,
+    "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack."
   }
 ]

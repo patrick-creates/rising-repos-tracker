@@ -1342,5 +1342,13 @@
     "watchers": 1423,
     "open_issues": 250,
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+  },
+  {
+    "date": "2026-10-28",
+    "stars": 291304,
+    "forks": 43126,
+    "watchers": 1420,
+    "open_issues": 274,
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
   }
 ]
