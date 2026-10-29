@@ -862,5 +862,13 @@
     "watchers": 40,
     "open_issues": 3933,
     "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability."
+  },
+  {
+    "date": "2026-10-29",
+    "stars": 28595,
+    "forks": 2600,
+    "watchers": 40,
+    "open_issues": 4138,
+    "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability."
   }
 ]

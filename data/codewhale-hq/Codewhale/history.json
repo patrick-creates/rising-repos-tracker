@@ -1254,5 +1254,13 @@
     "watchers": 158,
     "open_issues": 67,
     "description": "Open-source agent for the terminal written in Rust. Use any provider or model. Issues & PRs always welcome"
+  },
+  {
+    "date": "2026-10-29",
+    "stars": 41140,
+    "forks": 3566,
+    "watchers": 158,
+    "open_issues": 65,
+    "description": "Open-source agent for the terminal written in Rust. Use any provider or model. Issues & PRs always welcome"
   }
 ]
