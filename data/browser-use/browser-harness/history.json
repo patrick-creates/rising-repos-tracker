@@ -990,5 +990,13 @@
     "watchers": 50,
     "open_issues": 431,
     "description": "Let Claude Code, Codex or Cursor use your real Chrome, logged in as you. One prompt to set up. Open source, MIT."
+  },
+  {
+    "date": "2026-10-31",
+    "stars": 18774,
+    "forks": 1851,
+    "watchers": 50,
+    "open_issues": 434,
+    "description": "Let Claude Code, Codex or Cursor use your real Chrome, logged in as you. One prompt to set up. Open source, MIT."
   }
 ]

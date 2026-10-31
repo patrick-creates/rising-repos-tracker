@@ -934,5 +934,13 @@
     "watchers": 45,
     "open_issues": 526,
     "description": "Ekko Studio is a local-first AI workspace for multi-agent chat, coding, and visual workflows, available on desktop and the web."
+  },
+  {
+    "date": "2026-10-31",
+    "stars": 11622,
+    "forks": 1444,
+    "watchers": 46,
+    "open_issues": 533,
+    "description": "Ekko Studio is a local-first AI workspace for multi-agent chat, coding, and visual workflows, available on desktop and the web."
   }
 ]

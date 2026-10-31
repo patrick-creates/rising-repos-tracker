@@ -934,5 +934,13 @@
     "watchers": 36,
     "open_issues": 36,
     "description": "The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai"
+  },
+  {
+    "date": "2026-10-31",
+    "stars": 8714,
+    "forks": 847,
+    "watchers": 36,
+    "open_issues": 36,
+    "description": "The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai"
   }
 ]
