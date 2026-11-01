@@ -886,5 +886,13 @@
     "watchers": 107,
     "open_issues": 786,
     "description": "High performance coding agent harness written in Rust, built for heavy multi-agent dev workflows"
+  },
+  {
+    "date": "2026-11-01",
+    "stars": 21383,
+    "forks": 2497,
+    "watchers": 107,
+    "open_issues": 805,
+    "description": "High performance coding agent harness written in Rust, built for heavy multi-agent dev workflows"
   }
 ]

@@ -774,5 +774,13 @@
     "watchers": 411,
     "open_issues": 1652,
     "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store."
+  },
+  {
+    "date": "2026-11-01",
+    "stars": 140263,
+    "forks": 13391,
+    "watchers": 410,
+    "open_issues": 1632,
+    "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store."
   }
 ]
