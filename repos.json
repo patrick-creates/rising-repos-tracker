@@ -1885,5 +1885,32 @@
     "stars_at_add": 6694,
     "stars_per_day_at_add": 26.8,
     "created_at": "2026-02-17"
+  },
+  {
+    "owner": "pbakaus",
+    "repo": "impeccable",
+    "added": "2026-11-02",
+    "notes": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+    "stars_at_add": 100014,
+    "stars_per_day_at_add": 284.9,
+    "created_at": "2025-11-16"
+  },
+  {
+    "owner": "Tracer-Cloud",
+    "repo": "opensre",
+    "added": "2026-11-02",
+    "notes": "The open-source agent for CI/CD reliability.",
+    "stars_at_add": 12657,
+    "stars_per_day_at_add": 43.2,
+    "created_at": "2026-01-13"
+  },
+  {
+    "owner": "makecindy",
+    "repo": "cindy",
+    "added": "2026-11-02",
+    "notes": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+    "stars_at_add": 8987,
+    "stars_per_day_at_add": 88.1,
+    "created_at": "2026-07-22"
   }
 ]
