@@ -1345,10 +1345,10 @@
   },
   {
     "date": "2026-11-02",
-    "stars": 54646,
+    "stars": 54651,
     "forks": 5248,
     "watchers": 242,
-    "open_issues": 132,
+    "open_issues": 131,
     "description": "Chrome DevTools for coding agents"
   }
 ]

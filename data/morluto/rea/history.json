@@ -169,10 +169,10 @@
   },
   {
     "date": "2026-11-02",
-    "stars": 420816,
-    "forks": 105048,
-    "watchers": 1605,
-    "open_issues": 1627,
+    "stars": 421157,
+    "forks": 105113,
+    "watchers": 1607,
+    "open_issues": 1622,
     "description": "Reverse engineer anything with agents, from app behavior down to native binaries."
   }
 ]

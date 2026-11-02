@@ -1345,10 +1345,10 @@
   },
   {
     "date": "2026-11-02",
-    "stars": 151130,
+    "stars": 151165,
     "forks": 9936,
     "watchers": 263,
-    "open_issues": 1094,
+    "open_issues": 1092,
     "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io"
   }
 ]

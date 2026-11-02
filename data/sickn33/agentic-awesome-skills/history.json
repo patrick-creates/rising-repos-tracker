@@ -1289,10 +1289,10 @@
   },
   {
     "date": "2026-11-02",
-    "stars": 49023,
-    "forks": 7115,
+    "stars": 49026,
+    "forks": 7117,
     "watchers": 303,
-    "open_issues": 2,
+    "open_issues": 3,
     "description": "2,884+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins."
   }
 ]

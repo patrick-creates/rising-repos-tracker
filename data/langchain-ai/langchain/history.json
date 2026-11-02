@@ -1385,10 +1385,10 @@
   },
   {
     "date": "2026-11-02",
-    "stars": 148877,
-    "forks": 25027,
+    "stars": 148880,
+    "forks": 25029,
     "watchers": 921,
-    "open_issues": 709,
+    "open_issues": 710,
     "description": "The agent engineering platform."
   }
 ]

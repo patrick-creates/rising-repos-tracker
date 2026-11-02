@@ -1065,10 +1065,10 @@
   },
   {
     "date": "2026-11-02",
-    "stars": 182497,
-    "forks": 10070,
+    "stars": 182559,
+    "forks": 10077,
     "watchers": 431,
-    "open_issues": 150,
+    "open_issues": 153,
     "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
   }
 ]

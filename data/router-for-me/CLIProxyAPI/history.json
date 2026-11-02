@@ -1289,10 +1289,10 @@
   },
   {
     "date": "2026-11-02",
-    "stars": 57255,
-    "forks": 8769,
+    "stars": 57271,
+    "forks": 8768,
     "watchers": 113,
-    "open_issues": 814,
+    "open_issues": 818,
     "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API"
   }
 ]

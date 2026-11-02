@@ -1233,10 +1233,10 @@
   },
   {
     "date": "2026-11-02",
-    "stars": 73305,
-    "forks": 8258,
+    "stars": 73324,
+    "forks": 8259,
     "watchers": 300,
-    "open_issues": 536,
+    "open_issues": 537,
     "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities."
   }
 ]

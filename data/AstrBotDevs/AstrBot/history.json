@@ -1233,10 +1233,10 @@
   },
   {
     "date": "2026-11-02",
-    "stars": 45603,
+    "stars": 45622,
     "forks": 3345,
     "watchers": 95,
-    "open_issues": 1138,
+    "open_issues": 1139,
     "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨"
   }
 ]

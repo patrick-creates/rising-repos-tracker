@@ -1345,10 +1345,10 @@
   },
   {
     "date": "2026-11-02",
-    "stars": 49898,
+    "stars": 49900,
     "forks": 5126,
     "watchers": 267,
-    "open_issues": 1942,
+    "open_issues": 1941,
     "description": "aider is AI pair programming in your terminal"
   }
 ]

@@ -1177,8 +1177,8 @@
   },
   {
     "date": "2026-11-02",
-    "stars": 37758,
-    "forks": 4304,
+    "stars": 37821,
+    "forks": 4307,
     "watchers": 198,
     "open_issues": 61,
     "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more"

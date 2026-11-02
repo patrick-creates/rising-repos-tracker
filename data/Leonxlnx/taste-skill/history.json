@@ -1233,9 +1233,9 @@
   },
   {
     "date": "2026-11-02",
-    "stars": 108265,
-    "forks": 7300,
-    "watchers": 296,
+    "stars": 108347,
+    "forks": 7303,
+    "watchers": 295,
     "open_issues": 10,
     "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages"
   }

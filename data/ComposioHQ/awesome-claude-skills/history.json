@@ -1345,10 +1345,10 @@
   },
   {
     "date": "2026-11-02",
-    "stars": 78558,
-    "forks": 9493,
+    "stars": 78566,
+    "forks": 9496,
     "watchers": 460,
-    "open_issues": 1877,
+    "open_issues": 1876,
     "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows"
   }
 ]
