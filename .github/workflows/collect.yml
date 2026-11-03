@@ -12,11 +12,32 @@ jobs:
       contents: write       # needed to commit data back
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: "20"
+          node-version: "24"
+
+      # Fails once the CI Node is end-of-life (all four workflows share node-version); an unreachable endoflife.date only warns so CI does not depend on it.
+      - name: Check Node end-of-life
+        run: |
+          node --input-type=module <<'EOF'
+          const v = process.versions.node.split('.')[0];
+          let eol;
+          try {
+            const r = await fetch(`https://endoflife.date/api/nodejs/${v}.json`, { signal: AbortSignal.timeout(10000) });
+            if (!r.ok) throw new Error(`HTTP ${r.status}`);
+            eol = (await r.json()).eol;
+          } catch (e) {
+            console.log(`::warning::Could not check end-of-life of Node ${v}: ${e.message}`);
+            process.exit(0);
+          }
+          if (eol !== false && (eol === true || new Date(eol) <= new Date())) {
+            console.log(`::error::Node ${v} reached end-of-life (${eol}); raise node-version in all workflows`);
+            process.exit(1);
+          }
+          console.log(`Node ${v} supported until ${eol}`);
+          EOF
 
       - name: Collect stats
         env:
