@@ -12,7 +12,11 @@ All notable changes to the tracker code and docs are documented here. Daily data
 - Dashboard: filter the repo table by age (created in the last 90 or 180 days).
 - `scripts/tracker.test.js`: tests for velocity and for merging data of renamed repos. All tests: `node --test scripts/tracker.test.js scripts/weekly-report.test.js`.
 
+- Dependabot version updates for GitHub Actions, monthly and grouped.
+- Collect workflow fails once the CI Node version is end-of-life.
+
 ### Changed
+- Workflows run on Node 24 (Node 20 is end-of-life since 2026-04-30); actions moved to their Node 24 releases (`checkout` v7, `setup-node` v7, `cache` v6).
 - Fork instructions: remove `data/` and `reports/` before tracking your own list.
 - `summarize.yml` can be switched off with the repository variable `SUMMARIES=off`; README explains GitHub Models and what happens without it.
 

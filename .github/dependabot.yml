@@ -1,0 +1,11 @@
+# Monthly and grouped: at most one Dependabot PR a month.
+# No npm entry: there is no package.json; Puppeteer is installed by version in screenshot.yml.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      github-actions:
+        patterns: ["*"]
