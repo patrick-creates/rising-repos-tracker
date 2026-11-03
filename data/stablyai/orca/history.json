@@ -958,5 +958,13 @@
     "watchers": 156,
     "open_issues": 7901,
     "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime."
+  },
+  {
+    "date": "2026-11-03",
+    "stars": 114104,
+    "forks": 7212,
+    "watchers": 155,
+    "open_issues": 7999,
+    "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime."
   }
 ]

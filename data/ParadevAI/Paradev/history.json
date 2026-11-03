@@ -1014,5 +1014,13 @@
     "watchers": 33,
     "open_issues": 1149,
     "description": "Paradev (formerly Superset) is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription."
+  },
+  {
+    "date": "2026-11-03",
+    "stars": 15869,
+    "forks": 1411,
+    "watchers": 33,
+    "open_issues": 1146,
+    "description": "Paradev (formerly Superset) is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription."
   }
 ]
