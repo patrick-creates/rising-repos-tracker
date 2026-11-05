@@ -918,5 +918,13 @@
     "watchers": 223,
     "open_issues": 80,
     "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it."
+  },
+  {
+    "date": "2026-11-05",
+    "stars": 69734,
+    "forks": 22452,
+    "watchers": 224,
+    "open_issues": 80,
+    "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it."
   }
 ]

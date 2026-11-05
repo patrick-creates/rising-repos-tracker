@@ -1142,5 +1142,13 @@
     "watchers": 110,
     "open_issues": 354,
     "description": "Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search, 99% fewer bytes in context. Works with Claude Code, Codex, Pi, OpenCode, Gemini CLI, Copilot CLI and 4 more agents. Zero telemetry."
+  },
+  {
+    "date": "2026-11-05",
+    "stars": 33535,
+    "forks": 2305,
+    "watchers": 108,
+    "open_issues": 6,
+    "description": "Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search, 99% fewer bytes in context. Works with Claude Code, Codex, Pi, OpenCode, Gemini CLI, Copilot CLI and 4 more agents. Zero telemetry."
   }
 ]

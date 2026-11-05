@@ -414,5 +414,13 @@
     "watchers": 34,
     "open_issues": 285,
     "description": "One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get a map of your code and your team's past decisions, so they pick up where you left off."
+  },
+  {
+    "date": "2026-11-05",
+    "stars": 11096,
+    "forks": 986,
+    "watchers": 34,
+    "open_issues": 288,
+    "description": "One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get a map of your code and your team's past decisions, so they pick up where you left off."
   }
 ]
