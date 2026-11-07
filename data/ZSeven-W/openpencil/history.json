@@ -94,5 +94,13 @@
     "watchers": 45,
     "open_issues": 30,
     "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil."
+  },
+  {
+    "date": "2026-11-07",
+    "stars": 7109,
+    "forks": 613,
+    "watchers": 45,
+    "open_issues": 28,
+    "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil."
   }
 ]

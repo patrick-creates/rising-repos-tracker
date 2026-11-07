@@ -318,5 +318,13 @@
     "watchers": 278,
     "open_issues": 16,
     "description": "Agent skill that removes signs of AI-generated writing from text"
+  },
+  {
+    "date": "2026-11-07",
+    "stars": 65805,
+    "forks": 5203,
+    "watchers": 280,
+    "open_issues": 16,
+    "description": "Agent skill that removes signs of AI-generated writing from text"
   }
 ]

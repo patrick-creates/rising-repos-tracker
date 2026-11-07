@@ -1158,5 +1158,13 @@
     "watchers": 213,
     "open_issues": 321,
     "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
+  },
+  {
+    "date": "2026-11-07",
+    "stars": 79055,
+    "forks": 6175,
+    "watchers": 212,
+    "open_issues": 285,
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
   }
 ]
