@@ -1278,5 +1278,13 @@
     "watchers": 296,
     "open_issues": 8,
     "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages"
+  },
+  {
+    "date": "2026-11-08",
+    "stars": 111838,
+    "forks": 7520,
+    "watchers": 293,
+    "open_issues": 2,
+    "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages"
   }
 ]

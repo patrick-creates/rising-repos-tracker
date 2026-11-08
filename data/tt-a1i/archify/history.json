@@ -270,5 +270,13 @@
     "watchers": 232,
     "open_issues": 322,
     "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more."
+  },
+  {
+    "date": "2026-11-08",
+    "stars": 94605,
+    "forks": 6448,
+    "watchers": 232,
+    "open_issues": 355,
+    "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more."
   }
 ]

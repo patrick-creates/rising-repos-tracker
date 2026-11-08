@@ -718,5 +718,13 @@
     "watchers": 131,
     "open_issues": 59,
     "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents."
+  },
+  {
+    "date": "2026-11-08",
+    "stars": 25392,
+    "forks": 3153,
+    "watchers": 132,
+    "open_issues": 57,
+    "description": "Open-source 3D architecture software for AECO, scan-to-BIM. Agent-friendly, browser-first, MCP, CLI."
   }
 ]
