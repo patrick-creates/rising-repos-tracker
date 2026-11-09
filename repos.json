@@ -1912,5 +1912,41 @@
     "stars_at_add": 8987,
     "stars_per_day_at_add": 88.1,
     "created_at": "2026-07-22"
+  },
+  {
+    "owner": "DuarteSantos8",
+    "repo": "openGym",
+    "added": "2026-11-09",
+    "notes": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
+    "stars_at_add": 20511,
+    "stars_per_day_at_add": 181.5,
+    "created_at": "2026-07-18"
+  },
+  {
+    "owner": "vercel-labs",
+    "repo": "agent-desktop",
+    "added": "2026-11-09",
+    "notes": "Computer use CLI for AI agents",
+    "stars_at_add": 20068,
+    "stars_per_day_at_add": 76.6,
+    "created_at": "2026-02-19"
+  },
+  {
+    "owner": "Jakeschincariol",
+    "repo": "replica-skill",
+    "added": "2026-11-09",
+    "notes": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
+    "stars_at_add": 8574,
+    "stars_per_day_at_add": 231.7,
+    "created_at": "2026-10-03"
+  },
+  {
+    "owner": "JetBrains",
+    "repo": "thinkrail",
+    "added": "2026-11-09",
+    "notes": "ThinkRail is the agentic IDE that gets better every time you use it",
+    "stars_at_add": 8033,
+    "stars_per_day_at_add": 64.8,
+    "created_at": "2026-07-08"
   }
 ]
