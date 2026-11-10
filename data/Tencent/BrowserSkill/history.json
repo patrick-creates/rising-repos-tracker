@@ -342,5 +342,13 @@
     "watchers": 25,
     "open_issues": 138,
     "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent."
+  },
+  {
+    "date": "2026-11-10",
+    "stars": 10282,
+    "forks": 744,
+    "watchers": 25,
+    "open_issues": 142,
+    "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent."
   }
 ]
