@@ -1358,5 +1358,13 @@
     "watchers": 160,
     "open_issues": 1452,
     "description": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting."
+  },
+  {
+    "date": "2026-11-11",
+    "stars": 51752,
+    "forks": 12620,
+    "watchers": 161,
+    "open_issues": 1459,
+    "description": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting."
   }
 ]
