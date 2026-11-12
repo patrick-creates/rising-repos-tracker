@@ -134,5 +134,13 @@
     "watchers": 62,
     "open_issues": 276,
     "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU."
+  },
+  {
+    "date": "2026-11-12",
+    "stars": 10492,
+    "forks": 1735,
+    "watchers": 63,
+    "open_issues": 297,
+    "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU."
   }
 ]

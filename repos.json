@@ -501,7 +501,7 @@
     "created_at": "2025-06-11"
   },
   {
-    "owner": "kepano",
+    "owner": "obsidianmd",
     "repo": "obsidian-skills",
     "added": "2026-06-01",
     "notes": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
