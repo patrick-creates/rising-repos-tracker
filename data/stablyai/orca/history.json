@@ -1038,5 +1038,13 @@
     "watchers": 157,
     "open_issues": 8231,
     "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime."
+  },
+  {
+    "date": "2026-11-13",
+    "stars": 124034,
+    "forks": 7847,
+    "watchers": 158,
+    "open_issues": 8354,
+    "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime."
   }
 ]

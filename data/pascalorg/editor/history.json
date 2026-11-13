@@ -758,5 +758,13 @@
     "watchers": 132,
     "open_issues": 57,
     "description": "Open-source 3D architecture software for AECO, scan-to-BIM. Agent-friendly, browser-first, MCP, CLI."
+  },
+  {
+    "date": "2026-11-13",
+    "stars": 25491,
+    "forks": 3170,
+    "watchers": 132,
+    "open_issues": 55,
+    "description": "Open-source 3D architecture software for AECO, scan-to-BIM. Agent-friendly, browser-first, MCP, CLI."
   }
 ]
