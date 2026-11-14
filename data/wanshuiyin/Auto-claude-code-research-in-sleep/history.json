@@ -1102,5 +1102,13 @@
     "watchers": 27,
     "open_issues": 74,
     "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent."
+  },
+  {
+    "date": "2026-11-14",
+    "stars": 19184,
+    "forks": 1548,
+    "watchers": 27,
+    "open_issues": 74,
+    "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent."
   }
 ]

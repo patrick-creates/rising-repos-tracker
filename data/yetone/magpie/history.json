@@ -150,5 +150,13 @@
     "watchers": 42,
     "open_issues": 4091,
     "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar."
+  },
+  {
+    "date": "2026-11-14",
+    "stars": 36370,
+    "forks": 3255,
+    "watchers": 43,
+    "open_issues": 4188,
+    "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar."
   }
 ]
