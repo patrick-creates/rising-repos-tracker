@@ -1948,5 +1948,23 @@
     "stars_at_add": 8033,
     "stars_per_day_at_add": 64.8,
     "created_at": "2026-07-08"
+  },
+  {
+    "owner": "pingdotgg",
+    "repo": "t3code",
+    "added": "2026-11-16",
+    "notes": "The best way to control Claude Code, Codex and more from any computer or phone",
+    "stars_at_add": 62245,
+    "stars_per_day_at_add": 222.3,
+    "created_at": "2026-02-08"
+  },
+  {
+    "owner": "ccch1mneyyy",
+    "repo": "dsh-Go",
+    "added": "2026-11-16",
+    "notes": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+    "stars_at_add": 24445,
+    "stars_per_day_at_add": 1111.1,
+    "created_at": "2026-10-25"
   }
 ]
