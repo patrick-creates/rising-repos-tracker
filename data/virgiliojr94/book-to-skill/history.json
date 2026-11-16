@@ -670,5 +670,13 @@
     "watchers": 152,
     "open_issues": 30,
     "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work."
+  },
+  {
+    "date": "2026-11-16",
+    "stars": 38075,
+    "forks": 4050,
+    "watchers": 153,
+    "open_issues": 36,
+    "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work."
   }
 ]

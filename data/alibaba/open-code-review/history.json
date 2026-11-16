@@ -1062,5 +1062,13 @@
     "watchers": 146,
     "open_issues": 343,
     "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
+  },
+  {
+    "date": "2026-11-16",
+    "stars": 52689,
+    "forks": 4230,
+    "watchers": 151,
+    "open_issues": 335,
+    "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
   }
 ]

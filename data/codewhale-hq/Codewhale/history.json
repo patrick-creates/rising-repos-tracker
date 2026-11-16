@@ -1398,5 +1398,13 @@
     "watchers": 156,
     "open_issues": 99,
     "description": "An open-source coding agent for your terminal, written in Rust. It works with any model, can split one task across several agents, and every line of it is yours to read."
+  },
+  {
+    "date": "2026-11-16",
+    "stars": 41184,
+    "forks": 3573,
+    "watchers": 156,
+    "open_issues": 96,
+    "description": "An open-source coding agent for your terminal, written in Rust. It works with any model, can split one task across several agents, and every line of it is yours to read."
   }
 ]
