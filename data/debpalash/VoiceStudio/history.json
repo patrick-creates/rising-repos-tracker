@@ -566,5 +566,13 @@
     "watchers": 366,
     "open_issues": 51,
     "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+  },
+  {
+    "date": "2026-11-17",
+    "stars": 112467,
+    "forks": 12486,
+    "watchers": 368,
+    "open_issues": 42,
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
   }
 ]

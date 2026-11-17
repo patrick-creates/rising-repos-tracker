@@ -454,5 +454,13 @@
     "watchers": 62,
     "open_issues": 100,
     "description": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux."
+  },
+  {
+    "date": "2026-11-17",
+    "stars": 12494,
+    "forks": 1751,
+    "watchers": 62,
+    "open_issues": 106,
+    "description": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux."
   }
 ]

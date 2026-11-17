@@ -1406,5 +1406,13 @@
     "watchers": 314,
     "open_issues": 14,
     "description": "Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi, written once in Markdown and adapted to each tool by generators with validation and evals."
+  },
+  {
+    "date": "2026-11-17",
+    "stars": 42607,
+    "forks": 4502,
+    "watchers": 314,
+    "open_issues": 14,
+    "description": "Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi, written once in Markdown and adapted to each tool by generators with validation and evals."
   }
 ]
