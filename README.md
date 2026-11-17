@@ -13,7 +13,6 @@
 ![Repos tracked](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/patrick-creates/rising-repos-tracker/main/repos.json&query=%24.length&label=repos+tracked&color=1f6feb)
 ![Collect](https://img.shields.io/github/actions/workflow/status/patrick-creates/rising-repos-tracker/collect.yml?label=collect&logo=github-actions&logoColor=white)
 ![Discover](https://img.shields.io/github/actions/workflow/status/patrick-creates/rising-repos-tracker/discover.yml?label=discover&logo=github-actions&logoColor=white)
-![Summarize](https://img.shields.io/github/actions/workflow/status/patrick-creates/rising-repos-tracker/summarize.yml?label=summarize&logo=github-actions&logoColor=white)
 ![Screenshot](https://img.shields.io/github/actions/workflow/status/patrick-creates/rising-repos-tracker/screenshot.yml?label=screenshot&logo=github-actions&logoColor=white)
 ![License](https://img.shields.io/github/license/patrick-creates/rising-repos-tracker)
 
@@ -332,7 +331,7 @@ graph LR
 
 - Collects daily snapshots of stars, forks, watchers and open issues for every tracked repo
 - Discovers new trending repos automatically every Monday using the GitHub Search API
-- Generates AI summaries (use cases, similar tools, tags) for each tracked repo via GitHub Models
+- Shows each repo's GitHub description and topics in the dashboard, refreshed with every daily snapshot
 - Writes a weekly report every Monday to [`reports/`](./reports/README.md): top 10 by stars gained, top 10 by growth rate, newly tracked repos; unusual jumps (over 50% in a week or 25% in a day) are marked ⚠️
 - Stores all history as plain JSON — no database, no backend
 - Renders a live dashboard via GitHub Pages — updates daily, zero maintenance
@@ -362,11 +361,9 @@ This is my personal tracker — the watch list reflects what I find interesting.
 
 That's it — daily collection, weekly discovery and the Monday report run automatically on schedule. Zero ongoing maintenance.
 
-### AI summaries (optional)
+### Repo descriptions
 
-After each discovery run, `summarize.yml` writes a short summary per repo with [GitHub Models](https://docs.github.com/en/github-models) (`gpt-4o-mini`), using the workflow's own `GITHUB_TOKEN` — no API key needed. GitHub Models has a free tier with rate limits; if a call fails, the job logs the error for that repo and moves on, and the dashboard shows "No AI summary available" for it. Everything else keeps working.
-
-To switch it off, add a repository variable `SUMMARIES` with the value `off` under **Settings → Secrets and variables → Actions → Variables**.
+Clicking a repo in the dashboard shows its GitHub description and topics, taken from the daily snapshot. Until 2026 the tracker also generated AI summaries with GitHub Models; GitHub retired that service on 2026-07-30. The summaries generated before then stay in `data/<owner>/<repo>/summary.json` and are shown below the description, dated; no new ones are generated.
 
 ### Customizing what gets discovered
 
@@ -398,7 +395,6 @@ Just edit `repos.json` directly:
 - **GitHub Actions** — scheduling and automation
 - **GitHub Pages** — dashboard hosting
 - **GitHub API** — data source
-- **GitHub Models** — free AI summaries (gpt-4o-mini)
 - **Chart.js** — star growth visualization
 - **Mermaid** — architecture diagram (rendered by GitHub)
 - Collecting, reports and README use Node built-ins only; the screenshot workflow installs Puppeteer. No build step, no database

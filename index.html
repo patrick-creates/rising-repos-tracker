@@ -240,7 +240,7 @@ function renderTable(data, sortBy) {
         <span class="num ${velClass(vel)}">${vel > 0 ? '+'+vel.toFixed(1) : '—'}</span>
       </div>
       <div class="repo-detail" id="detail-${id}" data-owner="${r.owner}" data-repo="${r.repo}">
-        <span class="loading">Loading summary…</span>
+        <span class="loading">Loading…</span>
       </div>
     </div>`;
   }).join('');
@@ -275,40 +275,46 @@ async function toggleDetail(rowEl) {
   const repo = detail.dataset.repo;
   const cacheKey = `${owner}/${repo}`;
 
+  const meta = allData.find(r => r.owner === owner && r.repo === repo);
   if (summaryCache[cacheKey] !== undefined) {
-    renderDetail(detail, summaryCache[cacheKey]);
+    renderDetail(detail, meta, summaryCache[cacheKey]);
     return;
   }
+  renderDetail(detail, meta, null); // GitHub data is already here; an old AI summary may follow
 
   try {
     const res = await fetch(`${BASE}/data/${owner}/${repo}/summary.json`);
     if (!res.ok) throw new Error('no summary');
     const data = await res.json();
     summaryCache[cacheKey] = data;
-    renderDetail(detail, data);
+    renderDetail(detail, meta, data);
   } catch {
     summaryCache[cacheKey] = null;
-    renderDetail(detail, null);
   }
 }
 
-// Summaries are LLM output from third-party READMEs: never insert them as HTML
+// Descriptions, topics and old AI summaries come from third-party repos: never insert them as HTML
 const esc = (v) => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const list = (v) => (Array.isArray(v) ? v : []);
 
-function renderDetail(el, data) {
+// GitHub description + topics for every repo, refreshed daily. The AI summaries (GitHub Models,
+// retired 2026-07-30) are no longer generated; where one exists it is shown below, dated.
+function renderDetail(el, meta, data) {
+  const github = `
+    <p class="summary-text">${esc(meta?.description) || '<span class="no-summary">No description on GitHub.</span>'}</p>
+    ${list(meta?.topics).length ? `<p class="detail-label">topics</p>
+    <div class="pill-row">${list(meta.topics).map(t => `<span class="pill tag">#${esc(t)}</span>`).join('')}</div>` : ''}`;
   if (!data) {
-    el.innerHTML = '<span class="no-summary">No AI summary available yet for this repo.</span>';
+    el.innerHTML = github;
     return;
   }
-  el.innerHTML = `
+  el.innerHTML = github + `
+    <p class="detail-label">AI summary · ${esc(String(data.generated_at || '').slice(0, 10))} · no longer updated</p>
     <p class="summary-text">${esc(data.summary)}</p>
     <p class="detail-label">use cases</p>
     <ul>${list(data.use_cases).map(u => `<li>${esc(u)}</li>`).join('')}</ul>
     <p class="detail-label">similar tools</p>
     <div class="pill-row">${list(data.similar_tools).map(t => `<span class="pill">${esc(t)}</span>`).join('')}</div>
-    <p class="detail-label">tags</p>
-    <div class="pill-row">${list(data.tags).map(t => `<span class="pill tag">#${esc(t)}</span>`).join('')}</div>
   `;
 }
 
