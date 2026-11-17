@@ -40,7 +40,6 @@ function generateMermaid(workflows) {
   const nodes = [
     `    repos[("repos.json")]:::data`,
     `    history[("data/[owner]/[repo]/<br/>history.json")]:::data`,
-    `    summary[("data/[owner]/[repo]/<br/>summary.json")]:::data`,
     `    readme[("README.md")]:::data`,
     `    reports[("reports/<br/>YYYY-Www.md")]:::data`,
     `    preview[("preview.png")]:::data`,
@@ -67,9 +66,6 @@ function generateMermaid(workflows) {
       edges.push(`    ${safeId} --> readme`);
       edges.push(`    ${safeId} --> site`);
       edges.push(`    ${safeId} -->|Mondays| reports`);
-    } else if (name.includes("summarize")) {
-      edges.push(`    repos --> ${safeId}`);
-      edges.push(`    ${safeId} --> summary`);
     } else if (name.includes("screenshot")) {
       edges.push(`    dashboard --> ${safeId}`);
       edges.push(`    ${safeId} --> preview`);
@@ -77,7 +73,6 @@ function generateMermaid(workflows) {
   }
 
   edges.push(`    site --> dashboard`);
-  edges.push(`    summary --> dashboard`);
   edges.push(`    preview --> readme`);
 
   return "```mermaid\ngraph LR\n" +
@@ -242,6 +237,8 @@ function writeSiteData(enriched, today) {
       return {
         owner: r.owner, repo: r.repo, added: r.added, created_at: r.created_at, status: r.status,
         stars: r.stars, forks: r.forks, issues: r.issues,
+        description: r.history?.at(-1)?.description || r.notes || "",
+        topics: r.history?.at(-1)?.topics || [],
         velocity: Math.round(r.velocity * 10) / 10,
         chart: (r.history || []).filter((e) => new Date(e.date) >= from).map((e) => [e.date, e.stars]),
       };

@@ -119,6 +119,7 @@ async function main() {
         watchers: data.subscribers_count,
         open_issues: data.open_issues_count,
         description: data.description,
+        topics: data.topics || [], // shown in the dashboard detail view instead of AI summaries
       };
 
       const dir = path.join("data", owner, repo);
