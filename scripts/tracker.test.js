@@ -84,3 +84,10 @@ test("discover ranks by stars per day, a repo created today counts as one day", 
   const young = { stargazers_count: 5000, created_at: new Date(Date.now() - 2 * 86400000).toISOString() };
   assert.ok(starsPerDay(young) > starsPerDay(old));
 });
+
+test("velocity: only the last 30 days count, so long and short histories compare fairly", () => {
+  // 60 days at 100/day, then 30 days at 10/day: lifetime average would be 70, the last 30 days say 10
+  const h = [...days(61, 0, 100), ...days(31, 6000, 10).map((e, i) =>
+    ({ date: new Date(Date.UTC(2026, 9, 1 + 60 + i)).toISOString().slice(0, 10), stars: e.stars }))].filter((e, i) => i !== 61);
+  assert.strictEqual(calcVelocity(h), 10);
+});

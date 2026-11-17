@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { gainSince } = require("./collect");
 
 const repos = JSON.parse(fs.readFileSync("repos.json", "utf8"));
 
@@ -43,6 +44,7 @@ function generateMermaid(workflows) {
     `    readme[("README.md")]:::data`,
     `    reports[("reports/<br/>YYYY-Www.md")]:::data`,
     `    preview[("preview.png")]:::data`,
+    `    site[("dashboard.json")]:::data`,
     `    dashboard["index.html<br/>(GitHub Pages)"]:::output`,
   ];
 
@@ -63,6 +65,7 @@ function generateMermaid(workflows) {
       edges.push(`    repos --> ${safeId}`);
       edges.push(`    ${safeId} --> history`);
       edges.push(`    ${safeId} --> readme`);
+      edges.push(`    ${safeId} --> site`);
       edges.push(`    ${safeId} -->|Mondays| reports`);
     } else if (name.includes("summarize")) {
       edges.push(`    repos --> ${safeId}`);
@@ -73,7 +76,7 @@ function generateMermaid(workflows) {
     }
   }
 
-  edges.push(`    history --> dashboard`);
+  edges.push(`    site --> dashboard`);
   edges.push(`    summary --> dashboard`);
   edges.push(`    preview --> readme`);
 
@@ -93,11 +96,11 @@ function loadHistory(owner, repo) {
   return JSON.parse(fs.readFileSync(p, "utf8"));
 }
 
+// Stars/day over the last 30 days only, so repos tracked for 1 month and for 6 months compare fairly.
 function calcVelocity(history, meta) {
   if (history && history.length >= 2) {
-    const first = history[0], last = history[history.length - 1];
-    const days = Math.max(1, (new Date(last.date) - new Date(first.date)) / 86400000);
-    return (last.stars - first.stars) / days;
+    const { gain, days } = gainSince(history, 30);
+    return gain / days;
   }
   if (meta?.stars_per_day_at_add) return parseFloat(meta.stars_per_day_at_add);
   return 0;
@@ -121,6 +124,7 @@ function main() {
       forks: latest?.forks || 0,
       issues: latest?.open_issues || 0,
       velocity: calcVelocity(history, meta),
+      history,
     };
   });
 
@@ -150,7 +154,7 @@ function main() {
 
 > ⚠️ unusually fast growth (1,000+ stars/day over its lifetime and the last week): check before trusting. 💤 stalled repos are left out.
 
-| # | Repo | Stars | Stars/day |
+| # | Repo | Stars | Stars/day (30d) |
 |---|---|---:|---:|
 ${topByVelocity.map((r, i) =>
   `| ${i+1} | [${r.owner}/${r.repo}](https://github.com/${r.owner}/${r.repo})${mark(r)} | ${fmt(r.stars)} | +${r.velocity.toFixed(1)} |`
@@ -194,7 +198,7 @@ ${workflowRows}
   const reposBlock = `<!-- AUTOGEN-REPOS-START -->
 ## 📋 All tracked repos
 
-| Repo | Stars | Forks | Stars/day |
+| Repo | Stars | Forks | Stars/day (30d) |
 |---|---:|---:|---:|
 ${sortedAll.map(r =>
   `| [${r.owner}/${r.repo}](https://github.com/${r.owner}/${r.repo})${mark(r)} | ${fmt(r.stars)} | ${fmt(r.forks)} | ${r.velocity > 0 ? '+' + r.velocity.toFixed(1) : '—'} |`
@@ -221,7 +225,29 @@ ${sortedAll.map(r =>
   );
 
   fs.writeFileSync("README.md", readme);
+  writeSiteData(enriched, today);
   console.log(`✓ README updated: ${enriched.length} repos, ${fmt(totalStars)} stars, ${workflows.length} workflows`);
+}
+
+const CHART_DAYS = 90;
+
+// One small file for index.html instead of one history.json per repo (8+ MB, 200+ requests per visit).
+function writeSiteData(enriched, today) {
+  const firstDates = enriched.map((r) => r.history?.[0]?.date).filter(Boolean).sort();
+  const site = {
+    generated: today,
+    tracking_since: firstDates[0] || null,
+    repos: enriched.map((r) => {
+      const from = r.history?.length ? new Date(r.history[r.history.length - 1].date) - CHART_DAYS * 86400000 : 0;
+      return {
+        owner: r.owner, repo: r.repo, added: r.added, created_at: r.created_at, status: r.status,
+        stars: r.stars, forks: r.forks, issues: r.issues,
+        velocity: Math.round(r.velocity * 10) / 10,
+        chart: (r.history || []).filter((e) => new Date(e.date) >= from).map((e) => [e.date, e.stars]),
+      };
+    }),
+  };
+  fs.writeFileSync("dashboard.json", JSON.stringify(site));
 }
 
 if (require.main === module) main();
