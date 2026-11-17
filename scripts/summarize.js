@@ -2,8 +2,9 @@ const fs = require("fs");
 const path = require("path");
 
 const token = process.env.GITHUB_TOKEN;
-const MODEL = "gpt-4o-mini"; // free via GitHub Models for public repos
-const ENDPOINT = "https://models.inference.ai.azure.com/chat/completions";
+const MODEL = "openai/gpt-4o-mini"; // free via GitHub Models for public repos
+// The old endpoint models.inference.ai.azure.com no longer resolves; every call failed with "fetch failed".
+const ENDPOINT = "https://models.github.ai/inference/chat/completions";
 
 const repos = JSON.parse(fs.readFileSync("repos.json", "utf8"));
 
@@ -112,8 +113,10 @@ async function main() {
       // Be polite to the API
       await new Promise((r) => setTimeout(r, 1000));
     } catch (e) {
-      console.error(`  ✗ ${e.message}`);
-      errors.push({ repo: `${owner}/${repo}`, error: e.message });
+      // fetch only says "fetch failed"; the real reason (DNS, TLS, reset) is in e.cause
+      const msg = e.cause ? `${e.message} (${e.cause.code || e.cause.message})` : e.message;
+      console.error(`  ✗ ${msg}`);
+      errors.push({ repo: `${owner}/${repo}`, error: msg });
     }
   }
 
@@ -122,6 +125,10 @@ async function main() {
     console.log(`⚠️  ${errors.length} errors:`);
     errors.forEach((e) => console.log(`   - ${e.repo}: ${e.error}`));
   }
+  // Fail the run when the model API is down, so it shows red in Actions instead of passing silently for months.
+  // A repo without README is not a model failure.
+  const apiErrors = errors.filter((e) => e.error !== "no README");
+  if (apiErrors.length > 0 && processed === 0) process.exit(1);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

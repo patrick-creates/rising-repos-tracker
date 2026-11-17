@@ -28,6 +28,7 @@ All notable changes to the tracker code and docs are documented here. Daily data
 - `summarize.yml` can be switched off with the repository variable `SUMMARIES=off`; README explains GitHub Models and what happens without it.
 
 ### Fixed
+- AI summaries: the GitHub Models endpoint `models.inference.ai.azure.com` no longer resolves, so every new summary failed with "fetch failed" while the workflow still passed (48 repos without summary). Now uses `models.github.ai/inference` with model `openai/gpt-4o-mini`, logs the underlying network error, and fails the run when no summary could be generated because of API errors.
 - Dashboard chart sorted dates by first appearance across repos instead of chronologically, so the axis could jump from October back to May.
 - Dashboard repo table on phones: the repo name column collapsed to zero width and stars/day ran off screen.
 - Dashboard inserted AI summaries as HTML. They are generated from third-party READMEs, so a crafted README could inject markup or script into the page. They are now escaped.
