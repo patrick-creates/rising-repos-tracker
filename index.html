@@ -48,6 +48,14 @@
     .chevron { display: inline-block; margin-right: 4px; transition: transform 0.15s; font-size: 9px; color: #7d8590; }
     .repo-row.open .chevron { transform: rotate(90deg); }
     .repo-name-cell { display: flex; align-items: center; gap: 4px; overflow: hidden; }
+    .repo-link { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem; }
+    /* phones: stack the cards, drop forks and issues so the repo name keeps room */
+    @media (max-width: 600px) {
+      .two-col { grid-template-columns: 1fr; }
+      .table-header, .repo-row { grid-template-columns: minmax(0, 1fr) 72px 72px; }
+      .table-header > :nth-child(3), .table-header > :nth-child(4), .repo-row > .num.muted { display: none; }
+    }
   </style>
 </head>
 <body>
@@ -64,9 +72,9 @@
   <div class="metric"><div class="metric-label">tracking since</div><div class="metric-value" id="m-since" style="font-size:1rem;padding-top:6px">—</div></div>
 </div>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+<div class="two-col">
   <div class="card" style="margin: 0;">
-    <div class="card-header">🔥 Top 5 by velocity</div>
+    <div class="card-header">🔥 Top 5 by stars/day (30d)</div>
     <div id="topVelocity"></div>
   </div>
   <div class="card" style="margin: 0;">
@@ -77,27 +85,28 @@
 
 <div class="card">
   <div class="card-header">
-    <span>⭐ Star growth over time</span>
-    <select id="chartFilter">
-      <option value="10">top 10 by stars</option>
-      <option value="5">top 5 by stars</option>
-      <option value="all">all repos</option>
+    <span>⭐ Stars gained, last 90 days</span>
+    <select id="chartFilter" aria-label="Repos in chart">
+      <option value="10">top 10 by stars/day</option>
+      <option value="5">top 5 by stars/day</option>
+      <option value="20">top 20 by stars/day</option>
     </select>
   </div>
   <div class="chart-wrap"><canvas id="growthChart"></canvas></div>
   <div class="legend" id="legend"></div>
+  <p class="muted" style="font-size:11px;padding:0 1rem 1rem">Ranked by stars/day over the last 30 days. Stalled 💤 and unusually fast ⚠️ repos are left out of this chart; see the table.</p>
 </div>
 
 <div class="card">
   <div class="card-header">
     <span>📋 All repos</span>
     <span style="display:flex;gap:8px">
-    <select id="ageFilter">
+    <select id="ageFilter" aria-label="Filter by repo age">
       <option value="all">all ages</option>
       <option value="90">created ≤ 90 days ago</option>
       <option value="180">created ≤ 180 days ago</option>
     </select>
-    <select id="sortSelect">
+    <select id="sortSelect" aria-label="Sort repos">
       <option value="stars">sort: stars</option>
       <option value="velocity">sort: stars/day</option>
       <option value="name">sort: name</option>
@@ -109,7 +118,7 @@
     <span style="text-align:right">stars</span>
     <span style="text-align:right">forks</span>
     <span style="text-align:right">issues</span>
-    <span style="text-align:right">stars/day</span>
+    <span style="text-align:right" title="Average over the last 30 days">stars/day (30d)</span>
   </div>
   <div id="repoTable"></div>
 </div>
@@ -140,26 +149,21 @@ const BASE = `https://raw.githubusercontent.com/${TRACKER_OWNER}/${TRACKER_REPO}
 
 document.getElementById('repoLink').href = `https://github.com/${TRACKER_OWNER}/${TRACKER_REPO}`;
 
-function rawUrl(owner, repo) {
-  return `${BASE}/data/${owner}/${repo}/history.json`;
-}
-
-function calcVelocity(history, repoMeta) {
-  if (history && history.length >= 2) {
-    const first = history[0], last = history[history.length - 1];
-    const days = Math.max(1, (new Date(last.date) - new Date(first.date)) / 86400000);
-    return ((last.stars - first.stars) / days).toFixed(1);
-  }
-  // fallback to stars_per_day_at_add from repos.json while history builds up
-  if (repoMeta && repoMeta.stars_per_day_at_add) {
-    return parseFloat(repoMeta.stars_per_day_at_add).toFixed(1);
-  }
-  return 0;
-}
 
 function fmt(n) {
   return Number(n).toLocaleString('en-US');
 }
+
+// status is set daily by scripts/collect.js
+const BADGES = {
+  spike: ['⚠️', 'Unusually fast growth (1,000+ stars/day over its lifetime and the last week): check before trusting'],
+  stalled: ['💤', 'Stalled: under 10 stars/day for the last 30 days'],
+};
+function badge(r) {
+  const b = BADGES[r.status];
+  return b ? ` <span title="${b[1]}" aria-label="${b[1]}">${b[0]}</span>` : '';
+}
+const rising = (data) => data.filter(r => r.status !== 'stalled');
 
 function velClass(v) {
   return v > 500 ? 'vel-high' : v > 50 ? 'vel-mid' : 'vel-low';
@@ -168,34 +172,36 @@ function velClass(v) {
 let chartInstance = null;
 let allData = [];
 
-function renderChart(data, filter) {
-  let subset = [...data].filter(r => r.history && r.history.length);
-  if (filter !== 'all') {
-    subset = [...subset].sort((a,b) => b.stars - a.stars).slice(0, parseInt(filter));
-  }
+// Fastest rising repos (30-day stars/day), each line = stars gained since the start of its 90-day window,
+// so a small fast repo and a huge slow one share one readable scale.
+function renderChart(data, n) {
+  // spike repos stay out: one of them can squash every other line flat
+  const subset = rising(data).filter(r => r.chart.length && r.status !== 'spike')
+    .sort((a, b) => b.velocity - a.velocity).slice(0, parseInt(n));
   const datasets = subset.map((r, i) => ({
     label: r.repo,
-    data: r.history.map(h => ({ x: h.date, y: h.stars })),
+    data: r.chart.map(([date, stars]) => ({ x: date, y: stars - r.chart[0][1] })),
     borderColor: COLORS[i % COLORS.length],
     backgroundColor: 'transparent',
     borderWidth: 1.5,
-    pointRadius: r.history.length === 1 ? 4 : 0,
+    pointRadius: r.chart.length === 1 ? 4 : 0,
     tension: 0.3,
   }));
   document.getElementById('legend').innerHTML = subset.map((r, i) =>
-    `<div class="legend-item"><div class="legend-dot" style="background:${COLORS[i % COLORS.length]}"></div>${r.repo}</div>`
+    `<div class="legend-item"><div class="legend-dot" style="background:${COLORS[i % COLORS.length]}"></div>${r.repo}${badge(r)}</div>`
   ).join('');
   if (chartInstance) chartInstance.destroy();
   chartInstance = new Chart(document.getElementById('growthChart'), {
     type: 'line',
-    data: { datasets },
+    // explicit sorted labels: otherwise the category axis orders dates by first appearance across datasets
+    data: { labels: [...new Set(subset.flatMap(r => r.chart.map(([date]) => date)))].sort(), datasets },
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => `${c.dataset.label}: +${fmt(c.parsed.y)} stars` } } },
       scales: {
         x: { type: 'category', ticks: { color: '#7d8590', font: { size: 11 }, autoSkip: true, maxTicksLimit: 10 }, grid: { display: false } },
-        y: { ticks: { color: '#7d8590', font: { size: 11 }, callback: v => v >= 1000 ? (v/1000).toFixed(0)+'k' : v }, grid: { color: 'rgba(255,255,255,0.05)' } }
+        y: { ticks: { color: '#7d8590', font: { size: 11 }, callback: v => '+' + (v >= 1000 ? (v/1000).toFixed(0)+'k' : v) }, grid: { color: 'rgba(255,255,255,0.05)' } }
       }
     }
   });
@@ -215,23 +221,23 @@ function renderTable(data, sortBy) {
     return;
   }
   const sorted = [...data].sort((a, b) => {
-    if (sortBy === 'velocity') return parseFloat(b.velocity) - parseFloat(a.velocity);
+    if (sortBy === 'velocity') return b.velocity - a.velocity;
     if (sortBy === 'name') return a.repo.localeCompare(b.repo);
     return b.stars - a.stars;
   });
   document.getElementById('repoTable').innerHTML = sorted.map(r => {
-    const vel = parseFloat(r.velocity);
+    const vel = r.velocity;
     const id = `${r.owner}--${r.repo}`.replace(/[^a-zA-Z0-9-]/g, '_');
     return `<div>
       <div class="repo-row" data-id="${id}">
         <span class="repo-name-cell">
           <span class="chevron">▶</span>
-          <a class="repo-link" href="https://github.com/${r.owner}/${r.repo}" target="_blank">${r.owner}/${r.repo}</a>
+          <a class="repo-link" href="https://github.com/${r.owner}/${r.repo}" target="_blank">${r.owner}/${r.repo}</a>${badge(r)}
         </span>
         <span class="num">${fmt(r.stars)}</span>
         <span class="num muted">${fmt(r.forks)}</span>
         <span class="num muted">${fmt(r.issues)}</span>
-        <span class="num ${velClass(vel)}">${vel > 0 ? '+'+r.velocity : '—'}</span>
+        <span class="num ${velClass(vel)}">${vel > 0 ? '+'+vel.toFixed(1) : '—'}</span>
       </div>
       <div class="repo-detail" id="detail-${id}" data-owner="${r.owner}" data-repo="${r.repo}">
         <span class="loading">Loading summary…</span>
@@ -307,57 +313,39 @@ function renderDetail(el, data) {
 }
 
 async function main() {
-  // Step 1: load repos.json dynamically — no hardcoded list
-  let repos;
+  // dashboard.json is written daily by scripts/update-readme.js: latest numbers + 90 days per repo, one request
+  let site;
   try {
-    const res = await fetch(`${BASE}/repos.json`);
-    if (!res.ok) throw new Error(`repos.json fetch failed: ${res.status}`);
-    repos = await res.json();
-    document.getElementById('status').textContent = `Loaded ${repos.length} repos, fetching history…`;
+    const res = await fetch(`${BASE}/dashboard.json`);
+    if (!res.ok) throw new Error(`dashboard.json fetch failed: ${res.status}`);
+    site = await res.json();
   } catch (e) {
-    document.getElementById('status').textContent = `Error loading repos.json: ${e.message}`;
+    document.getElementById('status').textContent = `Error loading dashboard.json: ${e.message}`;
     return;
   }
-
-  // Step 2: load history for each repo in parallel
-  const results = await Promise.all(repos.map(async (repoMeta) => {
-    const { owner, repo } = repoMeta;
-    let history = null;
-    try {
-      const res = await fetch(rawUrl(owner, repo));
-      if (res.ok) history = await res.json();
-    } catch {}
-    const latest = history && history.length ? history[history.length - 1] : null;
-    return {
-      owner, repo,
-      created_at: repoMeta.created_at,
-      history: history || [],
-      stars:   latest?.stars       || 0,
-      forks:   latest?.forks       || 0,
-      issues:  latest?.open_issues || 0,
-      velocity: calcVelocity(history, repoMeta),
-    };
-  }));
+  const results = site.repos;
+  const repos = results;
 
   allData = results;
   document.getElementById('status').textContent = '';
 
   // Metrics
-  document.getElementById('m-repos').textContent = results.length;
+  const stalled = results.length - rising(results).length;
+  document.getElementById('m-repos').innerHTML = results.length +
+    (stalled ? ` <span class="muted" style="font-size:13px;font-weight:400">${stalled} stalled 💤</span>` : '');
   document.getElementById('m-stars').textContent = fmt(results.reduce((s,r) => s + r.stars, 0));
   document.getElementById('m-forks').textContent = fmt(results.reduce((s,r) => s + r.forks, 0));
-  const top = [...results].sort((a,b) => parseFloat(b.velocity) - parseFloat(a.velocity))[0];
-  document.getElementById('m-top').textContent = top ? top.repo : '—';
-  const allDates = results.flatMap(r => r.history.map(h => h.date));
-  if (allDates.length) document.getElementById('m-since').textContent = allDates.sort()[0];
+  const top = rising(results).sort((a,b) => b.velocity - a.velocity)[0];
+  document.getElementById('m-top').innerHTML = top ? top.repo + badge(top) : '—';
+  document.getElementById('m-since').textContent = site.tracking_since || '—';
 
   // Top 5 by velocity
-  const top5 = [...results].sort((a,b) => parseFloat(b.velocity) - parseFloat(a.velocity)).slice(0, 5);
+  const top5 = rising(results).sort((a,b) => b.velocity - a.velocity).slice(0, 5);
   document.getElementById('topVelocity').innerHTML = top5.map((r, i) => `
     <div style="display:flex;align-items:center;gap:10px;padding:10px 16px;border-top:1px solid #21262d;font-size:13px">
       <span style="color:#7d8590;width:14px;font-weight:600">${i+1}</span>
-      <a href="https://github.com/${r.owner}/${r.repo}" target="_blank" style="color:#e6edf3;text-decoration:none;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${r.repo}</a>
-      <span style="color:#3fb950;font-weight:600;font-variant-numeric:tabular-nums">+${parseFloat(r.velocity).toFixed(1)}/d</span>
+      <a href="https://github.com/${r.owner}/${r.repo}" target="_blank" style="color:#e6edf3;text-decoration:none;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${r.repo}${badge(r)}</a>
+      <span style="color:#3fb950;font-weight:600;font-variant-numeric:tabular-nums">+${r.velocity.toFixed(1)}/d</span>
     </div>
   `).join('');
 
