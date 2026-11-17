@@ -103,6 +103,10 @@ function calcVelocity(history, meta) {
   return 0;
 }
 
+// ⚠️ = growth too fast to trust without checking, 💤 = stalled (under 10 stars/day for 30 days)
+const MARK = { spike: " ⚠️", stalled: " 💤" };
+const mark = (r) => MARK[r.status] || "";
+
 function fmt(n) {
   return Number(n).toLocaleString("en-US");
 }
@@ -122,7 +126,8 @@ function main() {
 
   const totalStars = enriched.reduce((s, r) => s + r.stars, 0);
   const totalForks = enriched.reduce((s, r) => s + r.forks, 0);
-  const topByVelocity = [...enriched].sort((a, b) => b.velocity - a.velocity).slice(0, 5);
+  const stalledCount = enriched.filter((r) => r.status === "stalled").length;
+  const topByVelocity = enriched.filter((r) => r.status !== "stalled").sort((a, b) => b.velocity - a.velocity).slice(0, 5);
   const recentlyAdded = [...enriched]
     .sort((a, b) => (b.added || "").localeCompare(a.added || ""))
     .slice(0, 3);
@@ -136,17 +141,19 @@ function main() {
 
 | Metric | Value |
 |---|---|
-| Repos tracked | **${enriched.length}** |
+| Repos tracked | **${enriched.length}** (${stalledCount} stalled 💤) |
 | Total stars | **${fmt(totalStars)}** |
 | Total forks | **${fmt(totalForks)}** |
-| Fastest growing | **${topByVelocity[0]?.repo || "—"}** (+${topByVelocity[0]?.velocity.toFixed(1) || 0}/day) |
+| Fastest growing | **${topByVelocity[0]?.repo || "—"}**${topByVelocity[0] ? mark(topByVelocity[0]) : ""} (+${topByVelocity[0]?.velocity.toFixed(1) || 0}/day) |
 
 ### 🔥 Top 5 by velocity
+
+> ⚠️ unusually fast growth (1,000+ stars/day over its lifetime and the last week): check before trusting. 💤 stalled repos are left out.
 
 | # | Repo | Stars | Stars/day |
 |---|---|---:|---:|
 ${topByVelocity.map((r, i) =>
-  `| ${i+1} | [${r.owner}/${r.repo}](https://github.com/${r.owner}/${r.repo}) | ${fmt(r.stars)} | +${r.velocity.toFixed(1)} |`
+  `| ${i+1} | [${r.owner}/${r.repo}](https://github.com/${r.owner}/${r.repo})${mark(r)} | ${fmt(r.stars)} | +${r.velocity.toFixed(1)} |`
 ).join("\n")}
 
 ### 🆕 Recently added
@@ -190,7 +197,7 @@ ${workflowRows}
 | Repo | Stars | Forks | Stars/day |
 |---|---:|---:|---:|
 ${sortedAll.map(r =>
-  `| [${r.owner}/${r.repo}](https://github.com/${r.owner}/${r.repo}) | ${fmt(r.stars)} | ${fmt(r.forks)} | ${r.velocity > 0 ? '+' + r.velocity.toFixed(1) : '—'} |`
+  `| [${r.owner}/${r.repo}](https://github.com/${r.owner}/${r.repo})${mark(r)} | ${fmt(r.stars)} | ${fmt(r.forks)} | ${r.velocity > 0 ? '+' + r.velocity.toFixed(1) : '—'} |`
 ).join("\n")}
 <!-- AUTOGEN-REPOS-END -->`;
 

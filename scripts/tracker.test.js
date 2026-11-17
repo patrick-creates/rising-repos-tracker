@@ -54,3 +54,33 @@ test("rename of an untracked folder is a no-op", () => {
     assert.ok(!fs.existsSync("data"));
   });
 });
+
+const { classify } = require("./collect");
+const { starsPerDay } = require("./discover");
+
+// one snapshot per day from 2026-10-01, stars = start + perDay * i
+const days = (n, start, perDay) => Array.from({ length: n }, (_, i) =>
+  ({ date: new Date(Date.UTC(2026, 9, 1 + i)).toISOString().slice(0, 10), stars: start + perDay * i }));
+
+test("classify: stalled after 30 days under 10 stars/day, not before", () => {
+  assert.strictEqual(classify(days(31, 5000, 9), {}), "stalled");
+  assert.strictEqual(classify(days(31, 5000, 10), {}), undefined); // exactly 300 in 30 days still rising
+  assert.strictEqual(classify(days(20, 5000, 0), {}), undefined);  // too little history to judge
+  assert.strictEqual(classify([], {}), undefined);
+});
+
+test("classify: spike needs 1000+/day over lifetime AND last week", () => {
+  const fast = days(10, 20000, 1500); // 33,500 stars, created 10 days before first snapshot
+  assert.strictEqual(classify(fast, { created_at: "2026-09-21" }), "spike");
+  assert.strictEqual(classify(fast, { created_at: "2025-01-01" }), undefined); // old repo: lifetime rate low
+  assert.strictEqual(classify(days(10, 400000, 50), { created_at: "2026-01-01" }), undefined); // big but slow now
+  assert.strictEqual(classify(fast, {}), undefined); // no created_at: cannot judge
+});
+
+test("discover ranks by stars per day, a repo created today counts as one day", () => {
+  const now = new Date().toISOString();
+  assert.strictEqual(starsPerDay({ stargazers_count: 500, created_at: now }), 500);
+  const old = { stargazers_count: 50000, created_at: new Date(Date.now() - 500 * 86400000).toISOString() };
+  const young = { stargazers_count: 5000, created_at: new Date(Date.now() - 2 * 86400000).toISOString() };
+  assert.ok(starsPerDay(young) > starsPerDay(old));
+});

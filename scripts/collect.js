@@ -52,6 +52,31 @@ function mergeData(fromOwner, fromRepo, toOwner, toRepo) {
   fs.rmSync(from, { recursive: true, force: true });
 }
 
+const STALL_GAIN_30D = 300; // under 10 stars/day over 30 days = no longer rising
+const SPIKE_PER_DAY = 1000;  // this fast both lifetime and last week = verify before trusting
+
+// Stars gained since the first snapshot at most `days` before the last one, and over how many days.
+function gainSince(history, days) {
+  const last = history[history.length - 1];
+  const from = new Date(last.date) - days * 86400000;
+  const base = history.find((e) => new Date(e.date) >= from);
+  return { gain: last.stars - base.stars, days: Math.max(1, (new Date(last.date) - new Date(base.date)) / 86400000) };
+}
+
+// "spike", "stalled" or undefined. Recomputed every run, so a stalled repo that picks up again loses the mark.
+function classify(history, meta) {
+  if (!history?.length) return undefined;
+  const last = history[history.length - 1];
+  if (meta.created_at) {
+    const age = Math.max(1, (new Date(last.date) - new Date(meta.created_at)) / 86400000);
+    const week = gainSince(history, 7);
+    if (last.stars / age >= SPIKE_PER_DAY && week.gain / week.days >= SPIKE_PER_DAY) return "spike";
+  }
+  const span = (new Date(last.date) - new Date(history[0].date)) / 86400000;
+  if (span >= 30 && gainSince(history, 30).gain < STALL_GAIN_30D) return "stalled";
+  return undefined;
+}
+
 async function main() {
   const today = new Date().toISOString().split("T")[0];
 
@@ -110,6 +135,13 @@ async function main() {
       fs.writeFileSync(filePath, JSON.stringify(filtered, null, 2));
       console.log(`✓ ${owner}/${repo}: ⭐ ${snapshot.stars}`);
 
+      const status = classify(filtered, entry);
+      if (entry.status !== status) {
+        if (status) entry.status = status;
+        else delete entry.status;
+        reposChanged = true;
+      }
+
       // Polite delay to respect rate limits
       await new Promise((r) => setTimeout(r, 200));
     } catch (e) {
@@ -122,7 +154,7 @@ async function main() {
     const kept = repos.filter((r) => !dropped.has(r));
     fs.writeFileSync("repos.json", JSON.stringify(kept, null, 2));
     console.log(`
-↪ repos.json: ${dropped.size} duplicate(s) removed, renamed entries updated`);
+↪ repos.json: ${dropped.size} duplicate(s) removed, renamed or status-changed entries updated`);
   }
 
   if (errors.length > 0) {
@@ -134,4 +166,4 @@ async function main() {
 
 if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });
 
-module.exports = { mergeData };
+module.exports = { mergeData, classify };

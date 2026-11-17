@@ -4,7 +4,6 @@ const token = process.env.GITHUB_TOKEN;
 const MIN_STARS = 100;
 const MAX_AGE_DAYS = 365;
 const MAX_NEW_REPOS = 15;
-const MIN_GROWTH_PERCENT = 5; // at least 5% growth vs stars_at_add
 
 async function ghFetch(url) {
   const res = await fetch(url, {
@@ -26,6 +25,10 @@ async function getRepoDetails(owner, repo) {
   return ghFetch(`https://api.github.com/repos/${owner}/${repo}`);
 }
 
+// at least 1 day, so a repo created today does not divide by zero
+const ageDays = (repo) => Math.max(1, Math.floor((Date.now() - new Date(repo.created_at)) / 86400000));
+const starsPerDay = (repo) => repo.stargazers_count / ageDays(repo);
+
 async function main() {
   const existing = JSON.parse(fs.readFileSync("repos.json", "utf8"));
   // lower-case: GitHub names are case-insensitive (Hmbown/CodeWhale == Hmbown/Codewhale)
@@ -41,8 +44,8 @@ async function main() {
     `stars:>${MIN_STARS} created:>${cutoffDate} topic:cli`,
     `stars:>${MIN_STARS} created:>${cutoffDate} topic:agent`,
     `stars:>${MIN_STARS} created:>${cutoffDate} topic:mcp`,
-    `stars:>${MIN_STARS} pushed:>2026-01-01 topic:claude`,
-    `stars:>${MIN_STARS} pushed:>2026-01-01 topic:openai`,
+    `stars:>${MIN_STARS} created:>${cutoffDate} topic:claude`,
+    `stars:>${MIN_STARS} created:>${cutoffDate} topic:openai`,
   ];
 
   const candidates = new Map();
@@ -60,22 +63,18 @@ async function main() {
 
   console.log(`Found ${candidates.size} candidates not yet tracked`);
 
-  // Sort by stars descending — highest momentum first
-  const sorted = [...candidates.values()].sort(
-    (a, b) => b.stargazers_count - a.stargazers_count
-  );
+  // Highest momentum first: stars per day since creation, not total stars
+  const sorted = [...candidates.values()].sort((a, b) => starsPerDay(b) - starsPerDay(a));
 
   const newRepos = [];
   for (const repo of sorted) {
     if (newRepos.length >= MAX_NEW_REPOS) break;
 
     const key = `${repo.owner.login}/${repo.name}`;
-    const createdDaysAgo = Math.floor(
-      (Date.now() - new Date(repo.created_at)) / (1000 * 60 * 60 * 24)
-    );
-    const starsPerDay = (repo.stargazers_count / createdDaysAgo).toFixed(1);
+    const createdDaysAgo = ageDays(repo);
+    const perDay = starsPerDay(repo).toFixed(1);
 
-    console.log(`  + ${key}: ⭐ ${repo.stargazers_count} (${starsPerDay}/day, ${createdDaysAgo} days old)`);
+    console.log(`  + ${key}: ⭐ ${repo.stargazers_count} (${perDay}/day, ${createdDaysAgo} days old)`);
 
     newRepos.push({
       owner: repo.owner.login,
@@ -83,7 +82,7 @@ async function main() {
       added: new Date().toISOString().split("T")[0],
       notes: repo.description || "",
       stars_at_add: repo.stargazers_count,
-      stars_per_day_at_add: parseFloat(starsPerDay),
+      stars_per_day_at_add: parseFloat(perDay),
       created_at: repo.created_at.split("T")[0],
     });
   }
@@ -98,4 +97,6 @@ async function main() {
   console.log(`\n✓ Added ${newRepos.length} repos to repos.json`);
 }
 
-main().catch((e) => { console.error(e); process.exit(1); });
+if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });
+
+module.exports = { starsPerDay };
