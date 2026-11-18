@@ -31,6 +31,7 @@ All notable changes to the tracker code and docs are documented here. Daily data
 - Fork instructions: remove `data/` and `reports/` before tracking your own list.
 
 ### Fixed
+- Dashboard footer said data updates at 05:17 UTC; GitHub starts the scheduled collect run hours later (lately 12–15 UTC). It now says "usually early afternoon UTC".
 - 48 repos had no description in the dashboard: GitHub Models, which generated the AI summaries, was retired on 2026-07-30, and `summarize.yml` kept passing while every call failed with "fetch failed".
 - Dashboard chart sorted dates by first appearance across repos instead of chronologically, so the axis could jump from October back to May.
 - Dashboard repo table on phones: the repo name column collapsed to zero width and stars/day ran off screen.
