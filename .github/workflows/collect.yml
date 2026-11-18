@@ -2,7 +2,7 @@ name: Collect Repo Stats
 
 on:
   schedule:
-    - cron: "17 5 * * *"   # daily at 05:17 UTC — off-peak slot for reliable timing
+    - cron: "17 5 * * *"   # daily at 05:17 UTC; GitHub often starts it hours late (Nov 2026: 12–15 UTC)
   workflow_dispatch:        # also allow manual runs
 
 jobs:
