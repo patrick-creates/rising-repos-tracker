@@ -518,5 +518,32 @@
     "watchers": 33,
     "open_issues": 238,
     "description": "One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get a map of your code and your team's past decisions, so they pick up where you left off."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 11330,
+    "forks": 1021,
+    "watchers": 34,
+    "open_issues": 236,
+    "description": "One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get a map of your code and your team's past decisions, so they pick up where you left off.",
+    "topics": [
+      "ai-agents",
+      "anthropic",
+      "claude-code",
+      "cli",
+      "code-graph",
+      "codex",
+      "context-engineering",
+      "cursor",
+      "developer-tools",
+      "gemini",
+      "knowledge-graph",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "open-source",
+      "openai",
+      "tree-sitter"
+    ]
   }
 ]

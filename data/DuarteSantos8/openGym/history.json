@@ -70,5 +70,35 @@
     "watchers": 44,
     "open_issues": 324,
     "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 22671,
+    "forks": 3011,
+    "watchers": 44,
+    "open_issues": 344,
+    "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
+    "topics": [
+      "apple-watch",
+      "bodyweight",
+      "docker",
+      "fitness",
+      "fitness-tracker",
+      "gym",
+      "health",
+      "ios",
+      "mcp",
+      "nodejs",
+      "passkeys",
+      "progressive-web-applications",
+      "pwa",
+      "react",
+      "self-hosted",
+      "self-hosting",
+      "vite",
+      "webauthn",
+      "weightlifting",
+      "workout-tracker"
+    ]
   }
 ]

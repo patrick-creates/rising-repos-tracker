@@ -70,5 +70,27 @@
     "watchers": 55,
     "open_issues": 258,
     "description": "Computer use CLI for AI agents"
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 25199,
+    "forks": 1885,
+    "watchers": 55,
+    "open_issues": 263,
+    "description": "Computer use CLI for AI agents",
+    "topics": [
+      "accessibility",
+      "accessibility-api",
+      "ai-agents",
+      "automation",
+      "cli",
+      "computer-use",
+      "computer-use-agent",
+      "computer-use-agents",
+      "desktop-automation",
+      "macos",
+      "mcp",
+      "rust"
+    ]
   }
 ]

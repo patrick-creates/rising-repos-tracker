@@ -1302,5 +1302,30 @@
     "watchers": 203,
     "open_issues": 295,
     "description": "Write HTML. Render video. Built for agents."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 86302,
+    "forks": 8000,
+    "watchers": 205,
+    "open_issues": 294,
+    "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "animation",
+      "claude-code",
+      "ffmpeg",
+      "framework",
+      "gsap",
+      "html",
+      "html-to-video",
+      "mcp",
+      "motion-graphics",
+      "puppeteer",
+      "rendering",
+      "typescript",
+      "video-editor"
+    ]
   }
 ]

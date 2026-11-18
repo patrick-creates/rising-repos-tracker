@@ -1358,5 +1358,35 @@
     "watchers": 459,
     "open_issues": 68,
     "description": "Learn AI Engineering! Learn it. Build it. Ship it for others."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 79438,
+    "forks": 14183,
+    "watchers": 462,
+    "open_issues": 68,
+    "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
+    "topics": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "ai-engineering",
+      "computer-vision",
+      "course",
+      "deep-learning",
+      "dsh",
+      "from-scratch",
+      "generative-ai",
+      "llm",
+      "machine-learning",
+      "mcp",
+      "python",
+      "rea",
+      "reinforcement-learning",
+      "rust",
+      "transformers",
+      "tutorial",
+      "typescript"
+    ]
   }
 ]

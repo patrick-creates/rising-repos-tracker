@@ -1078,5 +1078,27 @@
     "watchers": 66,
     "open_issues": 6,
     "description": "45+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for everyday dev workflows."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 10357,
+    "forks": 824,
+    "watchers": 68,
+    "open_issues": 6,
+    "description": "45+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for everyday dev workflows.",
+    "topics": [
+      "agentic",
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-workflow",
+      "ai",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "cli",
+      "developer-tools",
+      "productivity",
+      "tips-and-tricks"
+    ]
   }
 ]

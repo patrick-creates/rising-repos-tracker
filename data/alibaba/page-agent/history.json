@@ -1246,5 +1246,23 @@
     "watchers": 107,
     "open_issues": 122,
     "description": "JavaScript in-page GUI agent. Control web interfaces with natural language."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 29713,
+    "forks": 2649,
+    "watchers": 107,
+    "open_issues": 101,
+    "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+    "topics": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "browser-automation",
+      "javascript",
+      "mcp",
+      "typescript",
+      "web"
+    ]
   }
 ]

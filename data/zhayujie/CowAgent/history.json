@@ -1470,5 +1470,32 @@
     "watchers": 310,
     "open_issues": 45,
     "description": "Open-source personal AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, multi-channel. Lightweight, extensible, one-line install."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 47992,
+    "forks": 10435,
+    "watchers": 311,
+    "open_issues": 55,
+    "description": "Open-source personal AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, multi-channel. Lightweight, extensible, one-line install.",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "chatgpt-on-wechat",
+      "claude",
+      "claude-code",
+      "codex",
+      "cowagent",
+      "deepseek",
+      "harness",
+      "llm",
+      "mcp",
+      "multi-agent",
+      "openai",
+      "openclaw",
+      "personal-agent",
+      "skills"
+    ]
   }
 ]

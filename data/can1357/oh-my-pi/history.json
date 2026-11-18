@@ -1190,5 +1190,30 @@
     "watchers": 96,
     "open_issues": 4935,
     "description": "⌥ Coding agent with the IDE wired in. Built by Stencil Labs."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 39386,
+    "forks": 4508,
+    "watchers": 99,
+    "open_issues": 4958,
+    "description": "⌥ Coding agent with the IDE wired in. Built by Stencil Labs.",
+    "topics": [
+      "ai-agent",
+      "ai-coding-agent",
+      "anthropic",
+      "bun",
+      "claude",
+      "cli",
+      "coding-assistant",
+      "llm",
+      "mcp",
+      "multi-provider",
+      "openai",
+      "rust",
+      "terminal",
+      "tui",
+      "typescript"
+    ]
   }
 ]

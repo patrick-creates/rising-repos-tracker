@@ -1358,5 +1358,18 @@
     "watchers": 259,
     "open_issues": 1309,
     "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 47623,
+    "forks": 4945,
+    "watchers": 262,
+    "open_issues": 1313,
+    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "topics": [
+      "claude-code",
+      "mcp",
+      "skills"
+    ]
   }
 ]

@@ -1470,5 +1470,27 @@
     "watchers": 217,
     "open_issues": 1374,
     "description": "Powerful AI Client"
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 42412,
+    "forks": 4340,
+    "watchers": 218,
+    "open_issues": 1375,
+    "description": "Powerful AI Client",
+    "topics": [
+      "assistant",
+      "chatbot",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "copilot",
+      "deepseek",
+      "gemini",
+      "gpt",
+      "gpt-5",
+      "ollama",
+      "openai"
+    ]
   }
 ]

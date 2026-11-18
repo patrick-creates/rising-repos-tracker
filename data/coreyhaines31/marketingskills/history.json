@@ -1358,5 +1358,35 @@
     "watchers": 406,
     "open_issues": 101,
     "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 61158,
+    "forks": 8924,
+    "watchers": 407,
+    "open_issues": 102,
+    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "ai-seo",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "content-marketing",
+      "conversion-rate-optimization",
+      "copywriting",
+      "cursor",
+      "email-marketing",
+      "generative-engine-optimization",
+      "growth-marketing",
+      "marketing",
+      "marketing-automation",
+      "saas-marketing",
+      "seo",
+      "skill-md"
+    ]
   }
 ]

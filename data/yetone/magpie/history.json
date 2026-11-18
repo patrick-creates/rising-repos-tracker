@@ -182,5 +182,21 @@
     "watchers": 44,
     "open_issues": 4458,
     "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 38534,
+    "forks": 3489,
+    "watchers": 45,
+    "open_issues": 4560,
+    "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+    "topics": [
+      "claude-code",
+      "codex",
+      "deepseek",
+      "gemini-cli",
+      "llm",
+      "macos"
+    ]
   }
 ]

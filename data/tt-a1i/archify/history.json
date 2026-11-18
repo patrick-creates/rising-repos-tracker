@@ -350,5 +350,35 @@
     "watchers": 236,
     "open_issues": 368,
     "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 97656,
+    "forks": 6666,
+    "watchers": 238,
+    "open_issues": 369,
+    "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "architecture-diagram",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "coding-agents",
+      "deepseek-harness",
+      "developer-tools",
+      "diagrams",
+      "diagrams-as-code",
+      "dsh-plugin",
+      "flowchart",
+      "llm",
+      "mermaid",
+      "opencode",
+      "sequence-diagram",
+      "software-architecture",
+      "system-design",
+      "visualization"
+    ]
   }
 ]

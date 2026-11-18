@@ -1414,5 +1414,34 @@
     "watchers": 911,
     "open_issues": 596,
     "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 104562,
+    "forks": 13593,
+    "watchers": 912,
+    "open_issues": 596,
+    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+    "topics": [
+      "claude",
+      "claude-code",
+      "esp32",
+      "firmware",
+      "home-assistant",
+      "home-automation",
+      "iot",
+      "mcp",
+      "monitoring",
+      "networking",
+      "pose-estimation",
+      "react",
+      "rf",
+      "self-learning",
+      "spatial-intelligence",
+      "typescript",
+      "webassembly",
+      "wifi",
+      "wifi-security"
+    ]
   }
 ]

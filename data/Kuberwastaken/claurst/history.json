@@ -1134,5 +1134,23 @@
     "watchers": 103,
     "open_issues": 24,
     "description": "Agentic Coding for Builders who Ship"
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 10347,
+    "forks": 7644,
+    "watchers": 103,
+    "open_issues": 24,
+    "description": "Agentic Coding for Builders who Ship",
+    "topics": [
+      "claude",
+      "claude-code",
+      "claurst",
+      "cli",
+      "codex",
+      "gemini",
+      "rust",
+      "tui"
+    ]
   }
 ]

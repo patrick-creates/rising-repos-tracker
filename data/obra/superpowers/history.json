@@ -1190,5 +1190,23 @@
     "watchers": 1155,
     "open_issues": 358,
     "description": "An agentic skills framework & software development methodology that works."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 319744,
+    "forks": 28518,
+    "watchers": 1167,
+    "open_issues": 359,
+    "description": "An agentic skills framework & software development methodology that works.",
+    "topics": [
+      "ai",
+      "brainstorming",
+      "coding",
+      "obra",
+      "sdlc",
+      "skills",
+      "subagent-driven-development",
+      "superpowers"
+    ]
   }
 ]

@@ -126,5 +126,30 @@
     "watchers": 62,
     "open_issues": 14,
     "description": "The open-source agent for CI/CD reliability."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 12865,
+    "forks": 1888,
+    "watchers": 63,
+    "open_issues": 11,
+    "description": "The open-source agent for CI/CD reliability.",
+    "topics": [
+      "alerting",
+      "ci-cd",
+      "cli",
+      "datadog",
+      "devops",
+      "gitlab-ci",
+      "grafana",
+      "incident-management",
+      "llm",
+      "observability",
+      "ollama",
+      "remediation",
+      "root-cause-analysis",
+      "site-reliability-engineering",
+      "slack"
+    ]
   }
 ]

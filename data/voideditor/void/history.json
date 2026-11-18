@@ -1358,5 +1358,27 @@
     "watchers": 156,
     "open_issues": 304,
     "description": null
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 28708,
+    "forks": 2661,
+    "watchers": 156,
+    "open_issues": 304,
+    "description": null,
+    "topics": [
+      "chatgpt",
+      "claude",
+      "copilot",
+      "cursor",
+      "developer-tools",
+      "editor",
+      "llm",
+      "open-source",
+      "openai",
+      "visual-studio-code",
+      "vscode",
+      "vscode-extension"
+    ]
   }
 ]

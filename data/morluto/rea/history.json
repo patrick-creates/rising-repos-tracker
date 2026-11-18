@@ -294,5 +294,35 @@
     "watchers": 1747,
     "open_issues": 1543,
     "description": "Reverse engineer anything with agents, from app behavior down to native binaries."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 467561,
+    "forks": 114339,
+    "watchers": 1757,
+    "open_issues": 1548,
+    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+    "topics": [
+      "agent-skills",
+      "ai",
+      "android",
+      "claude-code",
+      "cli",
+      "cpp",
+      "dsh-plugin",
+      "html",
+      "java",
+      "javascript",
+      "linux",
+      "mcp",
+      "nodejs",
+      "python",
+      "rea",
+      "react",
+      "rust",
+      "security",
+      "touhou",
+      "typescript"
+    ]
   }
 ]

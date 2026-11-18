@@ -1470,5 +1470,26 @@
     "watchers": 751,
     "open_issues": 300,
     "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 80178,
+    "forks": 8788,
+    "watchers": 752,
+    "open_issues": 300,
+    "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
+    "topics": [
+      "agent",
+      "agents",
+      "ai-agents",
+      "chatgpt",
+      "deep-learning",
+      "generative-ai",
+      "language-model",
+      "llms",
+      "openai",
+      "prompt-engineering",
+      "rag"
+    ]
   }
 ]

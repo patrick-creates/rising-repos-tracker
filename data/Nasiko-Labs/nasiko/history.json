@@ -406,5 +406,26 @@
     "watchers": 19,
     "open_issues": 85,
     "description": "The Open Runtime for AI Agents"
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 11956,
+    "forks": 3241,
+    "watchers": 19,
+    "open_issues": 86,
+    "description": "The Open Runtime for AI Agents",
+    "topics": [
+      "agent-security",
+      "ai",
+      "ai-agents",
+      "cli",
+      "hacktoberfest",
+      "llms",
+      "mcp-gateway",
+      "multi-agent",
+      "rust",
+      "tokenomics",
+      "tokenops"
+    ]
   }
 ]

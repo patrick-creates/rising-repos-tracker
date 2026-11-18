@@ -1190,5 +1190,33 @@
     "watchers": 191,
     "open_issues": 484,
     "description": "Build resilient agents."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 45110,
+    "forks": 7786,
+    "watchers": 192,
+    "open_issues": 477,
+    "description": "Build resilient agents.",
+    "topics": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "chatgpt",
+      "deepagents",
+      "enterprise",
+      "framework",
+      "gemini",
+      "generative-ai",
+      "langchain",
+      "langgraph",
+      "llm",
+      "multiagent",
+      "open-source",
+      "openai",
+      "pydantic",
+      "python",
+      "rag"
+    ]
   }
 ]

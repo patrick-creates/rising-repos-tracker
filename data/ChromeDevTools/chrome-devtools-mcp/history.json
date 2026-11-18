@@ -1470,5 +1470,23 @@
     "watchers": 254,
     "open_issues": 123,
     "description": "Chrome DevTools for coding agents"
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 58161,
+    "forks": 4874,
+    "watchers": 256,
+    "open_issues": 138,
+    "description": "Chrome DevTools for coding agents",
+    "topics": [
+      "browser",
+      "chrome",
+      "chrome-devtools",
+      "debugging",
+      "devtools",
+      "mcp",
+      "mcp-server",
+      "puppeteer"
+    ]
   }
 ]

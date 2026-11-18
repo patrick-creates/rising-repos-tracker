@@ -1470,5 +1470,30 @@
     "watchers": 225,
     "open_issues": 2960,
     "description": "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 70986,
+    "forks": 5844,
+    "watchers": 226,
+    "open_issues": 2947,
+    "description": "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering.",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "gemini",
+      "ide",
+      "openai",
+      "opencode",
+      "orchestration",
+      "tui",
+      "typescript"
+    ]
   }
 ]

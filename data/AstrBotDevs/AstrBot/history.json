@@ -1358,5 +1358,32 @@
     "watchers": 98,
     "open_issues": 1249,
     "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨"
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 47152,
+    "forks": 3614,
+    "watchers": 100,
+    "open_issues": 1251,
+    "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+    "topics": [
+      "agent",
+      "ai",
+      "astrbot",
+      "chatbot",
+      "chatgpt",
+      "discord",
+      "docker",
+      "gemini",
+      "gpt",
+      "llama",
+      "llm",
+      "mcp",
+      "openai",
+      "python",
+      "qq",
+      "qqbot",
+      "telegram"
+    ]
   }
 ]

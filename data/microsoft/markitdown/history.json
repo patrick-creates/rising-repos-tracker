@@ -1510,5 +1510,22 @@
     "watchers": 594,
     "open_issues": 818,
     "description": "Python tool for converting files and office documents to Markdown."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 196451,
+    "forks": 14869,
+    "watchers": 596,
+    "open_issues": 812,
+    "description": "Python tool for converting files and office documents to Markdown.",
+    "topics": [
+      "autogen",
+      "autogen-extension",
+      "langchain",
+      "markdown",
+      "microsoft-office",
+      "openai",
+      "pdf"
+    ]
   }
 ]

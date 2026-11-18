@@ -126,5 +126,28 @@
     "watchers": 31,
     "open_issues": 3481,
     "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。"
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 10283,
+    "forks": 1301,
+    "watchers": 32,
+    "open_issues": 3503,
+    "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+    "topics": [
+      "agent",
+      "ai-agent",
+      "ai-assistant",
+      "android",
+      "claude-code",
+      "codex",
+      "electron",
+      "ios",
+      "llm",
+      "macos",
+      "react-native",
+      "typescript",
+      "windows"
+    ]
   }
 ]

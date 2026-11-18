@@ -1246,5 +1246,23 @@
     "watchers": 128,
     "open_issues": 136,
     "description": "Open-source Agent Operating System"
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 18265,
+    "forks": 2282,
+    "watchers": 128,
+    "open_issues": 138,
+    "description": "Open-source Agent Operating System",
+    "topics": [
+      "agent-framework",
+      "ai-agents",
+      "llm",
+      "mcp",
+      "open-source",
+      "openclaw",
+      "operating-system",
+      "rust"
+    ]
   }
 ]

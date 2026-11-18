@@ -1134,5 +1134,25 @@
     "watchers": 177,
     "open_issues": 32,
     "description": "\"Vibe-Trading: Your Personal Trading Agent\""
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 38479,
+    "forks": 6264,
+    "watchers": 178,
+    "open_issues": 17,
+    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+    "topics": [
+      "ai-agent",
+      "algorithmic-trading",
+      "backtesting",
+      "fintech",
+      "llm",
+      "mcp",
+      "multi-agent",
+      "python",
+      "quantitative-finance",
+      "trading"
+    ]
   }
 ]

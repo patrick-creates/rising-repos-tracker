@@ -1414,5 +1414,23 @@
     "watchers": 352,
     "open_issues": 83,
     "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 41309,
+    "forks": 5382,
+    "watchers": 353,
+    "open_issues": 80,
+    "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+    "topics": [
+      "agent-skills",
+      "agents",
+      "ai",
+      "awesome",
+      "custom-agents",
+      "github-copilot",
+      "hacktoberfest",
+      "prompt-engineering"
+    ]
   }
 ]

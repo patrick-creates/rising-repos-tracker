@@ -1302,5 +1302,22 @@
     "watchers": 62,
     "open_issues": 315,
     "description": "Make Any Website into CLI & Use your logged-in browser by AI agent. "
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 31159,
+    "forks": 3047,
+    "watchers": 62,
+    "open_issues": 330,
+    "description": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
+    "topics": [
+      "ai-agent",
+      "ai-agents",
+      "ai-tools",
+      "browser-automation",
+      "browser-use",
+      "cli",
+      "playwright"
+    ]
   }
 ]

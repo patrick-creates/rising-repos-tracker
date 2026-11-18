@@ -1078,5 +1078,35 @@
     "watchers": 499,
     "open_issues": 669,
     "description": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors"
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 88557,
+    "forks": 13635,
+    "watchers": 503,
+    "open_issues": 747,
+    "description": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
+    "topics": [
+      "a2a",
+      "ai-agents",
+      "ai-gateway",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "cline",
+      "codex",
+      "copilot",
+      "cursor",
+      "deepseek",
+      "free-ai",
+      "gemini",
+      "kimi",
+      "llm-gateway",
+      "mcp",
+      "openai",
+      "openai-proxy",
+      "qwen",
+      "token-saver"
+    ]
   }
 ]

@@ -14,5 +14,23 @@
     "watchers": 112,
     "open_issues": 3465,
     "description": "The best way to control Claude Code, Codex and more from any computer or phone"
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 64815,
+    "forks": 11371,
+    "watchers": 114,
+    "open_issues": 3556,
+    "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+    "topics": [
+      "agent-orchestration",
+      "agents",
+      "ai",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "code",
+      "vibe-coding"
+    ]
   }
 ]

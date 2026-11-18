@@ -1134,5 +1134,35 @@
     "watchers": 165,
     "open_issues": 573,
     "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 48818,
+    "forks": 4054,
+    "watchers": 167,
+    "open_issues": 569,
+    "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
+    "topics": [
+      "aider",
+      "ast",
+      "claude-code",
+      "code-analysis",
+      "code-intelligence",
+      "codex",
+      "cursor",
+      "cypher",
+      "developer-tools",
+      "gemini-cli",
+      "graph-visualization",
+      "kilocode",
+      "knowledge-graph",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "opencode",
+      "sqlite",
+      "tree-sitter",
+      "windsurf"
+    ]
   }
 ]

@@ -1190,5 +1190,24 @@
     "watchers": 200,
     "open_issues": 173,
     "description": "⛰️ LifeOS — The AI-powered Life Operating System that helps you hill climb to wherever you're going."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 19926,
+    "forks": 2528,
+    "watchers": 200,
+    "open_issues": 186,
+    "description": "⛰️ LifeOS — The AI-powered Life Operating System that helps you hill climb to wherever you're going.",
+    "topics": [
+      "ai",
+      "ai-harness",
+      "augmentation",
+      "coding",
+      "humans",
+      "intent-engineering",
+      "lifeos",
+      "personal-ai",
+      "productivity"
+    ]
   }
 ]

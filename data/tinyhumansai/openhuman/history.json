@@ -574,5 +574,27 @@
     "watchers": 191,
     "open_issues": 313,
     "description": "The fastest, cheapest, most efficient open-source agent harness. Run more than 500 agents on a $10 VPS."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 42744,
+    "forks": 4220,
+    "watchers": 191,
+    "open_issues": 312,
+    "description": "The fastest, cheapest, most efficient open-source agent harness. Run more than 500 agents on a $10 VPS.",
+    "topics": [
+      "agent-orchestration",
+      "ai-agents",
+      "ai-assistant",
+      "desktop",
+      "llm",
+      "local-first",
+      "mcp",
+      "personal-ai",
+      "privacy",
+      "rust",
+      "second-brain",
+      "tauri"
+    ]
   }
 ]

@@ -1470,5 +1470,32 @@
     "watchers": 386,
     "open_issues": 1033,
     "description": "Build AI Agents, Visually"
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 55576,
+    "forks": 25091,
+    "watchers": 387,
+    "open_issues": 1032,
+    "description": "Build AI Agents, Visually",
+    "topics": [
+      "agentic-ai",
+      "agentic-workflow",
+      "agents",
+      "artificial-intelligence",
+      "chatbot",
+      "chatgpt",
+      "javascript",
+      "langchain",
+      "large-language-models",
+      "low-code",
+      "multiagent-systems",
+      "no-code",
+      "openai",
+      "rag",
+      "react",
+      "typescript",
+      "workflow-automation"
+    ]
   }
 ]

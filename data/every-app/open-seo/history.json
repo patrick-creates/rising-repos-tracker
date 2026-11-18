@@ -518,5 +518,26 @@
     "watchers": 87,
     "open_issues": 138,
     "description": "Open source alternative to Semrush and Ahrefs"
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 28174,
+    "forks": 3977,
+    "watchers": 87,
+    "open_issues": 128,
+    "description": "Open source alternative to Semrush and Ahrefs",
+    "topics": [
+      "backlink-analysis",
+      "google-search-console-mcp",
+      "keyword-research",
+      "mcp",
+      "seo",
+      "seo-agent",
+      "seo-audit",
+      "seo-automation",
+      "seo-skills",
+      "seo-tools",
+      "site-audit"
+    ]
   }
 ]

@@ -1078,5 +1078,33 @@
     "watchers": 118,
     "open_issues": 513,
     "description": "the runtime your coding agents live on"
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 51701,
+    "forks": 4182,
+    "watchers": 118,
+    "open_issues": 519,
+    "description": "the runtime your coding agents live on",
+    "topics": [
+      "agent",
+      "agent-orchestration",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "codex",
+      "coding-agents",
+      "developer-tools",
+      "devtools",
+      "multiplexer",
+      "rust",
+      "terminal",
+      "terminal-multiplexer",
+      "terminal-ui",
+      "tmux",
+      "tui",
+      "workspace-manager"
+    ]
   }
 ]

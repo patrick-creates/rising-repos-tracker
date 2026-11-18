@@ -686,5 +686,30 @@
     "watchers": 122,
     "open_issues": 54,
     "description": "A privacy-first app that strips AI watermarks from content you own."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 27741,
+    "forks": 3133,
+    "watchers": 122,
+    "open_issues": 54,
+    "description": "A privacy-first app that strips AI watermarks from content you own.",
+    "topics": [
+      "agent-skill",
+      "ai",
+      "anthropic",
+      "c2pa",
+      "chatgpt",
+      "claude",
+      "gemini",
+      "openai",
+      "provenance",
+      "synthid",
+      "watermark",
+      "watermark-detection",
+      "watermark-tools",
+      "watermarking",
+      "watermarks"
+    ]
   }
 ]

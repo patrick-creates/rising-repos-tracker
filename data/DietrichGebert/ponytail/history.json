@@ -1190,5 +1190,25 @@
     "watchers": 451,
     "open_issues": 254,
     "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 193742,
+    "forks": 10896,
+    "watchers": 455,
+    "open_issues": 260,
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "cursor-rules",
+      "developer-tools",
+      "llm",
+      "prompt-engineering",
+      "yagni"
+    ]
   }
 ]

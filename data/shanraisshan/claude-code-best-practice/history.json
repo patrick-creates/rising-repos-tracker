@@ -1470,5 +1470,35 @@
     "watchers": 495,
     "open_issues": 27,
     "description": "from vibe coding to agentic engineering - practice makes claude perfect"
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 69197,
+    "forks": 6881,
+    "watchers": 497,
+    "open_issues": 28,
+    "description": "from vibe coding to agentic engineering - practice makes claude perfect",
+    "topics": [
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-engineering",
+      "agentic-workflow",
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "best-practices",
+      "boris",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-agents",
+      "claude-code-best-practices",
+      "claude-code-commands",
+      "claude-code-skills",
+      "context-engineering",
+      "pakistan",
+      "pakistani-developer",
+      "vibe-coding"
+    ]
   }
 ]

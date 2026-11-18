@@ -1022,5 +1022,28 @@
     "watchers": 17,
     "open_issues": 12,
     "description": "The free AI already on your Mac. CLI tool, OpenAI-compatible server, and interactive chat — all on-device via Apple Intelligence. No API keys, no cloud, no downloads."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 6612,
+    "forks": 252,
+    "watchers": 18,
+    "open_issues": 2,
+    "description": "The free AI already on your Mac. CLI tool, OpenAI-compatible server, and interactive chat — all on-device via Apple Intelligence. No API keys, no cloud, no downloads.",
+    "topics": [
+      "apple-intelligence",
+      "apple-silicon",
+      "cli",
+      "foundationmodels",
+      "homebrew",
+      "llm",
+      "macos",
+      "macos-26",
+      "on-device",
+      "openai-compatible",
+      "swift",
+      "tool-calling",
+      "unix"
+    ]
   }
 ]

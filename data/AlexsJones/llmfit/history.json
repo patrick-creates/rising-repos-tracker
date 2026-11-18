@@ -1358,5 +1358,21 @@
     "watchers": 114,
     "open_issues": 73,
     "description": "Hundreds of models & providers. One command to find what runs on your hardware."
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 39074,
+    "forks": 2529,
+    "watchers": 115,
+    "open_issues": 63,
+    "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+    "topics": [
+      "gguf",
+      "llm",
+      "localai",
+      "mlx",
+      "skill",
+      "unsloth"
+    ]
   }
 ]

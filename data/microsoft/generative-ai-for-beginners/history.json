@@ -1510,5 +1510,29 @@
     "watchers": 1027,
     "open_issues": 8,
     "description": "21 Lessons, Get Started Building with Generative AI "
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 123798,
+    "forks": 66641,
+    "watchers": 1028,
+    "open_issues": 2,
+    "description": "21 Lessons, Get Started Building with Generative AI ",
+    "topics": [
+      "ai",
+      "azure",
+      "chatgpt",
+      "dall-e",
+      "generative-ai",
+      "generativeai",
+      "gpt",
+      "language-model",
+      "llms",
+      "microsoft-for-beginners",
+      "openai",
+      "prompt-engineering",
+      "semantic-search",
+      "transformers"
+    ]
   }
 ]

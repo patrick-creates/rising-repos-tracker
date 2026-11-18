@@ -1470,5 +1470,34 @@
     "watchers": 279,
     "open_issues": 889,
     "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io"
+  },
+  {
+    "date": "2026-11-18",
+    "stars": 155478,
+    "forks": 10169,
+    "watchers": 280,
+    "open_issues": 875,
+    "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
+    "topics": [
+      "ai-tools",
+      "claude-code",
+      "codex",
+      "deepseek-harness",
+      "desktop-app",
+      "grok",
+      "grokbuild",
+      "hermes",
+      "kimi-code",
+      "mcp",
+      "open-source",
+      "opencode",
+      "pi",
+      "provider-management",
+      "rust",
+      "skills",
+      "skills-management",
+      "tauri",
+      "wsl-support"
+    ]
   }
 ]
