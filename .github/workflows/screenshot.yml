@@ -67,3 +67,7 @@ jobs:
           git add preview.png
           git diff --cached --quiet || git commit -m "chore: update dashboard screenshot"
           git push
+
+      # After the commit, so a layout failure still updates the screenshot but fails the run
+      - name: Check layout at 1440, 1024, 768 and 390 px
+        run: node scripts/check-layout.js
