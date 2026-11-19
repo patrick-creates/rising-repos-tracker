@@ -1100,5 +1100,27 @@
       "harness-framework",
       "llm"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 25538,
+    "forks": 2931,
+    "watchers": 128,
+    "open_issues": 25,
+    "description": "Harness engineering beginner tutorial, from 0 to 1",
+    "topics": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "dsh",
+      "dsh-plugin",
+      "harness",
+      "harness-engineering",
+      "harness-framework",
+      "llm"
+    ]
   }
 ]

@@ -1094,5 +1094,21 @@
       "harness",
       "repository-level-context"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 54320,
+    "forks": 4495,
+    "watchers": 161,
+    "open_issues": 338,
+    "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "topics": [
+      "agent",
+      "agent-skills",
+      "code-review",
+      "code-review-assistant",
+      "harness",
+      "repository-level-context"
+    ]
   }
 ]

@@ -1490,5 +1490,25 @@
       "skill",
       "tokens"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 121458,
+    "forks": 7101,
+    "watchers": 259,
+    "open_issues": 106,
+    "description": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
+    "topics": [
+      "ai",
+      "anthropic",
+      "caveman",
+      "claude",
+      "claude-code",
+      "llm",
+      "meme",
+      "prompt-engineering",
+      "skill",
+      "tokens"
+    ]
   }
 ]

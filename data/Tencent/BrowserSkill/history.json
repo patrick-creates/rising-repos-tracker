@@ -419,5 +419,18 @@
       "browser-use",
       "dsh-plugin"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 10585,
+    "forks": 770,
+    "watchers": 26,
+    "open_issues": 100,
+    "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+    "topics": [
+      "agent",
+      "browser-use",
+      "dsh-plugin"
+    ]
   }
 ]

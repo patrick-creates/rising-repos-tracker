@@ -1218,5 +1218,33 @@
       "python",
       "rag"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 45156,
+    "forks": 7795,
+    "watchers": 191,
+    "open_issues": 481,
+    "description": "Build resilient agents.",
+    "topics": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "chatgpt",
+      "deepagents",
+      "enterprise",
+      "framework",
+      "gemini",
+      "generative-ai",
+      "langchain",
+      "langgraph",
+      "llm",
+      "multiagent",
+      "open-source",
+      "openai",
+      "pydantic",
+      "python",
+      "rag"
+    ]
   }
 ]

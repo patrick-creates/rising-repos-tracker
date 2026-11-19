@@ -1042,5 +1042,25 @@
       "terminal",
       "tui"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 9852,
+    "forks": 336,
+    "watchers": 12,
+    "open_issues": 169,
+    "description": "Review-first terminal diff viewer for agentic coders",
+    "topics": [
+      "agents",
+      "cli",
+      "code-review",
+      "diff",
+      "git",
+      "jj",
+      "jujutsu",
+      "sapling",
+      "terminal",
+      "tui"
+    ]
   }
 ]

@@ -1094,5 +1094,21 @@
       "skills",
       "web-design"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 15485,
+    "forks": 1755,
+    "watchers": 62,
+    "open_issues": 21,
+    "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+    "topics": [
+      "agent",
+      "claude",
+      "gpt-image-2",
+      "rag",
+      "skills",
+      "web-design"
+    ]
   }
 ]

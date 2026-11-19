@@ -535,5 +535,22 @@
       "open-source",
       "seo"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 30830,
+    "forks": 3836,
+    "watchers": 168,
+    "open_issues": 59,
+    "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+    "topics": [
+      "ai",
+      "ai-seo",
+      "claude-code",
+      "claude-code-skill",
+      "marketing-automation",
+      "open-source",
+      "seo"
+    ]
   }
 ]

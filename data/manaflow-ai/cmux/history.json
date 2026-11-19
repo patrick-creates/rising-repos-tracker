@@ -1050,5 +1050,33 @@
       "tmux",
       "workspace-manager"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 28832,
+    "forks": 2684,
+    "watchers": 42,
+    "open_issues": 8828,
+    "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
+    "topics": [
+      "amp",
+      "claude-code",
+      "cli",
+      "codex",
+      "coding-agents",
+      "gemini",
+      "ghostty",
+      "macos",
+      "multiplexer",
+      "multitasking",
+      "opencode",
+      "organization",
+      "parallel-agents",
+      "programmability",
+      "terminal",
+      "terminal-multiplexer",
+      "tmux",
+      "workspace-manager"
+    ]
   }
 ]

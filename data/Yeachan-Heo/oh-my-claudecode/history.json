@@ -1434,5 +1434,25 @@
       "parallel-execution",
       "vibe-coding"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 40951,
+    "forks": 3653,
+    "watchers": 115,
+    "open_issues": 29,
+    "description": "Teams-first Multi-agent orchestration for Claude Code",
+    "topics": [
+      "agentic-coding",
+      "ai-agents",
+      "automation",
+      "claude",
+      "claude-code",
+      "multi-agent-systems",
+      "oh-my-opencode",
+      "opencode",
+      "parallel-execution",
+      "vibe-coding"
+    ]
   }
 ]

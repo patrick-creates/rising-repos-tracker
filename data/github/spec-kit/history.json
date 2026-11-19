@@ -1527,5 +1527,22 @@
       "spec",
       "spec-driven"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 150628,
+    "forks": 13527,
+    "watchers": 746,
+    "open_issues": 221,
+    "description": "💫 Toolkit to help you get started with SDD or any other process!",
+    "topics": [
+      "ai",
+      "copilot",
+      "development",
+      "engineering",
+      "prd",
+      "spec",
+      "spec-driven"
+    ]
   }
 ]

@@ -268,5 +268,35 @@
       "project-management",
       "workflow-automation"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 115002,
+    "forks": 19097,
+    "watchers": 498,
+    "open_issues": 6934,
+    "description": "The open-source app everyone uses to manage agents at work",
+    "topics": [
+      "acpx",
+      "agent-orchestration",
+      "agent-skills",
+      "agentic-ai",
+      "ai-agents",
+      "ai-engineering",
+      "ai-governance",
+      "ai-tools",
+      "autonomous-agents",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "hermes",
+      "llm",
+      "mcp",
+      "multi-agent",
+      "openclaw",
+      "project-management",
+      "workflow-automation"
+    ]
   }
 ]

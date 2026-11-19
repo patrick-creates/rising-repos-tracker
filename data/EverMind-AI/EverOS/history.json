@@ -1161,5 +1161,32 @@
       "rag",
       "skills"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 13940,
+    "forks": 978,
+    "watchers": 107,
+    "open_issues": 54,
+    "description": "One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows.",
+    "topics": [
+      "agent-memory",
+      "agentic-ai",
+      "ai",
+      "chats",
+      "clawdbot",
+      "clawdbot-skill",
+      "deepseek-harness",
+      "dsh",
+      "dsh-plugin",
+      "llm",
+      "long-term-memory",
+      "mcp",
+      "memory",
+      "memory-management",
+      "python3",
+      "rag",
+      "skills"
+    ]
   }
 ]

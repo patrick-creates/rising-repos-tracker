@@ -212,5 +212,35 @@
       "sft",
       "transformers"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 10655,
+    "forks": 1775,
+    "watchers": 62,
+    "open_issues": 292,
+    "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+    "topics": [
+      "cli",
+      "consumer-gpu",
+      "dpo",
+      "fine-tuning",
+      "gguf",
+      "huggingface",
+      "llm",
+      "llmops",
+      "local-ai",
+      "local-llm",
+      "lora",
+      "low-vram",
+      "machine-learning",
+      "ollama",
+      "peft",
+      "python",
+      "pytorch",
+      "qlora",
+      "sft",
+      "transformers"
+    ]
   }
 ]

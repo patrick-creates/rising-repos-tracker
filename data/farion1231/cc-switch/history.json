@@ -1499,5 +1499,34 @@
       "tauri",
       "wsl-support"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 155753,
+    "forks": 10191,
+    "watchers": 280,
+    "open_issues": 869,
+    "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
+    "topics": [
+      "ai-tools",
+      "claude-code",
+      "codex",
+      "deepseek-harness",
+      "desktop-app",
+      "grok",
+      "grokbuild",
+      "hermes",
+      "kimi-code",
+      "mcp",
+      "open-source",
+      "opencode",
+      "pi",
+      "provider-management",
+      "rust",
+      "skills",
+      "skills-management",
+      "tauri",
+      "wsl-support"
+    ]
   }
 ]

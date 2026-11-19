@@ -545,5 +545,32 @@
       "openai",
       "tree-sitter"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 11343,
+    "forks": 1023,
+    "watchers": 34,
+    "open_issues": 239,
+    "description": "One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get a map of your code and your team's past decisions, so they pick up where you left off.",
+    "topics": [
+      "ai-agents",
+      "anthropic",
+      "claude-code",
+      "cli",
+      "code-graph",
+      "codex",
+      "context-engineering",
+      "cursor",
+      "developer-tools",
+      "gemini",
+      "knowledge-graph",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "open-source",
+      "openai",
+      "tree-sitter"
+    ]
   }
 ]

@@ -1500,5 +1500,35 @@
       "webui",
       "workflow-automation"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 50203,
+    "forks": 8763,
+    "watchers": 211,
+    "open_issues": 871,
+    "description": "Your lightweight open-source personal agent.",
+    "topics": [
+      "agent-framework",
+      "ai-agent",
+      "ai-agents",
+      "chatbot",
+      "chatops",
+      "discord-bot",
+      "llm-agents",
+      "llms",
+      "local-llm",
+      "mcp",
+      "model-context-protocol",
+      "multi-agent",
+      "openai-compatible",
+      "openclaw",
+      "personal-ai-assistant",
+      "python",
+      "self-hosted",
+      "telegram-bot-ai-assistant",
+      "webui",
+      "workflow-automation"
+    ]
   }
 ]

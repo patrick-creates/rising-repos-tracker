@@ -1388,5 +1388,35 @@
       "tutorial",
       "typescript"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "stars": 79568,
+    "forks": 14215,
+    "watchers": 464,
+    "open_issues": 68,
+    "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
+    "topics": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "ai-engineering",
+      "computer-vision",
+      "course",
+      "deep-learning",
+      "dsh",
+      "from-scratch",
+      "generative-ai",
+      "llm",
+      "machine-learning",
+      "mcp",
+      "python",
+      "rea",
+      "reinforcement-learning",
+      "rust",
+      "transformers",
+      "tutorial",
+      "typescript"
+    ]
   }
 ]
