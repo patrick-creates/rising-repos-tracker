@@ -1138,5 +1138,35 @@
       "worktrees",
       "yc-backed"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 130586,
+    "forks": 8311,
+    "watchers": 169,
+    "open_issues": 8747,
+    "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
+    "topics": [
+      "agent-ide",
+      "ai-agents",
+      "automation",
+      "bot",
+      "claude-code",
+      "codex",
+      "ghostty",
+      "grok-bot",
+      "hermes-agent",
+      "mobile-app",
+      "muse",
+      "openclaw",
+      "opencode",
+      "orchestration",
+      "pi",
+      "runtime",
+      "swarm",
+      "terminal",
+      "worktrees",
+      "yc-backed"
+    ]
   }
 ]

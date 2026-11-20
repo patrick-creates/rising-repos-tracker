@@ -1012,5 +1012,28 @@
       "rag",
       "reinforcement-learning"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 58909,
+    "forks": 6919,
+    "watchers": 218,
+    "open_issues": 63,
+    "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+    "topics": [
+      "agent",
+      "agent-memory",
+      "ai-agent",
+      "book",
+      "coding-agent",
+      "context-engineering",
+      "large-language-models",
+      "llm",
+      "mcp",
+      "multi-agent",
+      "multimodal",
+      "rag",
+      "reinforcement-learning"
+    ]
   }
 ]

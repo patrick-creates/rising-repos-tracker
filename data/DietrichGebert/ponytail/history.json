@@ -1230,5 +1230,25 @@
       "prompt-engineering",
       "yagni"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 195304,
+    "forks": 11009,
+    "watchers": 455,
+    "open_issues": 323,
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "cursor-rules",
+      "developer-tools",
+      "llm",
+      "prompt-engineering",
+      "yagni"
+    ]
   }
 ]

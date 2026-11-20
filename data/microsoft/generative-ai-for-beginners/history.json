@@ -1558,5 +1558,29 @@
       "semantic-search",
       "transformers"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 123900,
+    "forks": 66741,
+    "watchers": 1027,
+    "open_issues": 3,
+    "description": "21 Lessons, Get Started Building with Generative AI ",
+    "topics": [
+      "ai",
+      "azure",
+      "chatgpt",
+      "dall-e",
+      "generative-ai",
+      "generativeai",
+      "gpt",
+      "language-model",
+      "llms",
+      "microsoft-for-beginners",
+      "openai",
+      "prompt-engineering",
+      "semantic-search",
+      "transformers"
+    ]
   }
 ]

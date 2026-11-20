@@ -1134,5 +1134,33 @@
       "tui",
       "workspace-manager"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 52011,
+    "forks": 4211,
+    "watchers": 117,
+    "open_issues": 529,
+    "description": "the runtime your coding agents live on",
+    "topics": [
+      "agent",
+      "agent-orchestration",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "codex",
+      "coding-agents",
+      "developer-tools",
+      "devtools",
+      "multiplexer",
+      "rust",
+      "terminal",
+      "terminal-multiplexer",
+      "terminal-ui",
+      "tmux",
+      "tui",
+      "workspace-manager"
+    ]
   }
 ]

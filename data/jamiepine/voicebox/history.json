@@ -1394,5 +1394,23 @@
       "voice-clone",
       "whisper"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 60972,
+    "forks": 7686,
+    "watchers": 265,
+    "open_issues": 556,
+    "description": "The open-source AI voice studio. Clone, dictate, create.",
+    "topics": [
+      "ai",
+      "cuda",
+      "mlx",
+      "qwen3-tts",
+      "qwen3-tts-ui",
+      "voice-ai",
+      "voice-clone",
+      "whisper"
+    ]
   }
 ]

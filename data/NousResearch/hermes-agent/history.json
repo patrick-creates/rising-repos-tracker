@@ -1556,5 +1556,28 @@
       "nous-research",
       "openai"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 264894,
+    "forks": 59837,
+    "watchers": 1012,
+    "open_issues": 54035,
+    "description": "The agent that grows with you",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "codex",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "nous-research",
+      "openai"
+    ]
   }
 ]

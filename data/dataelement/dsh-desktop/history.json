@@ -560,5 +560,26 @@
       "dshdesktop",
       "harness"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 20261,
+    "forks": 691,
+    "watchers": 54,
+    "open_issues": 171,
+    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
+    "topics": [
+      "agent",
+      "apps",
+      "deepseek",
+      "deepseek-harness",
+      "deepseek-harness-desktop",
+      "desktop",
+      "dsh-desktop",
+      "dsh-plugin",
+      "dsh-plugin-desktop",
+      "dshdesktop",
+      "harness"
+    ]
   }
 ]

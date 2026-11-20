@@ -1360,5 +1360,34 @@
       "rag",
       "tutorials"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 21932,
+    "forks": 2895,
+    "watchers": 233,
+    "open_issues": 5,
+    "description": "End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment.",
+    "topics": [
+      "agent",
+      "agent-framework",
+      "agentic-ai",
+      "agents",
+      "ai-agents",
+      "deployment",
+      "genai",
+      "generative-ai",
+      "langgraph",
+      "llm",
+      "llms",
+      "mcp",
+      "mlops",
+      "multi-agent-systems",
+      "observability",
+      "production",
+      "python",
+      "rag",
+      "tutorials"
+    ]
   }
 ]

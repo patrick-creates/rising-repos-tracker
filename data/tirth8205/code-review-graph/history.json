@@ -1290,5 +1290,27 @@
       "static-analysis",
       "tree-sitter"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 32886,
+    "forks": 2989,
+    "watchers": 92,
+    "open_issues": 64,
+    "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+    "topics": [
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "code-review",
+      "graphrag",
+      "incremental",
+      "knowledge-graph",
+      "llm",
+      "mcp",
+      "python",
+      "static-analysis",
+      "tree-sitter"
+    ]
   }
 ]

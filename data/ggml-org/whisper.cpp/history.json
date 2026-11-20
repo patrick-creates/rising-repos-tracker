@@ -1502,5 +1502,21 @@
       "transformer",
       "whisper"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 55365,
+    "forks": 6336,
+    "watchers": 411,
+    "open_issues": 369,
+    "description": "Port of OpenAI's Whisper model in C/C++",
+    "topics": [
+      "inference",
+      "openai",
+      "speech-recognition",
+      "speech-to-text",
+      "transformer",
+      "whisper"
+    ]
   }
 ]

@@ -1498,5 +1498,19 @@
       "openai",
       "openai-api"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 77248,
+    "forks": 13079,
+    "watchers": 1016,
+    "open_issues": 379,
+    "description": "Examples and guides for using the OpenAI API",
+    "topics": [
+      "chatgpt",
+      "gpt-4",
+      "openai",
+      "openai-api"
+    ]
   }
 ]

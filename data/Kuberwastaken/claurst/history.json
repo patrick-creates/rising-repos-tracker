@@ -1170,5 +1170,23 @@
       "rust",
       "tui"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 10349,
+    "forks": 7643,
+    "watchers": 103,
+    "open_issues": 24,
+    "description": "Agentic Coding for Builders who Ship",
+    "topics": [
+      "claude",
+      "claude-code",
+      "claurst",
+      "cli",
+      "codex",
+      "gemini",
+      "rust",
+      "tui"
+    ]
   }
 ]

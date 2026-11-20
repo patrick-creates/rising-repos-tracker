@@ -1246,5 +1246,33 @@
       "sonnet",
       "torch"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 14935,
+    "forks": 3263,
+    "watchers": 183,
+    "open_issues": 63,
+    "description": "A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.",
+    "topics": [
+      "ai",
+      "anthropic",
+      "attention",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-mythos",
+      "claude-sonnet",
+      "deepmind",
+      "gpt-5",
+      "gpt-7",
+      "jax",
+      "looped-transformers",
+      "ml",
+      "pytorch",
+      "sonnet",
+      "torch"
+    ]
   }
 ]

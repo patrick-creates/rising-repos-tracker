@@ -1194,5 +1194,35 @@
       "terminal",
       "worktrees"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 16420,
+    "forks": 1474,
+    "watchers": 34,
+    "open_issues": 1280,
+    "description": "Paradev is an open-source Codex App and Conductor alternative. Orchestrate an army coding agents in parallel with your own subscriptions.",
+    "topics": [
+      "ade",
+      "agent",
+      "agent-orchestration",
+      "ai-agents",
+      "ai-coding",
+      "claude-code",
+      "cli",
+      "codex",
+      "coding-agents",
+      "conductor",
+      "cursor-agent",
+      "developer-tools",
+      "devtools",
+      "ide",
+      "macos",
+      "opencode",
+      "orchestration",
+      "parallel-agents",
+      "terminal",
+      "worktrees"
+    ]
   }
 ]

@@ -1304,5 +1304,34 @@
       "web-scraping",
       "website-clone"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 39539,
+    "forks": 5894,
+    "watchers": 172,
+    "open_issues": 14,
+    "description": "Clone any website with one command using AI coding agents",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-tools",
+      "automation",
+      "boilerplate",
+      "claude",
+      "claude-code",
+      "clone",
+      "developer-tools",
+      "nextjs",
+      "react",
+      "reverse-engineering",
+      "shadcn-ui",
+      "skills",
+      "tailwindcss",
+      "template",
+      "typescript",
+      "web-scraping",
+      "website-clone"
+    ]
   }
 ]

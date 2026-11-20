@@ -1356,5 +1356,32 @@
       "xiaohongshu",
       "youtube-transcript"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 113482,
+    "forks": 10201,
+    "watchers": 359,
+    "open_issues": 150,
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "topics": [
+      "agent-infrastructure",
+      "ai-agent",
+      "ai-search",
+      "automation",
+      "bilibili",
+      "claude-code",
+      "cli",
+      "cursor",
+      "free-api",
+      "llm-tools",
+      "mcp",
+      "python",
+      "reddit-scraper",
+      "twitter-scraper",
+      "web-scraper",
+      "xiaohongshu",
+      "youtube-transcript"
+    ]
   }
 ]

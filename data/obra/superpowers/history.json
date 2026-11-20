@@ -1226,5 +1226,23 @@
       "subagent-driven-development",
       "superpowers"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 322554,
+    "forks": 28655,
+    "watchers": 1173,
+    "open_issues": 356,
+    "description": "An agentic skills framework & software development methodology that works.",
+    "topics": [
+      "ai",
+      "brainstorming",
+      "coding",
+      "obra",
+      "sdlc",
+      "skills",
+      "subagent-driven-development",
+      "superpowers"
+    ]
   }
 ]

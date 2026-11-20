@@ -1336,5 +1336,22 @@
       "statusline",
       "typescript"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 29275,
+    "forks": 1345,
+    "watchers": 36,
+    "open_issues": 6,
+    "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+    "topics": [
+      "anthropic",
+      "claude",
+      "claude-code",
+      "cli",
+      "plugin",
+      "statusline",
+      "typescript"
+    ]
   }
 ]

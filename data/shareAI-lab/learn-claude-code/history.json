@@ -1510,5 +1510,25 @@
       "teaching",
       "tutorial"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 80671,
+    "forks": 12893,
+    "watchers": 305,
+    "open_issues": 56,
+    "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+    "topics": [
+      "agent",
+      "agent-development",
+      "ai-agent",
+      "claude",
+      "claude-code",
+      "educational",
+      "llm",
+      "python",
+      "teaching",
+      "tutorial"
+    ]
   }
 ]

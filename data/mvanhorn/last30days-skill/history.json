@@ -1362,5 +1362,35 @@
       "web-search",
       "youtube"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 71207,
+    "forks": 6336,
+    "watchers": 223,
+    "open_issues": 26,
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "topics": [
+      "ai-prompts",
+      "ai-skill",
+      "bluesky",
+      "claude",
+      "claude-code",
+      "clawhub",
+      "deep-research",
+      "hackernews",
+      "instagram",
+      "openclaw",
+      "polymarket",
+      "recency",
+      "reddit",
+      "research",
+      "social-media",
+      "tiktok",
+      "trends",
+      "twitter",
+      "web-search",
+      "youtube"
+    ]
   }
 ]

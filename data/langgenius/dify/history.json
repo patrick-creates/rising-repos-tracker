@@ -1568,5 +1568,34 @@
       "skills",
       "workflow"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 161564,
+    "forks": 25546,
+    "watchers": 853,
+    "open_issues": 1326,
+    "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-workflow",
+      "ai",
+      "automation",
+      "claude",
+      "deepseek",
+      "genai",
+      "gpt",
+      "llm",
+      "low-code",
+      "mcp",
+      "nextjs",
+      "no-code",
+      "openai",
+      "python",
+      "skills",
+      "workflow"
+    ]
   }
 ]

@@ -1502,5 +1502,21 @@
       "memory",
       "python"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 60637,
+    "forks": 7674,
+    "watchers": 308,
+    "open_issues": 832,
+    "description": "The best-benchmarked open-source AI memory system. And it's free.",
+    "topics": [
+      "ai",
+      "chromadb",
+      "llm",
+      "mcp",
+      "memory",
+      "python"
+    ]
   }
 ]

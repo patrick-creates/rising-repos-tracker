@@ -1516,5 +1516,28 @@
       "openai",
       "sonnet"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 50193,
+    "forks": 5178,
+    "watchers": 272,
+    "open_issues": 1970,
+    "description": "aider is AI pair programming in your terminal",
+    "topics": [
+      "anthropic",
+      "chatgpt",
+      "claude-3",
+      "cli",
+      "command-line",
+      "gemini",
+      "gpt-3",
+      "gpt-35-turbo",
+      "gpt-4",
+      "gpt-4o",
+      "llama",
+      "openai",
+      "sonnet"
+    ]
   }
 ]

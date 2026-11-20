@@ -1394,5 +1394,23 @@
       "os",
       "zeroclaw"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 33523,
+    "forks": 5039,
+    "watchers": 85,
+    "open_issues": 1343,
+    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
+    "topics": [
+      "agent",
+      "agentic",
+      "ai",
+      "infra",
+      "ml",
+      "openclaw",
+      "os",
+      "zeroclaw"
+    ]
   }
 ]

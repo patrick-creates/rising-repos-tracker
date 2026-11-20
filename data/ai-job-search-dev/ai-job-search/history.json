@@ -1066,5 +1066,27 @@
       "latex",
       "resume"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "stars": 72738,
+    "forks": 23350,
+    "watchers": 225,
+    "open_issues": 44,
+    "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "career",
+      "claude-code",
+      "cover-letter",
+      "cv",
+      "interview-preparation",
+      "job-application",
+      "job-hunting",
+      "job-search",
+      "latex",
+      "resume"
+    ]
   }
 ]
