@@ -1067,5 +1067,20 @@
       "computer-use-agent",
       "cua"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 6259,
+    "forks": 609,
+    "watchers": 43,
+    "open_issues": 45,
+    "description": "Fara1.5 – A family of frontier computer use agent models",
+    "topics": [
+      "agent",
+      "browser-use",
+      "computer-use",
+      "computer-use-agent",
+      "cua"
+    ]
   }
 ]

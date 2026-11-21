@@ -1424,5 +1424,27 @@
       "vscode",
       "vscode-extension"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 28705,
+    "forks": 2658,
+    "watchers": 156,
+    "open_issues": 304,
+    "description": null,
+    "topics": [
+      "chatgpt",
+      "claude",
+      "copilot",
+      "cursor",
+      "developer-tools",
+      "editor",
+      "llm",
+      "open-source",
+      "openai",
+      "visual-studio-code",
+      "vscode",
+      "vscode-extension"
+    ]
   }
 ]

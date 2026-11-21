@@ -1356,5 +1356,23 @@
       "python",
       "typescript"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 31495,
+    "forks": 4449,
+    "watchers": 140,
+    "open_issues": 254,
+    "description": "The batteries-included agent harness.",
+    "topics": [
+      "ai",
+      "deepagents",
+      "harness",
+      "harness-engineering",
+      "langchain",
+      "langgraph",
+      "python",
+      "typescript"
+    ]
   }
 ]

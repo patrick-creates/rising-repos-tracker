@@ -1353,5 +1353,22 @@
       "cli",
       "playwright"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 31210,
+    "forks": 3049,
+    "watchers": 61,
+    "open_issues": 343,
+    "description": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
+    "topics": [
+      "ai-agent",
+      "ai-agents",
+      "ai-tools",
+      "browser-automation",
+      "browser-use",
+      "cli",
+      "playwright"
+    ]
   }
 ]

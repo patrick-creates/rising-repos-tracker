@@ -1551,5 +1551,32 @@
       "typescript",
       "workflow-automation"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 55584,
+    "forks": 25105,
+    "watchers": 388,
+    "open_issues": 1031,
+    "description": "Build AI Agents, Visually",
+    "topics": [
+      "agentic-ai",
+      "agentic-workflow",
+      "agents",
+      "artificial-intelligence",
+      "chatbot",
+      "chatgpt",
+      "javascript",
+      "langchain",
+      "large-language-models",
+      "low-code",
+      "multiagent-systems",
+      "no-code",
+      "openai",
+      "rag",
+      "react",
+      "typescript",
+      "workflow-automation"
+    ]
   }
 ]

@@ -1165,5 +1165,34 @@
       "web-ui",
       "workflow-automation"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 11810,
+    "forks": 1477,
+    "watchers": 47,
+    "open_issues": 604,
+    "description": "Ekko Studio is a local-first AI workspace for multi-agent chat, coding, and visual workflows, available on desktop and the web.",
+    "topics": [
+      "agent",
+      "ai-agent",
+      "chat-ui",
+      "coding-agents",
+      "dashboard",
+      "ekko-studio",
+      "hermes",
+      "hermes-agent",
+      "hermes-studio",
+      "hermes-web-ui",
+      "llm",
+      "multi-agent",
+      "multi-model",
+      "multi-platform",
+      "self-hosted",
+      "typescript",
+      "vue3",
+      "web-ui",
+      "workflow-automation"
+    ]
   }
 ]

@@ -755,5 +755,28 @@
       "self-study",
       "study-tools"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 38625,
+    "forks": 4112,
+    "watchers": 156,
+    "open_issues": 22,
+    "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "book-to-skill",
+      "context-engineering",
+      "document-processing",
+      "edtech",
+      "knowledge-base",
+      "knowledge-management",
+      "llm",
+      "pdf-to-markdown",
+      "rag",
+      "self-study",
+      "study-tools"
+    ]
   }
 ]

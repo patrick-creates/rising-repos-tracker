@@ -1232,5 +1232,19 @@
       "codex",
       "swift"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 23257,
+    "forks": 2242,
+    "watchers": 57,
+    "open_issues": 19,
+    "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+    "topics": [
+      "ai",
+      "claude-code",
+      "codex",
+      "swift"
+    ]
   }
 ]

@@ -1406,5 +1406,21 @@
       "skill",
       "unsloth"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 39174,
+    "forks": 2534,
+    "watchers": 115,
+    "open_issues": 60,
+    "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+    "topics": [
+      "gguf",
+      "llm",
+      "localai",
+      "mlx",
+      "skill",
+      "unsloth"
+    ]
   }
 ]

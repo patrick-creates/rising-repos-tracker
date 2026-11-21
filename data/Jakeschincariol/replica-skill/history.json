@@ -127,5 +127,24 @@
       "reverse-engineering",
       "saas"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 10198,
+    "forks": 1874,
+    "watchers": 102,
+    "open_issues": 44,
+    "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
+    "topics": [
+      "agent",
+      "agent-skills",
+      "app-clone",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "indie-hacker",
+      "reverse-engineering",
+      "saas"
+    ]
   }
 ]

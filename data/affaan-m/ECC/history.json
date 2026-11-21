@@ -1564,5 +1564,23 @@
       "mcp",
       "productivity"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 308114,
+    "forks": 45343,
+    "watchers": 1515,
+    "open_issues": 152,
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "topics": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "productivity"
+    ]
   }
 ]

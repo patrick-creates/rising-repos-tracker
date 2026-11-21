@@ -1088,5 +1088,27 @@
       "terminal",
       "tui"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 21965,
+    "forks": 2568,
+    "watchers": 107,
+    "open_issues": 929,
+    "description": "High performance coding agent harness written in Rust, built for heavy multi-agent dev workflows",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-coding-agent",
+      "claude",
+      "cli",
+      "coding-agent",
+      "llm",
+      "mcp",
+      "openai",
+      "rust",
+      "terminal",
+      "tui"
+    ]
   }
 ]

@@ -1498,5 +1498,33 @@
       "terminal",
       "tui"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 41193,
+    "forks": 3573,
+    "watchers": 157,
+    "open_issues": 106,
+    "description": "An open-source coding agent for your terminal, written in Rust. It works with any model, can split one task across several agents, and every line of it is yours to read.",
+    "topics": [
+      "agent-client-protocol",
+      "agent-orchestration",
+      "ai-agent",
+      "ai-coding",
+      "cli",
+      "coding-agent",
+      "deepseek",
+      "developer-tools",
+      "llm",
+      "local-llm",
+      "mcp",
+      "multi-agent",
+      "ollama",
+      "open-source",
+      "openai-compatible",
+      "rust",
+      "terminal",
+      "tui"
+    ]
   }
 ]

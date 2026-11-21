@@ -1504,5 +1504,35 @@
       "pi-coding-agent",
       "subagents"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 42764,
+    "forks": 4519,
+    "watchers": 315,
+    "open_issues": 3,
+    "description": "Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi, written once in Markdown and adapted to each tool by generators with validation and evals.",
+    "topics": [
+      "agent-skills",
+      "agentic-ai",
+      "ai-agents",
+      "anthropic",
+      "antigravity",
+      "claude",
+      "claude-code",
+      "claude-code-marketplace",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "coding-agents",
+      "cursor",
+      "cursor-rules",
+      "github-copilot",
+      "mcp",
+      "multi-agent",
+      "opencode",
+      "pi-coding-agent",
+      "subagents"
+    ]
   }
 ]

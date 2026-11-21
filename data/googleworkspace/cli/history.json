@@ -1436,5 +1436,31 @@
       "oauth2",
       "rust"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 32425,
+    "forks": 2003,
+    "watchers": 96,
+    "open_issues": 139,
+    "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+    "topics": [
+      "agent-skills",
+      "ai-agent",
+      "automation",
+      "cli",
+      "discovery-api",
+      "gemini-cli-extension",
+      "google-admin",
+      "google-api",
+      "google-calendar",
+      "google-chat",
+      "google-docs",
+      "google-drive",
+      "google-sheets",
+      "google-workspace",
+      "oauth2",
+      "rust"
+    ]
   }
 ]

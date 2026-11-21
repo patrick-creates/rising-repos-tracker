@@ -1397,5 +1397,18 @@
       "mcp",
       "skills"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 47880,
+    "forks": 4970,
+    "watchers": 265,
+    "open_issues": 1326,
+    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "topics": [
+      "claude-code",
+      "mcp",
+      "skills"
+    ]
   }
 ]

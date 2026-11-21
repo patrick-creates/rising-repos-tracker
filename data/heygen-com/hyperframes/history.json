@@ -1377,5 +1377,30 @@
       "typescript",
       "video-editor"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 87677,
+    "forks": 8155,
+    "watchers": 208,
+    "open_issues": 290,
+    "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "animation",
+      "claude-code",
+      "ffmpeg",
+      "framework",
+      "gsap",
+      "html",
+      "html-to-video",
+      "mcp",
+      "motion-graphics",
+      "puppeteer",
+      "rendering",
+      "typescript",
+      "video-editor"
+    ]
   }
 ]

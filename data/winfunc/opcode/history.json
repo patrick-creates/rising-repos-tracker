@@ -1377,5 +1377,30 @@
       "rust",
       "tauri"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "stars": 22453,
+    "forks": 1703,
+    "watchers": 102,
+    "open_issues": 335,
+    "description": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.",
+    "topics": [
+      "anthropic",
+      "anthropic-claude",
+      "claude",
+      "claude-4",
+      "claude-4-opus",
+      "claude-4-sonnet",
+      "claude-ai",
+      "claude-code",
+      "claude-code-sdk",
+      "cursor",
+      "ide",
+      "llm",
+      "llm-code",
+      "rust",
+      "tauri"
+    ]
   }
 ]
