@@ -1194,5 +1194,20 @@
       "mimo",
       "mimo-code"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 13799,
+    "forks": 1479,
+    "watchers": 74,
+    "open_issues": 1208,
+    "description": "MiMo Code: Where Models and Agents Co-Evolve",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "cli",
+      "mimo",
+      "mimo-code"
+    ]
   }
 ]

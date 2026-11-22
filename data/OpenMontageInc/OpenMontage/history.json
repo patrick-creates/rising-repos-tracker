@@ -1250,5 +1250,34 @@
       "video-generation",
       "video-production"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 82276,
+    "forks": 11205,
+    "watchers": 415,
+    "open_issues": 357,
+    "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "claude",
+      "copilot",
+      "cursor",
+      "elevenlabs",
+      "ffmpeg",
+      "flux",
+      "image-generation",
+      "open-source",
+      "openai",
+      "python",
+      "remotion",
+      "stable-diffusion",
+      "text-to-speech",
+      "text-to-video",
+      "video-generation",
+      "video-production"
+    ]
   }
 ]

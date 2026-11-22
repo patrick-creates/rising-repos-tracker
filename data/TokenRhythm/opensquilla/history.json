@@ -1050,5 +1050,26 @@
       "python",
       "skills"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 7161,
+    "forks": 596,
+    "watchers": 136,
+    "open_issues": 291,
+    "description": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
+    "topics": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "deep-learning",
+      "foundation-models",
+      "llm",
+      "mcp",
+      "memory",
+      "openclaw",
+      "python",
+      "skills"
+    ]
   }
 ]

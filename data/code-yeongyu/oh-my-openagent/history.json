@@ -1570,5 +1570,30 @@
       "tui",
       "typescript"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 71055,
+    "forks": 5835,
+    "watchers": 224,
+    "open_issues": 3019,
+    "description": "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering.",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "gemini",
+      "ide",
+      "openai",
+      "opencode",
+      "orchestration",
+      "tui",
+      "typescript"
+    ]
   }
 ]

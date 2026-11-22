@@ -1318,5 +1318,23 @@
       "typescript",
       "web"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 29734,
+    "forks": 2656,
+    "watchers": 107,
+    "open_issues": 101,
+    "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+    "topics": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "browser-automation",
+      "javascript",
+      "mcp",
+      "typescript",
+      "web"
+    ]
   }
 ]

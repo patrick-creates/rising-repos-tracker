@@ -498,5 +498,28 @@
       "prompt-engineering",
       "writing-tools"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 72158,
+    "forks": 5647,
+    "watchers": 292,
+    "open_issues": 4,
+    "description": "Agent skill that removes signs of AI-generated writing from text",
+    "topics": [
+      "agent-skills",
+      "ai-humanizer",
+      "ai-writing",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "codex",
+      "cursor",
+      "humanize-ai-text",
+      "humanizer",
+      "llm",
+      "prompt-engineering",
+      "writing-tools"
+    ]
   }
 ]

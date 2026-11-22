@@ -1594,5 +1594,26 @@
       "openai",
       "python"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 188132,
+    "forks": 45827,
+    "watchers": 1526,
+    "open_issues": 796,
+    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+    "topics": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "autonomous-agents",
+      "claude",
+      "gpt",
+      "llama-api",
+      "llm",
+      "openai",
+      "python"
+    ]
   }
 ]

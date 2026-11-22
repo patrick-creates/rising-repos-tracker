@@ -1174,5 +1174,29 @@
       "word",
       "xlsx"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 33519,
+    "forks": 2292,
+    "watchers": 86,
+    "open_issues": 139,
+    "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+    "topics": [
+      "agent",
+      "ai",
+      "claude-code",
+      "cli",
+      "codex",
+      "docx",
+      "excel",
+      "office",
+      "openclaw",
+      "pptx",
+      "presentation",
+      "skills",
+      "word",
+      "xlsx"
+    ]
   }
 ]

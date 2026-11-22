@@ -1198,5 +1198,35 @@
       "stock-market",
       "technical-analysis"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 13908,
+    "forks": 2829,
+    "watchers": 86,
+    "open_issues": 45,
+    "description": "The most complete open-source, self-hosted Agentic Trading OS—AI research, Python strategies, factor discovery, backtesting, optimization, paper/live multi-asset execution, risk controls, monitoring, MCP, and multi-tenant SaaS in one auditable stack.",
+    "topics": [
+      "agentic-ai",
+      "ai-agents",
+      "backtesting",
+      "crypto",
+      "finance",
+      "fintech",
+      "investment",
+      "llm",
+      "market-data",
+      "mcp",
+      "mcp-server",
+      "multi-agent",
+      "portfolio-management",
+      "python",
+      "quant",
+      "quantitative-finance",
+      "risk-management",
+      "self-hosted",
+      "stock-market",
+      "technical-analysis"
+    ]
   }
 ]

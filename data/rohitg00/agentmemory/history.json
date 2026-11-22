@@ -1406,5 +1406,31 @@
       "opencode",
       "pi"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 30531,
+    "forks": 2718,
+    "watchers": 81,
+    "open_issues": 464,
+    "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+    "topics": [
+      "agentmemory",
+      "agents",
+      "ai",
+      "claude",
+      "claudecode",
+      "codex",
+      "copilot",
+      "cursor",
+      "genai",
+      "harness",
+      "hermes",
+      "memory",
+      "omp",
+      "openclaw",
+      "opencode",
+      "pi"
+    ]
   }
 ]

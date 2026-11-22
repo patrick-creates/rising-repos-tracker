@@ -1254,5 +1254,35 @@
       "tree-sitter",
       "windsurf"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 49020,
+    "forks": 4075,
+    "watchers": 168,
+    "open_issues": 589,
+    "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
+    "topics": [
+      "aider",
+      "ast",
+      "claude-code",
+      "code-analysis",
+      "code-intelligence",
+      "codex",
+      "cursor",
+      "cypher",
+      "developer-tools",
+      "gemini-cli",
+      "graph-visualization",
+      "kilocode",
+      "knowledge-graph",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "opencode",
+      "sqlite",
+      "tree-sitter",
+      "windsurf"
+    ]
   }
 ]

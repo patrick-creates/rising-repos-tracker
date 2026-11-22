@@ -1230,5 +1230,29 @@
       "self-hosted",
       "self-improving"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 11167,
+    "forks": 5632,
+    "watchers": 231,
+    "open_issues": 1110,
+    "description": "Multi-Agent Harness for Production AI",
+    "topics": [
+      "agent",
+      "agent-framework",
+      "agent-skills",
+      "anthropic",
+      "automation",
+      "autonomous-agents",
+      "claude",
+      "harness",
+      "harness-engineering",
+      "human-in-the-loop",
+      "openai",
+      "python",
+      "self-hosted",
+      "self-improving"
+    ]
   }
 ]

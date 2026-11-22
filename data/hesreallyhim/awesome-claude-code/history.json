@@ -1586,5 +1586,34 @@
       "coding-assistants",
       "llm"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 58570,
+    "forks": 5000,
+    "watchers": 332,
+    "open_issues": 1309,
+    "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliation). A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
+    "topics": [
+      "agent-skills",
+      "agentic-code",
+      "agentic-coding",
+      "ai-workflow-optimization",
+      "ai-workflows",
+      "anthropic",
+      "anthropic-claude",
+      "awesome",
+      "awesome-claude-code",
+      "awesome-list",
+      "awesome-lists",
+      "awesome-resources",
+      "claude",
+      "claude-code",
+      "coding-agent",
+      "coding-agents",
+      "coding-assistant",
+      "coding-assistants",
+      "llm"
+    ]
   }
 ]

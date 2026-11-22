@@ -1266,5 +1266,24 @@
       "personal-ai",
       "productivity"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 19966,
+    "forks": 2535,
+    "watchers": 199,
+    "open_issues": 68,
+    "description": "⛰️ LifeOS — The AI-powered Life Operating System that helps you hill climb to wherever you're going.",
+    "topics": [
+      "ai",
+      "ai-harness",
+      "augmentation",
+      "coding",
+      "humans",
+      "intent-engineering",
+      "lifeos",
+      "personal-ai",
+      "productivity"
+    ]
   }
 ]

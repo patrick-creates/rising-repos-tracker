@@ -158,5 +158,27 @@
       "mcp",
       "rust"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 26072,
+    "forks": 1953,
+    "watchers": 56,
+    "open_issues": 273,
+    "description": "Computer use CLI for AI agents",
+    "topics": [
+      "accessibility",
+      "accessibility-api",
+      "ai-agents",
+      "automation",
+      "cli",
+      "computer-use",
+      "computer-use-agent",
+      "computer-use-agents",
+      "desktop-automation",
+      "macos",
+      "mcp",
+      "rust"
+    ]
   }
 ]

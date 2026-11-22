@@ -1486,5 +1486,23 @@
       "hacktoberfest",
       "prompt-engineering"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 41439,
+    "forks": 5405,
+    "watchers": 350,
+    "open_issues": 100,
+    "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+    "topics": [
+      "agent-skills",
+      "agents",
+      "ai",
+      "awesome",
+      "custom-agents",
+      "github-copilot",
+      "hacktoberfest",
+      "prompt-engineering"
+    ]
   }
 ]

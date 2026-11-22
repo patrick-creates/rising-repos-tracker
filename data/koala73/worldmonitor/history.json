@@ -1562,5 +1562,28 @@
       "palantir",
       "situation"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 91056,
+    "forks": 14141,
+    "watchers": 511,
+    "open_issues": 363,
+    "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+    "topics": [
+      "agent",
+      "ai",
+      "dashboard",
+      "gemini-cli-extension",
+      "geopolitics",
+      "mcp",
+      "mcp-server",
+      "monitoring",
+      "news",
+      "opensource",
+      "osint",
+      "palantir",
+      "situation"
+    ]
   }
 ]

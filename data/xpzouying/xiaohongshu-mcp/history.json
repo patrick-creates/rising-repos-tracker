@@ -1242,5 +1242,18 @@
       "mcp-server",
       "xiaohongshu-mcp"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 17271,
+    "forks": 2552,
+    "watchers": 39,
+    "open_issues": 115,
+    "description": "MCP for xiaohongshu.com",
+    "topics": [
+      "mcp",
+      "mcp-server",
+      "xiaohongshu-mcp"
+    ]
   }
 ]

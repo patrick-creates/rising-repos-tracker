@@ -1194,5 +1194,34 @@
       "workflow",
       "workflow-engine"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 8923,
+    "forks": 913,
+    "watchers": 77,
+    "open_issues": 70,
+    "description": "Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents.",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "agentic-workflow",
+      "ai",
+      "enterprise",
+      "enterprise-automation",
+      "iflytek-astron",
+      "llm",
+      "llm-ops",
+      "low-code",
+      "mcp",
+      "multi-agent",
+      "next-gen",
+      "orchestration",
+      "python",
+      "rpa",
+      "superagent",
+      "workflow",
+      "workflow-engine"
+    ]
   }
 ]

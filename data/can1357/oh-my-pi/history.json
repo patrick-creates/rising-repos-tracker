@@ -1290,5 +1290,30 @@
       "tui",
       "typescript"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "stars": 39633,
+    "forks": 4577,
+    "watchers": 98,
+    "open_issues": 5052,
+    "description": "⌥ Coding agent with the IDE wired in. Built by Stencil Labs.",
+    "topics": [
+      "ai-agent",
+      "ai-coding-agent",
+      "anthropic",
+      "bun",
+      "claude",
+      "cli",
+      "coding-assistant",
+      "llm",
+      "mcp",
+      "multi-provider",
+      "openai",
+      "rust",
+      "terminal",
+      "tui",
+      "typescript"
+    ]
   }
 ]
