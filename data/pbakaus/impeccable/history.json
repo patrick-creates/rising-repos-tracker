@@ -201,5 +201,20 @@
       "design",
       "slop"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 115441,
+    "forks": 6884,
+    "watchers": 222,
+    "open_issues": 70,
+    "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+    "topics": [
+      "agent-skills",
+      "ai",
+      "anti-slop",
+      "design",
+      "slop"
+    ]
   }
 ]

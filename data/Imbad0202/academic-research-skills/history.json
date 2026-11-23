@@ -1000,5 +1000,23 @@
       "peer-review",
       "prompt-engineering"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 58234,
+    "forks": 4441,
+    "watchers": 146,
+    "open_issues": 65,
+    "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+    "topics": [
+      "academic-pipeline",
+      "academic-writing",
+      "ai-research",
+      "claude",
+      "claude-code",
+      "literature-review",
+      "peer-review",
+      "prompt-engineering"
+    ]
   }
 ]

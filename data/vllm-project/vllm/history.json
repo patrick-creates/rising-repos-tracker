@@ -1660,5 +1660,35 @@
       "tpu",
       "transformer"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 97405,
+    "forks": 25183,
+    "watchers": 610,
+    "open_issues": 10982,
+    "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+    "topics": [
+      "amd",
+      "blackwell",
+      "cuda",
+      "deepseek",
+      "deepseek-v3",
+      "gpt",
+      "gpt-oss",
+      "inference",
+      "kimi",
+      "llama",
+      "llm",
+      "llm-serving",
+      "model-serving",
+      "moe",
+      "openai",
+      "pytorch",
+      "qwen",
+      "qwen3",
+      "tpu",
+      "transformer"
+    ]
   }
 ]

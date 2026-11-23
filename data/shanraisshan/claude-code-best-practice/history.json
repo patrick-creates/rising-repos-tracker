@@ -1620,5 +1620,35 @@
       "pakistani-developer",
       "vibe-coding"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 69348,
+    "forks": 6884,
+    "watchers": 496,
+    "open_issues": 33,
+    "description": "from vibe coding to agentic engineering - practice makes claude perfect",
+    "topics": [
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-engineering",
+      "agentic-workflow",
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "best-practices",
+      "boris",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-agents",
+      "claude-code-best-practices",
+      "claude-code-commands",
+      "claude-code-skills",
+      "context-engineering",
+      "pakistan",
+      "pakistani-developer",
+      "vibe-coding"
+    ]
   }
 ]

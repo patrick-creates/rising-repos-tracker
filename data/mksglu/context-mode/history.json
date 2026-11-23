@@ -1396,5 +1396,35 @@
       "skills",
       "zed-extension"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 34416,
+    "forks": 2371,
+    "watchers": 109,
+    "open_issues": 10,
+    "description": "Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search, 99% fewer bytes in context. Works with Claude Code, Codex, Pi, OMP, OpenCode, Gemini CLI, Copilot CLI and 4 more agents. Zero telemetry.",
+    "topics": [
+      "antigravity",
+      "claude",
+      "claude-code",
+      "claude-code-hooks",
+      "claude-code-plugins",
+      "claude-code-skill",
+      "codex",
+      "codex-cli",
+      "context-mode",
+      "copilot",
+      "cursor-plugin",
+      "kiro",
+      "mcp",
+      "mcp-server",
+      "mcp-tools",
+      "openclaw",
+      "opencode",
+      "pi-agent",
+      "skills",
+      "zed-extension"
+    ]
   }
 ]

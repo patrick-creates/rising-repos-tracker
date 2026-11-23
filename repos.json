@@ -1067,8 +1067,7 @@
     "notes": "Why is this running?",
     "stars_at_add": 18032,
     "stars_per_day_at_add": 94.9,
-    "created_at": "2025-12-20",
-    "status": "stalled"
+    "created_at": "2025-12-20"
   },
   {
     "owner": "browser-use",

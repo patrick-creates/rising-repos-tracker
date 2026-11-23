@@ -1284,5 +1284,35 @@
       "vps-agent",
       "web-automation"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 19212,
+    "forks": 1901,
+    "watchers": 50,
+    "open_issues": 488,
+    "description": "Let Claude Code, Codex or Cursor use your real Chrome, logged in as you. One prompt to set up. Open source, MIT.",
+    "topics": [
+      "ai-agent",
+      "browser-agent",
+      "browser-automation",
+      "browser-use",
+      "browser-use-box",
+      "browser-use-cloud",
+      "cdp",
+      "chrome",
+      "chrome-devtools-protocol",
+      "claude-code",
+      "cloud-browser",
+      "codex",
+      "cursor",
+      "llm",
+      "mcp",
+      "persistent-browser",
+      "real-browser",
+      "telegram-agent",
+      "vps-agent",
+      "web-automation"
+    ]
   }
 ]

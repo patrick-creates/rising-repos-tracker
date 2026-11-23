@@ -1620,5 +1620,35 @@
       "ui",
       "unsloth"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 80062,
+    "forks": 7454,
+    "watchers": 381,
+    "open_issues": 535,
+    "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+    "topics": [
+      "agent",
+      "ai",
+      "chatgpt",
+      "deepseek",
+      "fine-tuning",
+      "gemma",
+      "image-generation",
+      "llama",
+      "llm",
+      "llms",
+      "openai",
+      "python",
+      "qwen",
+      "reinforcement-learning",
+      "self-hosted",
+      "stable-diffusion",
+      "text-to-speech",
+      "tts",
+      "ui",
+      "unsloth"
+    ]
   }
 ]

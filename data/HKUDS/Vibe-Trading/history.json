@@ -1234,5 +1234,25 @@
       "quantitative-finance",
       "trading"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 38734,
+    "forks": 6312,
+    "watchers": 178,
+    "open_issues": 26,
+    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+    "topics": [
+      "ai-agent",
+      "algorithmic-trading",
+      "backtesting",
+      "fintech",
+      "llm",
+      "mcp",
+      "multi-agent",
+      "python",
+      "quantitative-finance",
+      "trading"
+    ]
   }
 ]

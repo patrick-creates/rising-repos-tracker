@@ -1565,5 +1565,24 @@
       "llm",
       "openai"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 94147,
+    "forks": 12600,
+    "watchers": 501,
+    "open_issues": 1268,
+    "description": "🙌 OpenHands: AI-Driven Development",
+    "topics": [
+      "agent",
+      "artificial-intelligence",
+      "chatgpt",
+      "claude-ai",
+      "cli",
+      "developer-tools",
+      "gpt",
+      "llm",
+      "openai"
+    ]
   }
 ]

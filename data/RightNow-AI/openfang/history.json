@@ -1336,5 +1336,23 @@
       "operating-system",
       "rust"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 18275,
+    "forks": 2288,
+    "watchers": 128,
+    "open_issues": 140,
+    "description": "Open-source Agent Operating System",
+    "topics": [
+      "agent-framework",
+      "ai-agents",
+      "llm",
+      "mcp",
+      "open-source",
+      "openclaw",
+      "operating-system",
+      "rust"
+    ]
   }
 ]

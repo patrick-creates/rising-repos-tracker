@@ -623,5 +623,26 @@
       "security-workflow",
       "supply-chain-security"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 27393,
+    "forks": 2438,
+    "watchers": 99,
+    "open_issues": 158,
+    "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+    "topics": [
+      "agent-security",
+      "agent-skills",
+      "agentic-ai",
+      "ai-security",
+      "claude-code",
+      "mcp",
+      "prompt-injection",
+      "security-scanner",
+      "security-tools",
+      "security-workflow",
+      "supply-chain-security"
+    ]
   }
 ]

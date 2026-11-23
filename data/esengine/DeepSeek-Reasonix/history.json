@@ -1442,5 +1442,33 @@
       "tui",
       "typescript"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 36077,
+    "forks": 2611,
+    "watchers": 97,
+    "open_issues": 743,
+    "description": "A reliable coding agent for complex software engineering tasks.",
+    "topics": [
+      "agent",
+      "agent-framework",
+      "ai-agent",
+      "ai-coding",
+      "cli",
+      "coding-agent",
+      "deepseek",
+      "developer-tools",
+      "dsh",
+      "dsh-plugin",
+      "ink",
+      "llm",
+      "prompt-caching",
+      "r1",
+      "terminal",
+      "tool-use",
+      "tui",
+      "typescript"
+    ]
   }
 ]

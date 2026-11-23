@@ -719,5 +719,34 @@
       "voicestudio",
       "workflow"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 117004,
+    "forks": 13039,
+    "watchers": 379,
+    "open_issues": 76,
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "topics": [
+      "ai",
+      "audiobook",
+      "cuda",
+      "dubbing",
+      "elevenlabs-alternative",
+      "huggingface",
+      "local-first",
+      "mlx",
+      "omnivoice-studio",
+      "speech-to-text",
+      "text-to-speech",
+      "transcription",
+      "translate",
+      "tts",
+      "voice-ai",
+      "voice-cloning",
+      "voice-generation",
+      "voicestudio",
+      "workflow"
+    ]
   }
 ]

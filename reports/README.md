@@ -2,6 +2,7 @@
 
 One report per ISO week: fastest-growing repos by stars gained and by growth rate, plus newly tracked repos. Written automatically every Monday.
 
+- [2026-W47](./2026-W47.md)
 - [2026-W46](./2026-W46.md)
 - [2026-W45](./2026-W45.md)
 - [2026-W44](./2026-W44.md)

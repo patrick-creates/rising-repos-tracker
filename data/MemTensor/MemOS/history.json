@@ -1279,5 +1279,34 @@
       "skills",
       "token-savings"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 12487,
+    "forks": 1132,
+    "watchers": 55,
+    "open_issues": 140,
+    "description": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support.",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "ai-agents",
+      "chatgpt",
+      "claude",
+      "deepseek-harness",
+      "dsh-plugin",
+      "hermes",
+      "llm",
+      "long-term-memory",
+      "mcp",
+      "memory",
+      "memory-management",
+      "openclaw",
+      "rag",
+      "self-evolving",
+      "skills",
+      "token-savings"
+    ]
   }
 ]

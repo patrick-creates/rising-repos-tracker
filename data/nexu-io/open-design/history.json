@@ -1620,5 +1620,35 @@
       "ui-generator",
       "vibe-coding"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 109127,
+    "forks": 12341,
+    "watchers": 305,
+    "open_issues": 1441,
+    "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
+    "topics": [
+      "agent-skills",
+      "ai-design",
+      "byok",
+      "claude-code-for-design",
+      "claude-design",
+      "codex-design",
+      "cursor-design",
+      "deepseek",
+      "deepseek-harness",
+      "design-systems",
+      "desktop-app",
+      "desktop-apps",
+      "dsh",
+      "dsh-plugin",
+      "figma-alternative",
+      "hermes-agent",
+      "local-first",
+      "prototyping",
+      "ui-generator",
+      "vibe-coding"
+    ]
   }
 ]

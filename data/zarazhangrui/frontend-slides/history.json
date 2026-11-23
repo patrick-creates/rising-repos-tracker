@@ -1,0 +1,22 @@
+[
+  {
+    "date": "2026-11-23",
+    "stars": 32812,
+    "forks": 2503,
+    "watchers": 125,
+    "open_issues": 71,
+    "description": "Create beautiful slides on the web using a coding agent's frontend skills",
+    "topics": [
+      "ai-slides",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-skill",
+      "generative-ui",
+      "html",
+      "presentation",
+      "slides",
+      "vibe-coding"
+    ]
+  }
+]

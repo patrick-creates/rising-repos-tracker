@@ -547,5 +547,22 @@
       "cursor",
       "skills"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 7198,
+    "forks": 569,
+    "watchers": 66,
+    "open_issues": 44,
+    "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+    "topics": [
+      "agent",
+      "ai",
+      "antigravity",
+      "claude-code",
+      "copilot",
+      "cursor",
+      "skills"
+    ]
   }
 ]

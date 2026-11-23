@@ -1564,5 +1564,35 @@
       "mcp",
       "skill-library"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 50196,
+    "forks": 7281,
+    "watchers": 303,
+    "open_issues": 2,
+    "description": "3,000+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
+    "topics": [
+      "agent-skills",
+      "agentic-skills",
+      "ai-agent-skills",
+      "ai-agents",
+      "ai-coding",
+      "ai-workflows",
+      "antigravity",
+      "antigravity-skills",
+      "claude-code",
+      "claude-code-skills",
+      "codex-cli",
+      "codex-skills",
+      "cursor",
+      "cursor-skills",
+      "developer-tools",
+      "gemini-cli",
+      "gemini-skills",
+      "kiro",
+      "mcp",
+      "skill-library"
+    ]
   }
 ]

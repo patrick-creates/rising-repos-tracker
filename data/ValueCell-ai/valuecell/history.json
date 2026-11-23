@@ -1244,5 +1244,27 @@
       "react",
       "stock-market"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 11066,
+    "forks": 1807,
+    "watchers": 83,
+    "open_issues": 77,
+    "description": "ValueCell is a community-driven, multi-agent platform for financial applications.",
+    "topics": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "assitant",
+      "crypto",
+      "equity",
+      "finance",
+      "investment",
+      "mcp",
+      "python",
+      "react",
+      "stock-market"
+    ]
   }
 ]

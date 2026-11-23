@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-11-23",
+    "stars": 6392,
+    "forks": 574,
+    "watchers": 21,
+    "open_issues": 73,
+    "description": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+    "topics": [
+      "ai-coding",
+      "architecture-diagram",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "codebase-visualization",
+      "codex",
+      "codex-plugin",
+      "developer-tools",
+      "onboarding",
+      "openai",
+      "vibe-coding"
+    ]
+  }
+]

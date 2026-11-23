@@ -1580,5 +1580,27 @@
       "ollama",
       "openai"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 42497,
+    "forks": 4363,
+    "watchers": 218,
+    "open_issues": 1380,
+    "description": "Powerful AI Client",
+    "topics": [
+      "assistant",
+      "chatbot",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "copilot",
+      "deepseek",
+      "gemini",
+      "gpt",
+      "gpt-5",
+      "ollama",
+      "openai"
+    ]
   }
 ]

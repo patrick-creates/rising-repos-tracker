@@ -1330,5 +1330,33 @@
       "python",
       "web-scraping"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 15361,
+    "forks": 1568,
+    "watchers": 69,
+    "open_issues": 51,
+    "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
+    "topics": [
+      "ai-tools",
+      "ast-parser",
+      "automation",
+      "claude-ai",
+      "claude-skills",
+      "code-analysis",
+      "conflict-detection",
+      "documentation",
+      "documentation-generator",
+      "github",
+      "github-scraper",
+      "mcp",
+      "mcp-server",
+      "multi-source",
+      "ocr",
+      "pdf",
+      "python",
+      "web-scraping"
+    ]
   }
 ]

@@ -1519,5 +1519,26 @@
       "python",
       "structured-data"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "stars": 39350,
+    "forks": 2756,
+    "watchers": 167,
+    "open_issues": 128,
+    "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+    "topics": [
+      "gemini",
+      "gemini-ai",
+      "gemini-api",
+      "gemini-flash",
+      "gemini-pro",
+      "information-extration",
+      "large-language-models",
+      "llm",
+      "nlp",
+      "python",
+      "structured-data"
+    ]
   }
 ]
