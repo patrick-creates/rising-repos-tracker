@@ -208,5 +208,28 @@
       "vibe-coding",
       "vibecoding"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 8428,
+    "forks": 538,
+    "watchers": 24,
+    "open_issues": 240,
+    "description": "ThinkRail is the agentic IDE that gets better every time you use it",
+    "topics": [
+      "agent",
+      "agent-skills",
+      "agentic-ai",
+      "agentic-workflow",
+      "ai-coding",
+      "ai-tools",
+      "pi-agent",
+      "pi-agent-extension",
+      "spec-driven",
+      "spec-driven-coding",
+      "spec-driven-development",
+      "vibe-coding",
+      "vibecoding"
+    ]
   }
 ]

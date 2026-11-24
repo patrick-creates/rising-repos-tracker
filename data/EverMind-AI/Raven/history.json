@@ -28,5 +28,35 @@
       "self-improving",
       "super-agent"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 6314,
+    "forks": 276,
+    "watchers": 12,
+    "open_issues": 67,
+    "description": "The Harness of Harnesses • Super Agent: a trusted, persistent, self-evolving multi-agent ecosystem for all-domain collaboration.",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "codex",
+      "evermind",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "multi-agent",
+      "multi-agent-systems",
+      "openai",
+      "openclaw",
+      "openhuman",
+      "recursive-self-improvement",
+      "rsi",
+      "self-evolving",
+      "self-improving",
+      "super-agent"
+    ]
   }
 ]

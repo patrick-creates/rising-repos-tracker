@@ -530,5 +530,35 @@
       "typescript",
       "vector-search"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 82351,
+    "forks": 9704,
+    "watchers": 481,
+    "open_issues": 556,
+    "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+    "topics": [
+      "agent-memory",
+      "agent-orchestration",
+      "agentic-ai",
+      "agentic-workflow",
+      "ai-agents",
+      "autonomous-agents",
+      "claude",
+      "claude-code",
+      "codex",
+      "hnsw",
+      "mcp",
+      "mcp-server",
+      "multi-agent",
+      "multi-agent-systems",
+      "plugins",
+      "rvf",
+      "swarm",
+      "swarm-intelligence",
+      "typescript",
+      "vector-search"
+    ]
   }
 ]

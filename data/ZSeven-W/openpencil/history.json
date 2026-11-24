@@ -362,5 +362,35 @@
       "vibecoding",
       "vibedesign"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 7354,
+    "forks": 637,
+    "watchers": 45,
+    "open_issues": 22,
+    "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
+    "topics": [
+      "agent",
+      "agent-team",
+      "ai",
+      "claude",
+      "claude-code",
+      "codex",
+      "dsh-plugin",
+      "fimga",
+      "flutter",
+      "mcp",
+      "opencode",
+      "openpencil",
+      "pencil",
+      "react",
+      "react-native",
+      "rust",
+      "skill",
+      "ui",
+      "vibecoding",
+      "vibedesign"
+    ]
   }
 ]

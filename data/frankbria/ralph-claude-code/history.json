@@ -1624,5 +1624,24 @@
       "development-tools",
       "development-workflow"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 9739,
+    "forks": 727,
+    "watchers": 42,
+    "open_issues": 11,
+    "description": "Autonomous AI development loop for Claude Code with intelligent exit detection",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "ai-development",
+      "ai-development-tools",
+      "claude-code",
+      "claude-code-cli",
+      "development-tools",
+      "development-workflow"
+    ]
   }
 ]

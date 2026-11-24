@@ -140,5 +140,26 @@
       "flutter",
       "llm"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 31249,
+    "forks": 1512,
+    "watchers": 57,
+    "open_issues": 933,
+    "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+    "topics": [
+      "ai-agent",
+      "android",
+      "android-app",
+      "coding-agent",
+      "deepseek",
+      "deepseek-harness",
+      "dsh",
+      "dsh-plugin",
+      "dsh-tui",
+      "flutter",
+      "llm"
+    ]
   }
 ]

@@ -706,5 +706,27 @@
       "second-brain",
       "tauri"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 42837,
+    "forks": 4231,
+    "watchers": 194,
+    "open_issues": 310,
+    "description": "The fastest, cheapest, most efficient open-source agent harness. Run more than 500 agents on a $10 VPS.",
+    "topics": [
+      "agent-orchestration",
+      "ai-agents",
+      "ai-assistant",
+      "desktop",
+      "llm",
+      "local-first",
+      "mcp",
+      "personal-ai",
+      "privacy",
+      "rust",
+      "second-brain",
+      "tauri"
+    ]
   }
 ]

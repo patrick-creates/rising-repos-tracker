@@ -1638,5 +1638,33 @@
       "windows",
       "youtube"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 63993,
+    "forks": 13063,
+    "watchers": 275,
+    "open_issues": 0,
+    "description": "Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux.",
+    "topics": [
+      "chatgpt",
+      "claude",
+      "cli",
+      "desktop",
+      "desktop-app",
+      "electron-alternative",
+      "gemini",
+      "linux",
+      "macos",
+      "nativefier",
+      "no-electron",
+      "rust",
+      "tauri",
+      "web-to-desktop",
+      "website-to-app",
+      "webview",
+      "windows",
+      "youtube"
+    ]
   }
 ]

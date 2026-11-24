@@ -18,5 +18,25 @@
       "slides",
       "vibe-coding"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 32844,
+    "forks": 2506,
+    "watchers": 124,
+    "open_issues": 71,
+    "description": "Create beautiful slides on the web using a coding agent's frontend skills",
+    "topics": [
+      "ai-slides",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-skill",
+      "generative-ui",
+      "html",
+      "presentation",
+      "slides",
+      "vibe-coding"
+    ]
   }
 ]

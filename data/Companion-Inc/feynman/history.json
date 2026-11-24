@@ -502,5 +502,21 @@
       "pi-coding-agent",
       "research"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 10154,
+    "forks": 1115,
+    "watchers": 35,
+    "open_issues": 0,
+    "description": "The open source AI research agent.",
+    "topics": [
+      "ai-agent",
+      "arxiv",
+      "cli",
+      "literature-review",
+      "pi-coding-agent",
+      "research"
+    ]
   }
 ]

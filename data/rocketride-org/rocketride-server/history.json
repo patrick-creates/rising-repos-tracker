@@ -510,5 +510,35 @@
       "vscode-extension",
       "workflow-engine"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 19989,
+    "forks": 8664,
+    "watchers": 10,
+    "open_issues": 591,
+    "description": "RocketRide is an open source AI meta-harness with the only enterprise-grade runtime built on C++. Build, test and publish durable agents that scale in production.",
+    "topics": [
+      "agent-framework",
+      "agent-harness",
+      "agent-orchestration",
+      "agentic-ai",
+      "ai-agents",
+      "ai-observability",
+      "cpp",
+      "document-processing",
+      "llm",
+      "llmops",
+      "mcp",
+      "mcp-server",
+      "meta-harness",
+      "model-context-protocol",
+      "open-source",
+      "rag",
+      "self-hosted",
+      "visual-programming",
+      "vscode-extension",
+      "workflow-engine"
+    ]
   }
 ]

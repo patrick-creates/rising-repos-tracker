@@ -986,5 +986,27 @@
       "llm",
       "skills"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 17418,
+    "forks": 1794,
+    "watchers": 46,
+    "open_issues": 360,
+    "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+    "topics": [
+      "awesome",
+      "awesome-lists",
+      "awesome-resources",
+      "codex",
+      "codex-cli",
+      "codex-skills",
+      "coding-agent-skills",
+      "coding-agents",
+      "gpt-5-1-codex",
+      "gpt-5-codex",
+      "llm",
+      "skills"
+    ]
   }
 ]

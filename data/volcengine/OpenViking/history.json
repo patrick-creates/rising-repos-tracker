@@ -1428,5 +1428,26 @@
       "self-evolving",
       "vector-database"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 42690,
+    "forks": 3553,
+    "watchers": 112,
+    "open_issues": 1675,
+    "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+    "topics": [
+      "agent-context",
+      "agent-memory",
+      "agent-plugins",
+      "agentic-rag",
+      "context-database",
+      "dsh-plugin",
+      "knowledge-base",
+      "memory",
+      "memory-management",
+      "self-evolving",
+      "vector-database"
+    ]
   }
 ]

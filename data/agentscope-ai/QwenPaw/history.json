@@ -1402,5 +1402,31 @@
       "super-agent",
       "webui"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 38173,
+    "forks": 3309,
+    "watchers": 111,
+    "open_issues": 1172,
+    "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
+    "topics": [
+      "agent",
+      "agent-harness",
+      "agentscope",
+      "ai-agent",
+      "ai-agents",
+      "chatbot",
+      "harness-engineering",
+      "llm-tools",
+      "llms",
+      "loop-engineering",
+      "mcp",
+      "personal-ai-assistant",
+      "self-hosted",
+      "skills",
+      "super-agent",
+      "webui"
+    ]
   }
 ]

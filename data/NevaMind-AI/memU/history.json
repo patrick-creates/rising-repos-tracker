@@ -1310,5 +1310,25 @@
       "sandbox",
       "skills"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 14636,
+    "forks": 1104,
+    "watchers": 64,
+    "open_issues": 130,
+    "description": "Personal memory across agents",
+    "topics": [
+      "agent-memory",
+      "claude-skills",
+      "harness",
+      "loop-engineering",
+      "mcp",
+      "memory",
+      "openclaw",
+      "openclaw-skills",
+      "sandbox",
+      "skills"
+    ]
   }
 ]

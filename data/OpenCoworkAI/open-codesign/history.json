@@ -28,5 +28,35 @@
       "typescript",
       "ui-generator"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 8251,
+    "forks": 879,
+    "watchers": 33,
+    "open_issues": 94,
+    "description": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT.",
+    "topics": [
+      "ai-design",
+      "anthropic",
+      "byok",
+      "claude",
+      "claude-code",
+      "claude-design",
+      "claude-design-alternative",
+      "deepseek",
+      "design-to-code",
+      "desktop-app",
+      "electron",
+      "figma-alternative",
+      "gemini",
+      "local-first",
+      "multi-model",
+      "ollama",
+      "openai",
+      "openrouter",
+      "typescript",
+      "ui-generator"
+    ]
   }
 ]

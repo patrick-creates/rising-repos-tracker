@@ -14,5 +14,21 @@
       "kubernetes",
       "sandbox"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 17876,
+    "forks": 1725,
+    "watchers": 65,
+    "open_issues": 216,
+    "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
+    "topics": [
+      "aaif",
+      "ai",
+      "ai-agent",
+      "ai-infra",
+      "kubernetes",
+      "sandbox"
+    ]
   }
 ]

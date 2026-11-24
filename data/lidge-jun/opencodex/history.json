@@ -28,5 +28,35 @@
       "proxy",
       "typescript"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 18734,
+    "forks": 1541,
+    "watchers": 27,
+    "open_issues": 133,
+    "description": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
+    "topics": [
+      "ai-gateway",
+      "ai-tools",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "codex",
+      "codex-cli",
+      "deepseek",
+      "developer-tools",
+      "gemini",
+      "grok",
+      "kiro",
+      "llm",
+      "llm-proxy",
+      "ollama",
+      "openai",
+      "openrouter",
+      "proxy",
+      "typescript"
+    ]
   }
 ]

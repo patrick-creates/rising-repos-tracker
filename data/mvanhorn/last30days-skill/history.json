@@ -1482,5 +1482,35 @@
       "twitter",
       "youtube"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 73933,
+    "forks": 6520,
+    "watchers": 227,
+    "open_issues": 34,
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "topics": [
+      "agent-skills",
+      "artificial-intelligence",
+      "automation",
+      "bot",
+      "command-line",
+      "data-science",
+      "dsh",
+      "dsh-plugin",
+      "golang",
+      "instagram",
+      "llms",
+      "nlp",
+      "osint",
+      "polymarket",
+      "python3",
+      "reddit",
+      "terminal",
+      "tiktok",
+      "twitter",
+      "youtube"
+    ]
   }
 ]

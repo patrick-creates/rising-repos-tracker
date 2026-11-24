@@ -586,5 +586,35 @@
       "video-editing",
       "video-generation"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 31348,
+    "forks": 3712,
+    "watchers": 67,
+    "open_issues": 129,
+    "description": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
+    "topics": [
+      "agentic-ai",
+      "ai",
+      "ai-agents",
+      "ai-video",
+      "compiler",
+      "dsl",
+      "ffmpeg",
+      "generative-ai",
+      "llm",
+      "markup-language",
+      "monorepo",
+      "plugin-system",
+      "programming-language",
+      "text-to-video",
+      "typescript",
+      "video",
+      "video-automation",
+      "video-clone",
+      "video-editing",
+      "video-generation"
+    ]
   }
 ]

@@ -1650,5 +1650,35 @@
       "open-source",
       "resume"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 84563,
+    "forks": 15469,
+    "watchers": 262,
+    "open_issues": 450,
+    "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
+    "topics": [
+      "agent-skills",
+      "ai-agent",
+      "ai-job-search",
+      "ats",
+      "career",
+      "career-ops",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-plugin",
+      "cover-letter",
+      "cv",
+      "gemini-cli-extension",
+      "good-first-issue",
+      "interview-preparation",
+      "job-application",
+      "job-hunting",
+      "job-search",
+      "latex",
+      "open-source",
+      "resume"
+    ]
   }
 ]

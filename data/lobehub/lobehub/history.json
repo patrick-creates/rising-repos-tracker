@@ -1622,5 +1622,25 @@
       "super-agent",
       "task-management"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 86094,
+    "forks": 16360,
+    "watchers": 301,
+    "open_issues": 1459,
+    "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
+    "topics": [
+      "agent",
+      "agent-collaboration",
+      "agent-harness",
+      "loop-engineering",
+      "mcp",
+      "personal-assistant",
+      "proactive-agent",
+      "skills",
+      "super-agent",
+      "task-management"
+    ]
   }
 ]

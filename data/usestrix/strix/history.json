@@ -1538,5 +1538,35 @@
       "security",
       "security-automation"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 77386,
+    "forks": 8811,
+    "watchers": 315,
+    "open_issues": 626,
+    "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+    "topics": [
+      "agents",
+      "ai-hacking",
+      "ai-penetration-testing",
+      "ai-pentesting",
+      "ai-security",
+      "artificial-intelligence",
+      "bug-bounty",
+      "code-quality",
+      "ctf-tools",
+      "cybersecurity",
+      "cybersecurity-tools",
+      "ethical-hacking",
+      "hacking",
+      "llm-security",
+      "offensive-security",
+      "penetration-testing",
+      "pentesting-tools",
+      "red-teaming",
+      "security",
+      "security-automation"
+    ]
   }
 ]

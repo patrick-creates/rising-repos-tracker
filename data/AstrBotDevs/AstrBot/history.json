@@ -1520,5 +1520,32 @@
       "qqbot",
       "telegram"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "stars": 47437,
+    "forks": 3667,
+    "watchers": 101,
+    "open_issues": 1292,
+    "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+    "topics": [
+      "agent",
+      "ai",
+      "astrbot",
+      "chatbot",
+      "chatgpt",
+      "discord",
+      "docker",
+      "gemini",
+      "gpt",
+      "llama",
+      "llm",
+      "mcp",
+      "openai",
+      "python",
+      "qq",
+      "qqbot",
+      "telegram"
+    ]
   }
 ]
