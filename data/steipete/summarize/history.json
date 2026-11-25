@@ -1120,5 +1120,19 @@
       "summarize",
       "typescript"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 6877,
+    "forks": 461,
+    "watchers": 17,
+    "open_issues": 7,
+    "description": "Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension.",
+    "topics": [
+      "ai",
+      "cli",
+      "summarize",
+      "typescript"
+    ]
   }
 ]

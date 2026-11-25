@@ -1631,5 +1631,28 @@
       "rust",
       "token-optimization"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 87799,
+    "forks": 5635,
+    "watchers": 213,
+    "open_issues": 1731,
+    "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+    "topics": [
+      "agentic-coding",
+      "ai-coding",
+      "anthropic",
+      "claude-code",
+      "cli",
+      "command-line-tool",
+      "cost-reduction",
+      "developer-tools",
+      "llm",
+      "open-source",
+      "productivity",
+      "rust",
+      "token-optimization"
+    ]
   }
 ]

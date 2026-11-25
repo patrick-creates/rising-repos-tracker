@@ -1659,5 +1659,32 @@
       "skill",
       "workflow-automation"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 80281,
+    "forks": 9873,
+    "watchers": 473,
+    "open_issues": 1925,
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "antigravity",
+      "automation",
+      "claude",
+      "claude-code",
+      "codex",
+      "composio",
+      "cursor",
+      "developer-tools",
+      "gemini-cli",
+      "mcp",
+      "openai-codex",
+      "rube",
+      "saas",
+      "skill",
+      "workflow-automation"
+    ]
   }
 ]

@@ -56,5 +56,34 @@
       "productivity",
       "token-optimization"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 8107,
+    "forks": 575,
+    "watchers": 28,
+    "open_issues": 44,
+    "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
+    "topics": [
+      "agentic-ai",
+      "agentic-coding",
+      "ai-coding",
+      "ai-coding-assistant",
+      "anthropic",
+      "artificial-intelligence",
+      "claude-code",
+      "codex",
+      "coding-agent",
+      "coding-agents",
+      "cost-optimization",
+      "cost-reduction",
+      "developer-tools",
+      "github-copilot",
+      "llm",
+      "open-source",
+      "openai",
+      "productivity",
+      "token-optimization"
+    ]
   }
 ]

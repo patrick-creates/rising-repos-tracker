@@ -1029,5 +1029,30 @@
       "typescript",
       "vulnerability-scanning"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 14354,
+    "forks": 1140,
+    "watchers": 54,
+    "open_issues": 216,
+    "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+    "topics": [
+      "ai-security",
+      "application-security",
+      "cli",
+      "code-scanning",
+      "codex",
+      "codex-security",
+      "cybersecurity",
+      "devsecops",
+      "nodejs",
+      "npm",
+      "openai",
+      "sdk",
+      "security",
+      "typescript",
+      "vulnerability-scanning"
+    ]
   }
 ]

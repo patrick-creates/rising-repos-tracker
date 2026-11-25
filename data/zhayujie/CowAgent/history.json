@@ -1659,5 +1659,32 @@
       "personal-agent",
       "skills"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 48069,
+    "forks": 10447,
+    "watchers": 310,
+    "open_issues": 41,
+    "description": "Open-source personal AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, multi-channel. Lightweight, extensible, one-line install.",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "chatgpt-on-wechat",
+      "claude",
+      "claude-code",
+      "codex",
+      "cowagent",
+      "deepseek",
+      "harness",
+      "llm",
+      "mcp",
+      "multi-agent",
+      "openai",
+      "openclaw",
+      "personal-agent",
+      "skills"
+    ]
   }
 ]

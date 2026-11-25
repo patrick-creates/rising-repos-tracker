@@ -1685,5 +1685,30 @@
       "ui",
       "webui"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 159530,
+    "forks": 23147,
+    "watchers": 686,
+    "open_issues": 214,
+    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+    "topics": [
+      "ai",
+      "llm",
+      "llm-ui",
+      "llm-webui",
+      "llms",
+      "mcp",
+      "ollama",
+      "ollama-webui",
+      "open-webui",
+      "openai",
+      "openapi",
+      "rag",
+      "self-hosted",
+      "ui",
+      "webui"
+    ]
   }
 ]

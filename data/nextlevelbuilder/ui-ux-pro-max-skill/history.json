@@ -1713,5 +1713,34 @@
       "uikit",
       "windsurf-ai"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 154061,
+    "forks": 16226,
+    "watchers": 609,
+    "open_issues": 90,
+    "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
+    "topics": [
+      "ai-skills",
+      "antigravity",
+      "claude",
+      "claude-code",
+      "codex",
+      "command-line",
+      "copilot",
+      "cursor-ai",
+      "html5",
+      "kiro",
+      "landing-page",
+      "mobile-ui",
+      "qoder",
+      "react",
+      "tailwindcss",
+      "trae",
+      "ui-design",
+      "uikit",
+      "windsurf-ai"
+    ]
   }
 ]

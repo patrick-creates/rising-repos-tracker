@@ -1720,5 +1720,35 @@
       "rag",
       "typescript"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 149979,
+    "forks": 25164,
+    "watchers": 926,
+    "open_issues": 784,
+    "description": "The agent engineering platform.",
+    "topics": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "deepagents",
+      "enterprise",
+      "framework",
+      "gemini",
+      "generative-ai",
+      "langchain",
+      "langgraph",
+      "llm",
+      "multiagent",
+      "open-source",
+      "openai",
+      "pydantic",
+      "python",
+      "rag",
+      "typescript"
+    ]
   }
 ]

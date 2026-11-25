@@ -1540,5 +1540,31 @@
       "oauth2",
       "rust"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 32474,
+    "forks": 2017,
+    "watchers": 96,
+    "open_issues": 149,
+    "description": " Community CLI for Google Workspace APIs.",
+    "topics": [
+      "agent-skills",
+      "ai-agent",
+      "automation",
+      "cli",
+      "discovery-api",
+      "gemini-cli-extension",
+      "google-admin",
+      "google-api",
+      "google-calendar",
+      "google-chat",
+      "google-docs",
+      "google-drive",
+      "google-sheets",
+      "google-workspace",
+      "oauth2",
+      "rust"
+    ]
   }
 ]

@@ -504,5 +504,35 @@
       "touhou",
       "typescript"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 478061,
+    "forks": 116301,
+    "watchers": 1789,
+    "open_issues": 1182,
+    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+    "topics": [
+      "agent-skills",
+      "ai",
+      "android",
+      "claude-code",
+      "cli",
+      "cpp",
+      "dsh-plugin",
+      "html",
+      "java",
+      "javascript",
+      "linux",
+      "mcp",
+      "nodejs",
+      "python",
+      "rea",
+      "react",
+      "rust",
+      "security",
+      "touhou",
+      "typescript"
+    ]
   }
 ]

@@ -1421,5 +1421,22 @@
       "llm",
       "transformer"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 43149,
+    "forks": 5406,
+    "watchers": 217,
+    "open_issues": 76,
+    "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
+    "topics": [
+      "abliteration",
+      "anti-censorship",
+      "anticensorship",
+      "censorship",
+      "censorship-resistance",
+      "llm",
+      "transformer"
+    ]
   }
 ]

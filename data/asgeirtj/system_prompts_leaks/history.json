@@ -1680,5 +1680,35 @@
       "system-prompt",
       "system-prompts"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 72631,
+    "forks": 11698,
+    "watchers": 778,
+    "open_issues": 27,
+    "description": "Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, in full, every version since May 2025. Also Anthropic Claude Code, OpenAI Codex, Google Antigravity, xAI Grok, Meta Muse, Moonshot Kimi, Alibaba Qwen, Z.ai GLM ZCode, MiniMax, Cursor, Perplexity, DeepSeek and 30+ others. Updated daily.",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-prompts",
+      "anthropic",
+      "chatbot",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini",
+      "generative-ai",
+      "google",
+      "grok",
+      "llm",
+      "openai",
+      "prompt",
+      "prompt-engineering",
+      "system-prompt",
+      "system-prompts"
+    ]
   }
 ]

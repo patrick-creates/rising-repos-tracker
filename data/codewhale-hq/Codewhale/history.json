@@ -1610,5 +1610,33 @@
       "terminal",
       "tui"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 41206,
+    "forks": 3579,
+    "watchers": 157,
+    "open_issues": 67,
+    "description": "Open-source Rust coding agent for terminal, web, and desktop. Any model, multi-agent fleets, MCP & plugins, OS sandboxing, and session receipts.",
+    "topics": [
+      "agent-client-protocol",
+      "agent-orchestration",
+      "ai-agent",
+      "ai-coding",
+      "cli",
+      "coding-agent",
+      "deepseek",
+      "developer-tools",
+      "llm",
+      "local-llm",
+      "mcp",
+      "multi-agent",
+      "ollama",
+      "open-source",
+      "openai-compatible",
+      "rust",
+      "terminal",
+      "tui"
+    ]
   }
 ]

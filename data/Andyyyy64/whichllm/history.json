@@ -1043,5 +1043,16 @@
     "topics": [
       "localllm"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 6860,
+    "forks": 380,
+    "watchers": 23,
+    "open_issues": 7,
+    "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
+    "topics": [
+      "localllm"
+    ]
   }
 ]

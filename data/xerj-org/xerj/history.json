@@ -392,5 +392,35 @@
       "search-engine",
       "vector-search"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 21467,
+    "forks": 1332,
+    "watchers": 205,
+    "open_issues": 257,
+    "description": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
+    "topics": [
+      "agent-memory",
+      "ai-agents",
+      "bm25",
+      "claude-code",
+      "cli",
+      "code-search",
+      "cursor",
+      "database",
+      "elasticsearch",
+      "full-text-search",
+      "hybrid-search",
+      "jsonl",
+      "local-first",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "rag",
+      "rust",
+      "search-engine",
+      "vector-search"
+    ]
   }
 ]

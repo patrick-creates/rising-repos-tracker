@@ -1533,5 +1533,22 @@
       "quantitative-finance",
       "quantitative-trading"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 74537,
+    "forks": 58578,
+    "watchers": 285,
+    "open_issues": 52,
+    "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "topics": [
+      "a-stock",
+      "ai-agent",
+      "aigc",
+      "llm",
+      "quant",
+      "quantitative-finance",
+      "quantitative-trading"
+    ]
   }
 ]

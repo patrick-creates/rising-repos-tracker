@@ -1540,5 +1540,23 @@
       "grok",
       "llm-agents"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 46718,
+    "forks": 2785,
+    "watchers": 183,
+    "open_issues": 11,
+    "description": "免费大模型API，支持免费调用GPT、DeepSeek等主流模型，免费额度10000点，每日刷新！另付费价格最低官方1-2折！",
+    "topics": [
+      "api",
+      "chatgpt",
+      "claude",
+      "deepseek",
+      "gemini",
+      "gpt",
+      "grok",
+      "llm-agents"
+    ]
   }
 ]

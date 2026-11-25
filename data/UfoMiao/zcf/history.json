@@ -1232,5 +1232,35 @@
       "workflow",
       "zcf"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 6065,
+    "forks": 419,
+    "watchers": 27,
+    "open_issues": 38,
+    "description": "Zero-Config Code Flow for Claude code & Codex",
+    "topics": [
+      "agent",
+      "ai",
+      "ai-agent",
+      "bmad-method",
+      "ccr",
+      "claude",
+      "claude-4",
+      "claude-ai",
+      "claude-code",
+      "cli",
+      "gpt",
+      "gpt-5",
+      "llm",
+      "llm-code",
+      "nodejs",
+      "openai",
+      "prompt",
+      "typescript",
+      "workflow",
+      "zcf"
+    ]
   }
 ]

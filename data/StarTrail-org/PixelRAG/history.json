@@ -1155,5 +1155,24 @@
       "vision",
       "vlm"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 10978,
+    "forks": 986,
+    "watchers": 37,
+    "open_issues": 12,
+    "description": "https://arxiv.org/abs/2606.28344. The end of web parsing. The beginning of scalable pixel-native search. link: https://pixelrag.ai/",
+    "topics": [
+      "agent",
+      "ai",
+      "memory",
+      "multimodal",
+      "rag",
+      "search",
+      "searchengine",
+      "vision",
+      "vlm"
+    ]
   }
 ]

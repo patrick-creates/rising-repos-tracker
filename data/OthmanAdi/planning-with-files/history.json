@@ -58,5 +58,35 @@
       "planning",
       "session-recovery"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 28230,
+    "forks": 2333,
+    "watchers": 113,
+    "open_issues": 13,
+    "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
+    "topics": [
+      "agent-skills",
+      "autonomous-agents",
+      "claude",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "coding-agent",
+      "context-engineering",
+      "context-rot",
+      "cursor",
+      "github-copilot",
+      "hermes-plugin",
+      "hermes-skill",
+      "llm-agents",
+      "long-running-agents",
+      "manus",
+      "multi-agent-systems",
+      "planning",
+      "session-recovery"
+    ]
   }
 ]

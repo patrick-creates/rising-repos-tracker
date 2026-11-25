@@ -749,5 +749,30 @@
       "testflight",
       "xcode"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 8519,
+    "forks": 742,
+    "watchers": 16,
+    "open_issues": 7,
+    "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more",
+    "topics": [
+      "app-store-connect",
+      "apple",
+      "automation",
+      "cicd",
+      "cli",
+      "command-line-tool",
+      "developer-tools",
+      "devops",
+      "go",
+      "golang",
+      "ios",
+      "macos",
+      "swift",
+      "testflight",
+      "xcode"
+    ]
   }
 ]

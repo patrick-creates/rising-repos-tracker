@@ -1666,5 +1666,33 @@
       "vercel",
       "webui"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 88982,
+    "forks": 58428,
+    "watchers": 489,
+    "open_issues": 870,
+    "description": "✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows.",
+    "topics": [
+      "calclaude",
+      "claude",
+      "cross-platform",
+      "desktop",
+      "fe",
+      "gemini",
+      "gemini-pro",
+      "gemini-server",
+      "gemini-ultra",
+      "gpt-4o",
+      "groq",
+      "nextjs",
+      "ollama",
+      "react",
+      "tauri",
+      "tauri-app",
+      "vercel",
+      "webui"
+    ]
   }
 ]

@@ -50,5 +50,31 @@
       "prompts",
       "text-rendering"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 10335,
+    "forks": 903,
+    "watchers": 38,
+    "open_issues": 4,
+    "description": "🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustration. Free & open source.",
+    "topics": [
+      "ai-image-generation",
+      "ai-prompts",
+      "awesome",
+      "awesome-list",
+      "commercial-illustration",
+      "duct-tape",
+      "gpt",
+      "gpt-image",
+      "gpt-image-2",
+      "image-generation",
+      "multilingual",
+      "openai",
+      "openai-image",
+      "prompt-engineering",
+      "prompts",
+      "text-rendering"
+    ]
   }
 ]

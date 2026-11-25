@@ -1652,5 +1652,31 @@
       "rust-ai",
       "vertex-ai"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "stars": 63897,
+    "forks": 13559,
+    "watchers": 241,
+    "open_issues": 5521,
+    "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+    "topics": [
+      "ai-gateway",
+      "anthropic",
+      "azure-openai",
+      "bedrock",
+      "gateway",
+      "langchain",
+      "litellm",
+      "llm",
+      "llm-gateway",
+      "llmops",
+      "mcp-gateway",
+      "openai",
+      "openai-proxy",
+      "rust",
+      "rust-ai",
+      "vertex-ai"
+    ]
   }
 ]
