@@ -1598,5 +1598,35 @@
       "skills",
       "webui"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "stars": 34519,
+    "forks": 3614,
+    "watchers": 145,
+    "open_issues": 906,
+    "description": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up｜Star if you like it!",
+    "topics": [
+      "acp",
+      "agent-team",
+      "ai",
+      "ai-agent",
+      "chat",
+      "chatbot",
+      "claude-code",
+      "clawdbot",
+      "codex",
+      "cowork",
+      "gemini",
+      "gemini-cli",
+      "hermes",
+      "llm",
+      "nano-banana",
+      "office",
+      "openclaw",
+      "opencode",
+      "skills",
+      "webui"
+    ]
   }
 ]

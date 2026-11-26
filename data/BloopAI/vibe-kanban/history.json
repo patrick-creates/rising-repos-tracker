@@ -1478,5 +1478,20 @@
       "management",
       "task-manager"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "stars": 28830,
+    "forks": 3072,
+    "watchers": 111,
+    "open_issues": 537,
+    "description": "Get 10X more out of Claude Code, Codex or any coding agent",
+    "topics": [
+      "agent",
+      "ai-agents",
+      "kanban",
+      "management",
+      "task-manager"
+    ]
   }
 ]

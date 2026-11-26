@@ -1614,5 +1614,23 @@
       "mcp-server",
       "puppeteer"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "stars": 59461,
+    "forks": 4893,
+    "watchers": 257,
+    "open_issues": 118,
+    "description": "Chrome DevTools for coding agents",
+    "topics": [
+      "browser",
+      "chrome",
+      "chrome-devtools",
+      "debugging",
+      "devtools",
+      "mcp",
+      "mcp-server",
+      "puppeteer"
+    ]
   }
 ]

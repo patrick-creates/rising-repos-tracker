@@ -1486,5 +1486,35 @@
       "qwen",
       "token-saver"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "stars": 32870,
+    "forks": 6438,
+    "watchers": 143,
+    "open_issues": 2913,
+    "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+    "topics": [
+      "ai-agents",
+      "ai-gateway",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "cline",
+      "codex",
+      "copilot",
+      "cursor",
+      "deepseek",
+      "free-ai",
+      "gemini",
+      "gemini-cli",
+      "llm",
+      "llm-gateway",
+      "openai",
+      "openai-proxy",
+      "qwen",
+      "token-saver"
+    ]
   }
 ]

@@ -310,5 +310,30 @@
       "llm",
       "macos"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "stars": 41936,
+    "forks": 3850,
+    "watchers": 46,
+    "open_issues": 5242,
+    "description": "Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over.",
+    "topics": [
+      "ai-agents",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "codex",
+      "deepseek",
+      "gemini-cli",
+      "github-copilot",
+      "glm",
+      "kimi",
+      "linux",
+      "llm",
+      "llm-gateway",
+      "macos",
+      "windows"
+    ]
   }
 ]

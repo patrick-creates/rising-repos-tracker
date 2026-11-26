@@ -574,5 +574,26 @@
       "tokenomics",
       "tokenops"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "stars": 11927,
+    "forks": 3215,
+    "watchers": 18,
+    "open_issues": 86,
+    "description": "The Open Runtime for AI Agents",
+    "topics": [
+      "agent-security",
+      "ai",
+      "ai-agents",
+      "cli",
+      "hacktoberfest",
+      "llms",
+      "mcp-gateway",
+      "multi-agent",
+      "rust",
+      "tokenomics",
+      "tokenops"
+    ]
   }
 ]

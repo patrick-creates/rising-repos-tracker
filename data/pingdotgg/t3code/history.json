@@ -158,5 +158,23 @@
       "code",
       "vibe-coding"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "stars": 80498,
+    "forks": 14211,
+    "watchers": 127,
+    "open_issues": 3793,
+    "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+    "topics": [
+      "agent-orchestration",
+      "agents",
+      "ai",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "code",
+      "vibe-coding"
+    ]
   }
 ]

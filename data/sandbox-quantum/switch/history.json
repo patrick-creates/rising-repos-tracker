@@ -88,5 +88,35 @@
       "slack",
       "telegram"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "stars": 4816,
+    "forks": 378,
+    "watchers": 8,
+    "open_issues": 567,
+    "description": "Open-source AI teammates in Slack, Teams, Discord, Telegram and Mattermost. Bring Claude Code, Codex, Gemini (Antigravity), Cursor, GitHub Copilot or your own agent on any model, and connect them to GitHub, Jira, Notion, Linear, Google Workspace and more. Self-hosted multi-agent orchestration with MCP.",
+    "topics": [
+      "agent-orchestration",
+      "ai-agents",
+      "anthropic",
+      "chatops",
+      "claude-code",
+      "codex",
+      "cursor",
+      "discord",
+      "gemini",
+      "github-copilot",
+      "langchain",
+      "llm",
+      "mcp",
+      "microsoft-teams",
+      "multi-agent",
+      "open-source",
+      "openai",
+      "self-hosted",
+      "slack",
+      "telegram"
+    ]
   }
 ]

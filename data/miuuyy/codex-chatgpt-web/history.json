@@ -58,5 +58,25 @@
       "responses-api",
       "typescript"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "stars": 15937,
+    "forks": 1242,
+    "watchers": 45,
+    "open_issues": 9,
+    "description": "Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota.",
+    "topics": [
+      "chatgpt",
+      "chatgpt-pro",
+      "codex",
+      "free-ai",
+      "mcp",
+      "openai",
+      "playwright",
+      "quickstart",
+      "responses-api",
+      "typescript"
+    ]
   }
 ]

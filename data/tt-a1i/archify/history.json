@@ -590,5 +590,35 @@
       "system-design",
       "visualization"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "stars": 100380,
+    "forks": 6870,
+    "watchers": 236,
+    "open_issues": 363,
+    "description": "Turn any idea, plan, or codebase into an interactive diagram or one-page answer: 10 diagram types, Architecture Diagnosis, Story video and PR walkthroughs. An Agent Skill for Claude Code, Codex, Cursor and more.",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "architecture-diagram",
+      "claude-code",
+      "claude-skills",
+      "code-analysis",
+      "codex",
+      "coding-agents",
+      "deepseek-harness",
+      "developer-tools",
+      "diagrams",
+      "diagrams-as-code",
+      "dsh-plugin",
+      "flowchart",
+      "llm",
+      "mermaid",
+      "opencode",
+      "software-architecture",
+      "system-design",
+      "visualization"
+    ]
   }
 ]

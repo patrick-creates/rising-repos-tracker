@@ -1518,5 +1518,32 @@
       "typescript",
       "workflow"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "stars": 21826,
+    "forks": 3142,
+    "watchers": 121,
+    "open_issues": 580,
+    "description": "An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.",
+    "topics": [
+      "agent",
+      "agent-platform",
+      "ai-plugins",
+      "chatbot",
+      "chatbot-framework",
+      "coze",
+      "coze-platform",
+      "generative-ai",
+      "go",
+      "kouzi",
+      "low-code-ai",
+      "multimodel-ai",
+      "no-code",
+      "rag",
+      "studio",
+      "typescript",
+      "workflow"
+    ]
   }
 ]

@@ -1318,5 +1318,35 @@
       "skill-library",
       "skills"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "stars": 8752,
+    "forks": 850,
+    "watchers": 37,
+    "open_issues": 40,
+    "description": "The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai",
+    "topics": [
+      "a2a",
+      "agent-evolution",
+      "agent-framework",
+      "agent-protocol",
+      "ai-agent",
+      "auditable-ai",
+      "autonomous-agent",
+      "cli",
+      "evomap",
+      "gep",
+      "llm-agent",
+      "mcp",
+      "memory-system",
+      "nodejs",
+      "prompt-engineering",
+      "prompt-governance",
+      "self-evolution",
+      "self-evolving",
+      "skill-library",
+      "skills"
+    ]
   }
 ]

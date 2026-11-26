@@ -430,5 +430,22 @@
       "local-first",
       "long-term-memory"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "stars": 12523,
+    "forks": 1800,
+    "watchers": 75,
+    "open_issues": 639,
+    "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "local-first",
+      "long-term-memory"
+    ]
   }
 ]

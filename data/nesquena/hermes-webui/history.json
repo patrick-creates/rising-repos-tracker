@@ -1310,5 +1310,20 @@
       "hermes-agent",
       "nous-research"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "stars": 19638,
+    "forks": 2868,
+    "watchers": 62,
+    "open_issues": 1041,
+    "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+    "topics": [
+      "agent",
+      "ai-agents",
+      "hermes",
+      "hermes-agent",
+      "nous-research"
+    ]
   }
 ]

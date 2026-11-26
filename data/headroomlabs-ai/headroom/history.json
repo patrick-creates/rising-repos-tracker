@@ -1486,5 +1486,35 @@
       "tokens",
       "typescript"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "stars": 80917,
+    "forks": 6353,
+    "watchers": 215,
+    "open_issues": 333,
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+    "topics": [
+      "agent",
+      "ai",
+      "anthropic",
+      "claude-code",
+      "compression",
+      "context-engineering",
+      "context-window",
+      "cursor",
+      "fastapi",
+      "langchain",
+      "llm",
+      "mcp",
+      "openai",
+      "prompt-engineering",
+      "proxy",
+      "python",
+      "rag",
+      "token-optimization",
+      "tokens",
+      "typescript"
+    ]
   }
 ]

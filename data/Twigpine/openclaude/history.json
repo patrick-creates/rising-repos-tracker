@@ -1478,5 +1478,20 @@
       "cli",
       "coding"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "stars": 34551,
+    "forks": 9121,
+    "watchers": 220,
+    "open_issues": 41,
+    "description": "runs anywhere. uses anything",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-tools",
+      "cli",
+      "coding"
+    ]
   }
 ]
