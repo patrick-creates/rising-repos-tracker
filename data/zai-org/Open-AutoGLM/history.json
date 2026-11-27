@@ -1410,5 +1410,17 @@
       "agent",
       "phone-use-agent"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 26690,
+    "forks": 4064,
+    "watchers": 109,
+    "open_issues": 280,
+    "description": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone",
+    "topics": [
+      "agent",
+      "phone-use-agent"
+    ]
   }
 ]

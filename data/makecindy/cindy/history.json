@@ -333,5 +333,28 @@
       "typescript",
       "windows"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 10731,
+    "forks": 1375,
+    "watchers": 31,
+    "open_issues": 4130,
+    "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+    "topics": [
+      "agent",
+      "ai-agent",
+      "ai-assistant",
+      "android",
+      "claude-code",
+      "codex",
+      "electron",
+      "ios",
+      "llm",
+      "macos",
+      "react-native",
+      "typescript",
+      "windows"
+    ]
   }
 ]

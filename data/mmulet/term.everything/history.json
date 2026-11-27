@@ -1202,5 +1202,25 @@
       "wayland",
       "wayland-compositor"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 8128,
+    "forks": 199,
+    "watchers": 24,
+    "open_issues": 17,
+    "description": "Run any GUI app in the terminal❗",
+    "topics": [
+      "alacritty",
+      "cli",
+      "foss",
+      "iterm2",
+      "kitty",
+      "linux",
+      "ssh",
+      "terminal",
+      "wayland",
+      "wayland-compositor"
+    ]
   }
 ]

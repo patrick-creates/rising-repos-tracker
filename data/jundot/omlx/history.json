@@ -1382,5 +1382,21 @@
       "mlx",
       "openai-api"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 24033,
+    "forks": 2225,
+    "watchers": 113,
+    "open_issues": 419,
+    "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+    "topics": [
+      "apple-silicon",
+      "inference-server",
+      "llm",
+      "macos",
+      "mlx",
+      "openai-api"
+    ]
   }
 ]

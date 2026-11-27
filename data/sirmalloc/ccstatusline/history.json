@@ -1314,5 +1314,25 @@
       "terminal",
       "themeing"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 13703,
+    "forks": 615,
+    "watchers": 26,
+    "open_issues": 145,
+    "description": "🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more.",
+    "topics": [
+      "ai-tools",
+      "claude-code",
+      "cli",
+      "developer-tools",
+      "git",
+      "powerline",
+      "statusbar",
+      "statusline",
+      "terminal",
+      "themeing"
+    ]
   }
 ]

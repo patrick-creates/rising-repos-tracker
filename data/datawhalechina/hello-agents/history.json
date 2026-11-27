@@ -1596,5 +1596,19 @@
       "rag",
       "tutorial"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 88096,
+    "forks": 11002,
+    "watchers": 242,
+    "open_issues": 187,
+    "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+    "topics": [
+      "agent",
+      "llm",
+      "rag",
+      "tutorial"
+    ]
   }
 ]

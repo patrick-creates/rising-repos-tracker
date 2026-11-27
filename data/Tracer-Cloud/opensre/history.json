@@ -351,5 +351,30 @@
       "site-reliability-engineering",
       "slack"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 16018,
+    "forks": 2114,
+    "watchers": 66,
+    "open_issues": 31,
+    "description": "The open-source agent for CI/CD reliability.",
+    "topics": [
+      "alerting",
+      "ci-cd",
+      "cli",
+      "datadog",
+      "devops",
+      "gitlab-ci",
+      "grafana",
+      "incident-management",
+      "llm",
+      "observability",
+      "ollama",
+      "remediation",
+      "root-cause-analysis",
+      "site-reliability-engineering",
+      "slack"
+    ]
   }
 ]

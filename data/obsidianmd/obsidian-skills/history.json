@@ -1628,5 +1628,35 @@
       "opencode",
       "skills"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 54236,
+    "forks": 3859,
+    "watchers": 238,
+    "open_issues": 5,
+    "description": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
+    "topics": [
+      "agents",
+      "agentskills",
+      "bases",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "cli",
+      "codex",
+      "defuddle",
+      "grok-bot",
+      "hermes",
+      "jsoncanvas",
+      "knap",
+      "markdown",
+      "md",
+      "obsidian",
+      "openclaw",
+      "opencode",
+      "skills"
+    ]
   }
 ]

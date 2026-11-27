@@ -1547,5 +1547,26 @@
       "ui-design",
       "web-design"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 122212,
+    "forks": 8237,
+    "watchers": 307,
+    "open_issues": 26,
+    "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "anti-slop",
+      "claude-code",
+      "codex",
+      "cursor",
+      "design-system",
+      "frontend",
+      "landing-page",
+      "ui-design",
+      "web-design"
+    ]
   }
 ]

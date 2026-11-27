@@ -1547,5 +1547,35 @@
       "video-editor",
       "video-generation"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 91291,
+    "forks": 8523,
+    "watchers": 211,
+    "open_issues": 324,
+    "description": "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen.",
+    "topics": [
+      "agent-skills",
+      "ai",
+      "ai-agents",
+      "ai-video",
+      "ai-video-editor",
+      "animation",
+      "claude-code",
+      "ffmpeg",
+      "gsap",
+      "html",
+      "html-to-video",
+      "mcp",
+      "motion-graphics",
+      "puppeteer",
+      "remotion-alternative",
+      "rendering",
+      "typescript",
+      "video-editing",
+      "video-editor",
+      "video-generation"
+    ]
   }
 ]

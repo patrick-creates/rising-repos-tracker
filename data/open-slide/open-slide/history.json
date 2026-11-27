@@ -915,5 +915,18 @@
       "react",
       "slides"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 9943,
+    "forks": 725,
+    "watchers": 16,
+    "open_issues": 115,
+    "description": "A slide framework built for agents.",
+    "topics": [
+      "agent",
+      "react",
+      "slides"
+    ]
   }
 ]

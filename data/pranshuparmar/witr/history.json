@@ -1404,5 +1404,35 @@
       "tui",
       "windows"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 23460,
+    "forks": 833,
+    "watchers": 51,
+    "open_issues": 6,
+    "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI. ",
+    "topics": [
+      "cli",
+      "containers",
+      "devops",
+      "docker",
+      "freebsd",
+      "go",
+      "golang",
+      "incident-response",
+      "kubernetes",
+      "linux",
+      "macos",
+      "monitoring",
+      "observability",
+      "process-management",
+      "sysadmin",
+      "systemd",
+      "terminal",
+      "troubleshooting",
+      "tui",
+      "windows"
+    ]
   }
 ]

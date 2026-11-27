@@ -86,5 +86,27 @@
       "unity",
       "unreal-engine"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 41156,
+    "forks": 5401,
+    "watchers": 276,
+    "open_issues": 96,
+    "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 75 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+    "topics": [
+      "ai-agents",
+      "ai-assisted-development",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "game-design",
+      "game-development",
+      "gamedev",
+      "godot",
+      "indie-game-dev",
+      "unity",
+      "unreal-engine"
+    ]
   }
 ]

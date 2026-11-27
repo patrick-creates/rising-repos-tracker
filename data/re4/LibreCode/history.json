@@ -1166,5 +1166,21 @@
       "decompiler",
       "reversing"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 86,
+    "forks": 4,
+    "watchers": 0,
+    "open_issues": 0,
+    "description": "LibreCode - A Ollama cursor like coding / Reversing Interface",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "coding",
+      "csharp",
+      "decompiler",
+      "reversing"
+    ]
   }
 ]

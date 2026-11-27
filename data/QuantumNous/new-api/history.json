@@ -1603,5 +1603,26 @@
       "rerank",
       "self-hosted"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 52647,
+    "forks": 12887,
+    "watchers": 165,
+    "open_issues": 1502,
+    "description": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.",
+    "topics": [
+      "ai-gateway",
+      "api-management",
+      "claude",
+      "deepseek",
+      "gemini",
+      "llm-gateway",
+      "model-routing",
+      "newapi",
+      "openai",
+      "rerank",
+      "self-hosted"
+    ]
   }
 ]

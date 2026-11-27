@@ -1516,5 +1516,35 @@
       "vscode",
       "workflow"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 20528,
+    "forks": 1980,
+    "watchers": 67,
+    "open_issues": 14,
+    "description": "💻  Vibe Coding 101｜Your First Course For AI Product Builders.",
+    "topics": [
+      "agent",
+      "ai",
+      "coding",
+      "course",
+      "deepseek",
+      "gemini",
+      "genai",
+      "gpt",
+      "llm",
+      "low-code",
+      "mcp",
+      "nextjs",
+      "no-code",
+      "openai",
+      "programming",
+      "tutorial",
+      "vibe-coding",
+      "vibecoding",
+      "vscode",
+      "workflow"
+    ]
   }
 ]

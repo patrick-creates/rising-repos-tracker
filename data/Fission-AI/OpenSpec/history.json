@@ -1650,5 +1650,25 @@
       "spec-driven-development",
       "specification"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 75875,
+    "forks": 5204,
+    "watchers": 282,
+    "open_issues": 218,
+    "description": "Spec-driven development (SDD) for AI coding assistants.",
+    "topics": [
+      "ai",
+      "context-engineering",
+      "engineering",
+      "planning",
+      "prd",
+      "sdd",
+      "sdlc",
+      "spec",
+      "spec-driven-development",
+      "specification"
+    ]
   }
 ]

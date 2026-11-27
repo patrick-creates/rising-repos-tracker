@@ -1193,5 +1193,24 @@
       "openclaw-plugin",
       "vector-search"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 31226,
+    "forks": 3065,
+    "watchers": 89,
+    "open_issues": 851,
+    "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+    "topics": [
+      "agent",
+      "ai-agent",
+      "embedding",
+      "llm",
+      "local-first",
+      "long-term-memory",
+      "memory",
+      "openclaw-plugin",
+      "vector-search"
+    ]
   }
 ]
