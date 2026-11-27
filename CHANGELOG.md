@@ -17,6 +17,7 @@ All notable changes to the tracker code and docs are documented here. Daily data
 - Repo status, recomputed on every collect run and stored as `status` in `repos.json`: `stalled` 💤 (under 300 stars in the last 30 days; history is kept and the repo is still collected) and `spike` ⚠️ (1,000+ stars/day over its lifetime and the last week; marked, not removed). README and dashboard show the marks, count stalled repos and leave them out of the top 5 and "fastest growing".
 - `dashboard.json`, written daily by `scripts/update-readme.js` and committed by the collect workflow: latest numbers, 30-day stars/day, status and 90 days of stars per repo. The dashboard loads this one file (~400 KB) instead of one `history.json` per repo (8+ MB, 200+ requests).
 - Tests for repo status, ranking by stars per day and the 30-day velocity window.
+- `scripts/check-layout.js`, run by the screenshot workflow after each collect: loads the live dashboard at 1440, 1024, 768 and 390 px and fails the run on sideways scrolling, empty cards, a collapsed chart or repo name column, `undefined`/`NaN`, script errors or failed requests.
 
 ### Removed
 - `summarize.yml`, `scripts/summarize.js` and the `SUMMARIES` repository variable: GitHub Models no longer exists. Summaries generated until then stay in `data/` and are still shown, dated.
